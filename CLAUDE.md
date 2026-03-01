@@ -13,7 +13,7 @@ open shooter.html    # Retro top-down shooter
 
 ## Git Workflow
 
-Every meaningful change must be committed with a clean message and pushed to GitHub:
+**Commit and push after every meaningful unit of work** — a new feature, a bug fix, a refactor, or any change the user would want to be able to revert to. Do not batch multiple unrelated changes into one commit. GitHub is the canonical save point; a change that hasn't been pushed can be lost.
 
 ```bash
 git add <specific-files>
@@ -23,7 +23,12 @@ Optional body explaining why, not what."
 git push
 ```
 
-Never use `git add -A` or `git add .` — stage files explicitly. Always push after committing so GitHub stays current as the canonical save point.
+Never use `git add -A` or `git add .` — stage files explicitly to avoid accidentally committing unrelated files.
+
+**Commit message rules:**
+- First line: imperative mood, ≤72 chars (e.g. `Add triple-shot power-up`, `Fix sniper lead-prediction overshoot`)
+- Leave a blank line before an optional body
+- Body explains *why*, not *what* — the diff already shows what changed
 
 ## Architecture
 
