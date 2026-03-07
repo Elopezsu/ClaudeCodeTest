@@ -10,6 +10,7 @@
       --card-bg:  #0d1622;
       --teal:     #00d4b0;
       --orange:   #ff6340;
+      --navy:     #1a3a6b;
       --white:    #ffffff;
       --gray:     #7a8799;
       --border:   rgba(0,212,176,.13);
@@ -28,7 +29,7 @@
     .hero {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      min-height: 480px;
+      min-height: 520px;
     }
 
     .hero-left {
@@ -57,211 +58,242 @@
       text-transform: uppercase;
       color: rgba(0,0,0,.55);
     }
+
+    .hero-center { display: flex; flex-direction: column; gap: 16px; position: relative; z-index: 1; }
+
+    .ata-logo {
+      width: 90px;
+      height: 90px;
+      object-fit: contain;
+      background: white;
+      border-radius: 16px;
+      padding: 8px;
+    }
+    .ata-logo-placeholder {
+      width: 90px; height: 90px;
+      background: rgba(0,0,0,.15);
+      border-radius: 16px;
+      border: 2px dashed rgba(0,0,0,.25);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11px;
+      font-weight: 700;
+      color: rgba(0,0,0,.4);
+      text-align: center;
+      padding: 8px;
+    }
+
     .hero-title {
-      font-size: 52px;
+      font-size: 48px;
       font-weight: 900;
       line-height: 1.0;
       letter-spacing: -.03em;
       color: #000;
-      position: relative;
-      z-index: 1;
     }
+
     .hero-sub {
-      font-size: 15px;
+      font-size: 14px;
       color: rgba(0,0,0,.65);
       line-height: 1.55;
-      max-width: 360px;
+      max-width: 340px;
       position: relative;
       z-index: 1;
     }
 
     .hero-right {
       background: var(--card-bg);
-      padding: 52px 48px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      gap: 32px;
+      padding: 0;
+      display: grid;
+      grid-template-rows: auto 1fr;
       border-left: 1px solid var(--border);
     }
 
-    .hero-stat-grid {
+    /* Speaker card */
+    .speaker-card {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      padding: 40px 44px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .speaker-photo {
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+      object-fit: cover;
+      flex-shrink: 0;
+      border: 3px solid var(--teal);
+    }
+    .speaker-photo-placeholder {
+      width: 96px; height: 96px;
+      border-radius: 50%;
+      border: 3px dashed var(--teal);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 11px;
+      color: var(--gray);
+      text-align: center;
+      flex-shrink: 0;
+      background: rgba(0,212,176,.05);
+      padding: 8px;
+    }
+
+    .speaker-info { display: flex; flex-direction: column; gap: 4px; }
+    .speaker-kicker {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+      color: var(--teal);
+    }
+    .speaker-name { font-size: 22px; font-weight: 800; letter-spacing: -.01em; }
+    .speaker-title { font-size: 12px; color: var(--gray); line-height: 1.5; max-width: 280px; }
+
+    /* Stats */
+    .hero-stats {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 24px;
+      padding: 36px 44px;
+      gap: 28px;
+      align-content: center;
     }
     .stat-box { display: flex; flex-direction: column; gap: 4px; }
     .stat-number {
-      font-size: 36px;
+      font-size: 34px;
       font-weight: 900;
       letter-spacing: -.03em;
       color: var(--teal);
       line-height: 1;
     }
-    .stat-label { font-size: 12px; color: var(--gray); line-height: 1.4; }
+    .stat-label { font-size: 11.5px; color: var(--gray); line-height: 1.4; }
 
-    .hero-divider { height: 1px; background: var(--border); }
-
-    .anchor-info { display: flex; flex-direction: column; gap: 4px; }
-    .anchor-kicker {
-      font-size: 10px;
+    /* ── SESSION DETAILS ── */
+    .session-row {
+      border-top: 1px solid var(--border);
+      display: flex;
+      padding: 20px 40px;
+      gap: 48px;
+      background: rgba(0,0,0,.2);
+    }
+    .session-item { display: flex; flex-direction: column; gap: 2px; }
+    .session-label {
+      font-size: 9px;
       font-weight: 700;
       letter-spacing: .15em;
       text-transform: uppercase;
-      color: var(--teal);
+      color: var(--gray);
     }
-    .anchor-name { font-size: 22px; font-weight: 800; letter-spacing: -.01em; }
-    .anchor-role { font-size: 13px; color: var(--gray); }
+    .session-value { font-size: 13px; font-weight: 700; }
 
-    /* ── 3 FEATURE CARDS ── */
-    .cards-section {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
+    /* ── CONTENT GRID ── */
+    .content-grid {
       border-top: 1px solid var(--border);
+      display: grid;
+      grid-template-columns: 1fr 1fr;
     }
-    .feature-card {
-      background: var(--card-bg);
+
+    .content-block {
+      padding: 44px 40px;
       border-right: 1px solid var(--border);
-      padding: 40px 36px;
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      transition: background .2s;
-    }
-    .feature-card:last-child { border-right: none; }
-    .feature-card:hover { background: #101928; }
-
-    .card-icon {
-      width: 42px; height: 42px;
-      border-radius: 10px;
-      background: rgba(0,212,176,.1);
-      border: 1px solid rgba(0,212,176,.2);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 18px;
-    }
-    .card-title { font-size: 17px; font-weight: 800; letter-spacing: -.01em; line-height: 1.2; }
-    .card-desc { font-size: 13px; color: var(--gray); line-height: 1.6; flex: 1; }
-    .card-tag {
-      display: inline-flex;
-      align-items: center;
-      font-size: 10px;
-      font-weight: 700;
-      letter-spacing: .12em;
-      text-transform: uppercase;
-      color: var(--teal);
-      background: rgba(0,212,176,.08);
-      border: 1px solid rgba(0,212,176,.18);
-      border-radius: 20px;
-      padding: 4px 10px;
-      width: fit-content;
-    }
-    .card-tag.orange {
-      color: var(--orange);
-      background: rgba(255,99,64,.08);
-      border-color: rgba(255,99,64,.2);
-    }
-
-    /* ── ATA SECTION ── */
-    .ata-section {
-      border-top: 1px solid var(--border);
-      display: grid;
-      grid-template-columns: 2fr 3fr;
-    }
-
-    .ata-left {
-      background: #111b2b;
-      padding: 52px 44px;
       display: flex;
       flex-direction: column;
       gap: 20px;
-      border-right: 1px solid var(--border);
     }
-    .ata-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
+    .content-block:last-child { border-right: none; }
+
+    .block-label {
       font-size: 10px;
       font-weight: 700;
-      letter-spacing: .15em;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      color: var(--teal);
+    }
+
+    .block-title {
+      font-size: 20px;
+      font-weight: 800;
+      letter-spacing: -.01em;
+      line-height: 1.2;
+    }
+
+    .block-text {
+      font-size: 13px;
+      color: var(--gray);
+      line-height: 1.7;
+    }
+
+    .covers-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .covers-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 13px;
+      color: #b0bbc8;
+      line-height: 1.5;
+    }
+    .arrow {
+      color: var(--teal);
+      font-size: 12px;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    /* ── TAKEAWAY ── */
+    .takeaway {
+      border-top: 1px solid var(--border);
+      background: #111b2b;
+      padding: 44px 48px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .takeaway-label {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: .16em;
       text-transform: uppercase;
       color: var(--orange);
-      background: rgba(255,99,64,.08);
-      border: 1px solid rgba(255,99,64,.2);
-      border-radius: 20px;
-      padding: 5px 12px;
-      width: fit-content;
+      display: flex;
+      align-items: center;
+      gap: 6px;
     }
-    .ata-badge::before {
+    .takeaway-label::before {
       content: '';
       width: 5px; height: 5px;
       border-radius: 50%;
       background: var(--orange);
     }
-    .ata-title {
-      font-size: 28px;
-      font-weight: 900;
-      letter-spacing: -.02em;
-      line-height: 1.15;
+    .takeaway-title {
+      font-size: 22px;
+      font-weight: 800;
+      letter-spacing: -.01em;
     }
-    .ata-title span { color: var(--teal); }
-    .ata-desc { font-size: 13.5px; color: var(--gray); line-height: 1.65; }
-    .ata-meta { display: flex; gap: 24px; padding-top: 8px; }
-    .ata-meta-item { display: flex; flex-direction: column; gap: 3px; }
-    .ata-meta-label {
-      font-size: 9px;
-      font-weight: 700;
-      letter-spacing: .14em;
-      text-transform: uppercase;
+    .takeaway-text {
+      font-size: 14px;
       color: var(--gray);
+      line-height: 1.7;
+      max-width: 820px;
     }
-    .ata-meta-value { font-size: 13px; font-weight: 700; }
-
-    .ata-right {
-      padding: 52px 44px;
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
-    .ata-right-title {
-      font-size: 13px;
-      font-weight: 700;
-      letter-spacing: .08em;
-      text-transform: uppercase;
-      color: var(--teal);
-      margin-bottom: 4px;
-    }
-    .how-list { list-style: none; display: flex; flex-direction: column; gap: 0; }
-    .how-item {
-      display: flex;
-      align-items: flex-start;
-      gap: 20px;
-      padding: 20px 0;
-      border-bottom: 1px solid var(--border);
-    }
-    .how-item:last-child { border-bottom: none; }
-    .how-num {
-      font-size: 28px;
-      font-weight: 900;
-      color: var(--teal);
-      opacity: .35;
-      line-height: 1;
-      flex-shrink: 0;
-      width: 32px;
-    }
-    .how-text { display: flex; flex-direction: column; gap: 4px; }
-    .how-heading { font-size: 15px; font-weight: 700; }
-    .how-sub { font-size: 12.5px; color: var(--gray); line-height: 1.5; }
 
     /* ── RESPONSIVE ── */
     @media (max-width: 860px) {
       .hero { grid-template-columns: 1fr; }
-      .hero-title { font-size: 38px; }
-      .cards-section { grid-template-columns: 1fr; }
-      .feature-card { border-right: none; border-bottom: 1px solid var(--border); }
-      .ata-section { grid-template-columns: 1fr; }
-      .ata-left { border-right: none; border-bottom: 1px solid var(--border); }
+      .hero-title { font-size: 36px; }
+      .content-grid { grid-template-columns: 1fr; }
+      .content-block { border-right: none; border-bottom: 1px solid var(--border); }
+      .session-row { flex-wrap: wrap; gap: 20px; padding: 20px 24px; }
+      .hero-stats { padding: 28px 24px; }
+      .speaker-card { padding: 28px 24px; }
+      .content-block { padding: 32px 24px; }
+      .takeaway { padding: 32px 24px; }
     }
   </style>
 </head>
@@ -270,107 +302,102 @@
   <!-- HERO -->
   <div class="hero">
     <div class="hero-left">
-      <div class="hero-eyebrow">ValuSignal 2026 · Featured Session</div>
-      <h1 class="hero-title">Agent<br>Pricing<br>Lab</h1>
-      <p class="hero-sub">A live, interactive session where real estate agents get their pricing questions answered by working appraisers — in real time.</p>
+      <div class="hero-eyebrow">ValuSignal 2026 · Agent Pricing Lab</div>
+      <div class="hero-center">
+        <img src="ata-logo.png" alt="Ask The Appraiser" class="ata-logo"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="ata-logo-placeholder" style="display:none">ATA Logo</div>
+        <h1 class="hero-title">Ask the<br>Appraiser</h1>
+      </div>
+      <p class="hero-sub">A live, moderated panel where real estate agents get their hardest pricing questions answered by working appraisers — in real time, on the record.</p>
     </div>
     <div class="hero-right">
-      <div class="anchor-info">
-        <span class="anchor-kicker">Session Anchor</span>
-        <span class="anchor-name">John Copalos</span>
-        <span class="anchor-role">Agent Pricing Lab · ValuSignal 2026</span>
+      <div class="speaker-card">
+        <img src="john-copulos.jpg" alt="John Copulos" class="speaker-photo"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+        <div class="speaker-photo-placeholder" style="display:none">Photo</div>
+        <div class="speaker-info">
+          <span class="speaker-kicker">Session Anchor</span>
+          <span class="speaker-name">John Copulos</span>
+          <span class="speaker-title">Owner, Copulos and Associates Real Estate Appraisers<br>Founder, Ask The Appraiser</span>
+        </div>
       </div>
-      <div class="hero-divider"></div>
-      <div class="hero-stat-grid">
+      <div class="hero-stats">
         <div class="stat-box">
           <span class="stat-number">80K</span>
           <span class="stat-label">Agents in John's existing community</span>
         </div>
         <div class="stat-box">
           <span class="stat-number">20+</span>
-          <span class="stat-label">Appraisers answering questions in his forum</span>
+          <span class="stat-label">Appraisers in his Q&A forum</span>
         </div>
         <div class="stat-box">
           <span class="stat-number">3 hrs</span>
-          <span class="stat-label">Dedicated block for Ask the Appraiser</span>
+          <span class="stat-label">Dedicated live block at ValuSignal</span>
         </div>
         <div class="stat-box">
           <span class="stat-number">2–3</span>
-          <span class="stat-label">Additional appraisers John brings to the panel</span>
+          <span class="stat-label">Additional appraisers on the panel</span>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- 3 FEATURE CARDS -->
-  <div class="cards-section">
-    <div class="feature-card">
-      <div class="card-icon">🎙️</div>
-      <div class="card-title">Ask the Appraiser</div>
-      <p class="card-desc">Agents submit real pricing questions live. John Copalos and his panel of working appraisers answer them directly — no scripts, no theory.</p>
-      <div class="card-tag">3-Hour Live Block</div>
+  <!-- SESSION META -->
+  <div class="session-row">
+    <div class="session-item">
+      <span class="session-label">Track</span>
+      <span class="session-value">Agent Pricing Lab</span>
     </div>
-    <div class="feature-card">
-      <div class="card-icon">🤝</div>
-      <div class="card-title">A Proven Community</div>
-      <p class="card-desc">John already runs one of the largest agent-appraiser Q&amp;A ecosystems — 80,000 agents, 20 appraisers. ValuSignal brings that dynamic live.</p>
-      <div class="card-tag">80K-Strong Network</div>
+    <div class="session-item">
+      <span class="session-label">Session Type</span>
+      <span class="session-value">Keynote Moderated Panel</span>
     </div>
-    <div class="feature-card">
-      <div class="card-icon">🔗</div>
-      <div class="card-title">Affiliate Access</div>
-      <p class="card-desc">John Copalos will have a dedicated affiliate code to share with his community — giving his audience direct access to ValuSignal 2026.</p>
-      <div class="card-tag orange">Exclusive Code</div>
+    <div class="session-item">
+      <span class="session-label">Session Length</span>
+      <span class="session-value">3 hours</span>
+    </div>
+    <div class="session-item">
+      <span class="session-label">Audience</span>
+      <span class="session-value">Real Estate Agents</span>
+    </div>
+    <div class="session-item">
+      <span class="session-label">Available</span>
+      <span class="session-value">September 18, 2026</span>
     </div>
   </div>
 
-  <!-- HOW ATA WORKS -->
-  <div class="ata-section">
-    <div class="ata-left">
-      <div class="ata-badge">Ask the Appraiser</div>
-      <h2 class="ata-title">Real questions.<br><span>Real answers.</span><br>No filter.</h2>
-      <p class="ata-desc">For the first time at ValuSignal, agents get direct access to appraisers who will answer their hardest pricing questions — live, unscripted, and on the record.</p>
-      <div class="ata-meta">
-        <div class="ata-meta-item">
-          <span class="ata-meta-label">Format</span>
-          <span class="ata-meta-value">Live Q&amp;A Panel</span>
-        </div>
-        <div class="ata-meta-item">
-          <span class="ata-meta-label">Duration</span>
-          <span class="ata-meta-value">3 hours</span>
-        </div>
-        <div class="ata-meta-item">
-          <span class="ata-meta-label">Available</span>
-          <span class="ata-meta-value">Sep 18, 2026</span>
-        </div>
-      </div>
+  <!-- CONTENT GRID -->
+  <div class="content-grid">
+
+    <!-- About John -->
+    <div class="content-block">
+      <div class="block-label">About the Speaker</div>
+      <div class="block-title">The appraiser agents actually listen to</div>
+      <p class="block-text">Residential appraiser and firm owner specializing in complex and non-standard residential properties. Founder of Ask The Appraiser, a nationally recognized appraisal education platform, and principal of a New York-based appraisal firm.</p>
+      <p class="block-text">John brings extensive hands-on experience valuing unique homes, atypical designs, mixed-use properties, and market outliers — and a community of 80,000 agents who trust him to explain the appraisal process plainly.</p>
     </div>
-    <div class="ata-right">
-      <div class="ata-right-title">How it works</div>
-      <ul class="how-list">
-        <li class="how-item">
-          <span class="how-num">1</span>
-          <div class="how-text">
-            <span class="how-heading">Agents submit questions in advance</span>
-            <span class="how-sub">Before the session, registered attendees queue up their real pricing questions — the ones they've never gotten a straight answer on.</span>
-          </div>
-        </li>
-        <li class="how-item">
-          <span class="how-num">2</span>
-          <div class="how-text">
-            <span class="how-heading">John Copalos and his panel take the stage</span>
-            <span class="how-sub">John brings 2–3 additional working appraisers — giving agents multiple perspectives, not just one opinion.</span>
-          </div>
-        </li>
-        <li class="how-item">
-          <span class="how-num">3</span>
-          <div class="how-text">
-            <span class="how-heading">Questions answered live, unfiltered</span>
-            <span class="how-sub">No slides, no canned answers. The panel works through the questions as they'd handle them in the real world — showing the reasoning, not just the conclusion.</span>
-          </div>
-        </li>
+
+    <!-- What This Session Covers -->
+    <div class="content-block">
+      <div class="block-label">What This Session Covers</div>
+      <div class="block-title">Real scenarios. Real appraisers. No filter.</div>
+      <ul class="covers-list">
+        <li><span class="arrow">→</span> How appraisers evaluate comps and pricing strategy in real scenarios</li>
+        <li><span class="arrow">→</span> What agents misunderstand about the appraisal process — and how to fix it</li>
+        <li><span class="arrow">→</span> How agents can protect deals through better prep and communication</li>
+        <li><span class="arrow">→</span> What UAD 3.6 means from a working appraiser's perspective</li>
+        <li><span class="arrow">→</span> Open Q&A: "Ask the Appraiser Anything" — real questions, real answers</li>
       </ul>
     </div>
+
+  </div>
+
+  <!-- CORE TAKEAWAY -->
+  <div class="takeaway">
+    <div class="takeaway-label">Core Takeaway</div>
+    <div class="takeaway-title">What agents leave with</div>
+    <p class="takeaway-text">Real Estate Agents leave with direct, real-world insight from working appraisers — gaining clarity on how pricing decisions are truly evaluated, how to avoid common deal-killing mistakes, and how to communicate value, comps, and market realities to sellers with greater confidence, credibility, and control.</p>
   </div>
 
 </body>
