@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ValuSignal 2026 — Bonus Workshops</title>
+  <style>
+    :root {
+      --bg:      #080e18;
+      --card-bg: #0d1622;
+      --teal:    #00d4b0;
+      --orange:  #ff6340;
+      --white:   #ffffff;
+      --gray:    #7a8799;
+      --border:  rgba(0,212,176,.14);
+      --active-border: rgba(0,212,176,.4);
+    }
+
+    * { margin:0; padding:0; box-sizing:border-box; }
+
+    body {
+      background: var(--bg);
+      font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif;
+      color: var(--white);
+      padding: 48px 32px;
+    }
+
+    /* ── Header ── */
+    .section-header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .section-label {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      color: var(--teal);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 5px 14px;
+      margin-bottom: 14px;
+    }
+    .section-title {
+      font-size: 32px;
+      font-weight: 800;
+      letter-spacing: -.02em;
+      margin-bottom: 8px;
+    }
+    .section-sub {
+      font-size: 14px;
+      color: var(--gray);
+    }
+
+    /* ── Tabs ── */
+    .tabs-wrapper {
+      max-width: 860px;
+      margin: 0 auto;
+    }
+
+    .tab-list {
+      display: flex;
+      gap: 0;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 0;
+    }
+
+    .tab-btn {
+      flex: 1;
+      background: none;
+      border: none;
+      border-bottom: 3px solid transparent;
+      margin-bottom: -1px;
+      padding: 16px 20px;
+      cursor: pointer;
+      text-align: left;
+      transition: border-color .2s, background .2s;
+    }
+    .tab-btn:hover {
+      background: rgba(0,212,176,.04);
+    }
+    .tab-btn.active {
+      border-bottom-color: var(--teal);
+      background: rgba(0,212,176,.06);
+    }
+
+    .tab-num {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--orange);
+      margin-bottom: 4px;
+    }
+    .tab-btn.active .tab-num { color: var(--teal); }
+
+    .tab-label {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--gray);
+      line-height: 1.3;
+    }
+    .tab-btn.active .tab-label { color: var(--white); }
+
+    /* ── Panels ── */
+    .tab-panel {
+      display: none;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-top: none;
+      border-radius: 0 0 16px 16px;
+      padding: 40px;
+      animation: fadeIn .2s ease;
+    }
+    .tab-panel.active { display: block; }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(6px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .panel-inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: start;
+    }
+
+    /* Left column */
+    .panel-ws-num {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      color: var(--orange);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 12px;
+    }
+    .panel-ws-num::before {
+      content: '';
+      width: 4px; height: 4px;
+      border-radius: 50%;
+      background: var(--orange);
+    }
+    .panel-ws-num.teal { color: var(--teal); }
+    .panel-ws-num.teal::before { background: var(--teal); }
+
+    .panel-title {
+      font-size: 28px;
+      font-weight: 800;
+      line-height: 1.2;
+      letter-spacing: -.02em;
+      margin-bottom: 16px;
+    }
+    .panel-title .accent { color: var(--orange); }
+    .panel-title .teal   { color: var(--teal); }
+
+    .panel-speaker {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+      margin-bottom: 24px;
+    }
+    .speaker-name { font-size: 14px; font-weight: 700; }
+    .speaker-role { font-size: 12px; color: var(--gray); }
+
+    .bullets {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .bullets li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 13.5px;
+      color: #b0bbc8;
+      line-height: 1.5;
+    }
+    .check {
+      color: var(--teal);
+      font-size: 12px;
+      font-weight: 700;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    /* Right column */
+    .panel-meta-box {
+      background: rgba(0,0,0,.25);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 28px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .meta-row {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .meta-label {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--gray);
+    }
+    .meta-value {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--white);
+    }
+
+    .meta-divider {
+      height: 1px;
+      background: rgba(255,255,255,.06);
+    }
+
+    .meta-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      color: var(--teal);
+      background: rgba(0,212,176,.08);
+      border: 1px solid rgba(0,212,176,.2);
+      border-radius: 20px;
+      padding: 5px 12px;
+      width: fit-content;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 680px) {
+      .tab-list { flex-direction: column; }
+      .tab-btn { border-bottom: none; border-left: 3px solid transparent; }
+      .tab-btn.active { border-left-color: var(--teal); border-bottom: none; }
+      .panel-inner { grid-template-columns: 1fr; }
+      body { padding: 32px 16px; }
+      .tab-panel { padding: 28px 20px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="section-header">
+    <div class="section-label">Bonus Workshops</div>
+    <h2 class="section-title">Go deeper. Learn hands-on.</h2>
+    <p class="section-sub">Three exclusive workshops included with your ValuSignal 2026 registration</p>
+  </div>
+
+  <div class="tabs-wrapper">
+
+    <div class="tab-list">
+      <button class="tab-btn active" onclick="switchTab(0)">
+        <div class="tab-num">Workshop 01</div>
+        <div class="tab-label">Unleash the OpenClaw 🦞</div>
+      </button>
+      <button class="tab-btn" onclick="switchTab(1)">
+        <div class="tab-num">Workshop 02</div>
+        <div class="tab-label">Vibe Code Your First App</div>
+      </button>
+      <button class="tab-btn" onclick="switchTab(2)">
+        <div class="tab-num">Workshop 03</div>
+        <div class="tab-label">Inside the Case File</div>
+      </button>
+    </div>
+
+    <!-- Panel 1 -->
+    <div class="tab-panel active">
+      <div class="panel-inner">
+        <div>
+          <div class="panel-ws-num">Bonus Workshop with Roy Meyer</div>
+          <h3 class="panel-title">Unleash the <span class="accent">OpenClaw</span> 🦞</h3>
+          <div class="panel-speaker">
+            <span class="speaker-name">Roy Meyer</span>
+            <span class="speaker-role">AI for Appraisers</span>
+          </div>
+          <ul class="bullets">
+            <li><span class="check">✓</span> What OpenClaw is and why appraisers should care</li>
+            <li><span class="check">✓</span> Full setup walkthrough — install to first working agent</li>
+            <li><span class="check">✓</span> Build automations that save hours on repetitive tasks</li>
+            <li><span class="check">✓</span> Real demos, real workflows — not theory</li>
+          </ul>
+        </div>
+        <div class="panel-meta-box">
+          <div class="meta-row">
+            <span class="meta-label">Facilitator</span>
+            <span class="meta-value">Roy Meyer</span>
+          </div>
+          <div class="meta-divider"></div>
+          <div class="meta-row">
+            <span class="meta-label">Organization</span>
+            <span class="meta-value">AI for Appraisers</span>
+          </div>
+          <div class="meta-divider"></div>
+          <div class="meta-row">
+            <span class="meta-label">Available</span>
+            <span class="meta-value">September 18, 2026</span>
+          </div>
+          <div class="meta-divider"></div>
+          <div class="meta-badge">✦ Bonus Workshop</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Panel 2 -->
+    <div class="tab-panel">
+      <div class="panel-inner">
+        <div>
+          <div class="panel-ws-num teal">4+ Hour Hands-On Workshop</div>
+          <h3 class="panel-title">Vibe Code <span class="teal">Your First App</span></h3>
+          <div class="panel-speaker">
+            <span class="speaker-name">Hansel Dobbs</span>
+            <span class="speaker-role">ValuSignal 2026</span>
+          </div>
+          <ul class="bullets">
+            <li><span class="check">✓</span> Install &amp; configure Claude Code from scratch</li>
+            <li><span class="check">✓</span> Wrangle real ASC.gov data &amp; public datasets</li>
+            <li><span class="check">✓</span> Build &amp; deploy a national appraiser dashboard</li>
+            <li><span class="check">✓</span> Prompting strategies from 20+ years in valuation</li>
+          </ul>
+        </div>
+        <div class="panel-meta-box">
+          <div class="meta-row">
+            <span class="meta-label">Facilitator</span>
+            <span class="meta-value">Hansel Dobbs</span>
+          </div>
+          <div class="meta-divider"></div>
+          <div class="meta-row">
+            <span class="meta-label">Organization</span>
+            <span class="meta-value">ValuSignal 2026</span>
+          </div>
+          <div class="meta-divider"></div>
+          <div class="meta-row">
+            <span class="meta-label">Duration</span>
+            <span class="meta-value">4+ hours</span>
+          </div>
+          <div class="meta-divider"></div>
+          <div class="meta-row">
+            <span class="meta-label">Available</span>
+            <span class="meta-value">September 18, 2026</span>
+          </div>
+          <div class="meta-divider"></div>
+          <div class="meta-badge">✦ Hands-On Workshop</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Panel 3 -->
+    <div class="tab-panel">
+      <div class="panel-inner">
+        <div>
+          <div class="panel-ws-num teal">Bonus Workshop with Joshua Walitt</div>
+          <h3 class="panel-title">Inside the <span class="teal">Case File</span></h3>
+          <div class="panel-speaker">
+            <span class="speaker-name">Joshua Walitt</span>
+            <span class="speaker-role">Walitt Solutions</span>
+          </div>
+          <ul class="bullets">
+            <li><span class="check">✓</span> How QC decisions really get made</li>
+            <li><span class="check">✓</span> Where common choices create unintentional exposure</li>
+            <li><span class="check">✓</span> What documentation actually protects you</li>
+            <li><span class="check">✓</span> Fewer revisions without compromising your independence</li>
+          </ul>
+        </div>
+        <div class="panel-meta-box">
+          <div class="meta-row">
+            <span class="meta-label">Facilitator</span>
+            <span class="meta-value">Joshua Walitt</span>
+          </div>
+          <div class="meta-divider"></div>
+          <div class="meta-row">
+            <span class="meta-label">Organization</span>
+            <span class="meta-value">Walitt Solutions</span>
+          </div>
+          <div class="meta-divider"></div>
+          <div class="meta-row">
+            <span class="meta-label">Duration</span>
+            <span class="meta-value">3 hours</span>
+          </div>
+          <div class="meta-divider"></div>
+          <div class="meta-row">
+            <span class="meta-label">Format</span>
+            <span class="meta-value">Case-based discussion</span>
+          </div>
+          <div class="meta-divider"></div>
+          <div class="meta-row">
+            <span class="meta-label">Available</span>
+            <span class="meta-value">September 18, 2026</span>
+          </div>
+          <div class="meta-divider"></div>
+          <div class="meta-badge">✦ Bonus Workshop</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    function switchTab(index) {
+      document.querySelectorAll('.tab-btn').forEach((btn, i) => {
+        btn.classList.toggle('active', i === index);
+      });
+      document.querySelectorAll('.tab-panel').forEach((panel, i) => {
+        panel.classList.toggle('active', i === index);
+      });
+    }
+  </script>
+
+</body>
+</html>
