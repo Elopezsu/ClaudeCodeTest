@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agent Pricing Lab — ValuSignal 2026</title>
+  <style>
+    :root {
+      --bg:       #0a0f1a;
+      --card-bg:  #0d1622;
+      --teal:     #00d4b0;
+      --orange:   #ff6340;
+      --white:    #ffffff;
+      --gray:     #7a8799;
+      --border:   rgba(0,212,176,.13);
+    }
+
+    * { margin:0; padding:0; box-sizing:border-box; }
+
+    body {
+      background: var(--bg);
+      font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif;
+      color: var(--white);
+      min-height: 100vh;
+    }
+
+    /* ── HERO ── */
+    .hero {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      min-height: 480px;
+    }
+
+    .hero-left {
+      background: var(--teal);
+      padding: 56px 52px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-left::after {
+      content: '';
+      position: absolute;
+      bottom: 0; right: 0;
+      width: 260px; height: 200px;
+      background-image: radial-gradient(circle, rgba(0,0,0,.18) 1.5px, transparent 1.5px);
+      background-size: 18px 18px;
+      pointer-events: none;
+    }
+
+    .hero-eyebrow {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      color: rgba(0,0,0,.55);
+    }
+    .hero-title {
+      font-size: 52px;
+      font-weight: 900;
+      line-height: 1.0;
+      letter-spacing: -.03em;
+      color: #000;
+      position: relative;
+      z-index: 1;
+    }
+    .hero-sub {
+      font-size: 15px;
+      color: rgba(0,0,0,.65);
+      line-height: 1.55;
+      max-width: 360px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero-right {
+      background: var(--card-bg);
+      padding: 52px 48px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 32px;
+      border-left: 1px solid var(--border);
+    }
+
+    .hero-stat-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 24px;
+    }
+    .stat-box { display: flex; flex-direction: column; gap: 4px; }
+    .stat-number {
+      font-size: 36px;
+      font-weight: 900;
+      letter-spacing: -.03em;
+      color: var(--teal);
+      line-height: 1;
+    }
+    .stat-label { font-size: 12px; color: var(--gray); line-height: 1.4; }
+
+    .hero-divider { height: 1px; background: var(--border); }
+
+    .anchor-info { display: flex; flex-direction: column; gap: 4px; }
+    .anchor-kicker {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+      color: var(--teal);
+    }
+    .anchor-name { font-size: 22px; font-weight: 800; letter-spacing: -.01em; }
+    .anchor-role { font-size: 13px; color: var(--gray); }
+
+    /* ── 3 FEATURE CARDS ── */
+    .cards-section {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      border-top: 1px solid var(--border);
+    }
+    .feature-card {
+      background: var(--card-bg);
+      border-right: 1px solid var(--border);
+      padding: 40px 36px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      transition: background .2s;
+    }
+    .feature-card:last-child { border-right: none; }
+    .feature-card:hover { background: #101928; }
+
+    .card-icon {
+      width: 42px; height: 42px;
+      border-radius: 10px;
+      background: rgba(0,212,176,.1);
+      border: 1px solid rgba(0,212,176,.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+    }
+    .card-title { font-size: 17px; font-weight: 800; letter-spacing: -.01em; line-height: 1.2; }
+    .card-desc { font-size: 13px; color: var(--gray); line-height: 1.6; flex: 1; }
+    .card-tag {
+      display: inline-flex;
+      align-items: center;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--teal);
+      background: rgba(0,212,176,.08);
+      border: 1px solid rgba(0,212,176,.18);
+      border-radius: 20px;
+      padding: 4px 10px;
+      width: fit-content;
+    }
+    .card-tag.orange {
+      color: var(--orange);
+      background: rgba(255,99,64,.08);
+      border-color: rgba(255,99,64,.2);
+    }
+
+    /* ── ATA SECTION ── */
+    .ata-section {
+      border-top: 1px solid var(--border);
+      display: grid;
+      grid-template-columns: 2fr 3fr;
+    }
+
+    .ata-left {
+      background: #111b2b;
+      padding: 52px 44px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      border-right: 1px solid var(--border);
+    }
+    .ata-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: .15em;
+      text-transform: uppercase;
+      color: var(--orange);
+      background: rgba(255,99,64,.08);
+      border: 1px solid rgba(255,99,64,.2);
+      border-radius: 20px;
+      padding: 5px 12px;
+      width: fit-content;
+    }
+    .ata-badge::before {
+      content: '';
+      width: 5px; height: 5px;
+      border-radius: 50%;
+      background: var(--orange);
+    }
+    .ata-title {
+      font-size: 28px;
+      font-weight: 900;
+      letter-spacing: -.02em;
+      line-height: 1.15;
+    }
+    .ata-title span { color: var(--teal); }
+    .ata-desc { font-size: 13.5px; color: var(--gray); line-height: 1.65; }
+    .ata-meta { display: flex; gap: 24px; padding-top: 8px; }
+    .ata-meta-item { display: flex; flex-direction: column; gap: 3px; }
+    .ata-meta-label {
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: var(--gray);
+    }
+    .ata-meta-value { font-size: 13px; font-weight: 700; }
+
+    .ata-right {
+      padding: 52px 44px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .ata-right-title {
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      color: var(--teal);
+      margin-bottom: 4px;
+    }
+    .how-list { list-style: none; display: flex; flex-direction: column; gap: 0; }
+    .how-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      padding: 20px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .how-item:last-child { border-bottom: none; }
+    .how-num {
+      font-size: 28px;
+      font-weight: 900;
+      color: var(--teal);
+      opacity: .35;
+      line-height: 1;
+      flex-shrink: 0;
+      width: 32px;
+    }
+    .how-text { display: flex; flex-direction: column; gap: 4px; }
+    .how-heading { font-size: 15px; font-weight: 700; }
+    .how-sub { font-size: 12.5px; color: var(--gray); line-height: 1.5; }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 860px) {
+      .hero { grid-template-columns: 1fr; }
+      .hero-title { font-size: 38px; }
+      .cards-section { grid-template-columns: 1fr; }
+      .feature-card { border-right: none; border-bottom: 1px solid var(--border); }
+      .ata-section { grid-template-columns: 1fr; }
+      .ata-left { border-right: none; border-bottom: 1px solid var(--border); }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-left">
+      <div class="hero-eyebrow">ValuSignal 2026 · Featured Session</div>
+      <h1 class="hero-title">Agent<br>Pricing<br>Lab</h1>
+      <p class="hero-sub">A live, interactive session where real estate agents get their pricing questions answered by working appraisers — in real time.</p>
+    </div>
+    <div class="hero-right">
+      <div class="anchor-info">
+        <span class="anchor-kicker">Session Anchor</span>
+        <span class="anchor-name">John Copalos</span>
+        <span class="anchor-role">Agent Pricing Lab · ValuSignal 2026</span>
+      </div>
+      <div class="hero-divider"></div>
+      <div class="hero-stat-grid">
+        <div class="stat-box">
+          <span class="stat-number">80K</span>
+          <span class="stat-label">Agents in John's existing community</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-number">20+</span>
+          <span class="stat-label">Appraisers answering questions in his forum</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-number">3 hrs</span>
+          <span class="stat-label">Dedicated block for Ask the Appraiser</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-number">2–3</span>
+          <span class="stat-label">Additional appraisers John brings to the panel</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3 FEATURE CARDS -->
+  <div class="cards-section">
+    <div class="feature-card">
+      <div class="card-icon">🎙️</div>
+      <div class="card-title">Ask the Appraiser</div>
+      <p class="card-desc">Agents submit real pricing questions live. John Copalos and his panel of working appraisers answer them directly — no scripts, no theory.</p>
+      <div class="card-tag">3-Hour Live Block</div>
+    </div>
+    <div class="feature-card">
+      <div class="card-icon">🤝</div>
+      <div class="card-title">A Proven Community</div>
+      <p class="card-desc">John already runs one of the largest agent-appraiser Q&amp;A ecosystems — 80,000 agents, 20 appraisers. ValuSignal brings that dynamic live.</p>
+      <div class="card-tag">80K-Strong Network</div>
+    </div>
+    <div class="feature-card">
+      <div class="card-icon">🔗</div>
+      <div class="card-title">Affiliate Access</div>
+      <p class="card-desc">John Copalos will have a dedicated affiliate code to share with his community — giving his audience direct access to ValuSignal 2026.</p>
+      <div class="card-tag orange">Exclusive Code</div>
+    </div>
+  </div>
+
+  <!-- HOW ATA WORKS -->
+  <div class="ata-section">
+    <div class="ata-left">
+      <div class="ata-badge">Ask the Appraiser</div>
+      <h2 class="ata-title">Real questions.<br><span>Real answers.</span><br>No filter.</h2>
+      <p class="ata-desc">For the first time at ValuSignal, agents get direct access to appraisers who will answer their hardest pricing questions — live, unscripted, and on the record.</p>
+      <div class="ata-meta">
+        <div class="ata-meta-item">
+          <span class="ata-meta-label">Format</span>
+          <span class="ata-meta-value">Live Q&amp;A Panel</span>
+        </div>
+        <div class="ata-meta-item">
+          <span class="ata-meta-label">Duration</span>
+          <span class="ata-meta-value">3 hours</span>
+        </div>
+        <div class="ata-meta-item">
+          <span class="ata-meta-label">Available</span>
+          <span class="ata-meta-value">Sep 18, 2026</span>
+        </div>
+      </div>
+    </div>
+    <div class="ata-right">
+      <div class="ata-right-title">How it works</div>
+      <ul class="how-list">
+        <li class="how-item">
+          <span class="how-num">1</span>
+          <div class="how-text">
+            <span class="how-heading">Agents submit questions in advance</span>
+            <span class="how-sub">Before the session, registered attendees queue up their real pricing questions — the ones they've never gotten a straight answer on.</span>
+          </div>
+        </li>
+        <li class="how-item">
+          <span class="how-num">2</span>
+          <div class="how-text">
+            <span class="how-heading">John Copalos and his panel take the stage</span>
+            <span class="how-sub">John brings 2–3 additional working appraisers — giving agents multiple perspectives, not just one opinion.</span>
+          </div>
+        </li>
+        <li class="how-item">
+          <span class="how-num">3</span>
+          <div class="how-text">
+            <span class="how-heading">Questions answered live, unfiltered</span>
+            <span class="how-sub">No slides, no canned answers. The panel works through the questions as they'd handle them in the real world — showing the reasoning, not just the conclusion.</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</body>
+</html>
