@@ -1,0 +1,416 @@
+<!-- ─────────────────────────────────────────────────────
+     ValuSignal 2026 — Bonus Workshops (Webflow Embed)
+     Paste this entire block into a Webflow "Embed" element.
+     No external dependencies. Fully self-contained.
+───────────────────────────────────────────────────────── -->
+
+<style>
+  /* All rules scoped to .vs-ws to avoid Webflow conflicts */
+  .vs-ws {
+    --vs-bg:      #080e18;
+    --vs-card:    #0d1622;
+    --vs-teal:    #00d4b0;
+    --vs-orange:  #ff6340;
+    --vs-white:   #ffffff;
+    --vs-gray:    #7a8799;
+    --vs-border:  rgba(0,212,176,.14);
+    font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif;
+    background: var(--vs-bg);
+    color: var(--vs-white);
+    padding: 48px 32px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .vs-ws *, .vs-ws *::before, .vs-ws *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Header */
+  .vs-ws .vs-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .vs-ws .vs-label {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+    color: var(--vs-teal);
+    border: 1px solid var(--vs-border);
+    border-radius: 20px;
+    padding: 5px 14px;
+    margin-bottom: 14px;
+  }
+  .vs-ws .vs-title {
+    font-size: 32px;
+    font-weight: 800;
+    letter-spacing: -.02em;
+    margin-bottom: 8px;
+    color: var(--vs-white);
+  }
+  .vs-ws .vs-sub {
+    font-size: 14px;
+    color: var(--vs-gray);
+  }
+
+  /* Tabs */
+  .vs-ws .vs-tabs {
+    max-width: 860px;
+    margin: 0 auto;
+  }
+  .vs-ws .vs-tab-list {
+    display: flex;
+    border-bottom: 1px solid var(--vs-border);
+  }
+  .vs-ws .vs-tab-btn {
+    flex: 1;
+    background: none;
+    border: none;
+    border-bottom: 3px solid transparent;
+    margin-bottom: -1px;
+    padding: 16px 20px;
+    cursor: pointer;
+    text-align: left;
+    transition: border-color .2s, background .2s;
+  }
+  .vs-ws .vs-tab-btn:hover {
+    background: rgba(0,212,176,.04);
+  }
+  .vs-ws .vs-tab-btn.vs-active {
+    border-bottom-color: var(--vs-teal);
+    background: rgba(0,212,176,.06);
+  }
+  .vs-ws .vs-tab-num {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--vs-orange);
+    margin-bottom: 4px;
+  }
+  .vs-ws .vs-tab-btn.vs-active .vs-tab-num { color: var(--vs-teal); }
+  .vs-ws .vs-tab-label {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--vs-gray);
+    line-height: 1.3;
+  }
+  .vs-ws .vs-tab-btn.vs-active .vs-tab-label { color: var(--vs-white); }
+
+  /* Panels */
+  .vs-ws .vs-panel {
+    display: none;
+    background: var(--vs-card);
+    border: 1px solid var(--vs-border);
+    border-top: none;
+    border-radius: 0 0 16px 16px;
+    padding: 40px;
+    animation: vsFadeIn .2s ease;
+  }
+  .vs-ws .vs-panel.vs-active { display: block; }
+
+  @keyframes vsFadeIn {
+    from { opacity: 0; transform: translateY(6px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  .vs-ws .vs-panel-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+  }
+
+  /* Left col */
+  .vs-ws .vs-ws-num {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--vs-orange);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 12px;
+  }
+  .vs-ws .vs-ws-num::before {
+    content: '';
+    width: 4px; height: 4px;
+    border-radius: 50%;
+    background: var(--vs-orange);
+  }
+  .vs-ws .vs-ws-num.vs-teal { color: var(--vs-teal); }
+  .vs-ws .vs-ws-num.vs-teal::before { background: var(--vs-teal); }
+
+  .vs-ws .vs-panel-title {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: -.02em;
+    margin-bottom: 16px;
+    color: var(--vs-white);
+  }
+  .vs-ws .vs-panel-title .vs-accent { color: var(--vs-orange); }
+  .vs-ws .vs-panel-title .vs-teal   { color: var(--vs-teal); }
+
+  .vs-ws .vs-speaker {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    margin-bottom: 24px;
+  }
+  .vs-ws .vs-speaker-name { font-size: 14px; font-weight: 700; color: var(--vs-white); }
+  .vs-ws .vs-speaker-role { font-size: 12px; color: var(--vs-gray); }
+
+  .vs-ws .vs-bullets {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .vs-ws .vs-bullets li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 13.5px;
+    color: #b0bbc8;
+    line-height: 1.5;
+  }
+  .vs-ws .vs-check {
+    color: var(--vs-teal);
+    font-size: 12px;
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+
+  /* Right col — meta box */
+  .vs-ws .vs-meta-box {
+    background: rgba(0,0,0,.25);
+    border: 1px solid var(--vs-border);
+    border-radius: 12px;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .vs-ws .vs-meta-row { display: flex; flex-direction: column; gap: 4px; }
+  .vs-ws .vs-meta-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--vs-gray);
+  }
+  .vs-ws .vs-meta-value {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--vs-white);
+  }
+  .vs-ws .vs-meta-divider {
+    height: 1px;
+    background: rgba(255,255,255,.06);
+  }
+  .vs-ws .vs-meta-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--vs-teal);
+    background: rgba(0,212,176,.08);
+    border: 1px solid rgba(0,212,176,.2);
+    border-radius: 20px;
+    padding: 5px 12px;
+    width: fit-content;
+  }
+
+  /* Responsive */
+  @media (max-width: 680px) {
+    .vs-ws .vs-tab-list { flex-direction: column; }
+    .vs-ws .vs-tab-btn  { border-bottom: none; border-left: 3px solid transparent; }
+    .vs-ws .vs-tab-btn.vs-active { border-left-color: var(--vs-teal); border-bottom: none; }
+    .vs-ws .vs-panel-inner { grid-template-columns: 1fr; }
+    .vs-ws { padding: 32px 16px; }
+    .vs-ws .vs-panel { padding: 28px 20px; }
+  }
+</style>
+
+<div class="vs-ws">
+
+  <div class="vs-header">
+    <div class="vs-label">Bonus Workshops</div>
+    <h2 class="vs-title">Go deeper. Learn hands-on.</h2>
+    <p class="vs-sub">Three exclusive workshops included with your ValuSignal 2026 registration</p>
+  </div>
+
+  <div class="vs-tabs">
+
+    <div class="vs-tab-list">
+      <button class="vs-tab-btn vs-active" onclick="vsTab(0)">
+        <div class="vs-tab-num">Workshop 01</div>
+        <div class="vs-tab-label">Unleash the OpenClaw 🦞</div>
+      </button>
+      <button class="vs-tab-btn" onclick="vsTab(1)">
+        <div class="vs-tab-num">Workshop 02</div>
+        <div class="vs-tab-label">Vibe Code Your First App</div>
+      </button>
+      <button class="vs-tab-btn" onclick="vsTab(2)">
+        <div class="vs-tab-num">Workshop 03</div>
+        <div class="vs-tab-label">Inside the Case File</div>
+      </button>
+    </div>
+
+    <!-- Panel 1 -->
+    <div class="vs-panel vs-active">
+      <div class="vs-panel-inner">
+        <div>
+          <div class="vs-ws-num">Bonus Workshop with Roy Meyer</div>
+          <h3 class="vs-panel-title">Unleash the <span class="vs-accent">OpenClaw</span> 🦞</h3>
+          <div class="vs-speaker">
+            <span class="vs-speaker-name">Roy Meyer</span>
+            <span class="vs-speaker-role">AI for Appraisers</span>
+          </div>
+          <ul class="vs-bullets">
+            <li><span class="vs-check">✓</span> What OpenClaw is and why appraisers should care</li>
+            <li><span class="vs-check">✓</span> Full setup walkthrough, install to first working agent</li>
+            <li><span class="vs-check">✓</span> Build automations that save hours on repetitive tasks</li>
+            <li><span class="vs-check">✓</span> Real demos, real workflows, not theory</li>
+          </ul>
+        </div>
+        <div class="vs-meta-box">
+          <div class="vs-meta-row">
+            <span class="vs-meta-label">Facilitator</span>
+            <span class="vs-meta-value">Roy Meyer</span>
+          </div>
+          <div class="vs-meta-divider"></div>
+          <div class="vs-meta-row">
+            <span class="vs-meta-label">Organization</span>
+            <span class="vs-meta-value">AI for Appraisers</span>
+          </div>
+          <div class="vs-meta-divider"></div>
+          <div class="vs-meta-row">
+            <span class="vs-meta-label">Duration</span>
+            <span class="vs-meta-value">3 Hours</span>
+          </div>
+          <div class="vs-meta-divider"></div>
+          <div class="vs-meta-row">
+            <span class="vs-meta-label">Available</span>
+            <span class="vs-meta-value">September 18, 2026</span>
+          </div>
+          <div class="vs-meta-divider"></div>
+          <div class="vs-meta-badge">✦ Bonus Workshop</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Panel 2 -->
+    <div class="vs-panel">
+      <div class="vs-panel-inner">
+        <div>
+          <div class="vs-ws-num vs-teal">4+ Hour Hands-On Workshop</div>
+          <h3 class="vs-panel-title">Vibe Code <span class="vs-teal">Your First App</span></h3>
+          <div class="vs-speaker">
+            <span class="vs-speaker-name">Hansel Dobbs</span>
+            <span class="vs-speaker-role">ValuSignal 2026</span>
+          </div>
+          <ul class="vs-bullets">
+            <li><span class="vs-check">✓</span> Install &amp; configure Claude Code from scratch</li>
+            <li><span class="vs-check">✓</span> Wrangle real ASC.gov data &amp; public datasets</li>
+            <li><span class="vs-check">✓</span> Build &amp; deploy a national appraiser dashboard</li>
+            <li><span class="vs-check">✓</span> Prompting strategies from 20+ years in valuation</li>
+          </ul>
+        </div>
+        <div class="vs-meta-box">
+          <div class="vs-meta-row">
+            <span class="vs-meta-label">Facilitator</span>
+            <span class="vs-meta-value">Hansel Dobbs</span>
+          </div>
+          <div class="vs-meta-divider"></div>
+          <div class="vs-meta-row">
+            <span class="vs-meta-label">Organization</span>
+            <span class="vs-meta-value">ValuSignal 2026</span>
+          </div>
+          <div class="vs-meta-divider"></div>
+          <div class="vs-meta-row">
+            <span class="vs-meta-label">Duration</span>
+            <span class="vs-meta-value">4+ Hours</span>
+          </div>
+          <div class="vs-meta-divider"></div>
+          <div class="vs-meta-row">
+            <span class="vs-meta-label">Available</span>
+            <span class="vs-meta-value">September 18, 2026</span>
+          </div>
+          <div class="vs-meta-divider"></div>
+          <div class="vs-meta-badge">✦ Hands-On Workshop</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Panel 3 -->
+    <div class="vs-panel">
+      <div class="vs-panel-inner">
+        <div>
+          <div class="vs-ws-num vs-teal">Bonus Workshop with Joshua Walitt</div>
+          <h3 class="vs-panel-title">Inside the <span class="vs-teal">Case File</span></h3>
+          <div class="vs-speaker">
+            <span class="vs-speaker-name">Joshua Walitt</span>
+            <span class="vs-speaker-role">Walitt Solutions</span>
+          </div>
+          <ul class="vs-bullets">
+            <li><span class="vs-check">✓</span> How QC decisions really get made</li>
+            <li><span class="vs-check">✓</span> Where common choices create unintentional exposure</li>
+            <li><span class="vs-check">✓</span> What documentation actually protects you</li>
+            <li><span class="vs-check">✓</span> Fewer revisions without compromising your independence</li>
+          </ul>
+        </div>
+        <div class="vs-meta-box">
+          <div class="vs-meta-row">
+            <span class="vs-meta-label">Facilitator</span>
+            <span class="vs-meta-value">Joshua Walitt</span>
+          </div>
+          <div class="vs-meta-divider"></div>
+          <div class="vs-meta-row">
+            <span class="vs-meta-label">Organization</span>
+            <span class="vs-meta-value">Walitt Solutions</span>
+          </div>
+          <div class="vs-meta-divider"></div>
+          <div class="vs-meta-row">
+            <span class="vs-meta-label">Duration</span>
+            <span class="vs-meta-value">3 Hours</span>
+          </div>
+          <div class="vs-meta-divider"></div>
+          <div class="vs-meta-row">
+            <span class="vs-meta-label">Format</span>
+            <span class="vs-meta-value">Case-based discussion</span>
+          </div>
+          <div class="vs-meta-divider"></div>
+          <div class="vs-meta-row">
+            <span class="vs-meta-label">Available</span>
+            <span class="vs-meta-value">September 18, 2026</span>
+          </div>
+          <div class="vs-meta-divider"></div>
+          <div class="vs-meta-badge">✦ Bonus Workshop</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+  function vsTab(index) {
+    var root = document.querySelector('.vs-ws');
+    root.querySelectorAll('.vs-tab-btn').forEach(function(btn, i) {
+      btn.classList.toggle('vs-active', i === index);
+    });
+    root.querySelectorAll('.vs-panel').forEach(function(panel, i) {
+      panel.classList.toggle('vs-active', i === index);
+    });
+  }
+</script>
