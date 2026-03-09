@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ask The Appraiser — Agent Pricing Lab</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: #e8eaed;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 24px;
+    }
+
+    /* ── CARD ─────────────────────────────────────────────── */
+    .card {
+      width: 100%;
+      max-width: 860px;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 16px 60px rgba(0,0,0,.28);
+      display: flex;
+      min-height: 380px;
+      background: #0a1628;
+    }
+
+    /* ── LEFT: CONTENT ────────────────────────────────────── */
+    .card__content {
+      flex: 0 0 480px;
+      padding: 44px 48px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .card__logo-row {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 28px;
+    }
+    .card__logo { width: 52px; }
+    .card__brand {
+      font-size: .7rem;
+      font-weight: 800;
+      letter-spacing: .18em;
+      text-transform: uppercase;
+      color: #00c9a7;
+    }
+    .card__kicker {
+      font-size: .6rem;
+      font-weight: 700;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+      color: #00c9a7;
+      margin-bottom: 10px;
+    }
+    .card__title {
+      font-size: 2rem;
+      font-weight: 900;
+      color: #fff;
+      line-height: 1.1;
+      margin-bottom: 8px;
+    }
+    .card__title span { color: #00c9a7; }
+    .card__subtitle {
+      font-size: .8rem;
+      color: #9dbfbd;
+      line-height: 1.55;
+      margin-bottom: 24px;
+    }
+    .card__divider {
+      width: 48px;
+      height: 3px;
+      background: #00c9a7;
+      border-radius: 2px;
+      margin-bottom: 20px;
+    }
+    .card__speaker {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+    .card__avatar {
+      width: 52px; height: 52px;
+      border-radius: 50%;
+      border: 2px solid #00c9a7;
+      overflow: hidden;
+      flex-shrink: 0;
+      background: #fff;
+    }
+    .card__avatar img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      object-position: center top;
+    }
+    .card__speaker-name {
+      font-size: 1rem;
+      font-weight: 800;
+      color: #fff;
+    }
+    .card__speaker-role {
+      font-size: .68rem;
+      color: #7ecfc2;
+      line-height: 1.4;
+    }
+    .card__pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 7px;
+      margin-bottom: 24px;
+    }
+    .card__pill {
+      font-size: .62rem;
+      font-weight: 700;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      background: rgba(0,201,167,.12);
+      border: 1px solid rgba(0,201,167,.35);
+      color: #7ef0de;
+      padding: 5px 11px;
+      border-radius: 100px;
+    }
+    .card__cta-group {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+    .card__cta {
+      display: inline-block;
+      background: #00c9a7;
+      color: #0a1628;
+      font-size: .78rem;
+      font-weight: 900;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      padding: 13px 26px;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background .2s;
+    }
+    .card__cta:hover { background: #00b397; }
+    .card__plus {
+      font-size: .7rem;
+      color: #7ecfc2;
+      font-style: italic;
+    }
+
+    /* ── RIGHT: IMAGE PANEL ───────────────────────────────── */
+    .card__image-panel {
+      flex: 1;
+      position: relative;
+      overflow: hidden;
+    }
+    .card__image-panel img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: left center;
+      display: block;
+    }
+    .card__image-panel::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to right, #0a1628 0%, transparent 30%);
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    /* ── RESPONSIVE ───────────────────────────────────────── */
+    @media (max-width: 680px) {
+      .card { flex-direction: column; }
+      .card__content { flex: none; padding: 32px 28px; }
+      .card__image-panel { min-height: 220px; }
+      .card__image-panel::before {
+        background: linear-gradient(to bottom, #0a1628 0%, transparent 30%);
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+
+    <!-- LEFT: Content -->
+    <div class="card__content">
+      <div class="card__logo-row">
+        <img class="card__logo" src="ata-logo.png" alt="Ask The Appraiser" />
+        <span class="card__brand">Ask The Appraiser</span>
+      </div>
+      <p class="card__kicker">Agent Pricing Lab · ValuSignal 2026</p>
+      <h2 class="card__title">Ask the<br/><span>Appraiser</span><br/>Anything.</h2>
+      <p class="card__subtitle">
+        A 3-hour live forum. Real appraisers. Real answers about UAD 3.6, comp strategy, and how to protect your deals.
+      </p>
+      <div class="card__divider"></div>
+      <div class="card__speaker">
+        <div class="card__avatar">
+          <img src="john-copulos-headshot.png" alt="John Copulos" />
+        </div>
+        <div>
+          <p class="card__speaker-name">John Copulos</p>
+          <p class="card__speaker-role">Founder, Ask The Appraiser<br/>80,000-agent community</p>
+        </div>
+      </div>
+      <div class="card__pills">
+        <span class="card__pill">UAD 3.6</span>
+        <span class="card__pill">Comp Selection</span>
+        <span class="card__pill">ROV Strategy</span>
+        <span class="card__pill">Live Q&amp;A</span>
+        <span class="card__pill">3 Appraisers</span>
+      </div>
+      <div class="card__cta-group">
+        <a href="https://www.facebook.com/groups/451232149414469" target="_blank" rel="noopener" class="card__cta">
+          Join the Ask The Appraiser Community →
+        </a>
+        <p class="card__plus">+ 3 additional appraisers joining live</p>
+      </div>
+    </div>
+
+    <!-- RIGHT: Photo -->
+    <div class="card__image-panel">
+      <img src="john-copulos-branded.png" alt="John Copulos, Ask The Appraiser" />
+    </div>
+
+  </div>
+
+</body>
+</html>
