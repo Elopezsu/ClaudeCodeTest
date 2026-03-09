@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ValuSignal 2026 - UAD 3.6 Agent Guide</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--t9:#0a2e2e;--t8:#0d3d3d;--t7:#115555;--t6:#0f7a6e;--t5:#14b8a6;--t4:#2dd4bf;--t3:#5eead4;--t2:#99f6e4;--t1:#ccfbf1;--t0:#f0fdfa;--s9:#0f172a;--s8:#1e293b;--s7:#334155;--s6:#475569;--s5:#64748b;--s4:#94a3b8;--s3:#cbd5e1;--s2:#e2e8f0;--s1:#f1f5f9;--s0:#f8fafc;--am:#f59e0b;--aml:#fef3c7;--amx:#fffbeb;--bl:#3b82f6;--bll:#dbeafe;--gr:#22c55e;--grl:#dcfce7}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Inter',system-ui,sans-serif;color:var(--s8);background:#e2e8f0;line-height:1.6;-webkit-font-smoothing:antialiased}
+.pg{max-width:850px;margin:0 auto;background:#fff;box-shadow:0 4px 40px rgba(0,0,0,.08)}
+
+/* HERO */
+.hero{background:linear-gradient(135deg,var(--t9),var(--t8) 40%,var(--t7));color:#fff;padding:56px 48px 48px;position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:0;right:0;width:340px;height:340px;background:radial-gradient(circle,rgba(20,184,166,.18),transparent 70%);border-radius:50%;transform:translate(80px,-80px)}
+.hero::after{content:'';position:absolute;bottom:0;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--t4),var(--t3),var(--t4))}
+.hb{display:flex;align-items:center;gap:12px;margin-bottom:32px;position:relative;z-index:1}
+.hl{width:40px;height:40px;background:var(--t4);border-radius:8px;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:18px;color:var(--t9)}
+.hbt{font-weight:800;font-size:20px;letter-spacing:-.02em}.hbt span{color:var(--t3)}
+.hp{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);border-radius:100px;padding:6px 16px;font-size:13px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;margin-bottom:20px;position:relative;z-index:1}
+.dot{width:8px;height:8px;background:var(--t4);border-radius:50%}
+.hero h1{font-size:38px;font-weight:800;line-height:1.15;letter-spacing:-.03em;margin-bottom:16px;position:relative;z-index:1}
+.hero h1 em{font-style:normal;color:var(--t3)}
+.hs{font-size:17px;color:rgba(255,255,255,.75);max-width:560px;line-height:1.6;position:relative;z-index:1}
+
+/* MANDATE BANNER */
+.mb{background:linear-gradient(90deg,var(--t0),#fff,var(--t0));border-bottom:1px solid var(--s2);padding:28px 48px;display:flex;align-items:center;gap:28px}
+.mdb{flex-shrink:0;text-align:center;background:var(--t9);color:#fff;border-radius:12px;padding:14px 20px;min-width:96px}
+.mdb .mo{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--t3)}
+.mdb .dy{font-size:32px;font-weight:900;line-height:1.1}
+.mdb .yr{font-size:13px;font-weight:600;color:var(--t4)}
+.mt strong{font-weight:700;color:var(--s9);font-size:16px;display:block}
+.mt p{font-size:14.5px;color:var(--s6);margin-top:4px;line-height:1.6}
+
+/* SECTIONS */
+.sec{padding:44px 48px}.sec+.sec{border-top:1px solid var(--s2)}
+.sl{display:inline-flex;align-items:center;gap:8px;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--t6);margin-bottom:10px}
+.sl .ic{width:20px;height:20px;background:var(--t1);border-radius:5px;display:flex;align-items:center;justify-content:center;font-size:11px}
+.sec h2{font-size:26px;font-weight:800;letter-spacing:-.02em;color:var(--s9);margin-bottom:8px;line-height:1.2}
+.si{font-size:15px;color:var(--s6);max-width:640px;margin-bottom:28px;line-height:1.7}
+
+/* TIMELINE */
+.tl{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:28px}
+.ti{background:var(--s0);border:1px solid var(--s2);border-radius:12px;padding:18px 20px}
+.ti.act{background:var(--t0);border-color:var(--t3);box-shadow:0 0 0 3px rgba(20,184,166,.1)}
+.ti.mnd{background:linear-gradient(135deg,var(--t9),var(--t8));border-color:var(--t7);color:#fff;grid-column:span 2}
+.tp{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.07em;color:var(--t6);margin-bottom:4px}
+.ti.mnd .tp{color:var(--t3)}.ti.act .tp{color:var(--t7)}
+.td{font-size:15px;font-weight:700;color:var(--s9);margin-bottom:4px}
+.ti.mnd .td{color:#fff;font-size:17px}.ti.act .td{color:var(--t9)}
+.ts{font-size:13px;color:var(--s5);line-height:1.5}.ti.mnd .ts{color:rgba(255,255,255,.7)}
+
+/* FEATURE CARDS */
+.fg{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;margin-bottom:24px}
+.fc{background:#fff;border:1px solid var(--s2);border-radius:14px;padding:22px 18px}
+.ci{width:42px;height:42px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:19px;margin-bottom:12px}
+.ci.t{background:var(--t1)}.ci.a{background:var(--aml)}.ci.b{background:var(--bll)}
+.fc h3{font-size:14px;font-weight:700;color:var(--s9);margin-bottom:6px;line-height:1.3}
+.fc p{font-size:13px;color:var(--s5);line-height:1.55}
+
+/* NUMBERED LIST */
+.nl{display:flex;flex-direction:column;gap:18px}
+.ni{display:flex;gap:16px;align-items:flex-start}
+.nb{flex-shrink:0;width:34px;height:34px;background:var(--t9);color:var(--t3);border-radius:9px;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:800}
+.ni h3{font-size:15px;font-weight:700;color:var(--s9);margin-bottom:3px}
+.ni p{font-size:13.5px;color:var(--s6);line-height:1.6}
+
+/* CALLOUT */
+.co{border-radius:14px;padding:22px 24px;margin:24px 0;display:flex;gap:14px;align-items:flex-start}
+.co.t{background:var(--t0);border:1px solid var(--t2)}
+.coi{flex-shrink:0;width:30px;height:30px;background:var(--t2);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:15px}
+.co h4{font-size:14px;font-weight:700;color:var(--s9);margin-bottom:4px}
+.co p{font-size:13.5px;color:var(--s6);line-height:1.6}
+
+/* PLAYBOOK CARDS */
+.ps{background:var(--s0);border:1px solid var(--s2);border-radius:16px;overflow:hidden;margin-bottom:18px}
+.psh{background:var(--t9);color:#fff;padding:16px 22px;display:flex;align-items:center;gap:12px}
+.psh .sb{background:var(--t4);color:var(--t9);font-weight:800;font-size:13px;padding:3px 12px;border-radius:100px}
+.psh h3{font-size:15px;font-weight:700}
+.psb{padding:22px 24px}
+.psb h4{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--t7);margin-bottom:10px;margin-top:18px}
+.psb h4:first-child{margin-top:0}
+
+/* CHECKLIST */
+.cl{display:flex;flex-direction:column;gap:7px}
+.cli{display:flex;align-items:flex-start;gap:10px;font-size:13.5px;color:var(--s7);line-height:1.5}
+.chk{flex-shrink:0;width:20px;height:20px;background:var(--t1);border:1.5px solid var(--t3);border-radius:5px;display:flex;align-items:center;justify-content:center;margin-top:1px;font-size:11px;color:var(--t6);font-weight:700}
+
+/* TABLE */
+.utw{background:#fff;border:1px solid var(--s2);border-radius:10px;overflow:hidden;margin:12px 0}
+.ut{width:100%;border-collapse:collapse;font-size:13px}
+.ut thead th{background:var(--s1);font-weight:700;text-transform:uppercase;font-size:10.5px;letter-spacing:.06em;color:var(--s5);padding:10px 14px;text-align:left;border-bottom:1px solid var(--s2)}
+.ut td{padding:10px 14px;color:var(--s4);border-bottom:1px solid var(--s1);font-style:italic}
+.ut tr:last-child td{border-bottom:none}
+
+/* ROV TEMPLATE */
+.rt{background:var(--s0);border:1px solid var(--s2);border-radius:14px;overflow:hidden;margin:18px 0}
+.rth{background:var(--s8);color:#fff;padding:12px 22px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.06em}
+.rtb{padding:22px 24px;font-size:13.5px;color:var(--s7);line-height:1.7}
+.sln{font-family:monospace;font-size:12px;background:#fff;border:1px solid var(--s2);border-radius:8px;padding:10px 14px;margin-bottom:14px;color:var(--s8);font-weight:500}
+.pl{color:var(--t6);font-weight:600;background:var(--t0);padding:1px 4px;border-radius:3px;font-size:12.5px}
+
+/* GREEN DOCS */
+.gdg{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;margin:18px 0}
+.gdc{background:#fff;border:1px solid var(--s2);border-radius:14px;padding:18px;position:relative;overflow:hidden}
+.gdc::before{content:'';position:absolute;top:0;left:0;right:0;height:3px}
+.gdc.sol::before{background:var(--am)}.gdc.cer::before{background:var(--bl)}.gdc.eff::before{background:var(--gr)}
+.gdc .cn{font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px}
+.gdc.sol .cn{color:var(--am)}.gdc.cer .cn{color:var(--bl)}.gdc.eff .cn{color:var(--gr)}
+.gdc h4{font-size:14px;font-weight:700;color:var(--s9);margin-bottom:10px}
+.ml{list-style:none;display:flex;flex-direction:column;gap:5px}
+.ml li{font-size:12.5px;color:var(--s6);line-height:1.45;padding-left:14px;position:relative}
+.ml li::before{content:'';position:absolute;left:0;top:6px;width:5px;height:5px;border-radius:50%}
+.gdc.sol .ml li::before{background:var(--am)}.gdc.cer .ml li::before{background:var(--bl)}.gdc.eff .ml li::before{background:var(--gr)}
+
+/* PILLS */
+.rp{display:flex;flex-wrap:wrap;gap:9px;margin:14px 0}
+.rpi{display:inline-flex;align-items:center;gap:6px;background:var(--s1);border:1px solid var(--s2);border-radius:100px;padding:7px 14px;font-size:12.5px;font-weight:600;color:var(--s7)}
+
+/* WATCH-OUTS */
+.wog{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:20px 0}
+.woc{background:var(--amx);border:1px solid rgba(245,158,11,.2);border-radius:14px;padding:18px}
+.wl{display:inline-flex;align-items:center;gap:5px;font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--am);margin-bottom:6px}
+.woc h4{font-size:13.5px;font-weight:700;color:var(--s9);margin-bottom:5px}
+.woc p{font-size:12.5px;color:var(--s6);line-height:1.6}
+
+/* CTA */
+.cta{background:linear-gradient(135deg,var(--t9),var(--t8) 50%,var(--t7));color:#fff;padding:44px 48px;text-align:center;position:relative}
+.cta::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--t4),var(--t3),var(--t4))}
+.cta h2{font-size:24px;font-weight:800;letter-spacing:-.02em;margin-bottom:10px}
+.cta>p{font-size:14.5px;color:rgba(255,255,255,.7);max-width:520px;margin:0 auto 24px;line-height:1.6}
+.ctab{display:inline-flex;align-items:center;gap:10px;background:var(--t4);color:var(--t9);font-weight:800;font-size:14px;padding:13px 28px;border-radius:12px}
+.ctat{display:flex;justify-content:center;gap:12px;margin-top:22px;flex-wrap:wrap}
+.ctap{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.15);border-radius:100px;padding:7px 16px;font-size:12.5px;font-weight:600;color:rgba(255,255,255,.8)}
+
+@media print{body{background:#fff}.pg{max-width:100%;box-shadow:none}.sec{break-inside:avoid}body{-webkit-print-color-adjust:exact;print-color-adjust:exact}}
+</style>
+</head>
+<body>
+<div class="pg">
+
+<!-- ===== HERO ===== -->
+<div class="hero">
+<div class="hb"><div class="hl">VS</div><div class="hbt">ValuSignal <span>2026</span></div></div>
+<div class="hp"><span class="dot"></span> Real Estate Agent Guide</div>
+<h1>What You Need to Know<br>Before <em>November 2, 2026</em></h1>
+<p class="hs">UAD 3.6 is the biggest change to the appraisal report format in over a decade. Here is the agent-side playbook for fewer delays, stronger ROVs, and full credit on upgrades.</p>
+</div>
+
+<!-- ===== MANDATE BANNER ===== -->
+<div class="mb">
+<div class="mdb"><div class="mo">Nov</div><div class="dy">02</div><div class="yr">2026</div></div>
+<div class="mt"><strong>Mandate Date</strong><p>Starting November 2, 2026, all appraisal reports delivered for loans sold to Fannie Mae or Freddie Mac must use UAD 3.6 &mdash; the redesigned dataset and forms framework.</p></div>
+</div>
+
+<!-- ===== OVERVIEW ===== -->
+<div class="sec">
+<div class="sl"><span class="ic">&#128203;</span> Overview</div>
+<h2>What Is Actually Changing?</h2>
+<p class="si">UAD 3.6 updates how appraisal information is captured and delivered through the GSE system. You will see a redesigned dynamic URAR built around more structured data and clearer section organization &mdash; so reviewers can validate key facts faster and request corrections more precisely.</p>
+<div class="fg">
+<div class="fc"><div class="ci t">&#128260;</div><h3>Fewer Preventable Revisions</h3><p>More standardized fields and clearer section-level feedback reduce hunt-and-guess correction cycles.</p></div>
+<div class="fc"><div class="ci a">&#9878;&#65039;</div><h3>Cleaner ROV Outcomes</h3><p>A structured table for documenting analyzed-but-not-used comps makes disagreements easier to resolve.</p></div>
+<div class="fc"><div class="ci b">&#127793;</div><h3>Green Features Get Visibility</h3><p>Dedicated sections for energy efficiency, green features, and disaster mitigation when applicable.</p></div>
+</div>
+</div>
+
+<!-- ===== TIMELINE ===== -->
+<div class="sec">
+<div class="sl"><span class="ic">&#128197;</span> Timeline</div>
+<h2>The UAD 3.6 Rollout</h2>
+<p class="si">The transition is phased. We are currently in broad production &mdash; lenders can submit UAD 3.6 now, and some AMCs are already moving early to stabilize their workflows.</p>
+<div class="tl">
+<div class="ti"><div class="tp">Limited Production</div><div class="td">Sept 8, 2025 &ndash; Jan 25, 2026</div><div class="ts">Initial rollout with select participants testing the new format.</div></div>
+<div class="ti act"><div class="tp">&#11044; Broad Production (We Are Here)</div><div class="td">Jan 26, 2026 &ndash; Nov 1, 2026</div><div class="ts">Industry can submit UAD 3.6. Early adopters stabilizing workflows now.</div></div>
+<div class="ti mnd"><div class="tp">&#128274; Mandatory</div><div class="td">November 2, 2026</div><div class="ts">All new GSE-bound submissions must use UAD 3.6. This is the line.</div></div>
+<div class="ti"><div class="tp">Retirement</div><div class="td">May 3, 2027</div><div class="ts">UAD 2.6 pipeline revisions no longer accepted.</div></div>
+</div>
+<div class="co t"><div class="coi">&#128161;</div><div><h4>What This Means During 2026</h4><p>Adoption will not feel uniform across the market at first. Some lenders and AMCs will move early; others will wait. Your best protection is consistency: deliver a valuation-ready package every time so the appraisal file stays stable regardless of vendor or format version.</p></div></div>
+</div>
+
+<!-- ===== WHAT LOOKS DIFFERENT ===== -->
+<div class="sec">
+<div class="sl"><span class="ic">&#128269;</span> The New Report</div>
+<h2>What Looks Different in UAD 3.6</h2>
+<p class="si">Five key changes agents should understand to navigate the redesigned appraisal report.</p>
+<div class="nl">
+<div class="ni"><div class="nb">1</div><div><h3>Dynamic URAR Replaces Legacy Form Layouts</h3><p>The redesigned URAR presents sections based on what is relevant to the assignment and property. Less time locating information across different legacy form formats.</p></div></div>
+<div class="ni"><div class="nb">2</div><div><h3>More Standardized Data Fields = Cleaner Corrections</h3><p>Increased structured reporting and defined inputs mean underwriters and reviewers can validate key details faster and point corrections to specific sections.</p></div></div>
+<div class="ni"><div class="nb">3</div><div><h3>Submission Summary Report Becomes a Sharper Fix List</h3><p>Feedback aligns with the redesigned URAR structure. You will see more precise resolve-this-item requests tied to exact report sections.</p></div></div>
+<div class="ni"><div class="nb">4</div><div><h3>Additional Properties Analyzed Not Used Table</h3><p>A dedicated table where appraisers log transactions they considered and screened out &mdash; with fields for address, sale date/status, reason not used, and comments. This makes ROVs dramatically more transparent.</p></div></div>
+<div class="ni"><div class="nb">5</div><div><h3>Two New Sections for Upgraded Homes</h3><p>Section 5: Disaster Mitigation and Section 6: Energy Efficient and Green Features use pick-list structures. If no relevant features apply, the section stays minimal.</p></div></div>
+</div>
+<div class="co t"><div class="coi">&#127919;</div><div><h4>Agent Takeaway</h4><p>Suggested comps in an ROV can now be evaluated and documented transparently in the report, so the lender/underwriter sees the appraiser logic without a long back-and-forth.</p></div></div>
+</div>
+
+<!-- ===== PLAYBOOK ===== -->
+<div class="sec" style="background:var(--s0)">
+<div class="sl"><span class="ic">&#127942;</span> Agent Playbook</div>
+<h2>Fewer Delays + Stronger ROVs</h2>
+<p class="si">Your three-step workflow for every transaction under the new format.</p>
+
+<!-- STEP A -->
+<div class="ps"><div class="psh"><span class="sb">A</span><h3>Send a Valuation-Ready Package Within 24 Hours</h3></div>
+<div class="psb">
+<h4>Contract Clarity</h4>
+<div class="cl">
+<div class="cli"><span class="chk">&#10003;</span>Executed contract + all addenda</div>
+<div class="cli"><span class="chk">&#10003;</span>Concessions/credits &mdash; amount and purpose</div>
+<div class="cli"><span class="chk">&#10003;</span>Repair agreements / amendments</div>
+</div>
+<h4>Property Facts (Reduce Preventable Corrections)</h4>
+<div class="cl">
+<div class="cli"><span class="chk">&#10003;</span>MLS sheet &mdash; public + private remarks</div>
+<div class="cli"><span class="chk">&#10003;</span>HOA/condo details: dues, assessments, restrictions</div>
+<div class="cli"><span class="chk">&#10003;</span>Additions/ADUs: permits, COs, legal use docs (when available)</div>
+</div>
+<h4>Upgrades &mdash; Make It Scannable</h4>
+<p style="font-size:13px;color:var(--s6);margin-bottom:10px">Provide a one-page table the appraiser can reference instantly:</p>
+<div class="utw"><table class="ut"><thead><tr><th>Upgrade</th><th>Year</th><th>Cost (if known)</th><th>Why It Matters</th></tr></thead><tbody>
+<tr><td>Kitchen remodel</td><td>2024</td><td>$38,000</td><td>Full gut &mdash; quartz, soft-close, panel-ready appliances</td></tr>
+<tr><td>Roof replacement</td><td>2023</td><td>$12,500</td><td>30-yr architectural shingle, impact-rated</td></tr>
+</tbody></table></div>
+<h4>Market Support (Comp Intelligence)</h4>
+<div class="cl">
+<div class="cli"><span class="chk">&#10003;</span>3&ndash;6 relevant comps with 1&ndash;2 line notes each</div>
+<div class="cli"><span class="chk">&#10003;</span>State similarity and key differences &mdash; factual and specific</div>
+</div>
+</div></div>
+
+<!-- STEP B -->
+<div class="ps"><div class="psh"><span class="sb">B</span><h3>Inspection Day: Access + Evidence</h3></div>
+<div class="psb"><div class="cl">
+<div class="cli"><span class="chk">&#10003;</span>Remove access friction &mdash; codes, lockbox, tenant coordination handled in advance</div>
+<div class="cli"><span class="chk">&#10003;</span>Provide the upgrade/green documentation packet as one labeled PDF or folder</div>
+</div></div></div>
+
+<!-- STEP C -->
+<div class="ps"><div class="psh"><span class="sb">C</span><h3>ROV Workflow &mdash; Easier Under UAD 3.6</h3></div>
+<div class="psb">
+<p style="font-size:13.5px;color:var(--s6);line-height:1.7;margin-bottom:14px">ROVs work best when they focus on factual corrections and market-supported transactions. UAD 3.6 helps because the Additional Properties Analyzed Not Used table lets you see what the appraiser already considered.</p>
+
+<div class="co t" style="margin:14px 0"><div class="coi">&#128506;</div><div><h4>Your ROV Roadmap</h4><p><strong>Step 1:</strong> Check if your suggested comp is already listed as analyzed-not-used. If it is, read the stated reason and decide if you have a fact correction or need a different comp.<br><strong>Step 2:</strong> If it is not listed, submit it as additional market support and request it be evaluated.<br><strong>Step 3:</strong> Keep it tight &mdash; 2&ndash;5 comps max, plus documentation for the exact facts you want reviewed.</p></div></div>
+
+<div class="rt"><div class="rth">&#9993;&#65039; ROV Request Template (UAD 3.6-Aware)</div>
+<div class="rtb">
+<div class="sln">Subject: Reconsideration of Value Request &mdash; Additional Property Details / Market Data (UAD 3.6)</div>
+<p>Hello,</p>
+<p style="margin-top:8px">Please review the attached documentation for <span class="pl">[Property Address]</span>. We are requesting consideration of:</p>
+<p style="margin-top:8px"><strong>Property detail clarification:</strong> <span class="pl">[specific detail]</span> supported by <span class="pl">[permit/receipt/photo/solar agreement]</span>.</p>
+<p style="margin-top:6px"><strong>Additional market support:</strong> The attached transactions at <span class="pl">[addresses]</span> reflect <span class="pl">[same neighborhood tier / similar GLA / similar quality / similar energy features]</span>.</p>
+<p style="margin-top:6px"><strong>Key similarities:</strong> <span class="pl">[detail]</span> &nbsp;|&nbsp; <strong>Key differences:</strong> <span class="pl">[detail]</span></p>
+<p style="margin-top:12px;font-size:12.5px;color:var(--s5)">If any suggested transactions are determined to be less comparable, please consider documenting them in the Additional Properties Analyzed Not Used section with the reason and brief comment so the analysis is clear in the report structure.</p>
+</div></div>
+
+</div></div>
+</div>
+
+<!-- ===== GREEN ENERGY ===== -->
+<div class="sec">
+<div class="sl"><span class="ic">&#127807;</span> Green Energy + Resiliency</div>
+<h2>How to Get Full Credit</h2>
+<p class="si">UAD 3.6 adds Section 6 (Energy Efficient and Green Features) and Section 5 (Disaster Mitigation) with structured pick lists. When features are present and documented, they are easier to capture consistently.</p>
+
+<h3 style="font-size:15px;font-weight:700;color:var(--s9);margin-bottom:14px">The Green Documentation Bundle</h3>
+<div class="gdg">
+<div class="gdc sol"><div class="cn">1 &mdash; Solar / Renewable</div><h4>Solar and Renewable Energy</h4><ul class="ml">
+<li>Ownership type: Owned / Leased / PPA</li>
+<li>System size (kW), install date, warranties</li>
+<li>Inverter/battery details (if applicable)</li>
+<li>Contract terms for leased/PPA systems</li>
+</ul></div>
+<div class="gdc cer"><div class="cn">2 &mdash; Certifications</div><h4>Certifications and Ratings</h4><ul class="ml">
+<li>HERS report or ENERGY STAR documentation</li>
+<li>Other recognized program certificates</li>
+<li>Issuer + date + homeowner docs bundle</li>
+</ul></div>
+<div class="gdc eff"><div class="cn">3 &mdash; Efficiency</div><h4>Efficiency Upgrades</h4><ul class="ml">
+<li>HVAC efficiency specs + install date</li>
+<li>Insulation/windows &mdash; type + year</li>
+<li>Water heater type</li>
+<li>Air sealing/envelope improvements</li>
+<li>Optional: utility summaries</li>
+</ul></div>
+</div>
+
+<h3 style="font-size:15px;font-weight:700;color:var(--s9);margin:26px 0 10px">Resilience Upgrades (Section 5: Disaster Mitigation)</h3>
+<p style="font-size:13.5px;color:var(--s6);margin-bottom:14px">Document items that reduce risk and impact. What is relevant varies by market:</p>
+<div class="rp">
+<span class="rpi">&#127968; Roof Rating</span>
+<span class="rpi">&#129695; Impact-Resistant Openings</span>
+<span class="rpi">&#127794; Defensible Space</span>
+<span class="rpi">&#9928;&#65039; Storm Features</span>
+<span class="rpi">&#127754; Flood Mitigation</span>
+<span class="rpi">&#128196; Certification Paperwork</span>
+</div>
+
+<div class="wog">
+<div class="woc"><div class="wl">&#9888;&#65039; Watch-Out</div><h4>Visibility Does Not Equal Automatic Value</h4><p>Green features gain visibility through structured capture, but market impact still depends on credible market support and analysis. Documentation and comp selection strategy matter.</p></div>
+<div class="woc"><div class="wl">&#9888;&#65039; Watch-Out</div><h4>Solar Ownership Changes Buyer Reaction</h4><p>Owned vs. leased vs. PPA systems affect how buyers respond in many markets. Provide solar agreements early so the analysis aligns with actual buyer behavior.</p></div>
+</div>
+</div>
+
+<!-- ===== CTA FOOTER ===== -->
+<div class="cta">
+<h2>Go Deeper at ValuSignal 2026</h2>
+<p>The Agent Track covers lender adoption patterns, comp strategy, ROV workflows, and pricing positioning &mdash; all designed for the new UAD 3.6 reporting structure.</p>
+<div class="ctab">&#127891; Real Estate Agent Track: UAD 3.6 + Professional Residential Property Pricing Strategy</div>
+<div class="ctat">
+<span class="ctap">ROV Workflows</span>
+<span class="ctap">Comp Strategy</span>
+<span class="ctap">Pricing Positioning</span>
+<span class="ctap">Transition Planning</span>
+</div>
+</div>
+
+</div>
+</body>
+</html>
