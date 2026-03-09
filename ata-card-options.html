@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ask The Appraiser: Card Design Options</title>
+  <style>
+    /* ─── RESET & BASE ──────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: #e8eaed;
+      padding: 48px 24px;
+      color: #111;
+    }
+    h1 {
+      text-align: center;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #555;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      margin-bottom: 8px;
+    }
+    .subtitle {
+      text-align: center;
+      font-size: .8rem;
+      color: #999;
+      margin-bottom: 52px;
+    }
+    .options-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 72px;
+      max-width: 880px;
+      margin: 0 auto;
+    }
+    .option-label {
+      font-size: .72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .14em;
+      color: #888;
+      margin-bottom: 14px;
+    }
+
+    /* ════════════════════════════════════════════════════
+       OPTION 1 — Dark Split
+       ════════════════════════════════════════════════════ */
+    .card-1 {
+      display: flex;
+      width: 100%;
+      max-width: 860px;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 12px 48px rgba(0,0,0,.22);
+      background: #0d1f35;
+      min-height: 340px;
+    }
+    .card-1__photo {
+      flex: 0 0 260px;
+      background: #fff;
+      position: relative;
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      overflow: hidden;
+    }
+    .card-1__photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center top;
+      display: block;
+    }
+    .card-1__photo::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to right, transparent 55%, #0d1f35 100%);
+      pointer-events: none;
+    }
+    .card-1__body {
+      flex: 1;
+      padding: 36px 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .card-1__logo { width: 72px; margin-bottom: 18px; }
+    .card-1__eyebrow {
+      font-size: .62rem;
+      font-weight: 700;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      color: #00c9a7;
+      margin-bottom: 8px;
+    }
+    .card-1__title {
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: #fff;
+      line-height: 1.2;
+      margin-bottom: 14px;
+    }
+    .card-1__name { font-size: 1.05rem; font-weight: 700; color: #fff; margin-bottom: 2px; }
+    .card-1__role { font-size: .76rem; color: #7ecfc2; margin-bottom: 22px; line-height: 1.4; }
+    .card-1__details { display: flex; gap: 24px; margin-bottom: 28px; }
+    .card-1__detail { display: flex; flex-direction: column; gap: 3px; }
+    .card-1__detail-label { font-size: .58rem; letter-spacing: .14em; text-transform: uppercase; color: #7ecfc2; font-weight: 700; }
+    .card-1__detail-value { font-size: .8rem; color: #cce8e5; font-weight: 600; }
+    .card-1__cta {
+      display: inline-block;
+      background: #00c9a7;
+      color: #0d1f35;
+      font-size: .76rem;
+      font-weight: 800;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      padding: 11px 22px;
+      border-radius: 6px;
+      text-decoration: none;
+      align-self: flex-start;
+    }
+    .card-1__plus { font-size: .7rem; color: #7ecfc2; margin-top: 10px; }
+
+    /* ════════════════════════════════════════════════════
+       OPTION 2 — Clean White
+       ════════════════════════════════════════════════════ */
+    .card-2 {
+      width: 100%;
+      max-width: 860px;
+      background: #fff;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 8px 40px rgba(0,0,0,.10);
+      border: 1px solid #dde2ea;
+    }
+    .card-2__header {
+      background: #1b3266;
+      padding: 18px 32px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .card-2__logo { width: 46px; }
+    .card-2__header-text { color: #fff; }
+    .card-2__header-text h2 { font-size: .82rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
+    .card-2__header-text p { font-size: .68rem; opacity: .7; margin-top: 2px; }
+    .card-2__track {
+      background: #00c9a7;
+      padding: 5px 32px;
+      font-size: .62rem;
+      font-weight: 700;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      color: #0d1f35;
+    }
+    .card-2__body { display: flex; }
+    .card-2__photo-col {
+      flex: 0 0 210px;
+      background: #f5f7fa;
+      display: flex;
+      align-items: flex-end;
+      overflow: hidden;
+    }
+    .card-2__photo-col img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      object-position: bottom center;
+      display: block;
+    }
+    .card-2__content { flex: 1; padding: 28px 32px; }
+    .card-2__session-title { font-size: 1.2rem; font-weight: 800; color: #1b3266; margin-bottom: 8px; line-height: 1.25; }
+    .card-2__desc { font-size: .78rem; color: #555; line-height: 1.65; margin-bottom: 18px; }
+    .card-2__speaker-name { font-size: .94rem; font-weight: 700; color: #1b3266; }
+    .card-2__speaker-role { font-size: .72rem; color: #00a98e; font-weight: 600; margin-bottom: 18px; }
+    .card-2__meta { display: flex; gap: 24px; margin-bottom: 18px; }
+    .card-2__meta-item { display: flex; flex-direction: column; gap: 2px; }
+    .card-2__meta-label { font-size: .58rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: #aaa; }
+    .card-2__meta-value { font-size: .8rem; font-weight: 700; color: #1b3266; }
+    .card-2__bullets { list-style: none; display: flex; flex-direction: column; gap: 5px; margin-bottom: 22px; }
+    .card-2__bullets li { font-size: .74rem; color: #444; padding-left: 16px; position: relative; }
+    .card-2__bullets li::before { content: '→'; position: absolute; left: 0; color: #00c9a7; font-weight: 700; }
+    .card-2__cta {
+      display: inline-block;
+      background: #1b3266;
+      color: #fff;
+      font-size: .76rem;
+      font-weight: 700;
+      letter-spacing: .07em;
+      text-transform: uppercase;
+      padding: 10px 22px;
+      border-radius: 6px;
+      text-decoration: none;
+    }
+
+    /* ════════════════════════════════════════════════════
+       OPTION 3 — Bold Poster
+       Branded composite (teal bg + ATA mark) on the right.
+       ════════════════════════════════════════════════════ */
+    .card-3 {
+      width: 100%;
+      max-width: 860px;
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 16px 60px rgba(0,0,0,.28);
+      display: flex;
+      min-height: 380px;
+      background: #0a1628;
+    }
+    .card-3__content {
+      flex: 0 0 480px;
+      padding: 44px 48px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .card-3__logo-row { display: flex; align-items: center; gap: 12px; margin-bottom: 28px; }
+    .card-3__logo { width: 52px; }
+    .card-3__brand { font-size: .7rem; font-weight: 800; letter-spacing: .18em; text-transform: uppercase; color: #00c9a7; }
+    .card-3__kicker { font-size: .6rem; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; color: #00c9a7; margin-bottom: 10px; }
+    .card-3__title { font-size: 2rem; font-weight: 900; color: #fff; line-height: 1.1; margin-bottom: 8px; }
+    .card-3__title span { color: #00c9a7; }
+    .card-3__subtitle { font-size: .8rem; color: #9dbfbd; line-height: 1.55; margin-bottom: 24px; }
+    .card-3__divider { width: 48px; height: 3px; background: #00c9a7; border-radius: 2px; margin-bottom: 20px; }
+    .card-3__speaker { display: flex; align-items: center; gap: 12px; margin-bottom: 24px; }
+    .card-3__avatar {
+      width: 52px; height: 52px;
+      border-radius: 50%;
+      border: 2px solid #00c9a7;
+      overflow: hidden;
+      flex-shrink: 0;
+      background: #fff;
+    }
+    .card-3__avatar img { width: 100%; height: 100%; object-fit: cover; object-position: center top; }
+    .card-3__speaker-name { font-size: 1rem; font-weight: 800; color: #fff; }
+    .card-3__speaker-role { font-size: .68rem; color: #7ecfc2; line-height: 1.4; }
+    .card-3__pills { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 28px; }
+    .card-3__pill {
+      font-size: .62rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
+      background: rgba(0,201,167,.12); border: 1px solid rgba(0,201,167,.35);
+      color: #7ef0de; padding: 5px 11px; border-radius: 100px;
+    }
+    .card-3__cta {
+      display: inline-block;
+      background: #00c9a7;
+      color: #0a1628;
+      font-size: .78rem;
+      font-weight: 900;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      padding: 13px 26px;
+      border-radius: 8px;
+      text-decoration: none;
+      align-self: flex-start;
+    }
+    .card-3__image-panel {
+      flex: 1;
+      position: relative;
+      overflow: hidden;
+    }
+    .card-3__image-panel img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: left center;
+      display: block;
+    }
+    .card-3__image-panel::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to right, #0a1628 0%, transparent 30%);
+      z-index: 1;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Ask The Appraiser: Card Options for John Copulos</h1>
+<p class="subtitle">Agent Pricing Lab · ValuSignal 2026 · Share with developer for Webflow embed</p>
+
+<div class="options-wrapper">
+
+  <!-- ─── OPTION 1: DARK SPLIT ─────────────────────────── -->
+  <div>
+    <p class="option-label">Option 1: Dark Split</p>
+    <div class="card-1">
+      <div class="card-1__photo">
+        <img src="john-copulos-headshot.png" alt="John Copulos" />
+      </div>
+      <div class="card-1__body">
+        <div>
+          <img class="card-1__logo" src="ata-logo.png" alt="Ask The Appraiser" />
+          <p class="card-1__eyebrow">Agent Pricing Lab · Keynote Panel · 3 Hours</p>
+          <h2 class="card-1__title">Ask the Appraiser<br/>Anything</h2>
+          <p class="card-1__name">John Copulos</p>
+          <p class="card-1__role">Owner, Copulos &amp; Associates<br/>Founder, Ask The Appraiser</p>
+          <div class="card-1__details">
+            <div class="card-1__detail">
+              <span class="card-1__detail-label">Format</span>
+              <span class="card-1__detail-value">Live Q&amp;A Panel</span>
+            </div>
+            <div class="card-1__detail">
+              <span class="card-1__detail-label">Audience</span>
+              <span class="card-1__detail-value">Real Estate Agents</span>
+            </div>
+            <div class="card-1__detail">
+              <span class="card-1__detail-label">Topic</span>
+              <span class="card-1__detail-value">UAD 3.6 + Pricing</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <a href="#" class="card-1__cta">Ask Your Question</a>
+          <p class="card-1__plus">+ 2 to 3 additional appraisers joining live</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─── OPTION 2: CLEAN WHITE ────────────────────────── -->
+  <div>
+    <p class="option-label">Option 2: Clean White</p>
+    <div class="card-2">
+      <div class="card-2__header">
+        <img class="card-2__logo" src="ata-logo.png" alt="Ask The Appraiser" />
+        <div class="card-2__header-text">
+          <h2>Ask The Appraiser</h2>
+          <p>A Live Agent-Appraiser Panel Experience</p>
+        </div>
+      </div>
+      <div class="card-2__track">Agent Pricing Lab · ValuSignal 2026</div>
+      <div class="card-2__body">
+        <div class="card-2__photo-col">
+          <img src="john-copulos-headshot.png" alt="John Copulos" />
+        </div>
+        <div class="card-2__content">
+          <h3 class="card-2__session-title">Pricing the Oddball Property:<br/>Real Talk from Working Appraisers</h3>
+          <p class="card-2__desc">
+            Bring your toughest pricing questions. John Copulos, founder of a platform where 80,000 agents ask appraisers daily, leads a live open forum on UAD 3.6, comp selection, and agent-appraiser communication.
+          </p>
+          <p class="card-2__speaker-name">John Copulos</p>
+          <p class="card-2__speaker-role">Owner, Copulos &amp; Associates · Founder, Ask The Appraiser</p>
+          <div class="card-2__meta">
+            <div class="card-2__meta-item">
+              <span class="card-2__meta-label">Session Type</span>
+              <span class="card-2__meta-value">Keynote Panel</span>
+            </div>
+            <div class="card-2__meta-item">
+              <span class="card-2__meta-label">Duration</span>
+              <span class="card-2__meta-value">3 Hours</span>
+            </div>
+            <div class="card-2__meta-item">
+              <span class="card-2__meta-label">Panelists</span>
+              <span class="card-2__meta-value">3 Appraisers</span>
+            </div>
+          </div>
+          <ul class="card-2__bullets">
+            <li>What UAD 3.6 means from a working appraiser's perspective</li>
+            <li>How to select comps appraisers will accept</li>
+            <li>Open Q&amp;A with real questions and real answers</li>
+          </ul>
+          <a href="#" class="card-2__cta">Submit Your Question</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─── OPTION 3: BOLD POSTER ────────────────────────── -->
+  <div>
+    <p class="option-label">Option 3: Bold Poster</p>
+    <div class="card-3">
+      <div class="card-3__content">
+        <div class="card-3__logo-row">
+          <img class="card-3__logo" src="ata-logo.png" alt="Ask The Appraiser" />
+          <span class="card-3__brand">Ask The Appraiser</span>
+        </div>
+        <p class="card-3__kicker">Agent Pricing Lab · ValuSignal 2026</p>
+        <h2 class="card-3__title">Ask the<br/><span>Appraiser</span><br/>Anything.</h2>
+        <p class="card-3__subtitle">
+          A 3-hour live forum. Real appraisers. Real answers about UAD 3.6, comp strategy, and how to protect your deals.
+        </p>
+        <div class="card-3__divider"></div>
+        <div class="card-3__speaker">
+          <div class="card-3__avatar">
+            <img src="john-copulos-headshot.png" alt="John Copulos" />
+          </div>
+          <div>
+            <p class="card-3__speaker-name">John Copulos</p>
+            <p class="card-3__speaker-role">Founder, Ask The Appraiser<br/>80,000-agent community</p>
+          </div>
+        </div>
+        <div class="card-3__pills">
+          <span class="card-3__pill">UAD 3.6</span>
+          <span class="card-3__pill">Comp Selection</span>
+          <span class="card-3__pill">ROV Strategy</span>
+          <span class="card-3__pill">Live Q&amp;A</span>
+          <span class="card-3__pill">3 Appraisers</span>
+        </div>
+        <a href="#" class="card-3__cta">Ask Your Question →</a>
+      </div>
+      <div class="card-3__image-panel">
+        <img src="john-copulos-branded.png" alt="John Copulos, Ask The Appraiser" />
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>
