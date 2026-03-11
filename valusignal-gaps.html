@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ValuSignal 2026 — Schedule Gaps</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #f0f2f5; color: #1a1a2e; }
+
+  header {
+    background: #1a1a2e;
+    color: white;
+    padding: 20px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header h1 { font-size: 20px; font-weight: 700; letter-spacing: -0.3px; }
+  header .subtitle { font-size: 13px; color: #8892b0; margin-top: 4px; }
+
+  .legend {
+    display: flex;
+    gap: 20px;
+    background: white;
+    padding: 12px 32px;
+    border-bottom: 1px solid #e2e8f0;
+    flex-wrap: wrap;
+  }
+  .legend-item { display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 500; }
+  .dot { width: 14px; height: 14px; border-radius: 3px; flex-shrink: 0; }
+  .dot-confirmed { background: #22c55e; }
+  .dot-unconfirmed { background: #f59e0b; }
+  .dot-missing { background: #ef4444; }
+  .dot-tbd { background: #94a3b8; }
+
+  .summary-bar {
+    background: #1e293b;
+    color: white;
+    padding: 14px 32px;
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+  }
+  .summary-item { text-align: center; }
+  .summary-num { font-size: 28px; font-weight: 800; }
+  .summary-num.red { color: #f87171; }
+  .summary-num.yellow { color: #fbbf24; }
+  .summary-num.green { color: #4ade80; }
+  .summary-label { font-size: 11px; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.5px; }
+
+  .days-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px 20px;
+    max-width: 1600px;
+    margin: 0 auto;
+  }
+  @media (max-width: 900px) { .days-container { grid-template-columns: 1fr; } }
+
+  .day-col { background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.07); }
+  .day-header {
+    background: #1a1a2e;
+    color: white;
+    padding: 14px 20px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .day-header .date { font-size: 12px; color: #8892b0; font-weight: 400; margin-top: 2px; }
+
+  .track-section { border-bottom: 1px solid #f1f5f9; }
+  .track-label {
+    padding: 10px 16px 6px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    color: #64748b;
+    background: #f8fafc;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  .sessions-list { padding: 8px 12px 10px; display: flex; flex-direction: column; gap: 6px; }
+
+  .session-card {
+    border-radius: 8px;
+    padding: 10px 12px;
+    border-left: 4px solid transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  .session-card.confirmed { background: #f0fdf4; border-color: #22c55e; }
+  .session-card.unconfirmed { background: #fffbeb; border-color: #f59e0b; }
+  .session-card.missing { background: #fef2f2; border-color: #ef4444; }
+  .session-card.tbd { background: #f8fafc; border-color: #94a3b8; }
+
+  .session-title { font-size: 13px; font-weight: 600; line-height: 1.4; }
+  .session-meta { font-size: 11px; color: #64748b; display: flex; gap: 10px; flex-wrap: wrap; margin-top: 2px; }
+  .session-meta span { display: flex; align-items: center; gap: 3px; }
+  .session-meta .speaker { font-weight: 500; color: #475569; }
+  .badge {
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 2px 7px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    align-self: flex-start;
+    margin-top: 3px;
+  }
+  .badge-confirmed { background: #dcfce7; color: #15803d; }
+  .badge-unconfirmed { background: #fef3c7; color: #b45309; }
+  .badge-missing { background: #fee2e2; color: #b91c1c; }
+  .badge-tbd { background: #f1f5f9; color: #64748b; }
+
+  .gap-alert {
+    background: #fef2f2;
+    border: 1px solid #fecaca;
+    border-radius: 8px;
+    padding: 10px 14px;
+    margin: 8px 12px 6px;
+  }
+  .gap-alert-title { font-size: 12px; font-weight: 700; color: #b91c1c; margin-bottom: 4px; }
+  .gap-alert p { font-size: 11px; color: #7f1d1d; }
+
+  .duration-pill {
+    background: rgba(0,0,0,0.06);
+    border-radius: 4px;
+    padding: 1px 5px;
+    font-size: 10px;
+  }
+
+  .flag-missing { color: #ef4444; font-weight: 700; }
+  .flag-tbd { color: #94a3b8; }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>ValuSignal 2026 — Schedule Gaps Analysis</h1>
+    <div class="subtitle">Cross-referenced: Airtable Tracker · Webflow Schedule · Miro Board · Generated March 11, 2026</div>
+  </div>
+</header>
+
+<div class="legend">
+  <div class="legend-item"><div class="dot dot-confirmed"></div> Confirmed + Approved</div>
+  <div class="legend-item"><div class="dot dot-unconfirmed"></div> Not Yet Confirmed</div>
+  <div class="legend-item"><div class="dot dot-missing"></div> EMPTY SLOT — Need Speaker</div>
+  <div class="legend-item"><div class="dot dot-tbd"></div> TBD / Placeholder</div>
+</div>
+
+<div class="summary-bar">
+  <div class="summary-item"><div class="summary-num red">14</div><div class="summary-label">Empty / TBD Slots</div></div>
+  <div class="summary-item"><div class="summary-num yellow">12</div><div class="summary-label">Unconfirmed Speakers</div></div>
+  <div class="summary-item"><div class="summary-num green">24</div><div class="summary-label">Confirmed Sessions</div></div>
+  <div class="summary-item" style="border-left:1px solid #334155;padding-left:32px;margin-left:12px">
+    <div class="summary-num" style="color:#60a5fa">Fri Sep 18</div>
+    <div class="summary-label">Day 1 · 9 tracks</div>
+  </div>
+  <div class="summary-item">
+    <div class="summary-num" style="color:#a78bfa">Sat Sep 19</div>
+    <div class="summary-label">Day 2 · 9 tracks</div>
+  </div>
+</div>
+
+<div class="days-container">
+
+  <!-- ===== FRIDAY ===== -->
+  <div class="day-col">
+    <div class="day-header">
+      Friday
+      <div class="date">September 18, 2026 · Day 1</div>
+    </div>
+
+    <!-- MAIN STAGE FRIDAY -->
+    <div class="track-section">
+      <div class="track-label">🎤 Main Stage</div>
+      <div class="sessions-list">
+        <div class="session-card unconfirmed">
+          <div class="session-title">Redefining Risk: How Data and Policy Are Shaping the Housing Market</div>
+          <div class="session-meta">
+            <span class="speaker">Scott Reuter</span>
+            <span>🕙 10:00–11:00 am <span class="duration-pill">60 min</span></span>
+          </div>
+          <span class="badge badge-unconfirmed">⚠ Not Confirmed</span>
+          <span class="badge badge-missing" style="margin-top:2px">🔴 Needs Website</span>
+        </div>
+        <div class="session-card confirmed">
+          <div class="session-title">Running a Modern Appraisal Firm Under UAD 3.6</div>
+          <div class="session-meta">
+            <span class="speaker">Chad Barker</span>
+            <span>🕙 11:00 am–12:00 pm <span class="duration-pill">60 min</span></span>
+          </div>
+          <span class="badge badge-confirmed">✓ Confirmed</span>
+        </div>
+        <div class="session-card missing">
+          <div class="session-title flag-missing">⛔ EMPTY SLOT — Need Speaker</div>
+          <div class="session-meta">
+            <span>🕑 2:00–3:00 pm <span class="duration-pill">60 min</span></span>
+            <span>Session 6 placeholder in Airtable — no speaker assigned</span>
+          </div>
+          <span class="badge badge-missing">🔴 Needs Speaker</span>
+          <span class="badge" style="background:#fee2e2;color:#7f1d1d;margin-top:2px">Can be 1 session of 60 min or 2 sessions of 30 min</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- APPRAISING IN 2027 FRIDAY -->
+    <div class="track-section">
+      <div class="track-label">📐 Appraising in 2027</div>
+      <div class="sessions-list">
+        <div class="session-card unconfirmed">
+          <div class="session-title">The 2026 Housing Market: Volume, Home Price &amp; Appraisal Waivers Usage</div>
+          <div class="session-meta">
+            <span class="speaker">Tobias Peter</span>
+            <span>🕑 2:00–3:00 pm <span class="duration-pill">60 min</span></span>
+          </div>
+          <span class="badge badge-unconfirmed">⚠ Unresponsive</span>
+        </div>
+        <div class="session-card missing">
+          <div class="session-title flag-missing">⛔ EMPTY SLOT — 2:10–3:10 pm</div>
+          <div class="session-meta">
+            <span>Slot exists in tracker with no title or speaker</span>
+          </div>
+          <span class="badge badge-missing">🔴 Needs Speaker</span>
+        </div>
+        <div class="session-card unconfirmed">
+          <div class="session-title">What Fannie Mae Looks For: Elevating Appraisal Analysis Through Insider Experience</div>
+          <div class="session-meta">
+            <span class="speaker">Michele Golden</span>
+            <span>🕓 4:10–5:10 pm</span>
+          </div>
+          <span class="badge badge-unconfirmed">⚠ Not Confirmed</span>
+          <span class="badge badge-unconfirmed" style="margin-top:2px">⚠ Confirmed but Needs Blessing from Fannie Mae</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- AI-READY FRIDAY -->
+    <div class="track-section">
+      <div class="track-label">🤖 AI-Ready Appraiser</div>
+      <div class="sessions-list">
+        <div class="session-card missing">
+          <div class="session-title flag-missing">⛔ EMPTY SLOT — 8:30–10:20 am</div>
+          <div class="session-meta"><span>~110 min opener — no session or speaker</span></div>
+          <span class="badge badge-missing">🔴 Needs Speaker(s)</span>
+          <span class="badge" style="background:#fee2e2;color:#7f1d1d;margin-top:2px">Can be 2 sessions of 55 min, 3–4 sessions of 30 min, or a mix</span>
+        </div>
+        <div class="session-card unconfirmed">
+          <div class="session-title">AI Keynote</div>
+          <div class="session-meta">
+            <span class="speaker">Marius Andreasen</span>
+            <span>🕙 10:20–11:20 am <span class="duration-pill">60 min</span></span>
+          </div>
+          <span class="badge badge-unconfirmed">⚠ Not Confirmed</span>
+        </div>
+        <div class="session-card confirmed">
+          <div class="session-title">A Practical Guide to Deploying AI</div>
+          <div class="session-meta">
+            <span class="speaker">Jeff Morley</span>
+            <span>🕙 11:20 am–12:20 pm <span class="duration-pill">60 min</span></span>
+          </div>
+          <span class="badge badge-confirmed">✓ Confirmed</span>
+          <span class="badge badge-unconfirmed" style="margin-top:2px">⚠ Speaker Needs Onboarding</span>
+        </div>
+        <div class="session-card confirmed">
+          <div class="session-title">AI for Appraisers: A Practical Starter Kit That Actually Works</div>
+          <div class="session-meta">
+            <span class="speaker">Roy Meyer</span>
+            <span>🕐 1:20–2:20 pm <span class="duration-pill">60 min</span></span>
+          </div>
+          <span class="badge badge-confirmed">✓ Confirmed</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- NEW REVENUE FRIDAY -->
+    <div class="track-section">
+      <div class="track-label">💰 New Revenue Playbook</div>
+      <div class="sessions-list">
+        <div class="session-card missing">
+          <div class="session-title flag-missing">⛔ EMPTY SLOT — 8:30–10:00 am</div>
+          <div class="session-meta"><span>90 min opener — no session assigned</span></div>
+          <span class="badge badge-missing">🔴 Needs Speaker(s)</span>
+          <span class="badge" style="background:#fee2e2;color:#7f1d1d;margin-top:2px">Can be 1 session of 90 min, 2 sessions of 45 min, or 3 sessions of 30 min</span>
+        </div>
+        <div class="session-card confirmed">
+          <div class="session-title">Going from 100% Lender Work to 70% Private Work</div>
+          <div class="session-meta">
+            <span class="speaker">Carole Henrysen Strugala</span>
+            <span>🕙 11:20 am–12:20 pm <span class="duration-pill">60 min</span></span>
+          </div>
+          <span class="badge badge-confirmed">✓ Confirmed</span>
+        </div>
+        <div class="session-card unconfirmed">
+          <div class="session-title">Opportunities in Rural Appraising</div>
+          <div class="session-meta">
+            <span class="speaker">ASFMRA</span>
+            <span>🕑 2:20–3:20 pm <span class="duration-pill">60 min</span></span>
+          </div>
+          <span class="badge badge-unconfirmed">⚠ Not Confirmed</span>
+        </div>
+        <div class="session-card confirmed">
+          <div class="session-title">AI Without the Hype: How I'm Actually Using It in My Appraisal Practice</div>
+          <div class="session-meta">
+            <span class="speaker">David Ziccardi</span>
+            <span>🕒 3:20–4:20 pm <span class="duration-pill">60 min</span></span>
+          </div>
+          <span class="badge badge-confirmed">✓ Confirmed</span>
+        </div>
+        <div class="session-card unconfirmed">
+          <div class="session-title">From Appraiser to Investor: Real Estate Investing for Beginners</div>
+          <div class="session-meta">
+            <span class="speaker">Liliya Patton</span>
+            <span>🕓 4:20–5:10 pm <span class="duration-pill">50 min</span></span>
+          </div>
+          <span class="badge badge-unconfirmed">⚠ Not Confirmed</span>
+          <span class="badge badge-unconfirmed" style="margin-top:2px">⚠ Unresponsive on LinkedIn</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CAREER LAUNCHPAD FRIDAY -->
+    <div class="track-section">
+      <div class="track-label">🚀 Career Launchpad</div>
+      <div class="sessions-list">
+        <div class="session-card missing">
+          <div class="session-title flag-missing">⛔ EMPTY SLOT — 8:30–10:00 am</div>
+          <div class="session-meta"><span>90 min opener — no session or speaker</span></div>
+          <span class="badge badge-missing">🔴 Needs Speaker(s)</span>
+          <span class="badge" style="background:#fee2e2;color:#7f1d1d;margin-top:2px">Can be 1 session of 90 min, 2 sessions of 45 min, or 3 sessions of 30 min</span>
+        </div>
+        <div class="session-card confirmed">
+          <div class="session-title">So You Want to Be an Appraiser? What the Job Really Is — and Why It Matters</div>
+          <div class="session-meta">
+            <span class="speaker">Cathy Putegnat</span>
+            <span>🕙 10:20–11:20 am <span class="duration-pill">60 min</span></span>
+          </div>
+          <span class="badge badge-confirmed">✓ Confirmed</span>
+        </div>
+        <div class="session-card unconfirmed">
+          <div class="session-title">Life After Certification: What the First Years Really Look Like</div>
+          <div class="session-meta">
+            <span class="speaker">Jeremy McGarrah</span>
+            <span>⚠ Time NOT assigned in Airtable</span>
+          </div>
+          <span class="badge badge-unconfirmed">⚠ Unresponsive in All Channels</span>
+          <span class="badge badge-missing" style="margin-top:2px">🔴 Find a New Speaker</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- AGENT PRICING LAB FRIDAY -->
+    <div class="track-section">
+      <div class="track-label">🏡 Agent Pricing Lab</div>
+      <div class="sessions-list">
+        <div class="session-card missing">
+          <div class="session-title flag-missing">⛔ EMPTY SLOT — 8:30–10:00 am</div>
+          <div class="session-meta"><span>90 min opener — no session or speaker</span></div>
+          <span class="badge badge-missing">🔴 Needs Speaker(s)</span>
+          <span class="badge" style="background:#fee2e2;color:#7f1d1d;margin-top:2px">Can be 1 session of 90 min, 2 sessions of 45 min, or 3 sessions of 30 min</span>
+        </div>
+        <div class="session-card confirmed">
+          <div class="session-title">Beyond Comps: Advanced Pricing Strategies for Competitive Markets</div>
+          <div class="session-meta">
+            <span class="speaker">Allison Rodriguez</span>
+            <span>🕒 3:20–4:20 pm <span class="duration-pill">60 min</span></span>
+          </div>
+          <span class="badge badge-confirmed">✓ Confirmed</span>
+        </div>
+        <div class="session-card missing">
+          <div class="session-title">Navigating FHA Condition Issues: Valuation and Documentation Best Practices</div>
+          <div class="session-meta">
+            <span class="speaker flag-missing">No Speaker Assigned</span>
+            <span>🕓 4:20–5:20 pm <span class="duration-pill">60 min</span></span>
+          </div>
+          <span class="badge badge-missing">🔴 Needs Speaker</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- TECH DEMOS FRIDAY -->
+    <div class="track-section">
+      <div class="track-label">💻 Tech Demos (A / B / C)</div>
+      <div class="sessions-list">
+        <div class="session-card missing">
+          <div class="session-title flag-missing">⛔ 3 EMPTY SLOTS — 8:30–10:00 am</div>
+          <div class="session-meta"><span>Tech Demos A, B, C — all 3 have no demo/sponsor assigned</span></div>
+          <span class="badge badge-missing">🔴 Needs Sponsors / Demos</span>
+        </div>
+        <div class="session-card confirmed">
+          <div class="session-title">Unleash OpenClaw Workshop / True Footage Demo / A la mode Demo</div>
+          <div class="session-meta">
+            <span class="speaker">Roy Meyer · Matthew Hyatt · Joel Baker</span>
+            <span>🕙 10:00 am–1:00 pm <span class="duration-pill">3 hr block</span></span>
+          </div>
+          <span class="badge badge-confirmed">✓ Assigned</span>
+        </div>
+        <div class="session-card missing">
+          <div class="session-title flag-missing">⛔ EMPTY SLOT — 1:00–2:00 pm (x2 Demo Rooms)</div>
+          <div class="session-meta"><span>Afternoon demo slots — no demos assigned</span></div>
+          <span class="badge badge-missing">🔴 Needs Demos</span>
+        </div>
+        <div class="session-card unconfirmed">
+          <div class="session-title">UAD 3.6 in Practice: A Chase Bank Perspective</div>
+          <div class="session-meta">
+            <span class="speaker">Chase Bank</span>
+            <span>🕒 3:10–4:10 pm <span class="duration-pill">60 min</span></span>
+          </div>
+          <span class="badge badge-unconfirmed">⚠ Not Confirmed</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- PODCAST FRIDAY -->
+    <div class="track-section">
+      <div class="track-label">🎙 Podcast / MaRo Power Hour</div>
+      <div class="sessions-list">
+        <div class="session-card confirmed">
+          <div class="session-title">Market Moves with Mark and Jeff</div>
+          <div class="session-meta">
+            <span class="speaker">Mark Verret</span>
+            <span>⚠ Time NOT assigned in Airtable</span>
+          </div>
+          <span class="badge badge-confirmed">✓ Confirmed + Approved — Needs Time</span>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- end friday -->
+
+
+  <!-- ===== SATURDAY ===== -->
+  <div class="day-col">
+    <div class="day-header" style="background: #2d1b69;">
+      Saturday
+      <div class="date">September 19, 2026 · Day 2</div>
+    </div>
+
+    <!-- MAIN STAGE SATURDAY -->
+    <div class="track-section">
+      <div class="track-label">🎤 Main Stage</div>
+      <div class="sessions-list">
+        <div class="session-card confirmed">
+          <div class="session-title">Valuation on Trial: Emerging Case Law and Legal Defense Strategies</div>
+          <div class="session-meta">
+            <span class="speaker">Craig Capilla</span>
+            <span>🕙 10:00–11:00 am <span class="duration-pill">60 min</span></span>
+          </div>
+          <span class="badge badge-confirmed">✓ Confirmed</span>
+        </div>
+        <div class="session-card confirmed">
+          <div class="session-title">The Evolving Role of State Appraiser Coalitions</div>
+          <div class="session-meta">
+            <span class="speaker">Malinda Griffin</span>
+            <span>🕙 11:00 am–12:00 pm <span class="duration-pill">60 min</span></span>
+          </div>
+          <span class="badge badge-confirmed">✓ Confirmed</span>
+        </div>
+        <div class="session-card confirmed">
+          <div class="session-title">How the Next Generation of Appraisers Is Actually Emerging</div>
+          <div class="session-meta">
+            <span class="speaker">Victor &amp; Joshua Cornejo</span>
+            <span>⚠ Time NOT assigned in Airtable</span>
+          </div>
+          <span class="badge badge-confirmed">✓ Confirmed — Needs Time Slot</span>
+        </div>
+        <div class="session-card tbd">
+          <div class="session-title">Session — Exclusive Inventory Update</div>
+          <div class="session-meta">
+            <span class="speaker">Mike DelPrete</span>
+            <span>🕙 11:00–12:00 (OVERLAP with Malinda Griffin above)</span>
+          </div>
+          <span class="badge badge-tbd">⚠ Schedule Conflict — Same Slot as Malinda</span>
+        </div>
+        <div class="session-card tbd">
+          <div class="session-title flag-tbd">Session — TBD</div>
+          <div class="session-meta">
+            <span class="speaker flag-missing">No Speaker Assigned</span>
+            <span>🕓 4:00–5:00 pm <span class="duration-pill">60 min</span></span>
+          </div>
+          <span class="badge badge-missing">🔴 Closing Slot — Needs Speaker</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- APPRAISING IN 2027 SATURDAY -->
+    <div class="track-section">
+      <div class="track-label">📐 Appraising in 2027</div>
+      <div class="sessions-list">
+        <div class="session-card missing">
+          <div class="session-title flag-missing">⛔ EMPTY SLOT — 8:40–9:10 am</div>
+          <div class="session-meta"><span>30 min opener — no session</span></div>
+          <span class="badge badge-missing">🔴 Needs Session</span>
+        </div>
+        <div class="session-card confirmed">
+          <div class="session-title">Highlights from the FIVA Network</div>
+          <div class="session-meta">
+            <span class="speaker">Brenda Hicks RealWired</span>
+            <span>🕙 10:10–11:10 am <span class="duration-pill">60 min</span></span>
+          </div>
+          <span class="badge badge-confirmed">✓ Confirmed</span>
+        </div>
+        <div class="session-card confirmed">
+          <div class="session-title">Effectively Hiring Your First Operations Manager</div>
+          <div class="session-meta">
+            <span class="speaker">Sierra Alden</span>
+            <span>🕙 10:10–11:10 am <span class="duration-pill">60 min</span></span>
+          </div>
+          <span class="badge badge-confirmed">✓ Confirmed</span>
+        </div>
+        <div class="session-card unconfirmed">
+          <div class="session-title">Integrating Report Writing Support into Your Practice</div>
+          <div class="session-meta">
+            <span class="speaker">Dave Clemons</span>
+            <span>🕙 11:10 am–12:10 pm <span class="duration-pill">60 min</span></span>
+          </div>
+          <span class="badge badge-unconfirmed">⚠ Not Confirmed</span>
+        </div>
+        <div class="session-card unconfirmed">
+          <div class="session-title">Session — Banks Valuation</div>
+          <div class="session-meta">
+            <span class="speaker">Nicholas "Nick" Conteduca</span>
+            <span>🕐 1:10–2:10 pm <span class="duration-pill">60 min</span></span>
+          </div>
+          <span class="badge badge-unconfirmed">⚠ Not Confirmed</span>
+        </div>
+        <div class="session-card confirmed">
+          <div class="session-title">Best Practices for As-Is and As-Repaired Valuations of REO Assets</div>
+          <div class="session-meta">
+            <span class="speaker">Mike Scarpa</span>
+            <span>🕑 2:10–3:10 pm <span class="duration-pill">30 min</span></span>
+          </div>
+          <span class="badge badge-unconfirmed">⚠ Confirmed but Session Not Approved</span>
+        </div>
+        <div class="session-card tbd">
+          <div class="session-title flag-tbd">Session — TBD</div>
+          <div class="session-meta">
+            <span class="speaker flag-missing">No Speaker Assigned</span>
+            <span>🕓 4:10–5:10 pm <span class="duration-pill">60 min</span></span>
+          </div>
+          <span class="badge badge-missing">🔴 Closing Slot — Needs Speaker</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- AI-READY SATURDAY -->
+    <div class="track-section">
+      <div class="track-label">🤖 AI-Ready Appraiser</div>
+      <div class="sessions-list">
+        <div class="session-card missing">
+          <div class="session-title flag-missing">⛔ EMPTY SLOT — 8:50–9:20 am</div>
+          <div class="session-meta"><span>30 min opener — no session</span></div>
+          <span class="badge badge-missing">🔴 Needs Session</span>
+        </div>
+        <div class="session-card tbd">
+          <div class="session-title">Session — TBD</div>
+          <div class="session-meta">
+            <span class="speaker flag-tbd">No Speaker</span>
+            <span>🕙 10:20–11:20 am <span class="duration-pill">60 min</span></span>
+          </div>
+          <span class="badge badge-missing">🔴 Prime Slot — Needs Speaker</span>
+        </div>
+        <div class="session-card confirmed">
+          <div class="session-title">The Responsible Role of AI in Today's Appraisal Practice</div>
+          <div class="session-meta">
+            <span class="speaker">Michelle Czekalski Bradley</span>
+            <span>⚠ Time NOT assigned <span class="duration-pill">30 min</span></span>
+          </div>
+          <span class="badge badge-confirmed">✓ Confirmed</span>
+          <span class="badge badge-unconfirmed" style="margin-top:2px">⚠ Needs Time Slot</span>
+        </div>
+        <div class="session-card missing">
+          <div class="session-title flag-missing">⛔ EMPTY SLOT — 2:20–3:20 pm</div>
+          <div class="session-meta"><span>Afternoon slot — slot exists, no session</span></div>
+          <span class="badge badge-missing">🔴 Needs Speaker</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- NEW REVENUE SATURDAY -->
+    <div class="track-section">
+      <div class="track-label">💰 New Revenue Playbook</div>
+      <div class="sessions-list">
+        <div class="session-card confirmed">
+          <div class="session-title">Valuing Luxury Property: A Practical Introduction for Appraisers</div>
+          <div class="session-meta">
+            <span class="speaker">MJ Carroll, MNAA</span>
+            <span>🕙 10:20–11:20 am <span class="duration-pill">60 min</span></span>
+          </div>
+          <span class="badge badge-confirmed">✓ Confirmed</span>
+        </div>
+        <div class="session-card confirmed">
+          <div class="session-title">Intro to Relocation Appraisal Work</div>
+          <div class="session-meta">
+            <span class="speaker">Lisa M. Meinczinger-Gulden</span>
+            <span>🕙 11:20 am–12:20 pm <span class="duration-pill">60 min</span></span>
+          </div>
+          <span class="badge badge-confirmed">✓ Confirmed</span>
+        </div>
+        <div class="session-card confirmed">
+          <div class="session-title">Adding Pre-Listing &amp; Pre-Purchase Appraisals: A Smarter Way to Grow Revenue</div>
+          <div class="session-meta">
+            <span class="speaker">Allison Rodriguez</span>
+            <span>🕐 1:20–2:20 pm <span class="duration-pill">60 min</span></span>
+          </div>
+          <span class="badge badge-confirmed">✓ Confirmed</span>
+        </div>
+        <div class="session-card tbd">
+          <div class="session-title">Appraising and Home Inspecting</div>
+          <div class="session-meta">
+            <span class="speaker flag-tbd">TBD — No Speaker</span>
+            <span>🕑 2:20–3:20 pm <span class="duration-pill">60 min</span></span>
+          </div>
+          <span class="badge badge-missing">🔴 Needs Speaker</span>
+        </div>
+        <div class="session-card tbd">
+          <div class="session-title">Navigating Divorce Valuations: From First Steps to Best Practices</div>
+          <div class="session-meta">
+            <span class="speaker flag-tbd">TBD — No Speaker</span>
+            <span>🕒 3:20–4:20 pm <span class="duration-pill">60 min</span></span>
+          </div>
+          <span class="badge badge-missing">🔴 Needs Speaker</span>
+        </div>
+        <div class="session-card confirmed">
+          <div class="session-title">Marketing 101: Clear Branding for Appraisers</div>
+          <div class="session-meta">
+            <span class="speaker">Brad Alexander</span>
+            <span>🕒 3:30–4:30 pm <span class="duration-pill">60 min</span></span>
+          </div>
+          <span class="badge badge-confirmed">✓ Confirmed</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- CAREER LAUNCHPAD SATURDAY -->
+    <div class="track-section">
+      <div class="track-label">🚀 Career Launchpad</div>
+      <div class="sessions-list">
+        <div class="session-card confirmed">
+          <div class="session-title">Professional Life of an Appraiser: From Assignment to Delivery</div>
+          <div class="session-meta">
+            <span class="speaker">Jason Covington</span>
+            <span>🕙 10:20–11:20 am <span class="duration-pill">60 min</span></span>
+          </div>
+          <span class="badge badge-confirmed">✓ Confirmed</span>
+        </div>
+        <div class="session-card confirmed">
+          <div class="session-title">What the Best Appraisers Have in Common: Ethics, Judgment, and Professional Trust</div>
+          <div class="session-meta">
+            <span class="speaker">Craig Capilla</span>
+            <span>🕐 1:20–2:20 pm <span class="duration-pill">60 min</span></span>
+          </div>
+          <span class="badge badge-confirmed">✓ Confirmed</span>
+        </div>
+        <div class="session-card unconfirmed">
+          <div class="session-title">If I Were Starting Today: Real-World Guidance for New Appraisers</div>
+          <div class="session-meta">
+            <span class="speaker">Ron Box</span>
+            <span>🕓 4:20–5:20 pm <span class="duration-pill">60 min</span></span>
+          </div>
+          <span class="badge badge-unconfirmed">⚠ Not Confirmed</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- AGENT PRICING LAB SATURDAY -->
+    <div class="track-section">
+      <div class="track-label">🏡 Agent Pricing Lab</div>
+      <div class="sessions-list">
+        <div class="session-card missing">
+          <div class="session-title flag-missing">⛔ EMPTY SLOT — 9:20–10:20 am</div>
+          <div class="session-meta"><span>Morning slot — no session or speaker</span></div>
+          <span class="badge badge-missing">🔴 Needs Speaker</span>
+        </div>
+        <div class="session-card confirmed">
+          <div class="session-title">Ask the Appraiser: A Live Agent–Appraiser Panel Experience</div>
+          <div class="session-meta">
+            <span class="speaker">John Copulos</span>
+            <span>🕐 1:20–3:20 pm <span class="duration-pill">2 hrs</span></span>
+          </div>
+          <span class="badge badge-confirmed">✓ Confirmed</span>
+        </div>
+        <div class="session-card confirmed">
+          <div class="session-title">After the "Low" Appraisal: Practical Strategies for Agents and Clients</div>
+          <div class="session-meta">
+            <span class="speaker">Chris Hunt</span>
+            <span>🕒 3:20–4:20 pm <span class="duration-pill">60 min</span></span>
+          </div>
+          <span class="badge badge-confirmed">✓ Confirmed</span>
+        </div>
+        <div class="session-card confirmed">
+          <div class="session-title">Better Together: The Agent–Appraiser Relationship Playbook</div>
+          <div class="session-meta">
+            <span class="speaker">Stephanie Streep Tulley</span>
+            <span>🕓 4:20–5:20 pm <span class="duration-pill">60 min</span></span>
+          </div>
+          <span class="badge badge-confirmed">✓ Confirmed</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- TECH DEMOS SATURDAY -->
+    <div class="track-section">
+      <div class="track-label">💻 Tech Demos (A / B / C)</div>
+      <div class="sessions-list">
+        <div class="session-card confirmed">
+          <div class="session-title">DataMaster Demo: Faster Data Entry, Fewer Errors, Better Workflow</div>
+          <div class="session-meta">
+            <span class="speaker">Jared Preisler, SRA</span>
+            <span>🕙 10:00 am–1:00 pm <span class="duration-pill">3 hr block</span></span>
+          </div>
+          <span class="badge badge-confirmed">✓ Confirmed</span>
+        </div>
+        <div class="session-card missing">
+          <div class="session-title flag-missing">⛔ Multiple EMPTY DEMO SLOTS — Saturday afternoon</div>
+          <div class="session-meta"><span>Tech Demo Rooms B &amp; C have no sessions assigned for afternoon</span></div>
+          <span class="badge badge-missing">🔴 Needs Tech Sponsors / Demos</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- SPECIAL TRACKS SATURDAY -->
+    <div class="track-section">
+      <div class="track-label">🎙 Special Tracks (Podcast / Power Hours)</div>
+      <div class="sessions-list">
+        <div class="session-card confirmed">
+          <div class="session-title">Appraisers on Purpose</div>
+          <div class="session-meta">
+            <span class="speaker">Michael Hobbs</span>
+            <span>🕐 1:00–4:00 pm <span class="duration-pill">3 hr block</span></span>
+          </div>
+          <span class="badge badge-confirmed">✓ Confirmed</span>
+        </div>
+        <div class="session-card confirmed">
+          <div class="session-title">Walitt Power Hour</div>
+          <div class="session-meta">
+            <span class="speaker">Josh Walitt</span>
+            <span>Saturday morning slot · Partner event</span>
+          </div>
+          <span class="badge badge-confirmed">✓ Confirmed</span>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- end saturday -->
+</div><!-- end days container -->
+
+<div style="text-align:center;padding:20px;color:#94a3b8;font-size:12px;">
+  Generated from Airtable (appMCBgDPKxLrfYLV · tbl8SBWnhdlQrgfTB) + Webflow Schedule + Miro V3 Board · ValuSignal 2026
+</div>
+
+</body>
+</html>

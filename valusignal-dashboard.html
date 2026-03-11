@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ValuSignal 2026 – Agenda Dashboard</title>
+<style>
+:root {
+  --bg: #f1f5f9; --surface: #ffffff; --surface2: #e2e8f0;
+  --text: #0f172a; --muted: #475569; --dim: #94a3b8;
+  --accent: #4f46e5;
+  --green-bg:#f0fdf4; --green-border:#86efac; --green-text:#166534;
+  --orange-bg:#fff7ed; --orange-border:#fed7aa; --orange-text:#9a3412;
+  --red-bg:#fef2f2; --red-border:#fca5a5; --red-text:#991b1b;
+  --purple-bg:#faf5ff; --purple-border:#d8b4fe; --purple-text:#6b21a8;
+  --slate-bg:#f8fafc; --slate-border:#cbd5e1; --slate-text:#64748b;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--bg);color:var(--text);min-height:100vh}
+
+/* HEADER */
+.header{background:linear-gradient(135deg,#4f46e5 0%,#3730a3 100%);border-bottom:1px solid #3730a3;padding:20px 24px;position:sticky;top:0;z-index:100}
+.header-top{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+.header h1{font-size:20px;font-weight:800;color:#fff;line-height:1.2}
+.header h1 .accent{color:#c7d2fe}
+.header-sub{color:#c7d2fe;font-size:12px;margin-top:3px}
+.last-updated{font-size:11px;color:#a5b4fc;text-align:right;white-space:nowrap}
+.day-tabs{display:flex;gap:8px;margin-bottom:12px}
+.day-tab{padding:7px 18px;border-radius:8px;font-weight:700;font-size:13px;cursor:pointer;border:2px solid rgba(255,255,255,.3);background:rgba(255,255,255,.1);color:rgba(255,255,255,.7);transition:all .2s}
+.day-tab:hover{border-color:rgba(255,255,255,.6);color:#fff}
+.day-tab.active{background:#fff;border-color:#fff;color:#4f46e5}
+.stats-bar{display:flex;gap:8px;flex-wrap:wrap}
+.stat-chip{display:flex;align-items:center;gap:5px;padding:4px 11px;border-radius:20px;font-size:11px;font-weight:700}
+.stat-chip .dot{width:7px;height:7px;border-radius:50%}
+.s-confirmed{background:#dcfce7;color:#15803d}.s-confirmed .dot{background:#16a34a}
+.s-unconfirmed{background:#fff7ed;color:#c2410c}.s-unconfirmed .dot{background:#ea580c}
+.s-empty{background:#fef2f2;color:#b91c1c}.s-empty .dot{background:#dc2626}
+.s-comp{background:#e0e7ff;color:#3730a3}.s-comp .dot{background:#6366f1}
+.s-issue{background:#faf5ff;color:#6d28d9}.s-issue .dot{background:#7c3aed}
+
+/* FILTER */
+.filter-bar{padding:10px 24px;background:#fff;border-bottom:1px solid #e2e8f0;display:flex;gap:6px;flex-wrap:wrap;align-items:center;box-shadow:0 1px 3px rgba(0,0,0,.06)}
+.fl{font-size:11px;color:#94a3b8;font-weight:700;margin-right:4px;text-transform:uppercase;letter-spacing:.5px}
+.filter-btn{padding:4px 12px;border-radius:6px;font-size:12px;font-weight:600;cursor:pointer;border:1.5px solid #e2e8f0;background:#f8fafc;color:#64748b;transition:all .15s}
+.filter-btn:hover{border-color:#4f46e5;color:#4f46e5;background:#eef2ff}
+.filter-btn.active{background:#4f46e5;border-color:#4f46e5;color:#fff}
+
+/* CONTENT */
+.content{padding:14px 24px}
+
+/* COMP BANNER */
+.comp-banner{background:linear-gradient(90deg,#eef2ff,#e0e7ff);border:1px solid #c7d2fe;border-left:4px solid #6366f1;border-radius:10px;padding:10px 16px;margin-bottom:14px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.comp-banner-lbl{font-size:10px;font-weight:800;color:#4f46e5;text-transform:uppercase;letter-spacing:.8px;white-space:nowrap}
+.comp-pill{display:inline-flex;align-items:center;gap:5px;background:#fff;border:1px solid #c7d2fe;border-radius:6px;padding:3px 9px;font-size:11px;color:#4338ca}
+.comp-pill .ct{color:#818cf8;font-size:10px}
+
+/* TRACK */
+.track-section{margin-bottom:16px;background:#fff;border-radius:12px;overflow:hidden;border:1px solid #e2e8f0;box-shadow:0 1px 4px rgba(0,0,0,.06)}
+.track-header{padding:11px 14px;background:#f8fafc;display:flex;justify-content:space-between;align-items:center;cursor:pointer;user-select:none;border-bottom:1px solid #e2e8f0;gap:8px}
+.track-header:hover{background:#eef2ff}
+.track-name{font-size:13px;font-weight:800;color:#1e293b;display:flex;align-items:center;gap:7px}
+.track-icon{font-size:14px}
+.track-meta{display:flex;align-items:center;gap:6px}
+.mb{padding:2px 7px;border-radius:4px;font-size:10px;font-weight:800}
+.mb-confirmed{background:#dcfce7;color:#166534}
+.mb-unconfirmed{background:#ffedd5;color:#9a3412}
+.mb-empty{background:#fee2e2;color:#991b1b}
+.mb-issue{background:#f3e8ff;color:#6b21a8}
+.chevron{color:#94a3b8;font-size:12px;transition:transform .2s;flex-shrink:0}
+.track-section.closed .chevron{transform:rotate(-90deg)}
+.track-body{padding:12px;display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:10px}
+.track-section.closed .track-body{display:none}
+
+/* CARDS */
+.card{border-radius:10px;padding:12px 14px;border:1.5px solid;transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column;gap:5px}
+.card:hover{transform:translateY(-2px);box-shadow:0 4px 16px rgba(0,0,0,.1)}
+.card.confirmed{background:#f0fdf4;border-color:#86efac}
+.card.partial{background:#fff7ed;border-color:#fed7aa}
+.card.unconfirmed{background:#fff7ed;border-color:#fed7aa}
+.card.empty{background:#fef2f2;border-color:#fca5a5}
+.card.issue{background:#fffbeb;border-color:#fde68a}
+.card.comp{background:#f8fafc;border-color:#e2e8f0}
+.card-time{font-size:10px;color:#94a3b8;font-weight:700;font-family:monospace;letter-spacing:.3px}
+.card-title{font-size:13px;font-weight:700;color:#0f172a;line-height:1.4}
+.card.empty .card-title{color:#dc2626;font-style:italic}
+.card.comp .card-title{color:#94a3b8}
+.card-speaker{font-size:11px;color:#64748b}
+.card-badges{display:flex;flex-wrap:wrap;gap:3px;margin-top:3px}
+.badge{font-size:9px;font-weight:800;padding:2px 6px;border-radius:3px;text-transform:uppercase;letter-spacing:.3px}
+.badge-confirmed{background:#dcfce7;color:#166534;border:1px solid #86efac}
+.badge-partial{background:#ffedd5;color:#9a3412;border:1px solid #f97316}
+.badge-unconfirmed{background:#ffedd5;color:#9a3412;border:1px solid #fed7aa}
+.badge-empty{background:#fee2e2;color:#991b1b;border:1px solid #fca5a5}
+.badge-issue{background:#fef3c7;color:#92400e;border:1px solid #fde68a}
+.badge-comp{background:#e0e7ff;color:#3730a3;border:1px solid #c7d2fe}
+.badge-dur{background:#f1f5f9;color:#64748b;border:1px solid #e2e8f0}
+.flags{display:flex;flex-wrap:wrap;gap:3px;margin-top:4px}
+.flag{font-size:9px;font-weight:700;padding:2px 6px;border-radius:3px;display:inline-block}
+.flag-warn{background:#fef3c7;color:#92400e;border:1px solid #fcd34d}
+.flag-danger{background:#fee2e2;color:#991b1b;border:1px solid #fca5a5}
+.flag-purple{background:#f3e8ff;color:#6b21a8;border:1px solid #d8b4fe}
+.card-note{font-size:10px;color:#94a3b8;font-style:italic;margin-top:3px}
+.conflict-row{grid-column:1/-1;background:#fef2f2;border:2px solid #f87171;border-radius:8px;padding:9px 12px}
+.conflict-row strong{color:#dc2626;font-size:12px;display:block;margin-bottom:3px}
+.conflict-row p{font-size:11px;color:#7f1d1d}
+.track-note{grid-column:1/-1;font-size:11px;color:#94a3b8;font-style:italic;padding:0 2px 6px}
+
+/* LEGEND */
+.legend{display:flex;gap:14px;flex-wrap:wrap;padding:10px 24px;background:#fff;border-top:1px solid #e2e8f0;font-size:11px;color:#64748b}
+.li{display:flex;align-items:center;gap:5px}
+.ld{width:10px;height:10px;border-radius:2px}
+
+::-webkit-scrollbar{width:5px;height:5px}
+::-webkit-scrollbar-track{background:#f1f5f9}
+::-webkit-scrollbar-thumb{background:#cbd5e1;border-radius:3px}
+@media(max-width:600px){.header,.content,.filter-bar{padding-left:14px;padding-right:14px}}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-top">
+    <div>
+      <h1>ValuSignal <span class="accent">2026</span> — Agenda Dashboard</h1>
+      <div class="header-sub">Sep 18 (Fri) + Sep 19 (Sat) · Zoom Events · Sources: Airtable + Miro V3 + Webflow</div>
+    </div>
+    <div class="last-updated">Last sync: Mar 11, 2026<br>All sessions cross-referenced</div>
+  </div>
+  <div class="day-tabs">
+    <button class="day-tab active" onclick="setDay('friday')">📅 Friday, Sep 18</button>
+    <button class="day-tab" onclick="setDay('saturday')">📅 Saturday, Sep 19</button>
+  </div>
+  <div class="stats-bar" id="statsBar"></div>
+</div>
+
+<div class="filter-bar">
+  <span class="fl">Show:</span>
+  <button class="filter-btn active" onclick="setFilter('all')">All Sessions</button>
+  <button class="filter-btn" onclick="setFilter('confirmed')">✅ Confirmed</button>
+  <button class="filter-btn" onclick="setFilter('unconfirmed')">⏳ Unconfirmed</button>
+  <button class="filter-btn" onclick="setFilter('empty')">🔴 Available Slots</button>
+  <button class="filter-btn" onclick="setFilter('issue')">⚠️ Needs Action</button>
+  <button class="filter-btn" onclick="setFilter('comp')">☕ Complementary</button>
+</div>
+
+<div class="content" id="content"></div>
+
+<div class="legend">
+  <div class="li"><div class="ld" style="background:#166534"></div>Confirmed</div>
+  <div class="li"><div class="ld" style="background:#7c2d12"></div>Unconfirmed</div>
+  <div class="li"><div class="ld" style="background:#7f1d1d"></div>Available / Needs Speaker</div>
+  <div class="li"><div class="ld" style="background:#5b21b6"></div>Needs Action / Issue</div>
+  <div class="li"><div class="ld" style="background:#334155"></div>Complementary</div>
+</div>
+
+<script>
+const DATA = {
+  friday: {
+    comp: [
+      {time:"8:30–9:00 AM",  label:"Arrival + Expo / Lounge"},
+      {time:"12:00–1:00 PM", label:"LUNCH · Expo + Walitt Power Hour encouraged"},
+    ],
+    tracks: [
+      { name:"Main Stage", icon:"🎤",
+        sessions:[
+          {time:"8:30–9:00 AM",  ts:"0829", title:"Arrival + Expo / Lounge", speaker:"", dur:"30 min", status:"comp"},
+          {time:"8:30–9:00 AM",  ts:"0830", title:"Welcome", speaker:"Hansel Dobbs", dur:"30 min", status:"confirmed"},
+          {time:"9:00–10:00 AM", ts:"0900", title:"Keynote — TBD", speaker:"TBD", dur:"60 min", status:"empty"},
+          {time:"10:00–11:00 AM", ts:"1000", title:"Redefining Risk: How Collateral and Policy Are Evolving Together", speaker:"Lyle Radke (Fannie Mae) · Scott Reuter (Freddie Mac)", dur:"60 min", status:"unconfirmed", flags:[{t:"warn",l:"NEEDS WEBSITE"}]},
+          {time:"11:00 AM–12:00 PM", ts:"1100", title:"Available Slot — 1 session needed", speaker:"", dur:"60 min", status:"empty", note:"Options: 1 session of 60 min · or 2 sessions of 30 min"},
+          {time:"12:00–1:00 PM", ts:"1200", title:"LUNCH · Expo + Walitt Power Hour encouraged", speaker:"", dur:"60 min", status:"comp"},
+          {time:"1:00–2:00 PM", ts:"1300", title:"Housing Right Now: What the Data Says — and What Appraisers Are Seeing on the Ground", speaker:"✅ Michael Hobbs (Moderator) · ⏳ Lynn Krebbs (Texas A&M) · ⏳ Ryan Lundquist (Sacramento Appraisal Blog)", dur:"60 min", status:"partial", flags:[{t:"warn",l:"LYNN KREBBS + RYAN LUNDQUIST PENDING CONFIRMATION"}]},
+          {time:"2:00–3:00 PM", ts:"1400", title:"The 2026 Housing Market So Far: Volume, Home Price and Supply Trends, and Appraisal Waivers Usage", speaker:"Tobias Peter", dur:"60 min", status:"unconfirmed", flags:[{t:"warn",l:"Tobias chose this time and day. Unresponsive on onboarding process"}]},
+          {time:"3:00–3:30 PM", ts:"1500", title:"Break · Expo Floor", speaker:"", dur:"30 min", status:"comp"},
+          {time:"3:30–4:00 PM", ts:"1530", title:"The Appraisal Foundation's View: Standards, Change, and the Road Ahead", speaker:"Kelly Davids, CEO · The Appraisal Foundation", dur:"30 min", status:"confirmed"},
+          {time:"4:00–5:00 PM", ts:"1600", title:"Available Slot — 1 session needed", speaker:"", dur:"60 min", status:"empty", note:"Options: 1 session of 60 min · or 2 sessions of 30 min"},
+          {time:"5:00–5:30 PM", ts:"1700", title:"Release Valve — strategic buffer", speaker:"", dur:"30 min", status:"comp"},
+        ]
+      },
+      { name:"Appraising in 2027", icon:"📊",
+        sessions:[
+          {time:"8:30–10:00 AM",  ts:"0829", title:"Arrival + Expo / Lounge", speaker:"", dur:"90 min", status:"comp"},
+          {time:"10:10–11:10 AM", ts:"1010", title:"UAD 3.6 Readiness: What's Changing and How to Avoid Costly Mistakes", speaker:"Josh Walitt · Walitt Solutions", dur:"60 min", status:"confirmed"},
+          {time:"11:10 AM–12:10 PM", ts:"1110", title:"QC & Review in the UAD 3.6 Era: What Will Get Flagged and Why", speaker:"✅ Susan Alley (Founder, Appraisal Aid) · ❌ Elizabeth Green (Senior Appraisal Reviewer — declined)", dur:"60 min", status:"partial", flags:[{t:"warn",l:"DECIDE: Give full slot to Susan Alley or add a second speaker"}]},
+          {time:"12:10–1:10 PM", ts:"1210", title:"LUNCH · Expo + Walitt Power Hour encouraged", speaker:"", dur:"60 min", status:"comp"},
+          {time:"1:10–2:10 PM",  ts:"1310", title:"Navigating UAD 3.6: Appraisers Compare Notes", speaker:"Hand Selected Field Appraiser Panel", dur:"60 min", status:"unconfirmed"},
+          {time:"2:10–2:40 PM",  ts:"1410", title:"The Appraiser's Guide to Firm Accounting", speaker:"TBD", dur:"30 min", status:"empty"},
+          {time:"2:40–3:10 PM",  ts:"1440", title:"Break · Expo Floor", speaker:"", dur:"30 min", status:"comp"},
+          {time:"3:10–3:40 PM",  ts:"1510", title:"UAD 3.6 in Practice: A Chase Bank Perspective", speaker:"Chase Bank", dur:"30 min", status:"unconfirmed"},
+          {time:"3:40–4:10 PM",  ts:"1540", title:"Break · Expo Floor", speaker:"", dur:"30 min", status:"comp"},
+          {time:"4:10–5:10 PM",  ts:"1610", title:"What Fannie Mae Looks For: Elevating Appraisal Analysis Through Insider Experience", speaker:"Patrick Livingston · Michele Golden · Gynell Vestal", dur:"60 min", status:"issue", flags:[{t:"warn",l:"NEEDS BLESSING FROM FANNIE MAE"}]},
+          {time:"5:10–5:30 PM",  ts:"1710", title:"Release Valve — strategic buffer", speaker:"", dur:"20 min", status:"comp"},
+        ]
+      },
+      { name:"AI-Ready Appraiser", icon:"🤖",
+        sessions:[
+          {time:"8:30–10:20 AM",  ts:"0829", title:"Arrival + Expo / Lounge", speaker:"", dur:"110 min", status:"comp"},
+          {time:"10:20–11:20 AM", ts:"1020", title:"AI Keynote", speaker:"Marius Andreasen", dur:"60 min", status:"unconfirmed"},
+          {time:"11:20–11:50 AM", ts:"1120", title:"A Practical Guide to Deploying AI", speaker:"Jeff Morley · Accurity Consolidated", dur:"30 min", status:"unconfirmed", flags:[{t:"warn",l:"SPEAKER NEEDS ONBOARDING"}]},
+          {time:"11:50 AM–12:20 PM", ts:"1120b", title:"Break · Expo Floor", speaker:"", dur:"30 min", status:"comp"},
+          {time:"12:20–1:20 PM", ts:"1220", title:"LUNCH · Expo + Walitt Power Hour encouraged", speaker:"", dur:"60 min", status:"comp"},
+          {time:"1:20–2:20 PM",  ts:"1320", title:"AI for Appraisers: A Practical Starter Kit That Actually Works", speaker:"Roy Meyer · Founder & Educator, AI for Appraisers", dur:"60 min", status:"confirmed"},
+          {time:"2:20–2:50 PM",  ts:"1420", title:"When Data Is Everywhere: Why Appraisers Matter More in an AI World", speaker:"Taylor Curd · Gavin Curd", dur:"30 min", status:"confirmed", flags:[{t:"warn",l:"WAITING ON PICTURES"}]},
+          {time:"2:50–3:20 PM",  ts:"1420b", title:"Break · Expo Floor", speaker:"", dur:"30 min", status:"comp"},
+          {time:"3:20–4:20 PM",  ts:"1520", title:"AI Without the Hype: How I'm Actually Using It in My Appraisal Practice", speaker:"David Ziccardi · Appraiser, Valiant Appraisals", dur:"60 min", status:"confirmed"},
+          {time:"4:20–5:20 PM",  ts:"1620", title:"Creating Your First Application Without Knowing Any Code", speaker:"Jim Amorin · The Generative Shift", dur:"60 min", status:"unconfirmed"},
+          {time:"5:20–5:30 PM",  ts:"1720", title:"Release Valve — strategic buffer", speaker:"", dur:"10 min", status:"comp"},
+        ]
+      },
+      { name:"New Revenue Playbook", icon:"💰",
+        sessions:[
+          {time:"8:30–10:00 AM",  ts:"0829", title:"Arrival + Expo / Lounge", speaker:"", dur:"90 min", status:"comp"},
+          {time:"10:20–11:20 AM", ts:"1020", title:"Personal Property Valuation: A New Revenue Path for Appraisers", speaker:"Patrick Livingston · Personal Property Valuation Specialist, Texas Residential Valuation Society (TRVS)", dur:"60 min", status:"confirmed"},
+          {time:"11:20–11:50 AM", ts:"1120", title:"Going from 100% Lender Work to 70% Private Work", speaker:"Carol Henryson · Zen Appraisals", dur:"30 min", status:"confirmed"},
+          {time:"11:20–11:50 AM", ts:"1120b", title:"The World of Desktop and Hybrid Appraising", speaker:"Ron Maloney", dur:"30 min", status:"unconfirmed"},
+          {time:"12:20–1:20 PM", ts:"1220", title:"LUNCH · Expo + Walitt Power Hour encouraged", speaker:"", dur:"60 min", status:"comp"},
+          {time:"1:20–2:20 PM",  ts:"1320", title:"Preparing for the Stand: Courtroom Testimony Fundamentals for Appraisers", speaker:"Hon. Timothy S. Driscoll · Judge and NACVA Faculty Member", dur:"60 min", status:"unconfirmed"},
+          {time:"2:20–2:50 PM",  ts:"1420b", title:"Break · Expo Floor", speaker:"", dur:"30 min", status:"comp"},
+          {time:"2:50–3:20 PM",  ts:"1420", title:"Opportunities in Rural Appraising", speaker:"ASFMRA", dur:"30 min", status:"unconfirmed"},
+          {time:"3:20–3:50 PM",  ts:"1520", title:"Getting Started in Commercial Valuation: A Practical Entry Point", speaker:"Paul Ryll · Founder & Managing Partner, Oscar Mike Group", dur:"30 min", status:"confirmed"},
+          {time:"3:50–4:20 PM",  ts:"1550", title:"Available Slot — 1 session needed", speaker:"", dur:"30 min", status:"empty"},
+          {time:"4:20–5:20 PM",  ts:"1620", title:"From Appraiser to Investor: Real Estate Investing for Beginners", speaker:"Lillya Patton · Founder & Lead Investor, Vaulted Properties", dur:"60 min", status:"unconfirmed", flags:[{t:"danger",l:"UNRESPONSIVE ON LINKEDIN"}]},
+          {time:"5:20–5:30 PM",  ts:"1720", title:"Release Valve — strategic buffer", speaker:"", dur:"10 min", status:"comp"},
+        ]
+      },
+      { name:"Career Launchpad", icon:"🚀",
+        sessions:[
+          {time:"8:30–10:00 AM",  ts:"0829", title:"Arrival + Expo / Lounge", speaker:"", dur:"90 min", status:"comp"},
+          {time:"10:20–11:20 AM", ts:"1020", title:"So You Want to Be an Appraiser? What the Job Really Is — and Why It Matters", speaker:"Cathy Putegnat", dur:"60 min", status:"confirmed"},
+          {time:"11:20–11:50 AM", ts:"1120", title:"The Next Generation of Valuation", speaker:"", dur:"30 min", status:"unconfirmed"},
+          {time:"11:20–11:50 AM", ts:"1120b", title:"Inside AOS: A Fannie Mae Update on Expanding the Appraisal Profession", speaker:"Sergio Johnson · Fannie Mae", dur:"30 min", status:"unconfirmed"},
+          {time:"12:20–1:20 PM", ts:"1220", title:"LUNCH · Expo + Walitt Power Hour encouraged", speaker:"", dur:"60 min", status:"comp"},
+          {time:"1:20–2:20 PM",  ts:"1320", title:"Introduction to Commercial Appraising: A Career Overview", speaker:"Julian Rondell, MAI · Commercial Real Estate Appraiser, Cushman Wakefield", dur:"60 min", status:"unconfirmed"},
+          {time:"2:20–2:50 PM",  ts:"1420", title:"PAREA Explained: A Practical Update from the Appraisal Institute", speaker:"Appraisal Institute Representative", dur:"30 min", status:"unconfirmed"},
+          {time:"2:50–3:20 PM",  ts:"1420b", title:"Break · Expo Floor", speaker:"", dur:"30 min", status:"comp"},
+          {time:"3:20–4:20 PM",  ts:"1520", title:"The Personal Property Valuation Industry", speaker:"Jacob Fish, ASA", dur:"60 min", status:"unconfirmed"},
+          {time:"4:20–5:20 PM",  ts:"1620", title:"Life After Certification: What the First Years Really Look Like", speaker:"✅ Gynell Vestal (Moderator) · ⏳ Marcella Jimenez · ⏳ Jeremy McGarrah", dur:"60 min", status:"partial", flags:[{t:"warn",l:"MARCELLA JIMENEZ + JEREMY McGARRAH PENDING CONFIRMATION"}]},
+          {time:"5:20–5:30 PM",  ts:"1720", title:"Release Valve — strategic buffer", speaker:"", dur:"10 min", status:"comp"},
+        ]
+      },
+      { name:"Agent Pricing Lab", icon:"🏷️",
+        sessions:[
+          {time:"8:30–10:00 AM",  ts:"0829", title:"Arrival + Expo / Lounge", speaker:"", dur:"90 min", status:"comp"},
+          {time:"10:20–11:20 AM", ts:"1020", title:"Keynote", speaker:"Randall Parkes · Retired Marine First Sergeant", dur:"60 min", status:"unconfirmed"},
+          {time:"11:20 AM–12:20 PM", ts:"1120", title:"How We Got Here: Appraisal Forms, UAD, and What 3.6 Changes", speaker:"Lyle Radke & Ken DeFeo · Fannie Mae", dur:"60 min", status:"unconfirmed"},
+          {time:"12:20–1:20 PM", ts:"1220", title:"LUNCH · Expo + Walitt Power Hour encouraged", speaker:"", dur:"60 min", status:"comp"},
+          {time:"1:20–3:20 PM",  ts:"1320", title:"Pricing Masterclass for Agents: A Repeatable System (Workshop)", speaker:"Louis Pitoni, SRA", dur:"120 min", status:"confirmed"},
+          {time:"3:20–4:20 PM",  ts:"1520", title:"Beyond Comps: Advanced Pricing Strategies for Competitive Markets", speaker:"Allison Rodriguez", dur:"60 min", status:"confirmed"},
+          {time:"4:20–5:20 PM",  ts:"1620", title:"Navigating FHA Condition Issues: Valuation and Documentation Best Practices", speaker:"", dur:"60 min", status:"unconfirmed"},
+          {time:"5:20–5:30 PM",  ts:"1720", title:"Release Valve — strategic buffer", speaker:"", dur:"10 min", status:"comp"},
+        ]
+      },
+      { name:"Tech Demos A", icon:"💻",
+        sessions:[
+          {time:"8:30–10:00 AM",  ts:"0829", title:"Arrival + Expo / Lounge", speaker:"", dur:"90 min", status:"comp"},
+          {time:"10:00 AM–1:00 PM", ts:"1000", title:"True Footage Demo: Measuring Homes Accurately, Consistently, and at Scale", speaker:"Matthew Hyatt, SRA", dur:"3 hr", status:"confirmed"},
+          {time:"1:00–2:00 PM",  ts:"1300", title:"Break · Expo Floor", speaker:"", dur:"60 min", status:"comp"},
+          {time:"2:00–5:00 PM",  ts:"1400", title:"Alamode | Cotality Demo", speaker:"Joel Baker", dur:"3 hr", status:"unconfirmed"},
+        ]
+      },
+      { name:"Tech Demos B", icon:"💻",
+        sessions:[
+          {time:"8:30–10:00 AM",  ts:"0829", title:"Arrival + Expo / Lounge", speaker:"", dur:"90 min", status:"comp"},
+          {time:"10:00 AM–1:00 PM", ts:"1000", title:"Available Slot — Demo needed", speaker:"", dur:"3 hr", status:"empty"},
+          {time:"1:00–2:00 PM",  ts:"1300", title:"Break · Expo Floor", speaker:"", dur:"60 min", status:"comp"},
+          {time:"2:00–5:00 PM",  ts:"1400", title:"SFREP Demo: Appraise-It Pro and Appraiser-First Reporting", speaker:"Remington Jones", dur:"3 hr", status:"confirmed"},
+        ]
+      },
+      { name:"Tech Demos C", icon:"💻",
+        sessions:[
+          {time:"8:30–10:00 AM",  ts:"0829", title:"Arrival + Expo / Lounge", speaker:"", dur:"90 min", status:"comp"},
+          {time:"10:00 AM–1:00 PM", ts:"1000", title:"Unleash OpenClaw Workshop: Building Your 24/7 AI Appraisal Assistant", speaker:"Roy Meyer", dur:"3 hr", status:"confirmed"},
+          {time:"1:00–2:00 PM",  ts:"1300", title:"Break · Expo Floor", speaker:"", dur:"60 min", status:"comp"},
+          {time:"2:00–5:00 PM",  ts:"1400", title:"Available Slot — Demo needed", speaker:"", dur:"3 hr", status:"empty"},
+        ]
+      },
+      { name:"Walitt Power Hour", icon:"⚡",
+        sessions:[
+          {time:"10:20 AM–1:30 PM", ts:"1020", title:"Walitt Power Hour", speaker:"Josh Walitt · Walitt Solutions", dur:"190 min", status:"confirmed"},
+        ]
+      },
+      { name:"Market Moves with Mark and Jeff", icon:"📈",
+        sessions:[
+          {time:"1:30–5:00 PM", ts:"1330", title:"Market Moves with Mark and Jeff", speaker:"Mark Verret + Jeff", dur:"210 min", status:"confirmed"},
+          {time:"5:00–5:30 PM", ts:"1700", title:"Release Valve — strategic buffer", speaker:"", dur:"30 min", status:"comp"},
+        ]
+      },
+    ]
+  },
+  saturday: {
+    comp: [
+      {time:"8:40–9:20 AM",    label:"Arrival + Expo / Lounge"},
+      {time:"12:20–1:20 PM",   label:"LUNCH"},
+      {time:"Various",         label:"Break – Expo Floor"},
+      {time:"End of Day",      label:"Farewell (Hansel Dobbs)"},
+    ],
+    tracks: [
+      { name:"Main Stage", icon:"🎤",
+        conflict:"⚠️ SLOT CONFLICT at 11:00 AM–12:00 PM: Malinda Griffin + Mike DelPrete both assigned to same slot. One must be moved or the session combined.",
+        sessions:[
+          {time:"10:00–11:00 AM", ts:"1000", title:"Valuation on Trial: Emerging Case Law and Legal Defense Strategies for Appraisers and AMCs", speaker:"Craig Capilla", dur:"60 min", status:"confirmed"},
+          {time:"11:00 AM–12:00 PM", ts:"1100", title:"The Evolving Role of State Appraiser Coalitions", speaker:"Malinda Griffin", dur:"60 min", status:"confirmed", flags:[{t:"danger",l:"⚠ SLOT CONFLICT — RESOLVE WITH DELPRETE"}]},
+          {time:"11:00 AM–12:00 PM", ts:"1100b", title:"Exclusive Inventory Update", speaker:"Mike DelPrete", dur:"60 min", status:"unconfirmed", flags:[{t:"danger",l:"⚠ SLOT CONFLICT — RESOLVE WITH GRIFFIN"}]},
+          {time:"No slot assigned", ts:"9900", title:"How the Next Generation of Appraisers Is Actually Emerging", speaker:"Victor & Joshua Cornejo", dur:"~60 min", status:"confirmed", flags:[{t:"warn",l:"NO TIME SLOT ASSIGNED"}]},
+          {time:"4:00–5:00 PM", ts:"1600", title:"Session — Slot Open", speaker:"TBD", dur:"60 min", status:"empty"},
+        ]
+      },
+      { name:"Appraising in 2027", icon:"📊",
+        sessions:[
+          {time:"9:10–10:10 AM", ts:"0910", title:"Market Analytics for UAD 3.6: How to Support Trends and Segmentation", speaker:"Matthew Hyatt, SRA", dur:"60 min", status:"unconfirmed"},
+          {time:"10:10–11:10 AM", ts:"1010", title:"Highlights from the FIVA Network", speaker:"Brenda Hicks, RealWired", dur:"60 min", status:"confirmed"},
+          {time:"10:10–11:10 AM", ts:"1010b", title:"Effectively Hiring Your First Operations Manager", speaker:"Sierra Alden", dur:"60 min", status:"confirmed"},
+          {time:"1:10–2:10 PM", ts:"1310", title:"Session — Banks Valuation Perspective", speaker:"Nicholas Conteduca, Banks Valuation", dur:"60 min", status:"confirmed", flags:[{t:"warn",l:"NO FORMAL APPROVAL YET"}]},
+          {time:"1:10–2:10 PM", ts:"1310b", title:"Session — Slot Open", speaker:"TBD", dur:"60 min", status:"empty"},
+          {time:"2:10–3:10 PM", ts:"1410", title:"Best Practices for As-Is and As-Repaired Valuations of REO Assets", speaker:"Mike Scarpa", dur:"60 min", status:"confirmed"},
+          {time:"4:10–5:10 PM", ts:"1610", title:"Session — Slot Open", speaker:"TBD", dur:"60 min", status:"empty"},
+        ]
+      },
+      { name:"AI-Ready Appraiser", icon:"🤖",
+        sessions:[
+          {time:"10:20–11:20 AM", ts:"1020", title:"Session — Slot Open", speaker:"TBD", dur:"60 min", status:"empty"},
+          {time:"No slot assigned", ts:"9901", title:"The Responsible Role of AI in Today's Appraisal Practice", speaker:"Rachel Beam", dur:"~60 min", status:"unconfirmed", flags:[{t:"warn",l:"NO TIME SLOT ASSIGNED"}]},
+          {time:"No slot assigned", ts:"9902", title:"The Responsible Role of AI in Today's Appraisal Practice", speaker:"Michelle Czekalski Bradley", dur:"~60 min", status:"unconfirmed", flags:[{t:"warn",l:"NO TIME SLOT"},{t:"danger",l:"DUPLICATE TITLE — RESOLVE"}]},
+        ]
+      },
+      { name:"New Revenue Playbook", icon:"💰",
+        sessions:[
+          {time:"10:20–11:20 AM", ts:"1020", title:"Valuing Luxury Property: A Practical Introduction for Appraisers", speaker:"MJ Carroll, MNAA", dur:"60 min", status:"confirmed"},
+          {time:"11:20 AM–12:20 PM", ts:"1120", title:"Intro to Relocation Appraisal Work", speaker:"Lisa M. Meinczinger-Gulden", dur:"60 min", status:"confirmed"},
+          {time:"1:20–2:20 PM", ts:"1320", title:"Adding Pre-Listing & Pre-Purchase Appraisals: A Smarter Way to Grow Revenue", speaker:"Allison Rodriguez", dur:"60 min", status:"confirmed"},
+          {time:"2:20–3:20 PM", ts:"1420", title:"Appraising and Home Inspecting", speaker:"TBD", dur:"60 min", status:"empty"},
+          {time:"3:20–4:20 PM", ts:"1520", title:"Navigating Divorce Valuations: From First Steps to Best Practices", speaker:"TBD", dur:"60 min", status:"empty"},
+          {time:"3:30–4:30 PM", ts:"1530", title:"Marketing 101: Clear Branding for Appraisers", speaker:"Brad Alexander", dur:"60 min", status:"confirmed"},
+        ]
+      },
+      { name:"Career Launchpad", icon:"🚀",
+        sessions:[
+          {time:"10:20–11:20 AM", ts:"1020", title:"Professional Life of an Appraiser: From Assignment to Delivery", speaker:"Jason Covington", dur:"60 min", status:"confirmed"},
+          {time:"1:20–2:20 PM", ts:"1320", title:"What the Best Appraisers Have in Common: Ethics, Judgment, and Professional Trust", speaker:"Craig Capilla", dur:"60 min", status:"confirmed"},
+          {time:"4:20–5:20 PM", ts:"1620", title:"If I Were Starting Today: Real-World Guidance for New Appraisers", speaker:"Ron Box", dur:"60 min", status:"unconfirmed"},
+          {time:"No slot assigned", ts:"9910", title:"What the Best Appraisers Have in Common (duplicate)", speaker:"Scott Reuter", dur:"~60 min", status:"issue", flags:[{t:"danger",l:"DUPLICATE TITLE"},{t:"warn",l:"NO TIME SLOT"},{t:"danger",l:"UNRESPONSIVE"}]},
+        ]
+      },
+      { name:"Agent Pricing Lab", icon:"🏷️",
+        sessions:[
+          {time:"1:20–3:20 PM", ts:"1320", title:"Ask the Appraiser: A Live Agent–Appraiser Panel Experience", speaker:"John Copulos", dur:"2 hr", status:"confirmed"},
+          {time:"3:20–4:20 PM", ts:"1520", title:"After the \"Low\" Appraisal: Practical Strategies for Agents and Clients", speaker:"Chris Hunt", dur:"60 min", status:"confirmed"},
+          {time:"4:20–5:20 PM", ts:"1620", title:"Better Together: The Agent–Appraiser Relationship Playbook", speaker:"Stephanie Streep Tulley", dur:"60 min", status:"unconfirmed"},
+        ]
+      },
+      { name:"Tech Demos A / B / C", icon:"💻",
+        note:"DataMaster demo + additional demos 10:00 AM–1:00 PM",
+        sessions:[
+          {time:"10:00 AM–1:00 PM", ts:"1000", title:"DataMaster Demo: Faster Data Entry, Fewer Errors, Better Workflow", speaker:"Jared Preisler, SRA", dur:"3 hr", status:"confirmed"},
+          {time:"10:00 AM–1:00 PM", ts:"1000b", title:"Tech Demo B — Slot Open", speaker:"TBD", dur:"3 hr", status:"empty"},
+          {time:"10:00 AM–1:00 PM", ts:"1000c", title:"Tech Demo C — Slot Open", speaker:"TBD", dur:"3 hr", status:"empty"},
+        ]
+      },
+      { name:"Walitt Power Hour", icon:"⚡",
+        sessions:[
+          {time:"12:20–1:20 PM (during lunch)", ts:"1220", title:"Walitt Power Hour", speaker:"Josh Walitt", dur:"60 min", status:"confirmed"},
+          {time:"11:20 AM–12:20 PM", ts:"1120", title:"Compliance Command Center", speaker:"Josh Walitt", dur:"60 min", status:"unconfirmed"},
+        ]
+      },
+      { name:"Appraisers on Purpose", icon:"🎯",
+        sessions:[
+          {time:"1:00–4:00 PM", ts:"1300", title:"APPRAISERS ON PURPOSE — Full Workshop", speaker:"Michael Hobbs", dur:"3 hr", status:"confirmed"},
+        ]
+      },
+    ]
+  }
+};
+
+let currentDay = 'friday';
+let currentFilter = 'all';
+
+function setDay(day) {
+  currentDay = day;
+  document.querySelectorAll('.day-tab').forEach((t,i) => {
+    t.classList.toggle('active', (i===0&&day==='friday')||(i===1&&day==='saturday'));
+  });
+  render();
+}
+
+function setFilter(f) {
+  currentFilter = f;
+  const filters = ['all','confirmed','unconfirmed','empty','issue','comp'];
+  document.querySelectorAll('.filter-btn').forEach((b,i) => b.classList.toggle('active', filters[i]===f));
+  render();
+}
+
+function visible(s) {
+  if (currentFilter==='all') return true;
+  if (currentFilter==='confirmed') return s.status==='confirmed';
+  if (currentFilter==='unconfirmed') return s.status==='unconfirmed';
+  if (currentFilter==='empty') return s.status==='empty';
+  if (currentFilter==='issue') return s.status==='issue'||(s.flags&&s.flags.length>0&&s.status!=='comp');
+  if (currentFilter==='comp') return s.status==='comp';
+  return true;
+}
+
+function statusLabel(s) {
+  return {confirmed:'CONFIRMED',partial:'PARTIALLY CONFIRMED',unconfirmed:'UNCONFIRMED',empty:'AVAILABLE SLOT',comp:'COMPLEMENTARY',issue:'NEEDS ACTION'}[s]||s.toUpperCase();
+}
+
+function renderStats(d) {
+  let c=0,u=0,e=0,cp=d.comp.length,iss=0;
+  d.tracks.forEach(t=>t.sessions.forEach(s=>{
+    if(s.status==='confirmed') c++;
+    else if(s.status==='unconfirmed') u++;
+    else if(s.status==='empty') e++;
+    else if(s.status==='comp') cp++;
+    if(s.status==='issue'||(s.flags&&s.flags.length>0)) iss++;
+  }));
+  document.getElementById('statsBar').innerHTML=`
+    <div class="stat-chip s-confirmed"><div class="dot"></div>${c} Confirmed</div>
+    <div class="stat-chip s-unconfirmed"><div class="dot"></div>${u} Unconfirmed</div>
+    <div class="stat-chip s-empty"><div class="dot"></div>${e} Open Slots</div>
+    <div class="stat-chip s-comp"><div class="dot"></div>${cp} Complementary</div>
+    <div class="stat-chip s-issue"><div class="dot"></div>${iss} Need Action</div>
+  `;
+}
+
+function render() {
+  const d = DATA[currentDay];
+  renderStats(d);
+  let html = '';
+
+  // Complementary banner
+  if (currentFilter==='all'||currentFilter==='comp') {
+    html += `<div class="comp-banner"><span class="comp-banner-lbl">☕ Schedule Infrastructure</span>`;
+    d.comp.forEach(c => {
+      html += `<span class="comp-pill"><span class="ct">${c.time}</span>${c.label}</span>`;
+    });
+    html += `</div>`;
+  }
+
+  d.tracks.forEach(tr => {
+    const shown = tr.sessions.filter(visible);
+    if (!shown.length && currentFilter!=='all') return;
+
+    const cv = tr.sessions.filter(s=>s.status==='confirmed').length;
+    const uv = tr.sessions.filter(s=>s.status==='unconfirmed').length;
+    const ev = tr.sessions.filter(s=>s.status==='empty').length;
+    const iv = tr.sessions.filter(s=>s.status==='issue'||(s.flags&&s.flags.length>0)).length;
+
+    let badges='';
+    if(cv) badges+=`<span class="mb mb-confirmed">${cv} ✓</span>`;
+    if(uv) badges+=`<span class="mb mb-unconfirmed">${uv} ⏳</span>`;
+    if(ev) badges+=`<span class="mb mb-empty">${ev} ○</span>`;
+    if(iv) badges+=`<span class="mb mb-issue">${iv} ⚠</span>`;
+
+    const tid = 'tr-'+tr.name.replace(/\W+/g,'-');
+    html += `<div class="track-section" id="${tid}">
+      <div class="track-header" onclick="toggle('${tid}')">
+        <div class="track-name"><span class="track-icon">${tr.icon}</span>${tr.name}</div>
+        <div class="track-meta">${badges}<span class="chevron">▾</span></div>
+      </div>
+      <div class="track-body">`;
+
+    if(tr.conflict) {
+      html += `<div class="conflict-row"><strong>⚠️ SCHEDULE CONFLICT</strong><p>${tr.conflict}</p></div>`;
+    }
+    if(tr.note) {
+      html += `<div class="track-note">ℹ️ ${tr.note}</div>`;
+    }
+
+    const sessions = currentFilter==='all' ? tr.sessions : shown;
+    sessions.forEach(s => {
+      const cls = s.status==='issue'?'issue':s.status;
+      const bl = `badge-${s.status==='issue'?'issue':s.status}`;
+      let flagsHtml='';
+      if(s.flags&&s.flags.length) {
+        flagsHtml='<div class="flags">';
+        s.flags.forEach(f=>{ flagsHtml+=`<span class="flag flag-${f.t}">${f.t==='danger'?'⛔':f.t==='warn'?'⚠️':'ℹ️'} ${f.l}</span>`; });
+        flagsHtml+='</div>';
+      }
+      html += `<div class="card ${cls}">
+        <div class="card-time">${s.time}</div>
+        <div class="card-title">${s.title}</div>
+        ${s.speaker?`<div class="card-speaker">👤 ${s.speaker}</div>`:''}
+        <div class="card-badges">
+          <span class="badge ${bl}">${statusLabel(s.status)}</span>
+          ${s.dur?`<span class="badge badge-dur">${s.dur}</span>`:''}
+        </div>
+        ${flagsHtml}
+        ${s.note?`<div class="card-note">💡 ${s.note}</div>`:''}
+      </div>`;
+    });
+
+    html += `</div></div>`;
+  });
+
+  document.getElementById('content').innerHTML = html;
+}
+
+function toggle(id) {
+  document.getElementById(id).classList.toggle('closed');
+}
+
+render();
+</script>
+</body>
+</html>
