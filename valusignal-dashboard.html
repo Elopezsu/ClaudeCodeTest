@@ -129,6 +129,8 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
   <div class="day-tabs">
     <button class="day-tab active" onclick="setDay('friday')">📅 Friday, Sep 18</button>
     <button class="day-tab" onclick="setDay('saturday')">📅 Saturday, Sep 19</button>
+    <button class="day-tab" onclick="setDay('review')">📋 Under Review</button>
+    <button class="day-tab" onclick="setDay('declined')">❌ Declined</button>
   </div>
   <div class="stats-bar" id="statsBar"></div>
 </div>
@@ -428,14 +430,45 @@ const DATA = {
   }
 };
 
+const REVIEW_DATA = [
+  { title:"Appraiser Operations Sprint Clinic", speaker:"Banks Valuations", track:"Appraising in 2027", status:"under_eval", note:"Under evaluation — session concept not yet approved for agenda" },
+  { title:"How Major Cities Are Resetting Zoning — and What It Means for Valuation", speaker:"Andrea Gilles", track:"Main Stage", status:"under_eval", note:"Under evaluation — relevance to appraiser audience being assessed" },
+  { title:"The Future of Real Estate Brokerage: Insights from the National Association of REALTORS®", speaker:"Matt Christopherson", track:"Main Stage", status:"under_eval", note:"Under evaluation" },
+  { title:"The Data Backbone of Lending: The Present and Future of MISMO", speaker:"Jonathan Kearns", track:"Appraising in 2027", status:"under_eval", note:"Under evaluation" },
+  { title:"Communicating Green Features Through the UAD 3.6 Lens", speaker:"Woody Fincham, SRA, AI-RRS, ASA, RAA, RAC", track:"New Revenue Playbook", status:"under_eval", note:"Under evaluation" },
+  { title:"The Future of New Construction", speaker:"Ali Wolf", track:"Main Stage", status:"under_eval", note:"Under evaluation" },
+  { title:"Real-World Pricing Scenarios: Case Studies That Sharpen Agent Judgment", speaker:"Paul Ryll", track:"Agent Pricing Lab", status:"under_eval", note:"Under evaluation — website assets pending (MISSING DETAILS). Onboarding in progress." },
+  { title:"AI Flight Deck for Appraisers", speaker:"TBD", track:"AI-Ready Appraiser", status:"deleted", note:"Completely deleted from agenda" },
+  { title:"Q&A with Roy Meyer", speaker:"Roy Meyer", track:"AI-Ready Appraiser", status:"readded", note:"Re-added to agenda as a Workshop (OpenClaw Workshop — Tech Demos, Friday)" },
+  { title:"Compliance Command Center", speaker:"Josh Walitt", track:"Appraising in 2027", status:"readded", note:"Re-added to agenda as Walitt Power Hour" },
+  { title:"Appraiser on Purpose with Michael Hobbs", speaker:"Michael Hobbs", track:"Special", status:"readded", note:"Re-added to agenda as Appraisers on Purpose — Live Podcast (Saturday)" },
+  { title:"Better Together: The Agent–Appraiser Relationship Playbook", speaker:"Stephanie Streep Tulley", track:"Agent Pricing Lab", status:"readded", note:"Re-added to agenda — Saturday confirmed" },
+];
+
+const DECLINED_DATA = [
+  { name:"Tobias Peter", reason:"Sorry, don't have the bandwidth at this point.", context:"Originally booked Friday Main Stage 2:00–3:00 PM. Chose this time himself. Unresponsive on onboarding process." },
+  { name:"Laurie Egan", reason:"I am so honored to have been asked to participate. Unfortunately, I find myself a bit overcommitted at this time. I'm confident it's going to be a great event, and I hope you'll consider my participation sometime in the future.", context:"Declined gracefully. Suggested future consideration." },
+  { name:"Joseph Stephens", reason:"After giving it further thought and reviewing my current commitments, I've decided it would be best for me to step back from the speaking opportunity at this time. I want to make sure I'm able to give any presentation the time and energy it deserves, and I'm not confident I can do that right now.", context:"Declined. Open to supporting the event in another way." },
+  { name:"Brian Kirkpatrick", reason:"I may have some things change up in next few months professionally. I will keep you posted ASAP. Don't want to make a commitment I may not be able to keep just yet.", context:"Tentative decline — professional situation may change. Pending follow-up." },
+  { name:"John Chris Sears", reason:"I'm honored that you and Hansel thought of me. However, I'm not sure if this is something I would be able to take on at the moment. I'd be happy to reconnect down the road if the opportunity comes up again.", context:"Declined. Open to future opportunities." },
+  { name:"Elizabeth Green (ServiceLink)", reason:"After speaking with our internal team and assessing team capacity, we'll have to pass on this opportunity at this time. I hope we can stay in touch and that you'll keep us in-mind for future opportunities.", context:"Was listed as co-speaker for QC & Review in the UAD 3.6 Era (Friday). Company capacity issue." },
+  { name:"Kari Lang", reason:"No thank you. I'm headed towards more private work and less lender work. Nope I have plenty of leads and focus on relationship building instead of paying for leads.", context:"Originally booked for Navigating Divorce Valuations (Saturday)." },
+  { name:"Heather Sullivan", reason:"While I may not be able to participate as a speaker, I'm absolutely committed to supporting the effort in any way I can. ValuSignal fills a meaningful gap in today's valuation education and knowledge-sharing landscape.", context:"Declined speaking role. Supportive of the event." },
+  { name:"J. Nathan", reason:"I cannot help with this project right now. I'm working on several other things and cannot give this the attention it deserves right now. Please consider me for future projects.", context:"Declined. Wants to be considered for future events." },
+  { name:"Yousef", reason:"At this stage my workload is already stretched across several commitments. I don't want to take on something unless I can give it the proper attention it deserves.", context:"Was considered for Career Launchpad track." },
+  { name:"Brent Jones", reason:"I have to backtrack on my initial discussions with Hansel. Some unforeseen circumstances make it impossible to commit at this time. Tell Hansel I will fill him in when I can.", context:"Had initial discussions — unforeseen circumstances prevented commitment." },
+];
+
 let currentDay = 'friday';
 let currentFilter = 'all';
 
 function setDay(day) {
   currentDay = day;
   document.querySelectorAll('.day-tab').forEach((t,i) => {
-    t.classList.toggle('active', (i===0&&day==='friday')||(i===1&&day==='saturday'));
+    t.classList.toggle('active', (i===0&&day==='friday')||(i===1&&day==='saturday')||(i===2&&day==='review')||(i===3&&day==='declined'));
   });
+  const filterBar = document.querySelector('.filter-bar');
+  filterBar.style.display = (day==='review'||day==='declined') ? 'none' : '';
   render();
 }
 
@@ -479,7 +512,54 @@ function renderStats(d) {
   `;
 }
 
+function renderReview() {
+  document.getElementById('statsBar').innerHTML = `
+    <div class="stat-chip s-empty"><div class="dot"></div>${REVIEW_DATA.filter(r=>r.status==='under_eval').length} Under Evaluation</div>
+    <div class="stat-chip" style="background:#fef2f2;color:#991b1b"><div class="dot" style="background:#dc2626"></div>${REVIEW_DATA.filter(r=>r.status==='deleted').length} Deleted</div>
+    <div class="stat-chip s-confirmed"><div class="dot"></div>${REVIEW_DATA.filter(r=>r.status==='readded').length} Re-added to Agenda</div>
+  `;
+  const statusMap = {under_eval:{label:'UNDER EVALUATION',cls:'empty',bg:'#fff7ed',border:'#fed7aa'},deleted:{label:'DELETED',cls:'empty',bg:'#fef2f2',border:'#fca5a5'},readded:{label:'RE-ADDED TO AGENDA',cls:'confirmed',bg:'#f0fdf4',border:'#86efac'}};
+  let html = `<div style="margin-bottom:12px;padding:10px 14px;background:#f8fafc;border:1px solid #e2e8f0;border-radius:10px;font-size:12px;color:#475569;line-height:1.6">
+    <strong style="color:#1e293b">📋 Sessions Under Review</strong> — These sessions were removed from the agenda, are still being evaluated, or have been re-incorporated in a different format.
+  </div><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:10px">`;
+  REVIEW_DATA.forEach(s => {
+    const m = statusMap[s.status];
+    html += `<div class="card ${m.cls}" style="background:${m.bg};border-color:${m.border}">
+      <div class="card-title">${s.title}</div>
+      ${s.speaker?`<div class="card-speaker">👤 ${s.speaker}</div>`:''}
+      ${s.track?`<div class="card-speaker" style="color:#94a3b8">🗂 ${s.track}</div>`:''}
+      <div class="card-badges"><span class="badge badge-${m.cls}">${m.label}</span></div>
+      ${s.note?`<div class="card-note" style="margin-top:6px">💡 ${s.note}</div>`:''}
+    </div>`;
+  });
+  html += '</div>';
+  document.getElementById('content').innerHTML = html;
+}
+
+function renderDeclined() {
+  document.getElementById('statsBar').innerHTML = `
+    <div class="stat-chip s-empty"><div class="dot"></div>${DECLINED_DATA.length} Declined</div>
+    <div class="stat-chip s-unconfirmed"><div class="dot"></div>${DECLINED_DATA.filter(d=>d.name==='Brian Kirkpatrick').length} Tentative</div>
+  `;
+  let html = `<div style="margin-bottom:12px;padding:10px 14px;background:#f8fafc;border:1px solid #e2e8f0;border-radius:10px;font-size:12px;color:#475569;line-height:1.6">
+    <strong style="color:#1e293b">❌ Declined Speakers</strong> — Speakers who were invited but declined to participate. Reasons documented for reference.
+  </div><div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:10px">`;
+  DECLINED_DATA.forEach(d => {
+    const isTentative = d.name==='Brian Kirkpatrick';
+    html += `<div class="card ${isTentative?'unconfirmed':'empty'}" style="${isTentative?'background:#fff7ed;border-color:#fed7aa':'background:#fef2f2;border-color:#fca5a5'}">
+      <div class="card-title">👤 ${d.name}</div>
+      <div class="card-badges"><span class="badge ${isTentative?'badge-unconfirmed':'badge-empty'}">${isTentative?'TENTATIVE DECLINE':'DECLINED'}</span></div>
+      <div style="margin-top:8px;font-size:11px;color:#475569;line-height:1.55;font-style:italic;border-left:3px solid #fca5a5;padding-left:8px">"${d.reason}"</div>
+      ${d.context?`<div class="card-note" style="margin-top:6px">📎 ${d.context}</div>`:''}
+    </div>`;
+  });
+  html += '</div>';
+  document.getElementById('content').innerHTML = html;
+}
+
 function render() {
+  if (currentDay==='review') { renderReview(); return; }
+  if (currentDay==='declined') { renderDeclined(); return; }
   const d = DATA[currentDay];
   renderStats(d);
   let html = '';
