@@ -137,6 +137,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
   <span class="fl">Show:</span>
   <button class="filter-btn active" onclick="setFilter('all')">All Sessions</button>
   <button class="filter-btn" onclick="setFilter('confirmed')">✅ Confirmed</button>
+  <button class="filter-btn" onclick="setFilter('partial')">🟡 Partially Confirmed</button>
   <button class="filter-btn" onclick="setFilter('unconfirmed')">⏳ Unconfirmed</button>
   <button class="filter-btn" onclick="setFilter('empty')">🔴 Available Slots</button>
   <button class="filter-btn" onclick="setFilter('issue')">⚠️ Needs Action</button>
@@ -147,6 +148,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;backgrou
 
 <div class="legend">
   <div class="li"><div class="ld" style="background:#166534"></div>Confirmed</div>
+  <div class="li"><div class="ld" style="background:#92400e"></div>Partially Confirmed</div>
   <div class="li"><div class="ld" style="background:#7c2d12"></div>Unconfirmed</div>
   <div class="li"><div class="ld" style="background:#7f1d1d"></div>Available / Needs Speaker</div>
   <div class="li"><div class="ld" style="background:#5b21b6"></div>Needs Action / Issue</div>
@@ -439,7 +441,7 @@ function setDay(day) {
 
 function setFilter(f) {
   currentFilter = f;
-  const filters = ['all','confirmed','unconfirmed','empty','issue','comp'];
+  const filters = ['all','confirmed','partial','unconfirmed','empty','issue','comp'];
   document.querySelectorAll('.filter-btn').forEach((b,i) => b.classList.toggle('active', filters[i]===f));
   render();
 }
@@ -447,9 +449,10 @@ function setFilter(f) {
 function visible(s) {
   if (currentFilter==='all') return true;
   if (currentFilter==='confirmed') return s.status==='confirmed';
-  if (currentFilter==='unconfirmed') return s.status==='unconfirmed';
+  if (currentFilter==='partial') return s.status==='partial';
+  if (currentFilter==='unconfirmed') return s.status==='unconfirmed'||s.status==='partial';
   if (currentFilter==='empty') return s.status==='empty';
-  if (currentFilter==='issue') return s.status==='issue'||(s.flags&&s.flags.length>0&&s.status!=='comp');
+  if (currentFilter==='issue') return s.status==='issue'||s.status==='partial'||(s.flags&&s.flags.length>0&&s.status!=='comp');
   if (currentFilter==='comp') return s.status==='comp';
   return true;
 }
