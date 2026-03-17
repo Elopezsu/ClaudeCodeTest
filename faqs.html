@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQs — ValuSignal 2026</title>
+  <meta name="description" content="Frequently asked questions about ValuSignal 2026, the global virtual gathering for appraisers, risk managers, and real estate professionals.">
+  <meta property="og:title" content="FAQs — ValuSignal 2026">
+  <meta property="og:description" content="Frequently asked questions about ValuSignal 2026, the global virtual gathering for appraisers, risk managers, and real estate professionals.">
+  <meta property="og:type" content="website">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:         #0b0f1a;
+      --surface:    #111827;
+      --surface2:   #1a2235;
+      --toc-bg:     #0e1420;
+      --border:     #1e2d45;
+      --accent:     #3b82f6;
+      --accent2:    #60a5fa;
+      --text:       #f1f5f9;
+      --muted:      #94a3b8;
+      --tag-bg:     #1e3a5f;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      min-height: 100vh;
+    }
+
+    /* ── HERO ── */
+    .hero {
+      background: linear-gradient(160deg, #0b0f1a 0%, #0f1e35 60%, #0b0f1a 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 72px 24px 56px;
+      text-align: center;
+    }
+
+    .hero-label {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--accent2);
+      background: var(--tag-bg);
+      padding: 4px 14px;
+      border-radius: 999px;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 {
+      font-size: clamp(2rem, 5vw, 3.25rem);
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      margin-bottom: 16px;
+    }
+
+    .hero h1 span { color: var(--accent2); }
+
+    .hero p {
+      font-size: 1.05rem;
+      color: var(--muted);
+      max-width: 520px;
+      margin: 0 auto 28px;
+    }
+
+    .hero-date {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.875rem;
+      color: var(--muted);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 6px 16px;
+    }
+
+    .hero-date span { color: var(--accent2); font-weight: 600; }
+
+    /* ── PAGE BODY: sidebar + content ── */
+    .page-body {
+      display: flex;
+      align-items: flex-start;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 48px 24px 100px;
+      gap: 40px;
+    }
+
+    /* ── TABLE OF CONTENTS SIDEBAR ── */
+    .toc {
+      width: 240px;
+      flex-shrink: 0;
+      position: sticky;
+      top: 32px;
+      background: var(--toc-bg);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 24px 0 20px;
+      overflow: hidden;
+    }
+
+    .toc-title {
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--muted);
+      padding: 0 20px 16px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 8px;
+    }
+
+    .toc-list {
+      list-style: none;
+    }
+
+    .toc-list a {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px 20px;
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--muted);
+      text-decoration: none;
+      line-height: 1.35;
+      border-left: 3px solid transparent;
+      transition: color 0.2s, background 0.2s, border-color 0.2s;
+      position: relative;
+    }
+
+    .toc-list a:hover {
+      color: var(--text);
+      background: rgba(59, 130, 246, 0.06);
+    }
+
+    .toc-list a.active {
+      color: var(--accent2);
+      background: rgba(59, 130, 246, 0.1);
+      border-left-color: var(--accent);
+      font-weight: 600;
+    }
+
+    .toc-list a .toc-icon {
+      font-size: 0.65rem;
+      opacity: 0;
+      transition: opacity 0.2s;
+      color: var(--accent2);
+      flex-shrink: 0;
+    }
+
+    .toc-list a.active .toc-icon { opacity: 1; }
+
+    /* ── MAIN CONTENT ── */
+    .content {
+      flex: 1;
+      min-width: 0;
+    }
+
+    /* ── SECTION ── */
+    .faq-section { margin-top: 0; margin-bottom: 52px; }
+    .faq-section:first-child { margin-top: 0; }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 20px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .section-num {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      background: var(--accent);
+      color: #fff;
+      font-size: 0.78rem;
+      font-weight: 800;
+      flex-shrink: 0;
+    }
+
+    .section-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .section-sub {
+      font-size: 0.78rem;
+      color: var(--muted);
+      font-weight: 400;
+    }
+
+    /* ── ACCORDION ── */
+    .faq-item {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: var(--surface);
+      margin-bottom: 8px;
+      overflow: hidden;
+      transition: border-color 0.2s;
+    }
+
+    .faq-item:hover { border-color: #2a4a6e; }
+    .faq-item.open  { border-color: var(--accent); }
+
+    .faq-q {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 17px 20px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      text-align: left;
+      color: var(--text);
+      font-size: 0.95rem;
+      font-weight: 600;
+      line-height: 1.4;
+      font-family: inherit;
+    }
+
+    .faq-q:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+
+    .faq-icon {
+      flex-shrink: 0;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      border: 1.5px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--muted);
+      font-size: 1rem;
+      transition: transform 0.25s, background 0.2s, border-color 0.2s;
+    }
+
+    .faq-item.open .faq-icon {
+      transform: rotate(45deg);
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+
+    .faq-a {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.35s ease;
+    }
+
+    .faq-a-inner {
+      padding: 16px 20px 20px;
+      color: var(--muted);
+      font-size: 0.915rem;
+      line-height: 1.75;
+      border-top: 1px solid var(--border);
+    }
+
+    .faq-item.open .faq-a { max-height: 600px; }
+
+    /* ── FOOTER CTA ── */
+    .cta {
+      margin-top: 56px;
+      background: linear-gradient(135deg, #0f1e35, #162845);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 44px 36px;
+      text-align: center;
+    }
+
+    .cta h2 { font-size: 1.4rem; font-weight: 700; margin-bottom: 10px; }
+    .cta p  { color: var(--muted); margin-bottom: 28px; max-width: 400px; margin-left: auto; margin-right: auto; }
+
+    .cta-btn {
+      display: inline-block;
+      background: var(--accent);
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.875rem;
+      letter-spacing: 0.04em;
+      padding: 12px 28px;
+      border-radius: 999px;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.15s;
+    }
+
+    .cta-btn:hover { background: #2563eb; transform: translateY(-1px); }
+
+    /* ── MOBILE: collapse TOC to pills ── */
+    .mobile-pills {
+      display: none;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding: 24px 20px 0;
+    }
+
+    .pill {
+      font-size: 0.78rem;
+      font-weight: 600;
+      padding: 6px 14px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      background: var(--surface);
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+
+    .pill:hover, .pill.active {
+      border-color: var(--accent);
+      color: var(--accent2);
+      background: var(--tag-bg);
+    }
+
+    @media (max-width: 768px) {
+      .toc { display: none; }
+      .mobile-pills { display: flex; }
+      .page-body { padding: 24px 16px 80px; }
+      .hero { padding: 52px 20px 40px; }
+      .cta { padding: 32px 20px; }
+      .faq-q { font-size: 0.9rem; padding: 14px 16px; }
+      .faq-a-inner { padding: 14px 16px 18px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="hero-label">ValuSignal 2026</div>
+    <h1>Frequently Asked <span>Questions</span></h1>
+    <p>Everything you need to know about the global virtual gathering for modern valuation professionals.</p>
+    <div class="hero-date">📅 <span>September 18–19, 2026</span> &nbsp;·&nbsp; 100% Virtual</div>
+  </header>
+
+  <!-- MOBILE PILLS (hidden on desktop) -->
+  <nav class="mobile-pills" aria-label="Jump to section">
+    <a href="#section-01" class="pill">Event Overview</a>
+    <a href="#section-02" class="pill">Audience & Content</a>
+    <a href="#section-03" class="pill">Sessions & Speakers</a>
+    <a href="#section-04" class="pill">Promotion & Access</a>
+  </nav>
+
+  <!-- PAGE BODY -->
+  <div class="page-body">
+
+    <!-- TABLE OF CONTENTS -->
+    <aside class="toc" aria-label="Table of Contents">
+      <div class="toc-title">Table of Contents</div>
+      <ul class="toc-list">
+        <li>
+          <a href="#section-01" class="active">
+            <span class="toc-icon">›</span>
+            About ValuSignal 2026 (Event Overview)
+          </a>
+        </li>
+        <li>
+          <a href="#section-02">
+            <span class="toc-icon">›</span>
+            Audience &amp; Content Focus
+          </a>
+        </li>
+        <li>
+          <a href="#section-03">
+            <span class="toc-icon">›</span>
+            Sessions &amp; Speaker Experience
+          </a>
+        </li>
+        <li>
+          <a href="#section-04">
+            <span class="toc-icon">›</span>
+            Promotion, Commercial Use &amp; Access
+          </a>
+        </li>
+      </ul>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main class="content">
+
+      <!-- 01 ── About ValuSignal 2026 -->
+      <section class="faq-section" id="section-01">
+        <div class="section-header">
+          <div class="section-num">01</div>
+          <div>
+            <div class="section-title">About ValuSignal 2026</div>
+            <div class="section-sub">Event Overview</div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            What is ValuSignal?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-a" role="region">
+            <div class="faq-a-inner">
+              ValuSignal is the global, virtual gathering for modern valuation professionals. It is not another CE event. It is the annual meeting point where technology, economics, and real-world practice converge—connecting today's professionals to what's next.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            What is the mission of ValuSignal?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-a" role="region">
+            <div class="faq-a-inner">
+              To elevate the valuation profession by bridging real estate, finance, and technology through practical learning, bold ideas, and cross-industry collaboration—delivering clarity and forward momentum in a rapidly changing industry.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            How would you describe the ValuSignal voice and approach?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-a" role="region">
+            <div class="faq-a-inner">
+              Confident, clear, and pragmatic. We honor the rigor of the appraisal profession while embracing AI and modern technology—innovation grounded in tradition.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            What is the format of ValuSignal 2026?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-a" role="region">
+            <div class="faq-a-inner">
+              ValuSignal 2026 is a 100% virtual conference.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            When will ValuSignal 2026 take place?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-a" role="region">
+            <div class="faq-a-inner">
+              September 18–19, 2026.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 02 ── Audience & Content Focus -->
+      <section class="faq-section" id="section-02">
+        <div class="section-header">
+          <div class="section-num">02</div>
+          <div>
+            <div class="section-title">Audience &amp; Content Focus</div>
+            <div class="section-sub">Who it's for and what we cover</div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            Who is ValuSignal for?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-a" role="region">
+            <div class="faq-a-inner">
+              ValuSignal is built for professionals actively shaping the future of valuation.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            Who is the primary audience?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-a" role="region">
+            <div class="faq-a-inner">
+              Appraisers, aspiring appraisers, risk managers, and real estate agents.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            What are the core focus areas?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-a" role="region">
+            <div class="faq-a-inner">
+              AI-Ready Appraiser · Appraising in 2027 · New Revenue Playbook · Agent Pricing Lab, plus advanced topics including UAD 3.6, litigation, expert-witness work, and alternative valuation structures.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            How are session skill levels defined?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-a" role="region">
+            <div class="faq-a-inner">
+              ValuSignal is built for professionals actively shaping the future of valuation. Sessions are designed to meet practitioners at every stage—from emerging professionals to seasoned experts.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 03 ── Sessions & Speaker Experience -->
+      <section class="faq-section" id="section-03">
+        <div class="section-header">
+          <div class="section-num">03</div>
+          <div>
+            <div class="section-title">Sessions &amp; Speaker Experience</div>
+            <div class="section-sub">Formats, recordings, and speaker details</div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            How long are sessions?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-a" role="region">
+            <div class="faq-a-inner">
+              Standard sessions typically run 30–60 minutes. Premium Workshops may allow longer or multi-hour formats.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            Are sessions live or pre-recorded?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-a" role="region">
+            <div class="faq-a-inner">
+              Speakers may choose fully live or semi-live formats.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            Will sessions be recorded?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-a" role="region">
+            <div class="faq-a-inner">
+              Yes. All sessions are recorded.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            Do speakers receive their session recording?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-a" role="region">
+            <div class="faq-a-inner">
+              Yes. Speakers receive a copy of their recording.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            Can speakers use recordings for marketing?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-a" role="region">
+            <div class="faq-a-inner">
+              Speakers may use clips for marketing. Full public reuse of the complete session is restricted for approximately 90 days post-event.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 04 ── Promotion, Commercial Use & Access -->
+      <section class="faq-section" id="section-04">
+        <div class="section-header">
+          <div class="section-num">04</div>
+          <div>
+            <div class="section-title">Promotion, Commercial Use &amp; Access</div>
+            <div class="section-sub">Speakers, affiliates, and attendee data</div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            How does ValuSignal support speaker promotion?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-a" role="region">
+            <div class="faq-a-inner">
+              Speakers receive a ready-to-use promo kit, including logos, branded banners, and a short event description.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            Can speakers promote their own services or resources?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-a" role="region">
+            <div class="faq-a-inner">
+              Yes. Speakers may promote their own services, tools, and resources during their sessions.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            Is there an affiliate program?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-a" role="region">
+            <div class="faq-a-inner">
+              Yes. ValuSignal offers an affiliate program via Rewardful, with custom codes available for select speakers.
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" aria-expanded="false">
+            Do speakers receive attendee contact information?
+            <span class="faq-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-a" role="region">
+            <div class="faq-a-inner">
+              No. Attendee contact information is only available through sponsorship packages. Speakers do not automatically receive registrant lists.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA -->
+      <div class="cta">
+        <h2>Still have questions?</h2>
+        <p>Reach out and we'll get back to you. ValuSignal 2026 — September 18–19, 2026, 100% virtual.</p>
+        <a href="#" class="cta-btn">Contact Us →</a>
+      </div>
+
+    </main>
+  </div><!-- /page-body -->
+
+  <script>
+    // ── Accordion ──
+    document.querySelectorAll('.faq-q').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = btn.closest('.faq-item');
+        const isOpen = item.classList.contains('open');
+        document.querySelectorAll('.faq-item.open').forEach(el => {
+          el.classList.remove('open');
+          el.querySelector('.faq-q').setAttribute('aria-expanded', 'false');
+        });
+        if (!isOpen) {
+          item.classList.add('open');
+          btn.setAttribute('aria-expanded', 'true');
+        }
+      });
+    });
+
+    // ── TOC active state on scroll ──
+    const sections  = document.querySelectorAll('.faq-section');
+    const tocLinks  = document.querySelectorAll('.toc-list a');
+    const mobilePills = document.querySelectorAll('.mobile-pills .pill');
+
+    const setActive = (id) => {
+      tocLinks.forEach(a => a.classList.toggle('active', a.getAttribute('href') === `#${id}`));
+      mobilePills.forEach(a => a.classList.toggle('active', a.getAttribute('href') === `#${id}`));
+    };
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) setActive(entry.target.id);
+      });
+    }, { rootMargin: '-20% 0px -60% 0px' });
+
+    sections.forEach(s => observer.observe(s));
+  </script>
+
+</body>
+</html>
