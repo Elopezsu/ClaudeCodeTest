@@ -124,7 +124,7 @@ Signature: _________________________________ Date: ___________
 
 Name: Hansel Dobbs
 
-Title: Co-Founder, ValuSignal LLC
+Title: Conference Organizer, ValuSignal LLC
 
 Email: hansel@valusignal.com
 
