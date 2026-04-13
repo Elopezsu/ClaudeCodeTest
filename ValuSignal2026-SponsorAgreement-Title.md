@@ -36,6 +36,10 @@ Sponsor selects the **Title Sponsor** tier at **$10,000**. Upon receipt of full 
 
 Organizer acknowledges that Sponsor's exclusive Title position will not be shared with, sold to, or approximated by any other party for the duration of this Agreement.
 
+**Deliverable Failure:** If Organizer fails to provide one or more deliverables listed above due to reasons within Organizer's control, Sponsor shall notify Organizer in writing. Organizer has 10 business days to cure. If uncured, Sponsor is entitled to a pro-rated refund for the undelivered item(s) based on the following value allocation: co-branding package = $2,500 | keynote slot = $2,000 | homepage placement = $1,000 | premium booth = $2,000 | analytics package = $500 | lead list = $1,000 | dedicated email = $500 | Core & Featured placements = $500. Total: $10,000.
+
+**Attendee Count Disclosure:** Organizer shall provide Sponsor with a written post-event report within 10 business days of event close, including: total registered attendees, total unique session viewers, and Sponsor's booth visit count. If total registered attendance is below 500, Sponsor may request a partial refund of up to 15% of the total sponsorship fee within 15 days of receiving the report.
+
 ---
 
 ### 3. SPONSORSHIP FEE & PAYMENT
@@ -100,11 +104,13 @@ All cancellations must be submitted in writing to eunice@valusignal.com and hans
 
 **Liability:** Organizer's total liability under this Agreement shall not exceed the total sponsorship fees paid by Sponsor. Neither party is liable for indirect, incidental, or consequential damages.
 
-**Force Majeure:** Neither party is in breach of this Agreement for delays or failures caused by circumstances beyond their reasonable control, including but not limited to platform outages, natural disasters, or regulatory actions. In such events, parties will negotiate in good faith.
+**Force Majeure:** Neither party shall be in breach of this Agreement for any delay or failure caused by circumstances beyond their reasonable control, including but not limited to platform outages, natural disasters, public health emergencies, acts of government, or internet infrastructure failures. Organizer shall notify Sponsor in writing within 5 business days of such an event. The parties shall negotiate in good faith within 30 days of that notice to determine a resolution — which may include rescheduling the event, substituting equivalent deliverables, or issuing a pro-rated refund proportional to undelivered items. If no resolution is reached within 30 days, Sponsor may request a full refund of all fees paid within 15 days thereafter.
 
-**Governing Law:** This Agreement is governed by the laws of the State of Texas. Any disputes shall be resolved through binding arbitration in Dallas County, Texas, before a mutually agreed arbitrator.
+**Amendment:** Any modification to this Agreement — including changes to deliverables, asset specifications, or payment schedule — must be made in writing and signed by authorized representatives of both parties. Email confirmation from both parties' authorized signatories constitutes a valid written amendment. Verbal amendments are not enforceable.
 
-**Entire Agreement:** This document constitutes the entire agreement between the parties and supersedes all prior discussions. Modifications require written consent from both parties.
+**Governing Law:** This Agreement is governed by the laws of the State of Texas. Any dispute arising under this Agreement shall first be addressed through good-faith written negotiation between the parties for a period of 15 days from written notice of the dispute. If unresolved, disputes shall be submitted to binding arbitration in Dallas County, Texas, before a single mutually agreed arbitrator. Arbitration costs shall be shared equally unless the arbitrator determines one party acted in bad faith, in which case the prevailing party's costs shall be borne by the non-prevailing party.
+
+**Entire Agreement:** This document constitutes the entire agreement between the parties and supersedes all prior discussions.
 
 ---
 

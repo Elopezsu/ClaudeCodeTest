@@ -15,6 +15,8 @@
 
 ValuSignal 2026 is a national virtual conference for the U.S. valuation profession, hosted on Zoom Events and scheduled for **September 2026** (exact dates to be confirmed no later than July 1, 2026). The event is expected to reach 2,000–3,000 registered attendees across all 50 states.
 
+Organizer shall confirm the exact event date(s) in writing to Sponsor no later than **July 1, 2026**. If the event date is not confirmed by this deadline, Sponsor may cancel this Agreement with a full refund within 15 days of that deadline passing, regardless of the cancellation policy in Section 5.
+
 ---
 
 ### 2. SPONSORSHIP PACKAGE & DELIVERABLES
@@ -29,6 +31,8 @@ Sponsor selects the **Core Partner** tier at **$1,000**. Upon receipt of full pa
 | Social recognition | Minimum one (1) sponsor acknowledgment post across ValuSignal social media channels |
 
 Deliverables are contingent on timely submission of Sponsor assets (see Section 4).
+
+**Deliverable Failure:** If Organizer fails to provide one or more deliverables listed above due to reasons within Organizer's control, Sponsor shall notify Organizer in writing. Organizer shall have 10 business days to cure the failure. If uncured, Sponsor is entitled to a pro-rated refund equal to the proportional value of the undelivered item, as agreed by both parties in writing.
 
 ---
 
@@ -74,11 +78,15 @@ All cancellations must be submitted in writing to eunice@valusignal.com.
 
 ### 7. GENERAL TERMS
 
-**Liability:** Organizer's total liability under this Agreement shall not exceed the sponsorship fee paid by Sponsor. Neither party is liable for indirect, incidental, or consequential damages.
+**Liability:** Organizer's total liability under this Agreement shall not exceed the sponsorship fee paid by Sponsor. Neither party is liable for indirect, incidental, or consequential damages, including but not limited to lost profits or lost business opportunity.
 
-**Governing Law:** This Agreement is governed by the laws of the State of Texas. Any disputes shall be resolved in the courts of Dallas County, Texas.
+**Force Majeure:** Neither party shall be in breach of this Agreement for any delay or failure caused by circumstances beyond their reasonable control, including but not limited to platform outages, natural disasters, public health emergencies, acts of government, or internet infrastructure failures. Organizer shall notify Sponsor in writing within 5 business days of such an event and the parties shall negotiate in good faith within 30 days of that notice to determine a resolution — including rescheduling or pro-rated refund. If no resolution is reached within 30 days, Sponsor may request a full refund of all fees paid within 15 days thereafter.
 
-**Entire Agreement:** This document constitutes the entire agreement between the parties and supersedes all prior discussions. Modifications require written consent from both parties.
+**Amendment:** Any modification to this Agreement must be made in writing and signed by authorized representatives of both parties. Email confirmation from both parties' authorized signatories constitutes a valid written amendment. Verbal amendments are not enforceable.
+
+**Governing Law:** This Agreement is governed by the laws of the State of Texas. Any dispute arising under this Agreement shall first be addressed through good-faith written negotiation between the parties for a period of 15 days from written notice of the dispute. If unresolved, disputes shall be submitted to binding arbitration in Dallas County, Texas, before a single mutually agreed arbitrator. Arbitration costs shall be shared equally unless the arbitrator determines one party acted in bad faith.
+
+**Entire Agreement:** This document constitutes the entire agreement between the parties and supersedes all prior discussions.
 
 ---
 
