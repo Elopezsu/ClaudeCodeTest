@@ -15,7 +15,7 @@ This Agreement grants Sponsor the exclusive Title Sponsorship position for ValuS
 
 ### 1. EVENT
 
-ValuSignal 2026 is a national virtual conference for the U.S. valuation profession, hosted on Zoom Events and scheduled for **September 2026** (exact dates to be confirmed no later than July 1, 2026). The event is expected to reach 2,000–3,000 registered attendees across all 50 states.
+ValuSignal 2026 is a national virtual conference for the U.S. valuation profession, hosted on Zoom Events and scheduled for **September 18–19, 2026**. The event is expected to reach 2,000–3,000 registered attendees across all 50 states.
 
 ---
 
