@@ -843,3 +843,168 @@ Format for extended sessions: 35–40 min presentation + 20 min live Q&A. (For p
 | **Roit** | Remove Agent Pricing Lab ticket, delete agent homepage block, sponsor contact form — via chat/Loom only |
 | **Arslan** | Run cold email campaigns (already set up) — Deanne provides copy |
 | **Gossa** | On contract for Stripe issues only — no more general meetings |
+
+---
+
+## OLIVE SESSION — APR 23, 2026 — WORKING BRIEF
+
+*Context: Deanne session completed this morning. Speaker recruitment is stopped at 51 confirmed. Agent Pricing Lab is eliminated. This session with Olive has one deliverable: a clean, corrected Sessionize export that Hansel can bulk-import into the speaker portal by May 2.*
+
+---
+
+### What changed since the last time Olive touched the schedule
+
+| Decision | Impact for Olive |
+|----------|-----------------|
+| Agent Pricing Lab eliminated | 7 sessions must be re-tagged to new tracks in Sessionize |
+| All 30-min sessions → 60 min | Every 30-min session row needs duration updated before export |
+| Speaker recruitment stopped | No new rows to add — work only with what's confirmed |
+| Roy Meyer workshop may move into a main track | Check if his 3-hr slot fits better in Appraising in 2027 or AI for Appraisers to fill a gap |
+| Hansel will cover remaining TBD slots with AI sessions | Flag which TBD slots are still open after all the above — Hansel fills those |
+
+---
+
+### Step 1 — Re-tag the 7 Agent Pricing Lab speakers
+
+These are the 7 confirmed speakers currently tagged "Agent Pricing Lab" in Sessionize. Re-assign each to the track below. Do NOT delete their sessions — just change the track field and retitle the session.
+
+| Speaker | Current Session Title | New Track | New Session Title |
+|---------|----------------------|-----------|-------------------|
+| Louis Pitoni | Pricing Masterclass for Agents (Workshop, 2hr) | **Career Launchpad** | The SRA Path: How I Built an Appraisal Business That Lasts |
+| Allison Rodriguez | Beyond Comps: Advanced Pricing Strategies | **Career Launchpad** | From Agent Education to Commercial Licensing: An Appraiser's Crossover Story |
+| Paul Ryll | Real-World Pricing Scenarios (Case Studies) | **Career Launchpad** | The Entrepreneur Appraiser: Owning a Firm, Running a Restaurant, and What That Taught Me |
+| Stephanie Streep-Tuley | Better Together: Agent–Appraiser Relationship | **Career Launchpad** | What Real Estate Agents Wish Appraisers Knew (and Vice Versa) |
+| Bill Waltenbaugh | Reconsideration of Value: Making the Strongest Case | **Appraising in 2027** | Reconsideration of Value: Defense Strategies for Appraisers |
+| John Copulos | Ask the Appraiser: Live Agent–Appraiser Panel (3hr) | **New Revenue Playbook** | Working with Agents: How Appraisers Can Build a Revenue Channel from Agent Relationships |
+| Chris Hunt | After the "Low" Appraisal: Practical Strategies | **Appraising in 2027** | Managing the "Low" Appraisal: How Appraisers Can Stand Firm |
+
+> Note: Allison Rodriguez already has a second accepted session in New Revenue Playbook ("Adding Pre-Listing & Pre-Purchase Appraisals"). Both sessions stay — she has two slots in two different tracks.
+
+---
+
+### Step 2 — Change all 30-min sessions to 60 min
+
+Go through every session with duration = "30 minutes" and change to "60 minutes." This applies to all confirmed (Booked/Accepted) sessions only. Do not touch declined, uninvited, or unbooked rows.
+
+Confirmed 30-min sessions to extend (from schedule + Sessionize):
+
+| Speaker | Session | Current Track |
+|---------|---------|---------------|
+| Kelly Davids | Appraisal Foundation update | Main Stage |
+| Sergio Johnson | Career Launchpad session | Career Launchpad |
+| Gavin + Taylor Curd | AI session | AI for Appraisers |
+| Ruby Stroschein | New Revenue session | New Revenue Playbook |
+| Daniel Lindeman | The Power of Referrals | Appraising in 2027 |
+| David Ziccardi | AI/marketing session | New Revenue Playbook |
+| Malinda Griffin | Main Stage session | Main Stage |
+| Gynell Vestal | Main Stage session | Main Stage |
+| Joan Trice | Main Stage session | Main Stage |
+| Nick Conteduca | Appraising in 2027 session | Appraising in 2027 |
+| Brent Henry | Appraising in 2027 session | Appraising in 2027 |
+| Sierra Alden | Appraising in 2027 session | Appraising in 2027 |
+| Isaac Peck | Appraising in 2027 session | Appraising in 2027 |
+| Tony Pistilli | AI session | AI for Appraisers |
+| Brent Bowen | New Revenue session | New Revenue Playbook |
+| Lisa Meinczinger | New Revenue session | New Revenue Playbook |
+| Brad Alexander | Marketing 101 | New Revenue Playbook |
+| Justin Gohn | Beyond Chatbots: Agentic AI | AI for Appraisers |
+| Melissa Bond | Career Launchpad session | Career Launchpad |
+| Lisa Desmarais | Career Launchpad session | Career Launchpad |
+| Carole Henrysen | Going from 100% Lender to 70% Private | New Revenue Playbook |
+| Patrick Livingston | Personal property session | Career Launchpad |
+
+---
+
+### Step 3 — "Tetris": fill remaining TBD slots without recruiting new speakers
+
+**Rule:** No new speakers. Fill open slots using only: Roy Meyer, Hansel, or existing speakers who could do a second session.
+
+After extending all 30-min sessions, map which TBD slots are still open on the schedule. For each open slot, propose one of the following:
+
+| Option | Use for |
+|--------|---------|
+| Roy Meyer 3-hr OpenClaw workshop | Move to Appraising in 2027 or AI for Appraisers if a 3-hr block fits |
+| Hansel AI/Claude Code session | Any open 60-min slot — he is confirmed open to doing this |
+| Paul Ryll (dual session) | Already flagged as potential for "Introduction to Commercial Appraising" in Career Launchpad — confirm with Eunice first |
+
+Come to the session with the schedule open. Go slot by slot on the TBD rows and mark each one: **FILL (Roy/Hansel)**, **FILL (existing speaker)**, or **FLAG (needs Eunice decision)**.
+
+---
+
+### Step 4 — Build the consolidated export file for Hansel
+
+This is the output Hansel needs to bulk-import into the speaker portal. One row per confirmed session.
+
+**Columns to include (in this order):**
+
+1. Speaker Full Name
+2. Session Title *(use the NEW title if re-tagged in Step 1)*
+3. Session Description
+4. Track *(use the NEW track if re-tagged)*
+5. Day (Day 1 / Day 2)
+6. Time Slot
+7. Duration *(60 min for everything after Step 2)*
+8. Format (Solo / Panel / Workshop / Demo)
+9. Speaker Email
+10. Speaker Bio
+11. Headshot Link *(from Sessionize or Google Drive link)*
+12. Speaker LinkedIn
+13. Status (Booked / Invited / TBD)
+14. Notes for developer
+15. Sessionize Session ID
+
+**Source:** Start from the Sessionize "Speakers_Booked and Pending" export. Cross-reference against the schedule file (`valusignal_schedule_2026-04-23.xlsx`) to fill in Day / Time Slot / Duration.
+
+**Delivery:** Send to Eunice when done → Eunice delivers to Hansel. Target: **May 2**.
+
+---
+
+### Step 5 — Sessionize cleanup flags (decide with Eunice, do not act alone)
+
+These need a decision before Olive touches them:
+
+| Issue | Count | What Olive should do |
+|-------|-------|---------------------|
+| "Not approved" sessions | 5 | Flag list for Eunice — approve or decline officially |
+| "Unbooked" sessions | 19 | Flag — pursue or archive |
+| "Uninvited" sessions | 37 | Most are internal/test — flag for cleanup, do not delete without Eunice sign-off |
+| "Unresponsive" speakers | 14 | Per Hansel: 2-week cutoff. Flag which have already passed 2 weeks |
+| Sessions with no track assigned | Multiple | Classify using new 5-track structure or archive |
+
+---
+
+### Questions to ask Olive — get her input, don't just assign
+
+These are open questions where her working knowledge of the data should inform decisions:
+
+1. **Sessionize vs. schedule mismatch:** Are there speakers who appear as "Accepted/Booked" in Sessionize but don't have a confirmed slot on the schedule? If yes, who are they?
+
+2. **Duplicate sessions:** Allison Rodriguez has two sessions in Sessionize — is that visible and correctly tagged in the export? Are there any other speakers with duplicate sessions we haven't noticed?
+
+3. **Track naming discrepancy:** Sessionize still has "AI-Ready Appraiser" as a track name. The schedule calls it "AI for Appraisers." Which name should the consolidated file use for consistency with the speaker portal?
+
+4. **Roy Meyer's three sessions:** He has 3 confirmed sessions (1-hr AI talk, 3-hr workshop, 1-hr Main Stage). Does that create a scheduling conflict on the current draft? Flag any overlap.
+
+5. **Headshot status:** Which of the 51 confirmed speakers are missing a headshot link in Sessionize? Prioritize getting those — Hansel fixed the upload bug, so speakers can now upload directly.
+
+6. **Session descriptions:** A few sessions in Sessionize were created by Eunice as placeholders (Owner = "Eunice López") with TBD content. Which ones still have placeholder descriptions? Those need to be updated before the portal import.
+
+---
+
+### What you are NOT doing in this session
+
+- No new speaker outreach (recruitment is stopped)
+- No college/military flyer work (that's after this session, separate)
+- No Sessionize deletion of any rows without Eunice approval
+- No speaker portal data entry (Hansel will bulk import from the file you build)
+
+---
+
+### End-of-session checklist
+
+- [ ] All 7 Agent Pricing Lab sessions re-tagged in Sessionize with new track + new title
+- [ ] All confirmed 30-min sessions updated to 60 min
+- [ ] TBD slots mapped: each marked FILL or FLAG
+- [ ] Consolidated export file built with all 15 columns
+- [ ] Sessionize cleanup issues flagged (not resolved — just documented for Eunice)
+- [ ] Olive's open questions answered and noted
