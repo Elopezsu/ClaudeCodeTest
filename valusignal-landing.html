@@ -3,8 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Free Training: Rebuild Your Appraisal Brand with AI | ValuSignal 2026</title>
-  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <title>Replace Your Appraiser Website in an Afternoon | ValuSignal</title>
+  <meta name="description" content="Free 25-minute lesson. The exact AI tools, prompts, and steps to retire your old site and cut hosting costs from $400/yr to ~$12/yr.">
+
+  <!-- Plausible analytics (lightweight, privacy-first) -->
+  <!-- <script defer data-domain="valusignal.com" src="https://plausible.io/js/script.js"></script> -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -18,11 +26,11 @@
       --navy-100:       #dee5f2;
       --teal-signal:    #00bfa5;
       --teal-electric:  #4fffe2;
-      --teal-deep:      #008f7a;
       --coral:          #ff5f5f;
-      --coral-hover:    #ff8585;
+      --coral-hover:    #e04f4f;
       --white:          #ffffff;
       --font:           'Urbanist', Arial, sans-serif;
+      --max-w:          660px;
     }
 
     html { scroll-behavior: smooth; }
@@ -31,284 +39,91 @@
       font-family: var(--font);
       background-color: var(--navy-deep);
       color: var(--white);
-      line-height: 1.6;
+      line-height: 1.7;
       -webkit-font-smoothing: antialiased;
+      font-size: 17px;
+    }
+
+    /* ── SHARED ─────────────────────────────────────── */
+    .container {
+      max-width: var(--max-w);
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    hr.divider {
+      border: none;
+      border-top: 1px solid var(--navy-steel);
+      margin: 0;
     }
 
     /* ── NAV ─────────────────────────────────────────── */
     nav {
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      background: rgba(11, 18, 27, 0.92);
-      backdrop-filter: blur(12px);
       border-bottom: 1px solid rgba(50, 70, 95, 0.5);
-      padding: 0 40px;
+      padding: 20px 24px;
       display: flex;
-      align-items: center;
-      justify-content: space-between;
-      height: 72px;
+      justify-content: center;
     }
-
-    .nav-logo img {
-      height: 32px;
-      width: auto;
-    }
-
-    .nav-cta {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      background: var(--coral);
-      color: var(--white);
-      font-family: var(--font);
-      font-weight: 700;
-      font-size: 14px;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-      padding: 10px 22px;
-      border-radius: 999px;
-      text-decoration: none;
-      transition: background 0.2s, transform 0.15s;
-    }
-    .nav-cta:hover { background: var(--coral-hover); transform: translateY(-1px); }
+    nav img { height: 28px; width: auto; }
 
     /* ── HERO ─────────────────────────────────────────── */
     .hero {
-      position: relative;
-      padding: 100px 40px 80px;
-      overflow: hidden;
-      text-align: center;
-      background: var(--navy-deep);
-    }
-
-    /* Teal spiral bars pattern (CSS recreation) */
-    .hero::before {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background-image:
-        repeating-linear-gradient(
-          90deg,
-          rgba(0, 191, 165, 0.06) 0px,
-          rgba(0, 191, 165, 0.06) 3px,
-          transparent 3px,
-          transparent 40px
-        );
-      mask-image: radial-gradient(ellipse 80% 70% at 50% 50%, black 30%, transparent 100%);
-      pointer-events: none;
-    }
-
-    /* Gradient fade over pattern */
-    .hero::after {
-      content: '';
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(180deg, transparent 40%, var(--navy-deep) 100%);
-      pointer-events: none;
-    }
-
-    .hero-inner {
-      position: relative;
-      z-index: 2;
-      max-width: 820px;
-      margin: 0 auto;
-    }
-
-    .strapline {
-      display: inline-block;
-      font-size: 12px;
-      font-weight: 700;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-      color: var(--teal-signal);
-      border: 1px solid rgba(0, 191, 165, 0.35);
-      border-radius: 999px;
-      padding: 6px 18px;
-      margin-bottom: 28px;
-    }
-
-    .hero h1 {
-      font-size: clamp(36px, 6vw, 68px);
-      font-weight: 800;
-      line-height: 1.1;
-      letter-spacing: -0.02em;
-      margin-bottom: 24px;
-    }
-
-    .hero h1 .accent {
-      color: var(--teal-signal);
-    }
-
-    .hero-sub {
-      font-size: clamp(16px, 2vw, 20px);
-      font-weight: 400;
-      color: var(--navy-200);
-      max-width: 640px;
-      margin: 0 auto 40px;
-      line-height: 1.7;
-    }
-
-    .hero-ctas {
-      display: flex;
-      justify-content: center;
-      gap: 16px;
-      flex-wrap: wrap;
-    }
-
-    .btn-primary {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      background: var(--coral);
-      color: var(--white);
-      font-family: var(--font);
-      font-weight: 700;
-      font-size: 15px;
-      letter-spacing: 0.03em;
-      padding: 14px 32px;
-      border-radius: 999px;
-      text-decoration: none;
-      transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
-      border: none;
-      cursor: pointer;
-    }
-    .btn-primary:hover {
-      background: var(--coral-hover);
-      transform: translateY(-2px);
-      box-shadow: 0 8px 24px rgba(255, 95, 95, 0.3);
-    }
-
-    .btn-secondary {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      background: transparent;
-      color: var(--white);
-      font-family: var(--font);
-      font-weight: 600;
-      font-size: 15px;
-      letter-spacing: 0.03em;
-      padding: 14px 32px;
-      border-radius: 999px;
-      border: 1px solid rgba(255,255,255,0.25);
-      text-decoration: none;
-      transition: border-color 0.2s, color 0.2s, transform 0.15s;
-    }
-    .btn-secondary:hover {
-      border-color: var(--teal-signal);
-      color: var(--teal-signal);
-      transform: translateY(-2px);
-    }
-
-    /* ── VIDEO SECTION ──────────────────────────────────── */
-    .section-video {
-      padding: 60px 40px;
-      background: var(--navy-midnight);
-      border-top: 1px solid var(--navy-steel);
+      padding: 72px 0 56px;
       border-bottom: 1px solid var(--navy-steel);
     }
 
-    .section-label {
-      text-align: center;
+    .eyebrow {
+      display: inline-block;
       font-size: 12px;
       font-weight: 700;
       letter-spacing: 0.16em;
       text-transform: uppercase;
-      color: var(--teal-electric);
-      margin-bottom: 16px;
+      color: var(--teal-signal);
+      margin-bottom: 24px;
     }
 
-    .section-title {
-      text-align: center;
-      font-size: clamp(24px, 4vw, 38px);
-      font-weight: 700;
-      letter-spacing: -0.01em;
-      margin-bottom: 12px;
+    .hero h1 {
+      font-size: clamp(30px, 5vw, 46px);
+      font-weight: 800;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      margin-bottom: 20px;
     }
 
-    .section-sub {
-      text-align: center;
+    .hero .subhead {
+      font-size: clamp(16px, 2.5vw, 19px);
       color: var(--navy-200);
-      font-size: 16px;
+      line-height: 1.65;
       margin-bottom: 40px;
-      max-width: 560px;
-      margin-left: auto;
-      margin-right: auto;
+      max-width: 580px;
     }
 
-    .video-wrapper {
-      max-width: 860px;
-      margin: 0 auto;
-      border-radius: 16px;
-      overflow: hidden;
-      border: 1px solid var(--navy-steel);
-      box-shadow: 0 24px 80px rgba(0, 191, 165, 0.08);
-      aspect-ratio: 16 / 9;
-      background: #000;
-      position: relative;
-    }
-
-    .video-wrapper iframe {
-      width: 100%;
-      height: 100%;
-      border: none;
-      display: block;
-    }
-
-    .video-caption {
-      text-align: center;
-      margin-top: 20px;
-      font-size: 14px;
-      color: var(--navy-200);
-    }
-
-    /* ── EMAIL CAPTURE ──────────────────────────────────── */
-    .section-capture {
-      padding: 80px 40px;
-      background: var(--navy-deep);
-    }
-
-    .capture-card {
-      max-width: 640px;
-      margin: 0 auto;
+    /* ── FORM ─────────────────────────────────────────── */
+    .form-wrap {
       background: var(--navy-card);
-      border: 1px solid rgba(0, 191, 165, 0.3);
-      border-radius: 24px;
-      padding: 56px 48px;
-      text-align: center;
-      box-shadow: 0 0 60px rgba(0, 191, 165, 0.06);
+      border: 1px solid rgba(0, 191, 165, 0.25);
+      border-radius: 16px;
+      padding: 32px;
     }
 
-    .capture-card .section-label { margin-bottom: 12px; }
-
-    .capture-card h2 {
-      font-size: clamp(24px, 3.5vw, 34px);
-      font-weight: 700;
-      line-height: 1.2;
-      margin-bottom: 12px;
+    .form-fields {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 14px;
     }
 
-    .capture-card p {
-      color: var(--navy-200);
-      font-size: 15px;
-      line-height: 1.7;
-      margin-bottom: 32px;
-    }
-
-    .form-row {
+    .field-row {
       display: flex;
       gap: 12px;
-      flex-wrap: wrap;
     }
 
     .form-input {
-      flex: 1;
-      min-width: 200px;
+      width: 100%;
       background: var(--navy-valuation);
       border: 1px solid var(--navy-steel);
-      border-radius: 999px;
-      padding: 14px 22px;
+      border-radius: 10px;
+      padding: 13px 18px;
       font-family: var(--font);
       font-size: 15px;
       color: var(--white);
@@ -318,185 +133,246 @@
     .form-input::placeholder { color: var(--navy-200); }
     .form-input:focus { border-color: var(--teal-signal); }
 
+    .btn-submit {
+      width: 100%;
+      background: var(--coral);
+      color: var(--white);
+      font-family: var(--font);
+      font-weight: 700;
+      font-size: 16px;
+      letter-spacing: 0.02em;
+      padding: 15px 24px;
+      border-radius: 10px;
+      border: none;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.15s;
+    }
+    .btn-submit:hover { background: var(--coral-hover); transform: translateY(-1px); }
+
     .form-note {
-      margin-top: 14px;
       font-size: 12px;
       color: var(--navy-steel);
-      letter-spacing: 0.02em;
+      line-height: 1.5;
     }
 
-    /* ── VALUE PROPS ──────────────────────────────────────── */
-    .section-value {
-      padding: 80px 40px;
-      background: var(--navy-midnight);
-      border-top: 1px solid var(--navy-steel);
+    /* ── CONTENT SECTIONS ───────────────────────────── */
+    .section {
+      padding: 64px 0;
+      border-bottom: 1px solid var(--navy-steel);
     }
 
-    .value-grid {
-      max-width: 960px;
-      margin: 48px auto 0;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 24px;
+    .section h2 {
+      font-size: clamp(22px, 3.5vw, 30px);
+      font-weight: 700;
+      letter-spacing: -0.015em;
+      line-height: 1.25;
+      margin-bottom: 24px;
     }
 
-    .value-card {
-      background: var(--navy-card);
-      border: 1px solid var(--navy-steel);
-      border-radius: 16px;
-      padding: 32px 28px;
-      transition: border-color 0.2s, transform 0.2s;
+    .section p {
+      color: var(--navy-100);
+      margin-bottom: 18px;
+      line-height: 1.75;
     }
-    .value-card:hover {
-      border-color: var(--teal-signal);
-      transform: translateY(-4px);
+    .section p:last-child { margin-bottom: 0; }
+
+    /* Lesson bullets */
+    .lesson-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 8px;
+      margin-bottom: 18px;
     }
 
-    .value-icon {
-      width: 44px;
-      height: 44px;
-      border-radius: 12px;
-      background: rgba(0, 191, 165, 0.12);
+    .lesson-list li {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+
+    .lesson-list .dash {
+      flex-shrink: 0;
+      width: 28px;
+      height: 28px;
+      background: rgba(0, 191, 165, 0.1);
       border: 1px solid rgba(0, 191, 165, 0.25);
+      border-radius: 8px;
       display: flex;
       align-items: center;
       justify-content: center;
-      margin-bottom: 20px;
-      font-size: 20px;
-    }
-
-    .value-card h3 {
-      font-size: 18px;
-      font-weight: 700;
-      margin-bottom: 10px;
-    }
-
-    .value-card p {
+      color: var(--teal-signal);
       font-size: 14px;
-      color: var(--navy-200);
+      font-weight: 700;
+      margin-top: 1px;
+    }
+
+    .lesson-list .item-text {
+      color: var(--navy-100);
+      font-size: 16px;
       line-height: 1.65;
     }
 
-    /* ── TICKET CTA ─────────────────────────────────────── */
-    .section-cta {
-      padding: 100px 40px;
-      background: var(--navy-deep);
-      text-align: center;
-      position: relative;
-      overflow: hidden;
+    .lesson-list strong {
+      color: var(--white);
+      font-weight: 600;
     }
 
-    .section-cta::before {
-      content: '';
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 600px;
-      height: 600px;
-      background: radial-gradient(circle, rgba(0, 191, 165, 0.07) 0%, transparent 70%);
-      pointer-events: none;
+    /* Math callout */
+    .math-callout {
+      background: linear-gradient(135deg, rgba(0, 191, 165, 0.07) 0%, rgba(79, 255, 226, 0.03) 100%);
+      border: 1px solid rgba(79, 255, 226, 0.2);
+      border-radius: 12px;
+      padding: 24px 28px;
+      margin: 28px 0 0;
+      display: flex;
+      gap: 16px;
+      align-items: center;
     }
 
-    .cta-inner { position: relative; z-index: 1; }
+    .math-callout .nums {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      flex-shrink: 0;
+    }
 
-    .price-tag {
-      display: inline-block;
-      font-size: 13px;
+    .math-callout .num-row {
+      display: flex;
+      align-items: baseline;
+      gap: 6px;
+      white-space: nowrap;
+    }
+
+    .math-callout .big {
+      font-size: 28px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+    }
+    .math-callout .big.old { color: var(--navy-200); text-decoration: line-through; }
+    .math-callout .big.new { color: var(--teal-electric); }
+
+    .math-callout .label {
+      font-size: 12px;
+      color: var(--navy-200);
+      font-weight: 500;
+    }
+
+    .math-sep {
+      width: 1px;
+      height: 48px;
+      background: var(--navy-steel);
+      flex-shrink: 0;
+    }
+
+    .math-callout .math-text {
+      font-size: 14px;
+      color: var(--navy-200);
+      line-height: 1.6;
+    }
+    .math-callout .math-text strong { color: var(--white); }
+
+    /* Bio section */
+    .bio-grid {
+      display: flex;
+      gap: 28px;
+      align-items: flex-start;
+    }
+
+    .bio-avatar {
+      flex-shrink: 0;
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      background: var(--navy-card);
+      border: 2px solid var(--navy-steel);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      font-weight: 800;
+      color: var(--teal-signal);
+      letter-spacing: -0.02em;
+    }
+
+    .bio-text p { margin-bottom: 14px; }
+
+    /* Final CTA */
+    .section-final {
+      padding: 64px 0 80px;
+    }
+
+    .section-final h2 {
+      font-size: clamp(22px, 3.5vw, 30px);
+      font-weight: 700;
+      letter-spacing: -0.015em;
+      line-height: 1.25;
+      margin-bottom: 32px;
+    }
+
+    /* Early bird banner */
+    .early-bird {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      background: rgba(255, 95, 95, 0.08);
+      border: 1px solid rgba(255, 95, 95, 0.25);
+      border-radius: 10px;
+      padding: 14px 20px;
+      margin-top: 28px;
+      font-size: 14px;
+      color: var(--navy-100);
+      line-height: 1.5;
+    }
+
+    .early-bird .tag {
+      flex-shrink: 0;
+      background: var(--coral);
+      color: var(--white);
+      font-size: 11px;
       font-weight: 700;
       letter-spacing: 0.1em;
       text-transform: uppercase;
-      color: var(--navy-200);
-      margin-bottom: 20px;
-    }
-    .price-tag span {
-      color: var(--teal-electric);
-      font-size: 28px;
-      letter-spacing: -0.02em;
-      display: block;
-      margin-top: 4px;
+      padding: 4px 10px;
+      border-radius: 999px;
     }
 
-    .section-cta h2 {
-      font-size: clamp(28px, 5vw, 52px);
-      font-weight: 800;
-      letter-spacing: -0.02em;
-      line-height: 1.1;
-      margin-bottom: 20px;
-    }
-
-    .section-cta p {
-      color: var(--navy-200);
-      font-size: 18px;
-      max-width: 520px;
-      margin: 0 auto 44px;
-      line-height: 1.7;
-    }
-
-    .conference-details {
-      display: flex;
-      justify-content: center;
-      gap: 32px;
-      margin-top: 40px;
-      flex-wrap: wrap;
-    }
-
-    .detail-item {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 4px;
-    }
-
-    .detail-label {
-      font-size: 11px;
-      font-weight: 700;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      color: var(--navy-200);
-    }
-
-    .detail-value {
-      font-size: 16px;
-      font-weight: 600;
-      color: var(--white);
-    }
-
-    .detail-sep {
-      width: 1px;
-      height: 40px;
-      background: var(--navy-steel);
-      align-self: center;
-    }
-
-    /* ── FOOTER ─────────────────────────────────────────── */
+    /* ── FOOTER ─────────────────────────────────────── */
     footer {
-      padding: 40px;
       border-top: 1px solid var(--navy-steel);
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 16px;
-      background: var(--navy-midnight);
+      padding: 36px 24px;
+      text-align: center;
     }
+    footer img { height: 22px; width: auto; opacity: 0.5; margin-bottom: 12px; display: block; margin-left: auto; margin-right: auto; }
+    .footer-copy { font-size: 13px; color: var(--navy-steel); }
 
-    footer img { height: 26px; width: auto; opacity: 0.7; }
-
-    .footer-copy {
-      font-size: 13px;
+    /* ── CONFIRMATION STATE ─────────────────────────── */
+    .confirmed {
+      text-align: center;
+      padding: 40px 24px;
+    }
+    .confirmed .check {
+      font-size: 52px;
+      margin-bottom: 20px;
+    }
+    .confirmed h3 {
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+    .confirmed p {
       color: var(--navy-200);
+      font-size: 15px;
+      line-height: 1.65;
     }
 
-    /* ── RESPONSIVE ──────────────────────────────────────── */
-    @media (max-width: 640px) {
-      nav { padding: 0 20px; }
-      .hero, .section-video, .section-capture, .section-value, .section-cta { padding-left: 20px; padding-right: 20px; }
-      .capture-card { padding: 36px 24px; }
-      .form-row { flex-direction: column; }
-      .form-row .btn-primary { width: 100%; justify-content: center; }
-      footer { padding: 32px 20px; flex-direction: column; align-items: flex-start; }
-      .detail-sep { display: none; }
+    /* ── RESPONSIVE ─────────────────────────────────── */
+    @media (max-width: 520px) {
+      .field-row { flex-direction: column; }
+      .bio-grid { flex-direction: column; gap: 16px; }
+      .math-callout { flex-direction: column; gap: 12px; }
+      .math-sep { display: none; }
     }
   </style>
 </head>
@@ -504,147 +380,130 @@
 
   <!-- ── NAV ─────────────────────────────────────────── -->
   <nav>
-    <a href="https://www.valusignal.com/" class="nav-logo" target="_blank" rel="noopener">
+    <a href="https://www.valusignal.com/" target="_blank" rel="noopener">
       <img src="https://cdn.prod.website-files.com/694577e9bd14c35ee822c5c1/6977c527fbbe4dd3aa98f4b2_header-logo.webp" alt="ValuSignal">
-    </a>
-    <a href="https://www.valusignal.com/register" target="_blank" rel="noopener" class="nav-cta">
-      Get Your Ticket
     </a>
   </nav>
 
   <!-- ── HERO ─────────────────────────────────────────── -->
   <section class="hero">
-    <div class="hero-inner">
-      <div class="strapline">ValuSignal Conference 2026 &mdash; Free Training</div>
-      <h1>
-        Rebuild Your Entire<br>
-        Appraisal Brand<br>
-        <span class="accent">with AI</span>
-      </h1>
-      <p class="hero-sub">
-        Watch this free 30-minute training by Hansel Dobbs and see exactly how appraisers are using AI to redo their entire web presence — for next to nothing.
-      </p>
-      <div class="hero-ctas">
-        <a href="#video" class="btn-primary">
-          Watch the Free Training
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12 5v14M5 12l7 7 7-7" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </a>
-        <a href="https://www.valusignal.com/register" target="_blank" rel="noopener" class="btn-secondary">
-          Get Your Ticket →
-        </a>
+    <div class="container">
+      <span class="eyebrow">Free Lesson — ValuSignal 2026</span>
+      <h1>Replace your $400-a-year appraiser website in an afternoon, for around a dollar a month.</h1>
+      <p class="subhead">Free 25-minute lesson. The exact AI tools, prompts, and steps I used to retire my old site. No card, no commitment.</p>
+
+      <!-- FORM -->
+      <div class="form-wrap" id="form-top">
+        <form id="opt-in-form-top" onsubmit="handleSubmit(event, 'form-top')">
+          <div class="form-fields">
+            <div class="field-row">
+              <input class="form-input" type="text" name="first_name" placeholder="First name" required autocomplete="given-name">
+              <input class="form-input" type="email" name="email" placeholder="Email address" required autocomplete="email">
+            </div>
+            <button type="submit" class="btn-submit">Send me the lesson</button>
+          </div>
+          <p class="form-note">One email with the lesson link. You can unsubscribe in one click. No spam, ever.</p>
+        </form>
       </div>
     </div>
   </section>
 
-  <!-- ── VIDEO ─────────────────────────────────────────── -->
-  <section class="section-video" id="video">
-    <p class="section-label">Free 30-Minute Training</p>
-    <h2 class="section-title">Watch. Learn. Build.</h2>
-    <p class="section-sub">Hansel walks you through what's possible — and how to get your conference ticket for free.</p>
+  <!-- ── SECTION 2: THE PROBLEM ──────────────────────── -->
+  <section class="section">
+    <div class="container">
+      <h2>You've been paying for the same website since the 2000s.</h2>
+      <p>Most appraisers I talk to are paying $400 to $800 a year for a website that hasn't substantially changed since the iPhone 4. Same templates. Same fonts. Same load times. Same mobile experience.</p>
+      <p>Meanwhile your portal clients are searching on their phones, expecting sites that load in two seconds, and bouncing when they don't.</p>
+      <p>The math doesn't work anymore. The technology to replace what you have exists, it's free, and it's not hard.</p>
 
-    <div class="video-wrapper">
-      <iframe
-        src="https://www.youtube.com/embed/-WONvfQEfr0?rel=0&modestbranding=1&color=white"
-        title="Free Training: Rebuild Your Appraisal Brand with AI — Hansel Dobbs"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-      </iframe>
-    </div>
-    <p class="video-caption">🔓 No signup required to watch — just press play.</p>
-  </section>
-
-  <!-- ── EMAIL CAPTURE ──────────────────────────────────── -->
-  <section class="section-capture" id="email">
-    <div class="capture-card">
-      <p class="section-label">Get the Full Training</p>
-      <h2>Want 3&ndash;4 Hours of Content?<br>Buy Your Ticket.</h2>
-      <p>
-        When you register for ValuSignal 2026, you immediately get access to Hansel's complete AI training library — hours of content on rebuilding your brand, automating your workflow, and staying relevant in the new market.
-      </p>
-
-      <!-- Replace action URL with your form endpoint (e.g. Make webhook, Formspree, etc.) -->
-      <form class="form-row" action="#" method="POST" onsubmit="handleSubmit(event)">
-        <input
-          class="form-input"
-          type="email"
-          name="email"
-          placeholder="Enter your email address"
-          required
-          autocomplete="email"
-        >
-        <button type="submit" class="btn-primary">Send Me the Link</button>
-      </form>
-      <p class="form-note">No spam. We'll send you the registration link and training access — that's it.</p>
-    </div>
-  </section>
-
-  <!-- ── VALUE PROPS ──────────────────────────────────────── -->
-  <section class="section-value">
-    <p class="section-label">What You Get When You Register</p>
-    <h2 class="section-title">Your Ticket Pays For Itself</h2>
-    <p class="section-sub">ValuSignal isn't about checking a box. It's about staying relevant.</p>
-
-    <div class="value-grid">
-      <div class="value-card">
-        <div class="value-icon">🎬</div>
-        <h3>Immediate Training Access</h3>
-        <p>As soon as you buy your ticket, we send you a link to 3–4 hours of AI content. How to rebuild your website, your brand, your entire online presence — using free and low-cost AI tools.</p>
-      </div>
-      <div class="value-card">
-        <div class="value-icon">🎤</div>
-        <h3>62+ Expert Speakers</h3>
-        <p>Real-world workflows. UAD 3.6 navigation. AI adoption playbooks. New revenue strategies. Taught by appraisers who are actually doing the work — virtually, from anywhere.</p>
-      </div>
-      <div class="value-card">
-        <div class="value-icon">💡</div>
-        <h3>No CE — On Purpose</h3>
-        <p>This isn't about checking a box. ValuSignal is built for appraisers who want to grow, adapt, and lead — not just comply. Come ready to learn what no CE course will teach you.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ── TICKET CTA ─────────────────────────────────────── -->
-  <section class="section-cta">
-    <div class="cta-inner">
-      <div class="price-tag">
-        Conference Ticket
-        <span>$247</span>
-      </div>
-      <h2>Ready to Get Your<br>Ticket for Free?</h2>
-      <p>
-        The AI training you get on registration is worth more than the ticket. Register now while seats are available.
-      </p>
-      <a href="https://www.valusignal.com/register" target="_blank" rel="noopener" class="btn-primary" style="font-size:17px; padding: 16px 44px;">
-        Register for ValuSignal 2026 →
-      </a>
-
-      <div class="conference-details">
-        <div class="detail-item">
-          <span class="detail-label">Date</span>
-          <span class="detail-value">Sep 18–19, 2026</span>
+      <div class="math-callout">
+        <div class="nums">
+          <div class="num-row">
+            <span class="big old">$400</span>
+            <span class="label">/yr now</span>
+          </div>
+          <div class="num-row">
+            <span class="big new">~$12</span>
+            <span class="label">/yr after</span>
+          </div>
         </div>
-        <div class="detail-sep"></div>
-        <div class="detail-item">
-          <span class="detail-label">Format</span>
-          <span class="detail-value">Virtual Conference</span>
-        </div>
-        <div class="detail-sep"></div>
-        <div class="detail-item">
-          <span class="detail-label">Price</span>
-          <span class="detail-value">$247</span>
-        </div>
-        <div class="detail-sep"></div>
-        <div class="detail-item">
-          <span class="detail-label">Speakers</span>
-          <span class="detail-value">62+</span>
+        <div class="math-sep"></div>
+        <p class="math-text"><strong>The conference ticket pays for itself in saved hosting fees within six months.</strong> This lesson shows you the exact steps to make the switch.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SECTION 3: WHAT'S IN THE LESSON ────────────── -->
+  <section class="section">
+    <div class="container">
+      <h2>What I'll show you, in 25 minutes.</h2>
+      <p>In about half the time it takes to drive to a comp inspection, you'll see:</p>
+
+      <ul class="lesson-list">
+        <li>
+          <span class="dash">1</span>
+          <span class="item-text"><strong>The exact prompts I gave Claude</strong> to design a clean, mobile-first appraiser site that ranks better in Google than what most of us are running now.</span>
+        </li>
+        <li>
+          <span class="dash">2</span>
+          <span class="item-text"><strong>How to deploy it on Netlify</strong> by dragging a folder onto a webpage. Hosting is free. There's no server setup.</span>
+        </li>
+        <li>
+          <span class="dash">3</span>
+          <span class="item-text"><strong>How to redirect your domain's DNS</strong> so your existing web address points to the new site without losing your email or anything else.</span>
+        </li>
+        <li>
+          <span class="dash">4</span>
+          <span class="item-text"><strong>The cost comparison.</strong> $400 a year for what you have now, against roughly $12 a year for the domain. Netlify hosting is free at the volume any single appraiser will ever need.</span>
+        </li>
+      </ul>
+
+      <p>You don't need to be technical. You need to be willing to follow along with a video and click through some settings on your registrar.</p>
+    </div>
+  </section>
+
+  <!-- ── SECTION 4: WHO I AM ─────────────────────────── -->
+  <section class="section">
+    <div class="container">
+      <h2>I'm not a marketer. I'm an appraiser.</h2>
+      <div class="bio-grid">
+        <div class="bio-avatar">HD</div>
+        <div class="bio-text">
+          <p>I'm Hansel Dobbs. Second-generation residential appraiser, twenty years in valuation, MNAA and CDEI designations. I run the Appraisify AMC and chair the ATA Legislative Committee.</p>
+          <p>I built ValuSignal because I was tired of conferences that talked about the future of valuation without ever actually showing you anything you could use on Monday morning.</p>
+          <p>The free lesson on this page is the same lesson I'm sharing with appraisers who register for ValuSignal 2026. If you find it useful and want the full hands-on workshop, the conference is September 18 to 19, virtual. If you don't, the lesson stands on its own and saves you $400 next year either way.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ── FOOTER ─────────────────────────────────────────── -->
+  <!-- ── SECTION 5: FINAL CTA ────────────────────────── -->
+  <section class="section-final">
+    <div class="container">
+      <h2>The lesson is free. The savings are real. The link's right here.</h2>
+
+      <!-- FORM REPEAT -->
+      <div class="form-wrap" id="form-bottom">
+        <form id="opt-in-form-bottom" onsubmit="handleSubmit(event, 'form-bottom')">
+          <div class="form-fields">
+            <div class="field-row">
+              <input class="form-input" type="text" name="first_name" placeholder="First name" required autocomplete="given-name">
+              <input class="form-input" type="email" name="email" placeholder="Email address" required autocomplete="email">
+            </div>
+            <button type="submit" class="btn-submit">Send me the lesson</button>
+          </div>
+          <p class="form-note">One email with the lesson link. You can unsubscribe in one click. No spam, ever.</p>
+        </form>
+      </div>
+
+      <div class="early-bird">
+        <span class="tag">Early Bird</span>
+        <span>ValuSignal 2026 is <strong>$197</strong> through May 31 — rises to $297 on June&nbsp;1. The full workshop is included with your ticket. <a href="https://www.valusignal.com/register" target="_blank" rel="noopener" style="color:var(--teal-signal); text-decoration:none; font-weight:600;">Register →</a></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ─────────────────────────────────────── -->
   <footer>
     <a href="https://www.valusignal.com/" target="_blank" rel="noopener">
       <img src="https://cdn.prod.website-files.com/694577e9bd14c35ee822c5c1/6977c527fbbe4dd3aa98f4b2_header-logo.webp" alt="ValuSignal">
@@ -653,31 +512,50 @@
   </footer>
 
   <script>
-    function handleSubmit(e) {
+    function handleSubmit(e, formId) {
       e.preventDefault();
-      const email = e.target.querySelector('input[type=email]').value;
 
-      // TODO: Replace this with your actual form endpoint.
-      // Option A — Make.com webhook:
-      //   fetch('https://hook.us2.make.com/YOUR_WEBHOOK_ID', { method: 'POST', body: JSON.stringify({ email }), headers: {'Content-Type':'application/json'} })
+      const form   = e.target;
+      const name   = form.querySelector('[name=first_name]').value.trim();
+      const email  = form.querySelector('[name=email]').value.trim();
+      const wrap   = document.getElementById(formId);
+
+      // ─── Wire your form endpoint here ───────────────────────────────
+      //
+      // Option A — Make.com webhook (recommended, already in your stack):
+      //   fetch('https://hook.us2.make.com/YOUR_WEBHOOK_ID', {
+      //     method: 'POST',
+      //     headers: { 'Content-Type': 'application/json' },
+      //     body: JSON.stringify({ first_name: name, email: email, source: 'website-lesson' })
+      //   });
+      //
       // Option B — Formspree:
-      //   Change form action="https://formspree.io/f/YOUR_FORM_ID" and remove this JS handler
-      // Option C — Redirect straight to ticket page:
-      //   window.open('https://www.valusignal.com/register', '_blank');
+      //   Remove this JS handler, set form action="https://formspree.io/f/YOUR_ID" method="POST"
+      //
+      // ────────────────────────────────────────────────────────────────
 
-      // Placeholder confirmation
-      const card = e.target.closest('.capture-card');
-      card.innerHTML = `
-        <div style="padding: 24px 0; text-align:center;">
-          <div style="font-size:48px; margin-bottom:16px;">✅</div>
-          <p class="section-label" style="margin-bottom:12px;">You're in!</p>
-          <h2 style="margin-bottom:12px;">Check your inbox</h2>
-          <p style="color:var(--navy-200); margin-bottom:28px;">We're sending the registration link and training access to <strong style="color:var(--white)">${email}</strong>.</p>
-          <a href="https://www.valusignal.com/register" target="_blank" rel="noopener" class="btn-primary" style="display:inline-flex;">
-            Register Now →
-          </a>
+      wrap.innerHTML = `
+        <div class="confirmed">
+          <div class="check">✅</div>
+          <h3>Check your inbox, ${name}.</h3>
+          <p>We sent the lesson link to <strong style="color:var(--white)">${email}</strong>.<br>
+          Should arrive in the next minute or two — check your spam folder if you don't see it.</p>
         </div>
       `;
+
+      // Sync both forms if both visible
+      ['form-top', 'form-bottom'].forEach(id => {
+        if (id !== formId) {
+          const other = document.getElementById(id);
+          if (other) other.innerHTML = `
+            <div class="confirmed">
+              <div class="check">✅</div>
+              <h3>Check your inbox, ${name}.</h3>
+              <p>We sent the lesson link to <strong style="color:var(--white)">${email}</strong>.</p>
+            </div>
+          `;
+        }
+      });
     }
   </script>
 
