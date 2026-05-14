@@ -282,18 +282,12 @@
 
     .bio-avatar {
       flex-shrink: 0;
-      width: 72px;
-      height: 72px;
+      width: 88px;
+      height: 88px;
       border-radius: 50%;
-      background: var(--navy-card);
       border: 2px solid var(--navy-steel);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 28px;
-      font-weight: 800;
-      color: var(--teal-signal);
-      letter-spacing: -0.02em;
+      object-fit: cover;
+      object-position: center top;
     }
 
     .bio-text p { margin-bottom: 14px; }
@@ -467,7 +461,7 @@
     <div class="container">
       <h2>I'm not a marketer. I'm an appraiser.</h2>
       <div class="bio-grid">
-        <div class="bio-avatar">HD</div>
+        <img class="bio-avatar" src="hansel-dobbs.png" alt="Hansel Dobbs">
         <div class="bio-text">
           <p>I'm Hansel Dobbs. Second-generation residential appraiser, twenty years in valuation, MNAA and CDEI designations. I run the Appraisify AMC and chair the ATA Legislative Committee.</p>
           <p>I built ValuSignal because I was tired of conferences that talked about the future of valuation without ever actually showing you anything you could use on Monday morning.</p>
