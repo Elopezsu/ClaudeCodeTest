@@ -7,6 +7,7 @@
 
 - **Current setup:** "Rebuild Appraiser Website in 60 Minutes" + email capture form → redirect to YouTube video
 - **Hansel's update:** Trim the free video to **30 minutes** (teaser only, recorded last night)
+- **Teaser video:** https://youtu.be/-WONvfQEfr0 (30 min, recorded by Hansel)
 - **New flow:**
   1. Visitor lands on page → watches 30-min teaser (Hansel pitches the rest inside the video)
   2. They buy a ticket → immediately receive link to **3–4 hours of full AI training content**
