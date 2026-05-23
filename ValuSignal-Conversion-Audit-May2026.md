@@ -352,4 +352,73 @@ Or after a post about a specific speaker:
 
 ---
 
+---
+
+## 8. Pipedrive Sequences — What to Update + What's Missing
+
+### What to Update in Each Active Sequence
+
+**Sequence A — General Contact / Inquiry (Form 01 + Session Updates)**
+- **Step 1:** Early bird banner currently says "ends June 1" → change to **June 15**. Also verify: Roy Meyer, Patricia Staebler, and Lisa Gulden are still confirmed speakers. If any have been replaced, update the session examples in Step 1.
+- **Step 5:** References "early bird" — confirm June 15 is the date used, not June 1.
+- **Steps 3–4:** Tony Pistilli, Tobias Peter, Michele Golden, Joshua Walitt are named — verify all are still on the confirmed schedule.
+- **No pricing gap in Steps 2, 3, 6** — these are nurture-only, no deadline to update.
+
+**Sequence B — Sponsor Inquiry (Form 05)**
+- No early bird or ticket pricing referenced in this sequence — no date updates needed.
+- **Step 7 ("We Are Finalizing the Tech Demo Lineup"):** Check if it references any June 1 urgency. If the urgency is deadline-based, update to reflect the current tech demo enrollment status.
+- This sequence is functioning correctly for its purpose. No structural changes recommended.
+
+**Sequence C — UAD 3.6 Survival Guide (Form 03)**
+- **Step 4 ("This Event Isn't Designed for Everyone"):** This step bridges the guide to a purchase CTA. Confirm it shows the $197 / June 15 early bird price, not June 1. This is the conversion step of this sequence.
+- Steps 1–3 are education-only — no dates to update.
+
+**Sequence D — Tech Demo / Vendor Track (Form 06)**
+- **Step 4 ("We Are Finalizing the Tech Demo Lineup"):** This is the urgency close step — verify no June 1 reference.
+- Step 5 references sponsorship — confirm it reflects current sponsor tier pricing (Core / Featured / Title) and does not reference APL.
+
+---
+
+### What's Missing — 4 Campaigns to Build
+
+**Gap 1: Form 04 — "Stay Updated" (53 contacts, zero emails sent)**
+This is the highest-priority gap in the entire Pipedrive setup. 53 people specifically asked to be kept informed and have received nothing. Full copy brief is in Section 7 of this document. Build this sequence first — it should go live by June 2.
+
+**Gap 2: Form 02 — "Rebuild Your Appraiser Website" (8 contacts, no sequence)**
+8 contacts came in through the "Rebuild Your Appraiser Website" form. These are the same audience as Campaign 2 (Website Lead Magnet) — they've already expressed interest in the $400/year website problem. They should receive the same 4-email sequence as Campaign 2, triggered immediately. Small list but pre-qualified.
+
+**Gap 3: Form 07 — "Replace Your $400/Year Appraiser" (3 contacts, no sequence)**
+Same situation as Form 02 — these contacts are a perfect match for Campaign 2 content. Route them into the same sequence. 3 people is a small list but the form converts at 11.5% — they are warm.
+
+**Gap 4: Post-June-15 Reactivation (for all contacts who don't convert by June 15)**
+There is currently no plan for what happens to leads who reach June 15 without registering. This is a significant gap because the early bird deadline, while real urgency, does not mean the prospect is no longer interested — it just means the $197 window closed. A post-June-15 sequence should go out to all non-converted contacts with a clear message: "Early bird closed. The Appraiser Track is now $297. Here's why it's still worth it." One email, no apology for the price change, focus on UAD 3.6 November 2 urgency as the new time driver.
+
+---
+
+### The ~1,000 Pipedrive Contacts — Segmentation Strategy
+
+Of the ~1,000 contacts in Pipedrive, the realistic breakdown by status is:
+
+| Segment | Estimated Size | Current Status | Action |
+|---|---|---|---|
+| **Web form submitters (active sequences)** | ~104 | In Sequences A, B, C, D | Audit for June 1 → June 15 updates only |
+| **Form 04 "Stay Updated" (no sequence)** | 53 | Received zero emails | Build + launch Gap 1 sequence immediately |
+| **Form 02 + 07 (no sequence)** | ~11 | Received zero emails | Route into Campaign 2 sequence |
+| **Instantly cold outreach (tracked)** | 102 | In Instantly sequences | Already managed — monitor sub-sequence for 14 warm leads |
+| **Remaining ~730 contacts** | ~730 | Source unknown | **Needs audit — see below** |
+
+**The 730 unknown contacts are the biggest opportunity and the biggest question mark.** Before building new campaigns for them, the email team needs to answer three things:
+1. Who are they? (Which form, which campaign, or were they manually added?)
+2. Have they received any emails? (Are they in a Pipedrive sequence that was paused, or have they never been contacted?)
+3. What did they indicate interest in? (Appraiser Track, sponsor, tech demo, career launchpad?)
+
+**Recommended approach for the 730:**
+- Pull the full Pipedrive contact list filtered by "no active deal" and "no email campaign assigned"
+- Sort by most recent activity date
+- Contacts with recent activity (last 60 days) → add to the most relevant active sequence based on their source form or tag
+- Contacts with no activity / no source → send a single re-engagement email: *"You're on our list from [source if known]. ValuSignal is September 18–19. Early bird is $197 through June 15. Here's what's confirmed so far: [2-3 bullets]. Want to stay on the list?"* — this cleans the list and converts the still-interested ones
+- Do not mass-blast all 730 with a registration CTA — context matters and a generic blast to cold contacts will generate unsubscribes, not conversions
+
+---
+
 *This audit was prepared using: Instantly Campaign Performance Tracking (CSV), ValuSignal automation stack documentation (Make.com blueprints, Pipedrive forms and sequences), Instantly campaign copy for all 3 campaigns, live website audit (valusignal.com), and LinkedIn company page review. Sub-sequence enrollment for 14 warm leads confirmed active as of May 23, 2026.*
