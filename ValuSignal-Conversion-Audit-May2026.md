@@ -203,55 +203,159 @@ This is the highest-converting form in the stack after General Contact. It is st
 
 ## 5. Priority Matrix
 
-### CRITICAL — Fix before June 15 (blocks or confuses conversion)
+### CRITICAL — Fix before launching any additional traffic (blocks or confuses conversion)
 
 | # | Item | Owner | Action |
 |---|---|---|---|
-| C1 | Remove Agent Pricing Lab from website navigation, registration page, and schedule | Dev / Marketing | Immediate — before any campaign drives traffic |
-| C2 | Update registration page: remove "Registration Opening Soon" if Stripe is live | Dev | Confirm Stripe status, update copy this week |
-| C3 | Audit all 14 "interested/replied" leads — confirm they are in the sub-sequence | Email Team | Pull list from Instantly, verify sub-sequence enrollment |
-| C4 | Update all active emails: June 1 → June 15 early bird deadline | Email Team | Audit Instantly sequences + Pipedrive sequences A–D |
-| C5 | Update the 1-page PDF overview with June 15 deadline | Marketing | Before any new PDF is sent |
+| C1 | Remove Agent Pricing Lab from website nav, registration page, and schedule | Dev | Delete APL tab from navigation, remove APL ticket block from /register, remove APL session from /schedule |
+| C2 | Update registration page: remove "Registration Opening Soon" — Stripe is live | Dev | Replace with "Register Now — Early Bird $197 through June 15" and direct checkout link |
+| C3 | Update all active Instantly emails: June 1 → June 15 | Email Team | Open each active sequence step in Instantly, find every instance of "June 1" or "June 1st," replace with "June 15" |
+| C4 | Update all active Pipedrive sequences: June 1 → June 15 | Email Team | Sequences A (Step 1), C (Step 4) confirmed to reference early bird — audit all 4 sequences |
+| C5 | Update the 1-page PDF overview with June 15 deadline | Marketing | Any PDF being sent to "interested/replied" leads must show June 15, not June 1 |
+
+*Note: The 14 "interested/replied" leads are confirmed enrolled in the sub-sequence. No action needed on enrollment — monitor for conversion through June 15.*
 
 ---
 
-### MEDIUM — Implement within 2 weeks (reduces conversion rate if left unfixed)
+### MEDIUM — Implement within 2 weeks (reduces conversion if left unfixed)
 
 | # | Item | Owner | Action |
 |---|---|---|---|
-| M1 | Add early bird deadline + price urgency to homepage | Dev / Marketing | One visible line near hero CTA: "Early bird $197 — ends June 15" |
-| M2 | Add social proof to homepage hero section | Marketing | 3 speaker names + affiliations above the fold |
-| M3 | Create 3–4 email nurture sequence for Form 04 (Stay Updated — 53 contacts) | Email Team | Simple: What's coming → Speakers → UAD 3.6 angle → Register CTA |
-| M4 | Launch Campaign 2 (Website Lead Magnet) before May 31 | Email Team | Ensures full 4-email sequence runs before June 15 |
-| M5 | Launch Campaign 3 (University Outreach) before May 31 | Email Team | Career Launchpad has longer decision cycles |
-| M6 | Remove APL price IDs from Make.com Blueprint B (Checkout) | Dev | Prevents orphaned APL transactions |
-| M7 | Add early bird price + deadline to 2–3 LinkedIn company posts before June 15 | Marketing | Direct: "$197 ends June 15 — valusignal.com/register" |
-| M8 | Add register CTA to 1 in 5 personal LinkedIn posts | Eunice | Keep 4/5 as story — 1/5 as bridge to action |
-| M9 | Update ~20 leads (added May 13–23) with sequence step status in tracking sheet | Email Team | Visibility, not urgent but prevents tracking debt |
+| M1 | Add early bird urgency to homepage | Dev / Marketing | Add one line near the hero CTA and the pricing mention: "Early bird pricing: $197 through June 15 — $297 after" |
+| M2 | Add social proof above the fold on homepage | Marketing | Insert 2–3 credibility lines in or near the hero: "Including Joshua Walitt, Malinda Griffin (President, NAA), and Michelle Czekalski Bradley (Past Chair, Appraisal Standards Board)" |
+| M3 | Create Form 04 nurture sequence (53 uncontacted warm leads) | Email Team | 3-email sequence in Pipedrive — see full copy brief below |
+| M4 | Launch Campaign 2 (Website Lead Magnet) by May 28 | Email Team | 4-email sequence needs to run before June 15; launching May 28 gives 18 days |
+| M5 | Launch Campaign 3 (University Outreach) by May 28 | Email Team | Career Launchpad audience has longer decision cycles — start early |
+| M6 | Remove APL price IDs from Make.com Blueprint B | Dev | Delete `price_1TI5E5GV9wmT3CuaRFNkdFO9` and `price_1T4J9CGV9wmT3CuadEZA3gJj` from Switcher in Checkout blueprint |
+| M7 | Add early bird CTA to LinkedIn company posts (3 posts, spread across 2 weeks) | Marketing | See post brief below |
+| M8 | Add register CTA to 1 in 5 personal LinkedIn posts | Eunice | 4 story posts, 1 bridge post — see format below |
+| M9 | Move guarantee copy to homepage near pricing | Dev / Marketing | Current text: "If the conference doesn't deliver, we'll refund your ticket." — place it directly below the $197 CTA button |
 
 ---
 
-### SUGGESTED — Optimize after June 15
+### SUGGESTED — After June 15
 
 | # | Item | Owner | Action |
 |---|---|---|---|
-| S1 | Move guarantee copy to homepage hero section | Dev / Marketing | "Full refund if it doesn't deliver" near pricing CTA |
-| S2 | Replace "Subscribe for updates" with "Full schedule releasing [date]" | Dev / Marketing | Sounds intentional, not incomplete |
-| S3 | Reshare company page speaker spotlights from personal LinkedIn account | Eunice | Extend reach to personal network |
-| S4 | Tag speakers in relevant posts | Eunice / Marketing | Expands reach to speaker networks |
-| S5 | Build traffic to Form 07 (highest-converting form, only 26 views) | Marketing | Monitor after Campaign 2 launches |
-| S6 | Verify all Pipedrive sequence speaker names are still confirmed | Speaker Relations | Cross-check against current schedule |
+| S1 | Replace "Subscribe for updates" on schedule page | Dev / Marketing | Change to: "Full schedule releasing [specific date]. Subscribe to be notified." — sounds intentional |
+| S2 | Reshare company page content from personal LinkedIn account | Eunice | Speaker spotlights, track announcements — recreate or reshare to extend reach beyond 89 followers |
+| S3 | Tag speakers in relevant posts | Eunice / Marketing | @Joshua Walitt, @Malinda Griffin, @Roy Meyer when posting about their sessions |
+| S4 | Audit Form 07 traffic after Campaign 2 launches | Marketing | Form 07 converts at 11.5% but has only 26 views — Campaign 2 is its natural traffic driver |
+| S5 | Verify all Pipedrive sequence speaker names against current confirmed schedule | Speaker Relations | Sequence A references Roy Meyer, Patricia Staebler, Lisa Gulden — confirm all are still active |
 
 ---
 
-## 6. Two-Week Action Plan
+## 6. Two-Week Conversion Sprint — Specific Actions by Day
 
-| Week | Focus | Priority Items |
-|---|---|---|
-| **Week 1 (May 26 – June 1)** | Fix blocking issues + warm leads | C1, C2, C3, C4, C5, M1, M4, M5 |
-| **Week 2 (June 2 – June 14)** | Drive to early bird deadline | M2, M3, M6, M7, M8 + final urgency push in all active sequences |
-| **June 15** | Early bird closes | Monitor registrations, prepare post-deadline follow-up sequence |
+**The window:** 23 days to June 15 early bird close. Current conversion: 4.9% (5 registered / 102 leads). Goal: move the 14 warm sub-sequence leads + launch 2 new campaigns + fix website before any new traffic arrives.
 
 ---
 
-*This audit was prepared using: Instantly Campaign Performance Tracking (CSV), ValuSignal automation stack documentation (Make.com blueprints, Pipedrive forms and sequences), Instantly campaign copy for all 3 campaigns, live website audit (valusignal.com), and LinkedIn company page review.*
+### WEEK 1: May 26–June 1 — Fix the Foundation
+
+**Monday May 26 (Team Meeting Day)**
+- [ ] **Dev:** Remove APL from nav, /register, and /schedule — takes 30–60 min, highest priority
+- [ ] **Dev:** Fix "Registration Opening Soon" → "Register Now — Early Bird $197 through June 15"
+- [ ] **Email Team:** Do a full find-and-replace of "June 1" in every active Instantly sequence and Pipedrive sequence — document which steps were updated
+- [ ] **Marketing:** Update the 1-page PDF with June 15 deadline, redistribute to Eunice for re-sends if needed
+
+**Tuesday May 27**
+- [ ] **Dev / Marketing:** Add early bird urgency line to homepage. Exact copy: *"Early bird pricing: $197 through June 15. $297 after."* Place near "Register for 2026" CTA button.
+- [ ] **Dev:** Remove APL price IDs from Make.com Blueprint B (Checkout scenario)
+
+**Wednesday–Thursday May 28–29**
+- [ ] **Email Team:** Launch Campaign 2 (Website Lead Magnet / $400 website). Confirm "Fixed by Eunice" versions are the production copy. Confirm June 15 deadline in Email 3.
+- [ ] **Email Team:** Launch Campaign 3 (University Outreach / Career Launchpad). Confirm flyer references June 15 and $47 early bird price.
+
+**Friday May 30**
+- [ ] **Marketing:** Add first LinkedIn urgency post (company page). See copy brief below.
+- [ ] **Marketing:** Add 2–3 credibility lines to homepage hero. Suggested: *"Speakers include Malinda Griffin, President of the National Association of Appraisers, and Joshua Walitt, leading compliance educator — among 70+ valuation professionals."*
+
+---
+
+### WEEK 2: June 2–14 — Drive to Close
+
+**June 2–5**
+- [ ] **Email Team:** Build and activate Form 04 nurture sequence in Pipedrive (53 warm leads — see copy brief below). Send Email 1 immediately.
+- [ ] **Marketing:** Second LinkedIn urgency post (company page).
+- [ ] **Eunice:** Begin 1-in-5 LinkedIn post cadence — next post after a story post should bridge to registration.
+
+**June 8–10**
+- [ ] **Email Team:** Manual check on sub-sequence progress for the 14 warm "interested/replied" leads. How many have converted? How many are on Step 3 or 4?
+- [ ] **Marketing:** Third LinkedIn urgency post — deadline-focused. Exact frame: "One week left at $197."
+- [ ] **Email Team:** Add a final urgency P.S. to any Campaign 1 follow-up emails still going out: *"Early bird pricing ($197) closes June 15 — $297 after."*
+
+**June 13–14**
+- [ ] **Email Team:** Final deadline reminder to any leads still in active sequences who have not registered. One direct email: "Last 48 hours at $197." No new content — just the deadline.
+- [ ] **Eunice:** Personal LinkedIn post on June 14 — story post about what tomorrow (June 15) means for the event, with register link.
+
+**June 15**
+- [ ] Monitor registrations throughout the day
+- [ ] After close: prepare post-deadline email for all non-converted leads: "Early bird closed — $297 is now the price. Still worth it. Here's why." (Keeps the door open, acknowledges the deadline passed honestly.)
+
+---
+
+## 7. Copy Briefs for New Assets
+
+### Form 04 Nurture Sequence (3 emails — for 53 "Stay Updated" subscribers)
+
+**Email 1 — Send immediately on launch**
+Subject: Here's what's happening at ValuSignal
+*ValuSignal is 4 months out. Here's what we've confirmed so far: 70+ speakers, including Joshua Walitt, Malinda Griffin, and Michelle Czekalski Bradley. Two full days covering UAD 3.6, AI workflows, and non-lender revenue. Virtual, September 18–19. Early bird: $197 through June 15. Want the full overview? [Register here]*
+
+**Email 2 — Send Day 5**
+Subject: The UAD 3.6 mandate lands November 2
+*November 2, 2026 is the UAD 3.6 implementation deadline. We built two full days of ValuSignal around what that means in practice — not the theory, the actual workflow changes. Jake Lew, the first GSE-verified UAD 3.6 vendor, is presenting. So is Joshua Walitt. Early bird pricing ($197) closes June 15. [Register]*
+
+**Email 3 — Send Day 10**
+Subject: $197 closes June 15
+*Last note from me on early bird pricing. After June 15, the Appraiser Track moves to $297. Two days, 70+ speakers, 3 months of replay access. If you've been considering it, this is the window. [valusignal.com/register]*
+
+---
+
+### LinkedIn Company Page — 3 Urgency Posts
+
+**Post 1 (May 30)**
+Early bird pricing for ValuSignal 2026 closes June 15.
+
+$197 through June 15. $297 after.
+
+Two days. 70+ speakers. UAD 3.6, AI workflows, non-lender revenue. Virtual, September 18–19.
+
+Register: valusignal.com/register
+
+**Post 2 (June 5)**
+UAD 3.6 lands November 2, 2026.
+
+ValuSignal is September 18–19 — built specifically around what that mandate means for working appraisers.
+
+Joshua Walitt, Jake Lew (first GSE-verified UAD 3.6 vendor), and 70+ others are presenting.
+
+Early bird: $197 through June 15.
+
+valusignal.com/register
+
+**Post 3 (June 12)**
+One week left at $197.
+
+After June 15, ValuSignal Appraiser Track moves to $297.
+
+September 18–19, virtual. UAD 3.6, AI adoption, revenue diversification. Full refund if it doesn't deliver.
+
+valusignal.com/register
+
+---
+
+### Personal LinkedIn — Bridge Post Format (use 1 in 5 posts)
+
+Keep the story tone. End with one line:
+
+*"If you're an appraiser thinking about where the industry is heading — early bird for ValuSignal is $197 through June 15. [valusignal.com/register in bio]"*
+
+Or after a post about a specific speaker:
+
+*"[Speaker name] is presenting at ValuSignal September 18–19. Early bird is still open — $197 through June 15."*
+
+---
+
+*This audit was prepared using: Instantly Campaign Performance Tracking (CSV), ValuSignal automation stack documentation (Make.com blueprints, Pipedrive forms and sequences), Instantly campaign copy for all 3 campaigns, live website audit (valusignal.com), and LinkedIn company page review. Sub-sequence enrollment for 14 warm leads confirmed active as of May 23, 2026.*
