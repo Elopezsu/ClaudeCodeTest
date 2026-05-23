@@ -26,32 +26,26 @@ The good news: all of these gaps are fixable before June 15. This audit prioriti
 
 ### What Is Working
 - **Hero headline is strong.** "Where Valuation Does Business." is specific, confident, and differentiates from CE-credit conferences. Keep it.
-- **Refund guarantee is present** on the registration page. This removes purchase risk and should be surfaced earlier.
+- **Agent Pricing Lab has been removed.** Navigation, registration page, and ticket blocks all confirmed clean — only Appraiser Track and Career Launchpad are live. ✓
+- **Early bird deadline is correctly set to June 15** on the registration page: "Early bird price — increases June 15" and "Early bird pricing ends June 15, 2026." ✓
+- **Registration is live** with an active Stripe checkout ("Go to Checkout" button visible). No "Opening Soon" messaging. ✓
+- **Refund guarantee is visible** on the registration page: "If the conference doesn't deliver, we'll refund your ticket." ✓
 - **Countdown timer** creates time awareness. Functional and visible.
 - **$2.50/hour value framing** ("80 hours of content") is a smart anchor. It does the math the buyer won't do themselves.
 
 ### Opportunities for Improvement
 
-**CRITICAL — Agent Pricing Lab is still live on the website.**
-The Agent Pricing Lab was eliminated on April 21. As of today (May 23), the APL ticket ($97 early bird / $147 regular) is still listed on the registration page, the navigation bar still includes "Agent Pricing Lab," and the schedule page references an APL session. A prospective buyer who clicks that track, reads the description, and tries to register is being shown a product that no longer exists in its original form. This needs to be removed from navigation, registration, and schedule immediately — before any campaign drives traffic to the site.
-
-**CRITICAL — Registration page says "Registration Opening Soon."**
-The registration page shows ticket prices, an early bird deadline of June 15, and a "Register for 2026" CTA throughout the site — but the registration page itself displays "Registration Opening Soon. Enter your email to stay in the loop." If the Stripe checkout is live and accepting payments, this copy needs to be updated to reflect that immediately. If registration is not yet live, all email campaigns and LinkedIn posts should not be pointing to valusignal.com/register as a purchase destination.
-
-**MEDIUM — Early bird deadline is only visible on the registration page.**
-The homepage has a countdown timer (to the event) but no visible "$197 early bird ends June 15" messaging. A lead who visits the homepage and does not click through to register never sees the price urgency. The deadline should appear on the homepage, ideally near the pricing section and the CTA buttons.
+**MEDIUM — Early bird deadline is not visible on the homepage.**
+The registration page correctly shows June 15, but the homepage has only a countdown timer to the event date. A lead who visits the homepage and does not click through to register never sees the price urgency. One line near the hero CTA — "Early bird $197 through June 15 — $297 after" — is all that's needed.
 
 **MEDIUM — No social proof above the fold.**
-The homepage lists speakers in a carousel lower on the page, but the hero section makes no reference to the caliber of the lineup. For appraisers evaluating whether this event is worth $197, credibility markers (speaker affiliations, institutional names like Fannie Mae/Freddie Mac, Malinda Griffin as President of NAA, Joshua Walitt) should appear earlier — ideally within the first scroll.
+The homepage lists speakers in a carousel lower on the page, but the hero section makes no reference to the caliber of the lineup. For appraisers evaluating whether this event is worth $197, credibility markers (speaker affiliations, Malinda Griffin as President of NAA, Joshua Walitt, Michelle Czekalski Bradley as Past Chair of the Appraisal Standards Board) should appear earlier — ideally within the first scroll.
 
-**MEDIUM — Navigation still includes "Agent Pricing Lab" as a track.**
-Beyond the registration page, the nav bar itself advertises a track that no longer exists. This creates confusion for any appraiser who explores the site before registering.
-
-**SUGGESTED — The guarantee copy is buried.**
-"If the conference doesn't deliver, we'll refund your ticket." is on the registration page. This sentence removes the single biggest objection for a $197 purchase. It should appear on the homepage near the pricing CTA, not just on the checkout page.
+**SUGGESTED — The guarantee copy is only on the registration page.**
+"If the conference doesn't deliver, we'll refund your ticket." removes the single biggest objection for a $197 purchase. It is currently on the checkout page. Moving it to the homepage near the pricing CTA means buyers see it before they decide to click Register — not after.
 
 **SUGGESTED — "Subscribe for updates" on the schedule section implies the event is still being built.**
-The schedule page has a "subscribe for updates" module that signals the program is incomplete. While some sessions may still be in development, the visible message to a potential buyer is "I don't know what I'm buying yet." Consider replacing this with a "Full schedule releasing [date]" message that sounds intentional rather than uncertain.
+The schedule page has a "subscribe for updates" module that signals the program is incomplete. Consider replacing with: "Full schedule releasing [date]. Subscribe to be notified." — same function, sounds intentional rather than uncertain.
 
 ---
 
@@ -207,8 +201,8 @@ This is the highest-converting form in the stack after General Contact. It is st
 
 | # | Item | Owner | Action |
 |---|---|---|---|
-| C1 | Remove Agent Pricing Lab from website nav, registration page, and schedule | Dev | Delete APL tab from navigation, remove APL ticket block from /register, remove APL session from /schedule |
-| C2 | Update registration page: remove "Registration Opening Soon" — Stripe is live | Dev | Replace with "Register Now — Early Bird $197 through June 15" and direct checkout link |
+| C1 | ~~Remove Agent Pricing Lab from website~~ | ~~Dev~~ | ✅ Already done — confirmed removed from nav, register page, and tickets |
+| C2 | ~~Fix "Registration Opening Soon" copy~~ | ~~Dev~~ | ✅ Already done — live checkout with "Go to Checkout" button active |
 | C3 | Update all active Instantly emails: June 1 → June 15 | Email Team | Open each active sequence step in Instantly, find every instance of "June 1" or "June 1st," replace with "June 15" |
 | C4 | Update all active Pipedrive sequences: June 1 → June 15 | Email Team | Sequences A (Step 1), C (Step 4) confirmed to reference early bird — audit all 4 sequences |
 | C5 | Update the 1-page PDF overview with June 15 deadline | Marketing | Any PDF being sent to "interested/replied" leads must show June 15, not June 1 |
@@ -254,8 +248,8 @@ This is the highest-converting form in the stack after General Contact. It is st
 ### WEEK 1: May 26–June 1 — Fix the Foundation
 
 **Monday May 26 (Team Meeting Day)**
-- [ ] **Dev:** Remove APL from nav, /register, and /schedule — takes 30–60 min, highest priority
-- [ ] **Dev:** Fix "Registration Opening Soon" → "Register Now — Early Bird $197 through June 15"
+- [ ] ~~**Dev:** Remove APL from nav, /register, and /schedule~~ ✅ Already done
+- [ ] ~~**Dev:** Fix "Registration Opening Soon"~~ ✅ Already done — live checkout is active
 - [ ] **Email Team:** Do a full find-and-replace of "June 1" in every active Instantly sequence and Pipedrive sequence — document which steps were updated
 - [ ] **Marketing:** Update the 1-page PDF with June 15 deadline, redistribute to Eunice for re-sends if needed
 
