@@ -1,0 +1,167 @@
+# Introducción
+Curso: Mes 2
+Loom: https://www.loom.com/share/e84e8c842e4a43c495883efff6e8e34e
+
+─────────────────────────────────────
+
+WEBVTT
+
+1
+00:00:00.327 --> 00:00:03.487
+<v 0>team, bienvenidos al mÃ³dulo 2 al mes 2,</v>
+
+2
+00:00:03.747 --> 00:00:05.787
+estoy bien emocionado de que estemos ya acÃ¡,
+
+3
+00:00:06.347 --> 00:00:08.627
+en este mes ya vamos a consolidar todo el sistema,
+
+4
+00:00:09.287 --> 00:00:11.387
+en el primero sentamos todas las bases,
+
+5
+00:00:11.607 --> 00:00:15.307
+la parte de la oferta, la parte de la regla del 1,
+
+6
+00:00:15.807 --> 00:00:18.207
+hicimos la primera campaÃ±a, en este,
+
+7
+00:00:18.807 --> 00:00:21.147
+en esta secciÃ³n ya vamos a ver, en este mes ya vamos a ver
+
+8
+00:00:21.147 --> 00:00:24.667
+la consolidaciÃ³n del sistema, vamos a crear un funnel que lo que vamos a
+
+9
+00:00:24.667 --> 00:00:29.807
+ver primero en este tema, nada mÃ¡s es que va a un
+
+10
+00:00:29.807 --> 00:00:34.587
+la parte de la prospecciÃ³n con las cinco fases vamos
+
+11
+00:00:34.587 --> 00:00:39.287
+a de nuevo ver que cuÃ¡les son como las cosas que tenemos que
+
+12
+00:00:39.287 --> 00:00:43.207
+hacer bÃ¡sicamente para salir a prospectar ya de una manera regular fuera la campaÃ±a
+
+13
+00:00:43.207 --> 00:00:48.027
+vamos a crear contenido en cuÃ¡les son como las cinco piezas de contenido o
+
+14
+00:00:48.027 --> 00:00:51.827
+cinco formatos que funcionan bastante bien para que ustedes puedan empezar y hacer su
+
+15
+00:00:51.827 --> 00:00:56.807
+calendario y tambiÃ©n mezclarlo con tipo de contenido que generalitz vamos
+
+16
+00:00:56.807 --> 00:01:01.067
+a tambiÃ©n ver cuÃ¡l va hacer el sistema de ese y de seguimiento que
+
+17
+00:01:01.067 --> 00:01:05.867
+vamos a usar, bÃ¡sicamente cuÃ¡les son las actividades
+
+18
+00:01:05.867 --> 00:01:08.467
+que tienen que hacer, fuera tambiÃ©n de lo de la campaÃ±a,
+
+19
+00:01:08.607 --> 00:01:11.427
+lo de la campaÃ±a es un sprint, pero fuera el sprint que es lo
+
+20
+00:01:11.427 --> 00:01:15.127
+que vamos a hacer, aquÃ­ lo vamos a ver, Â¿no? Entonces cuantos mensajes tendrÃ­an
+
+21
+00:01:15.127 --> 00:01:19.647
+que mandar, cuantas conversaciones tendrÃ­an que iniciar,
+
+22
+00:01:19.727 --> 00:01:23.787
+la lista de cuantas personas, cuÃ¡nto contenido tendrÃ­an que hacer,
+
+23
+00:01:24.447 --> 00:01:27.367
+etcÃ©tera, Â¿no? Entonces esto es lo que vamos a ver en este mÃ³dulo y
+
+24
+00:01:27.367 --> 00:01:32.107
+vamos a empezar por el principio. HabÃ­amos dejado la parte ya optimizada
+
+25
+00:01:32.107 --> 00:01:36.767
+del perfil de LinkedIn pero queda pendiente de crear el primer fonel y aquÃ­
+
+26
+00:01:36.767 --> 00:01:40.087
+en esta secciÃ³n es lo que vamos a ver, vamos a crear el primer
+
+27
+00:01:40.087 --> 00:01:44.727
+fonel, vamos a trabajar el landing
+
+28
+00:01:44.727 --> 00:01:48.307
+page, vamos a trabajar el in magnet que ya hicieron en la parte 1,
+
+29
+00:01:48.447 --> 00:01:51.667
+la vamos a acÃ¡ y la vamos a poner en tu perfil de linkadin,
+
+30
+00:01:51.867 --> 00:01:54.027
+vamos frijÃ³n, ven para acÃ¡,
+
+31
+00:01:54.207 --> 00:01:57.347
+hallando el frijÃ³n de netiche,
+
+32
+00:01:57.467 --> 00:02:01.207
+ya se quiere salir o dita, por si escuchan algÃºn ruido o algo,
+
+33
+00:02:01.647 --> 00:02:06.347
+vamos a ver tambiÃ©n la parte del correo electrÃ³nico de bienvenida,
+
+34
+00:02:06.607 --> 00:02:11.287
+vamos a hacer tambiÃ©n la parte del diseÃ±o en
+
+35
+00:02:11.287 --> 00:02:14.887
+la secciÃ³n destacados y cÃ³mo vamos a configurar todo esto,
+
+36
+00:02:15.007 --> 00:02:19.427
+entonces esto es lo que incluye esta secciÃ³n, posteriormente vamos lo que decÃ­a no
+
+37
+00:02:19.427 --> 00:02:23.607
+a ver un poquito mÃ¡s a fondo cÃ³mo vamos a empezar a implementar este
+
+38
+00:02:23.607 --> 00:02:26.847
+sistema con las diferentes cosas entonces esto lo que vamos a ver en el
+
+39
+00:02:26.847 --> 00:02:31.247
+mes 2 nada mÃ¡s como le decÃ­a querÃ­a hacer un pequeÃ±o recap y nada
+
+40
+00:02:31.247 --> 00:02:34.607
+nos vamos de lleno entonces con la la creaciÃ³n del primer fone.

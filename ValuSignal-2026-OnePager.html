@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>ValuSignal 2026 — One-Pager</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: #fff;
+    color: #171c1f;
+    font-size: 10px;
+  }
+
+  /* ── Print button (screen only) ── */
+  .print-btn {
+    position: fixed;
+    top: 12px;
+    right: 12px;
+    background: #006c49;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    font-family: 'Inter', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 4px;
+    z-index: 1000;
+  }
+  .print-btn:hover { background: #004d35; }
+
+  /* ── Page layout ── */
+  @page {
+    size: Letter portrait;
+    margin: 0;
+  }
+
+  .page {
+    width: 8.5in;
+    min-height: 11in;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+  }
+
+  /* ── Header ── */
+  .header {
+    background: #0a0f1a;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 28px;
+  }
+  .header-logo {
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    color: #fff;
+  }
+  .header-cta {
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #00e29e;
+    text-decoration: none;
+    border-bottom: 1.5px solid #00e29e;
+    padding-bottom: 1px;
+  }
+
+  /* ── Hero ── */
+  .hero {
+    background: #181b25;
+    color: #fff;
+    padding: 22px 28px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .hero-left { max-width: 58%; }
+  .hero-date {
+    font-size: 8px;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #00e29e;
+    margin-bottom: 5px;
+  }
+  .hero-title {
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: -0.03em;
+    line-height: 1;
+    color: #fff;
+    margin-bottom: 8px;
+  }
+  .hero-sub {
+    font-size: 10.5px;
+    color: #808390;
+    line-height: 1.5;
+    max-width: 360px;
+  }
+  .hero-right { text-align: right; }
+  .hero-cta {
+    display: inline-block;
+    background: #00e29e;
+    color: #002114;
+    font-size: 10px;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 11px 22px;
+    border-radius: 3px;
+  }
+  .hero-price {
+    margin-top: 6px;
+    font-size: 8.5px;
+    color: #808390;
+    text-align: right;
+  }
+  .hero-price strong { color: #fff; }
+
+  /* ── Body grid ── */
+  .body {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 0;
+    border-top: 2px solid #00e29e;
+  }
+
+  /* ── Section base ── */
+  .section {
+    padding: 16px 18px;
+    border-right: 1px solid #e4e9ed;
+    border-bottom: 1px solid #e4e9ed;
+  }
+  .section:last-child { border-right: none; }
+
+  .section-label {
+    font-size: 7.5px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #006c49;
+    margin-bottom: 5px;
+  }
+  .section-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: #171c1f;
+    margin-bottom: 8px;
+    line-height: 1.2;
+  }
+  .section-body {
+    font-size: 9.5px;
+    color: #45464b;
+    line-height: 1.55;
+  }
+
+  /* ── What This Is ── */
+  .focus { grid-column: 1; }
+
+  /* ── What You Get ── */
+  .get { grid-column: 2; }
+  .stat-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+  .stat-icon {
+    width: 28px;
+    height: 28px;
+    background: #eaeef2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-size: 14px;
+  }
+  .stat-text { font-size: 9px; color: #171c1f; }
+  .stat-text strong { display: block; font-size: 10px; font-weight: 700; margin-bottom: 1px; }
+
+  /* ── Workshops ── */
+  .workshops { grid-column: 3; border-right: none; }
+  .workshop-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+    margin-bottom: 7px;
+  }
+  .check {
+    color: #006c49;
+    font-weight: 900;
+    font-size: 10px;
+    line-height: 1.4;
+    flex-shrink: 0;
+  }
+  .workshop-text { font-size: 9.5px; color: #45464b; line-height: 1.4; }
+  .workshop-text strong { color: #171c1f; font-weight: 700; }
+
+  /* ── Topics ── */
+  .topics {
+    grid-column: 1 / 3;
+    background: #0a0f1a;
+    color: #fff;
+    border-right: 1px solid #1e2535;
+  }
+  .topics .section-label { color: #00e29e; }
+  .topics .section-title { color: #fff; }
+  .topics-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px 16px;
+  }
+  .topic-item {
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+    padding-bottom: 5px;
+  }
+  .topic-cat {
+    font-size: 7px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #00e29e;
+    margin-bottom: 2px;
+  }
+  .topic-name { font-size: 9.5px; color: #fff; line-height: 1.3; }
+
+  /* ── Speakers + CTA combined ── */
+  .right-col {
+    grid-column: 3;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    border-right: none;
+  }
+  .speakers {
+    padding: 14px 18px;
+    border-bottom: 1px solid #e4e9ed;
+    flex: 1;
+  }
+  .speakers-label {
+    font-size: 7.5px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #006c49;
+    margin-bottom: 6px;
+  }
+  .speaker-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    margin-bottom: 8px;
+  }
+  .tag {
+    background: #eaeef2;
+    color: #171c1f;
+    font-size: 8px;
+    font-weight: 600;
+    padding: 2px 6px;
+    border-radius: 2px;
+  }
+  .tag-more {
+    background: #006c49;
+    color: #fff;
+    font-size: 8px;
+    font-weight: 700;
+    padding: 2px 7px;
+    border-radius: 2px;
+  }
+  .non-ce-box {
+    background: #f0f4f8;
+    border-left: 3px solid #006c49;
+    padding: 7px 9px;
+    font-size: 8.5px;
+    color: #45464b;
+    line-height: 1.45;
+  }
+  .non-ce-box strong { color: #171c1f; display: block; margin-bottom: 2px; font-size: 8.5px; }
+
+  /* ── CTA Footer ── */
+  .cta-footer {
+    background: #0a0f1a;
+    padding: 16px 28px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cta-left { color: #fff; }
+  .cta-tagline {
+    font-size: 8px;
+    color: #808390;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    margin-bottom: 3px;
+  }
+  .cta-price {
+    font-size: 22px;
+    font-weight: 900;
+    color: #fff;
+    line-height: 1;
+  }
+  .cta-early {
+    font-size: 8px;
+    color: #00e29e;
+    margin-top: 3px;
+  }
+  .cta-right { text-align: right; }
+  .cta-btn {
+    display: inline-block;
+    background: #00e29e;
+    color: #002114;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 3px;
+  }
+  .cta-url {
+    display: block;
+    font-size: 8px;
+    color: #808390;
+    margin-top: 4px;
+    text-align: center;
+  }
+
+  /* ── Print rules ── */
+  @media print {
+    .print-btn { display: none; }
+    body { font-size: 10px; }
+    .page { width: 8.5in; min-height: 11in; page-break-after: avoid; }
+    a { color: inherit; }
+    .header-cta, .hero-cta, .cta-btn { color: #002114 !important; }
+    .hero-cta, .cta-btn { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+    * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+</style>
+</head>
+<body>
+
+<button class="print-btn" onclick="window.print()">Save as PDF</button>
+
+<div class="page">
+
+  <!-- Header -->
+  <header class="header">
+    <span class="header-logo">ValuSignal</span>
+    <a class="header-cta" href="https://www.valusignal.com/register">Register Now</a>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-left">
+      <p class="hero-date">September 18–19, 2026 &nbsp;·&nbsp; Virtual</p>
+      <h1 class="hero-title">VALUSIGNAL<br>2026</h1>
+      <p class="hero-sub">A 2-day virtual conference for residential appraisers — not to check a CE box, but to have the conversations standard programs can't touch.</p>
+    </div>
+    <div class="hero-right">
+      <a class="hero-cta" href="https://www.valusignal.com/register">Secure Your Spot</a>
+      <p class="hero-price"><strong>$197</strong> &nbsp;≈ $2.50/hr of content</p>
+    </div>
+  </section>
+
+  <!-- Body Grid Row 1 -->
+  <div class="body">
+
+    <!-- Col 1: What This Is -->
+    <div class="section focus">
+      <p class="section-label">The Focus</p>
+      <h2 class="section-title">What This Is</h2>
+      <p class="section-body">UAD 3.6 transitions. AI workflows. New revenue streams. Taught by appraisers who are still doing assignments every week — not by academics or generalists.</p>
+      <br>
+      <p class="section-body" style="color:#006c49; font-weight:700;">Non-CE by design.</p>
+      <p class="section-body">That means speakers can go deeper than a standard accredited format allows.</p>
+    </div>
+
+    <!-- Col 2: What You Get -->
+    <div class="section get">
+      <p class="section-label">Content Depth</p>
+      <h2 class="section-title">What You Get</h2>
+      <div class="stat-row">
+        <div class="stat-icon">👥</div>
+        <div class="stat-text"><strong>50+ speakers across 4 tracks</strong>Practitioners, not lecturers</div>
+      </div>
+      <div class="stat-row">
+        <div class="stat-icon">⏱</div>
+        <div class="stat-text"><strong>Up to 100 hours of content</strong>No filler. Immediate takeaways.</div>
+      </div>
+      <div class="stat-row">
+        <div class="stat-icon">▶</div>
+        <div class="stat-text"><strong>3-month replay access</strong>Watch on your own schedule</div>
+      </div>
+    </div>
+
+    <!-- Col 3: Workshops -->
+    <div class="section workshops">
+      <p class="section-label">Tech &amp; Tools</p>
+      <h2 class="section-title">Workshops Included</h2>
+      <div class="workshop-item">
+        <span class="check">✓</span>
+        <span class="workshop-text"><strong>3-hour OpenClaw AI Workshop</strong> with Roy Meyer — agentic AI built for appraisers</span>
+      </div>
+      <div class="workshop-item">
+        <span class="check">✓</span>
+        <span class="workshop-text"><strong>7-hour Claude Code Workshop</strong> — from zero to a deployed appraisal dashboard</span>
+      </div>
+      <div class="workshop-item">
+        <span class="check">✓</span>
+        <span class="workshop-text"><strong>Compliance workshop</strong> with Walitt Solutions</span>
+      </div>
+      <div class="workshop-item">
+        <span class="check">✓</span>
+        <span class="workshop-text"><strong>Live podcast recordings</strong> — PahRooZings &amp; Market Moves</span>
+      </div>
+    </div>
+
+    <!-- Col 1–2: Topics -->
+    <div class="section topics">
+      <p class="section-label">Core Topics</p>
+      <h2 class="section-title" style="margin-bottom:10px;">What You'll Learn</h2>
+      <div class="topics-grid">
+        <div class="topic-item">
+          <p class="topic-cat">UAD Transition</p>
+          <p class="topic-name">UAD 3.6 daily workflows &amp; Nov 2 deadline</p>
+        </div>
+        <div class="topic-item">
+          <p class="topic-cat">Artificial Intelligence</p>
+          <p class="topic-name">AI adoption playbooks built for appraisers</p>
+        </div>
+        <div class="topic-item">
+          <p class="topic-cat">Business Strategy</p>
+          <p class="topic-name">Revenue diversification &amp; scaling operations</p>
+        </div>
+        <div class="topic-item">
+          <p class="topic-cat">Risk Management</p>
+          <p class="topic-name">Pricing strategy, liability &amp; defensible reports</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Col 3: Speakers + Non-CE -->
+    <div class="right-col">
+      <div class="speakers">
+        <p class="speakers-label">Who's Speaking</p>
+        <div class="speaker-tags">
+          <span class="tag">Joshua Walitt</span>
+          <span class="tag">Jake Lew</span>
+          <span class="tag">Tony Pistilli</span>
+          <span class="tag">George Dell</span>
+          <span class="tag">Gynell Vestal</span>
+          <span class="tag">Daniel Lindeman</span>
+          <span class="tag">John Copulos</span>
+          <span class="tag">Craig Capilla</span>
+          <span class="tag">Cathy Putegnat</span>
+          <span class="tag-more">+40 More</span>
+        </div>
+        <div class="non-ce-box">
+          <strong>Why Non-CE?</strong>
+          CE requirements shape what speakers can and can't say. We removed that constraint. The result: deeper, more direct conversations about where the profession is actually going.
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /body grid -->
+
+  <!-- CTA Footer -->
+  <footer class="cta-footer">
+    <div class="cta-left">
+      <p class="cta-tagline">Investment</p>
+      <p class="cta-price">$197</p>
+      <p class="cta-early">Save $47 through June 1 · Price goes up after</p>
+    </div>
+    <div class="cta-right">
+      <a class="cta-btn" href="https://www.valusignal.com/register">Register Now</a>
+      <span class="cta-url">valusignal.com/register</span>
+    </div>
+  </footer>
+
+</div><!-- /page -->
+
+</body>
+</html>

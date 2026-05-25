@@ -1,0 +1,1231 @@
+# Los 3 Tipos de Mensajes Iniciales
+Curso: Mes 1
+Loom: https://www.loom.com/share/3595489196d74d669a5948b58cad9a0e
+
+─────────────────────────────────────
+
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:02.911
+<v 0>Ya tienes tus publicaciones,</v>
+
+2
+00:00:03.151 --> 00:00:07.731
+ya tienes tu lista, espero que ya has puesto los nombres en el Excel,
+
+3
+00:00:07.931 --> 00:00:10.351
+ahÃ­ que ya tengas tus 150 contactos.
+
+4
+00:00:10.771 --> 00:00:13.171
+Entonces, para que podamos correr la campaÃ±a,
+
+5
+00:00:13.611 --> 00:00:18.171
+solo que estamos haciendo justo, Â¿no? Es habilitando cada una de las componentes que
+
+6
+00:00:18.171 --> 00:00:21.131
+vamos a necesitar para hacerlo. tomate tu tiempo,
+
+7
+00:00:21.411 --> 00:00:23.811
+ver haciendo tus listas de contactos,
+
+8
+00:00:23.811 --> 00:00:26.351
+ver creando bien tus publicaciones,
+
+9
+00:00:26.611 --> 00:00:30.531
+etcÃ©tera. Entonces vamos a poner todo en un solo documento,
+
+10
+00:00:30.571 --> 00:00:34.891
+bueno, todo en un Google Docs para que lo tengas ahÃ­ bastante claro.
+
+11
+00:00:35.451 --> 00:00:40.011
+Entonces ahora la parte que sigue es crear tus mensajes
+
+12
+00:00:40.011 --> 00:00:45.491
+iniciales. Entonces hay tres tipos de mensajes iniciales y vamos a recordarlo.
+
+13
+00:00:46.911 --> 00:00:51.151
+Primero estÃ¡n los cerrados perdidos que son los que ya te conocen,
+
+14
+00:00:51.291 --> 00:00:55.191
+son a todos aquellos contactos con los que intentaste hacer un deal y al
+
+15
+00:00:55.191 --> 00:00:59.751
+final no sÃ©, no sÃ© cerrÃ³, entonces estos son los
+
+16
+00:00:59.751 --> 00:01:04.611
+mÃ¡s fÃ¡ciles de poder llegar a
+
+17
+00:01:04.611 --> 00:01:08.951
+cerrar algo, sobre todo si ya refinado tu ferta y eso,
+
+18
+00:01:09.171 --> 00:01:12.951
+o sea, este radar es que es bastante bueno, luego los basados en intenciÃ³n,
+
+19
+00:01:13.091 --> 00:01:16.391
+que son los que mostraron algÃºn tipo de interÃ©s,
+
+20
+00:01:16.631 --> 00:01:19.671
+bÃ¡sicamente son los que comentaron en tus posts,
+
+21
+00:01:19.851 --> 00:01:24.911
+lo que le tienen un like, vieron tu perfil, les cargaron algo tu
+
+22
+00:01:24.911 --> 00:01:27.971
+y algÃºn lead magnet o son seguidores nuevos,
+
+23
+00:01:28.191 --> 00:01:32.771
+etcÃ©tera, no, que son como estas seÃ±ales que se
+
+24
+00:01:32.771 --> 00:01:37.091
+van presentando cuando estÃ¡s generando contenido y por supuesto los frÃ­os que son nunca
+
+25
+00:01:37.091 --> 00:01:41.471
+contactados, que son los que forman parte de tu ICP y que son los
+
+26
+00:01:41.471 --> 00:01:43.791
+que pues asustudistas ibas y conectas,
+
+27
+00:01:43.831 --> 00:01:47.671
+entonces digamos que tenemos estas tres,
+
+28
+00:01:47.671 --> 00:01:52.811
+tenemos estos tres tipos
+
+29
+00:01:52.811 --> 00:01:58.111
+de leads, entonces vamos a ver y vamos a construir justo que
+
+30
+00:01:58.111 --> 00:02:01.351
+tipo de mensajes iniciales podrÃ­an ir para cada uno de los casos.
+
+31
+00:02:02.231 --> 00:02:07.351
+Ahora, hay un GPT que estÃ¡ en la parte de abajo de
+
+32
+00:02:07.351 --> 00:02:12.471
+esta secciÃ³n que justo nos van a ayudar a craftear estos mensajes iniciales
+
+33
+00:02:12.471 --> 00:02:17.451
+pero quiero enseÃ±arte como unos ejemplos de cÃ³mo se pudieran ver este
+
+34
+00:02:17.451 --> 00:02:22.051
+tipo de mensajes, estos son mensajes que yo corrÃ­ justo reciÃ©n en la campaÃ±a
+
+35
+00:02:22.051 --> 00:02:24.451
+de lanzamiento que tuve,
+
+36
+00:02:24.651 --> 00:02:27.211
+entonces para que veas mÃ¡s o menos por donde van,
+
+37
+00:02:27.291 --> 00:02:29.351
+entonces estos son para el tipo 1,
+
+38
+00:02:29.371 --> 00:02:31.531
+este que veamos visto que era para los cerrados perdidos,
+
+39
+00:02:31.951 --> 00:02:34.671
+que eran todos aquellos dils que dijeron no,
+
+40
+00:02:34.871 --> 00:02:37.091
+que dijeron despuÃ©s o que se quedÃ³ ahÃ­ un poco en vivo, Â¿no?
+
+41
+00:02:37.651 --> 00:02:41.951
+Entonces fÃ­jate cÃ³mo estÃ¡ crafteado este mensaje o estos mensajes y cÃ³mo estÃ¡n,
+
+42
+00:02:42.111 --> 00:02:44.211
+pues eso, categorizados como por bujas,
+
+43
+00:02:44.331 --> 00:02:46.991
+Â¿no? Y de hecho esto es lo que vamos a emular en el agente
+
+44
+00:02:46.991 --> 00:02:49.511
+GPT, ahorita que veamos el ejercicio,
+
+45
+00:02:50.111 --> 00:02:54.491
+pero bÃ¡sicamente aquÃ­ lo puedes ver, no dice nombre la persona,
+
+46
+00:02:54.491 --> 00:02:57.611
+cÃ³mo estÃ¡s, me acordÃ© de lo que platicamos hace tiempo sobre el LinkedIn y
+
+47
+00:02:57.611 --> 00:02:59.891
+en ese momento nos ha acomodado, pero justo sÃ© que una nueva versiÃ³n del
+
+48
+00:02:59.891 --> 00:03:03.671
+programa. La idea es instalar el mismo sistema sin coliz calificados,
+
+49
+00:03:03.671 --> 00:03:06.151
+pero ahora con comunidad de acompaÃ±amiento para que va a solano,
+
+50
+00:03:06.291 --> 00:03:09.071
+que es que te cuente rÃ¡pido como funciona ahora, Â¿se acuerdan que les habÃ­a
+
+51
+00:03:09.071 --> 00:03:13.611
+dicho? Que esta campaÃ±a al final funciona
+
+52
+00:03:13.611 --> 00:03:16.411
+porque haces un pitch suave,
+
+53
+00:03:16.571 --> 00:03:19.071
+o sea, no te vas como agresivo, sin embargo,
+
+54
+00:03:19.571 --> 00:03:24.151
+si estÃ¡s poniendo ahÃ­ de ante mano el hecho de que estÃ¡s vendiendo.
+
+55
+00:03:24.811 --> 00:03:29.471
+Entonces, funciona porque justamente solamente estÃ¡s haciendo una
+
+56
+00:03:29.471 --> 00:03:35.151
+pregunta y lo que termina pasando aquÃ­ es que acuÃ©rdense en marketing siempre estÃ¡n
+
+57
+00:03:35.151 --> 00:03:39.671
+como estas etapas justo de hablarle al 3% que estÃ¡ listo para comparar
+
+58
+00:03:39.671 --> 00:03:43.871
+porque tiene la necesidad como mÃ¡s fÃ­jense entonces en la medida de lo posible
+
+59
+00:03:43.871 --> 00:03:48.411
+y si revisamos nuevamente el mensaje es un mensaje bastante claro en donde
+
+60
+00:03:48.411 --> 00:03:53.411
+dice un sistema para conseguir cinco liches calificados y esto va y resumido
+
+61
+00:03:53.411 --> 00:03:57.811
+tambiÃ©n o mÃ¡s bien va a ir como conectado al oferta que ustedes vayan
+
+62
+00:03:57.811 --> 00:04:00.891
+a crear y e incluso desde la regla del uno entonces por Por eso,
+
+63
+00:04:01.291 --> 00:04:04.311
+mi insistencia de hacerlo lo mÃ¡s tangible posible,
+
+64
+00:04:04.671 --> 00:04:08.771
+porque la medida de que lo podemos avanzar a este nivel de tangibilidad,
+
+65
+00:04:09.551 --> 00:04:11.671
+van a tener mucho mejor resultados,
+
+66
+00:04:11.911 --> 00:04:16.011
+Â¿vale? Entonces, este es el primer tipo, el segundo tipo es el basado en
+
+67
+00:04:16.011 --> 00:04:18.151
+intenciÃ³n, Â¿no? Este es, quizÃ¡s,
+
+68
+00:04:18.191 --> 00:04:21.131
+un poco mÃ¡s sencillo, en este es, por ejemplo, aquÃ­ hay un ejemplo en
+
+69
+00:04:21.131 --> 00:04:25.531
+dice, Hola persona, gracias por la solicitud a conectar y luego ahÃ­,
+
+70
+00:04:25.651 --> 00:04:29.751
+a lo mejor acÃ¡, todavÃ­a no es ni siquiera necesaria poner la parte de
+
+71
+00:04:29.751 --> 00:04:32.591
+nuestra oferta en especÃ­fico,
+
+72
+00:04:32.751 --> 00:04:37.291
+sobre todo porque las publicaciones que estamos poniendo si por ejemplo
+
+73
+00:04:37.291 --> 00:04:41.951
+imagÃ­nense que alguien vio su mandÃ³ la solicitud de conectar o les mandÃ³
+
+74
+00:04:41.951 --> 00:04:46.631
+o vio su perfil, despuÃ©s de que ustedes publicaran la publicaciÃ³n del anuncio,
+
+75
+00:04:46.911 --> 00:04:51.151
+pueden irse frontalmente a decirles y les llamÃ³ la atenciÃ³n algo de mi publicaciÃ³n,
+
+76
+00:04:51.251 --> 00:04:53.591
+lo estÃ¡s buscando como generalitz para la empresa de trabajo,
+
+77
+00:04:53.771 --> 00:04:57.251
+entonces en este sentido como que si te has permiso un poco de ventarte
+
+78
+00:04:57.251 --> 00:05:00.791
+este tipo de pitch que viene acÃ¡ como el que estÃ¡ aquÃ­,
+
+79
+00:05:00.911 --> 00:05:04.751
+que en el segundo mensaje que saliÃ³ una publicaciÃ³n o estÃ¡ buscando ayuda para
+
+80
+00:05:04.751 --> 00:05:08.011
+generalizÃ³ la publicaciÃ³n por la empresa donde trabaja,
+
+81
+00:05:08.031 --> 00:05:11.611
+Â¿no? Entonces, este es otro tipo de mensajes,
+
+82
+00:05:11.951 --> 00:05:15.411
+es un poquito diferente porque este estÃ¡ mÃ¡s basado en intenciÃ³n en lo que
+
+83
+00:05:15.411 --> 00:05:19.751
+ellos hacen con tu perfil,
+
+84
+00:05:19.811 --> 00:05:21.831
+Â¿no? AcuÃ©rdense, este es para cuando comentaron tus posts,
+
+85
+00:05:22.071 --> 00:05:24.371
+le dieron like, Vieron tu perfil, te siguieron,
+
+86
+00:05:24.551 --> 00:05:27.171
+mandaron una solicitud de conexiÃ³n, descargaron algo,
+
+87
+00:05:27.251 --> 00:05:31.491
+no algÃºn recurso o algo. Entonces, especÃ­ficamente ellos ya saben quiÃ©n eres,
+
+88
+00:05:31.811 --> 00:05:34.671
+ya mostraron curiosidad, entonces por eso puedes irte tambiÃ©n asÃ­ de directo.
+
+89
+00:05:34.951 --> 00:05:38.571
+Y por Ãºltimo tenemos los frÃ­os, en este que crecieron un poco diferente,
+
+90
+00:05:38.991 --> 00:05:41.731
+Â¿verdad? Se puede parecer tambiÃ©n bastante al primero,
+
+91
+00:05:41.991 --> 00:05:44.411
+nada mÃ¡s que en este caso pones un poco mÃ¡s de contexto,
+
+92
+00:05:44.531 --> 00:05:48.491
+o simplemente el conector, que en este caso pusimos,
+
+93
+00:05:48.571 --> 00:05:50.751
+Â¿no? De que o la nombre, sÃ© que no hemos hablado antes,
+
+94
+00:05:50.971 --> 00:05:56.331
+dije tambiÃ©n estas por la canciÃ³n de MÃ©xico. Mi lista
+
+95
+00:05:56.331 --> 00:06:00.371
+que hice para esta campaÃ±a en particular fue gente de Ciudad de MÃ©xico.
+
+96
+00:06:00.791 --> 00:06:05.611
+Entonces en este sentido es relativamente
+
+97
+00:06:05.611 --> 00:06:08.331
+mÃ¡s sencillo porque todas las personas estÃ¡n en Ciudad de MÃ©xico,
+
+98
+00:06:08.471 --> 00:06:11.811
+entonces todo mi mensaje lo craftÃ© y ahoritamos a ver ejemplo de cÃ³mo lo
+
+99
+00:06:11.811 --> 00:06:14.511
+podemos hacer. TambiÃ©n estÃ¡s acÃ¡ por Ciudad de MÃ©xico,
+
+100
+00:06:14.711 --> 00:06:18.611
+pensÃ© en escribirte y luego estoy buscando un grupo pequeÃ±o de el ICP,
+
+101
+00:06:18.911 --> 00:06:22.351
+directores de dueÃ±os de negocio de,
+
+102
+00:06:22.371 --> 00:06:26.011
+no sÃ©, o sea, de cualquiera que sea tu ACP,
+
+103
+00:06:26.591 --> 00:06:30.191
+en las ciudades para ayudarles a generar cinco lich calificados por semana con comunidad
+
+104
+00:06:30.191 --> 00:06:34.591
+de acompaÃ±amento. Entonces, parece esa Ãºltima parte al mensaje que vimos acÃ¡,
+
+105
+00:06:35.451 --> 00:06:37.711
+nada mÃ¡s que estÃ¡ craftyado de manera diferente,
+
+106
+00:06:37.851 --> 00:06:39.951
+estÃ¡ creado diferente de manera diferente. No lo,
+
+107
+00:06:40.451 --> 00:06:43.351
+esto es algo que puede interesarte de nuevos como una pregunta nada mÃ¡s como
+
+108
+00:06:43.351 --> 00:06:45.891
+para ver si realmente estÃ¡n interesados o no,
+
+109
+00:06:46.151 --> 00:06:50.091
+entonces de esta manera son como los tres tipos de mensajes.
+
+110
+00:06:50.111 --> 00:06:53.351
+Ahora, vamos a abrir el GPT, vamos a hacer un ejercicio ahÃ­ rÃ¡pido,
+
+111
+00:06:53.451 --> 00:06:56.691
+nada mÃ¡s para que vean cÃ³mo se ve, cÃ³mo pudieran hacer ustedes el ejercicio
+
+112
+00:06:56.691 --> 00:07:00.671
+para ustedes poder crear sus propios mensajes y que los dejen tambiÃ©n listos.
+
+113
+00:07:00.871 --> 00:07:03.231
+Â¿De acuerdo? Entonces,
+
+114
+00:07:03.651 --> 00:07:06.671
+voy a compartir pantalla para que vean acÃ¡ el prompt,
+
+115
+00:07:07.031 --> 00:07:10.991
+ya lo tengo listo. Entonces, justo nada mÃ¡s le pique ahÃ­ donde dice,
+
+116
+00:07:11.031 --> 00:07:13.251
+comenzamos, te pide la oferte y la regla del uno.
+
+117
+00:07:13.591 --> 00:07:15.791
+Como ustedes ya tienen, su oferte y tiene la regla del uno,
+
+118
+00:07:15.891 --> 00:07:20.271
+no es mÃ¡s que copiarlo entonces con la microfere lo Ãºnico que hacen es
+
+119
+00:07:20.271 --> 00:07:22.711
+justo no pegar copiar todo esto,
+
+120
+00:07:22.751 --> 00:07:25.611
+lo copian, lo pegan acÃ¡,
+
+121
+00:07:25.871 --> 00:07:30.391
+luego agarra en el documento de posicionamiento de la regla
+
+122
+00:07:30.391 --> 00:07:32.671
+del 1, copian,
+
+123
+00:07:33.651 --> 00:07:38.111
+pegan y la aneter,
+
+124
+00:07:39.011 --> 00:07:43.171
+entonces aquÃ­ empieza justo a escribir,
+
+125
+00:07:43.291 --> 00:07:46.251
+no dice ok, ya leÃ­ todo el documento de posicionamiento y tu con su
+
+126
+00:07:46.251 --> 00:07:48.971
+puedo avanzar pero antes de esto dejar lista tu regla el uno con marca
+
+127
+00:07:48.971 --> 00:07:51.451
+la metodologÃ­a. AquÃ­ van tres opciones,
+
+128
+00:07:51.711 --> 00:07:55.231
+ayuda dueÃ±os de pequeÃ±o negocios de unos cinco personas se generan frujo constante leads,
+
+129
+00:07:56.051 --> 00:08:00.491
+hay un fundador y consultores a instalar un sistema simple para generar conversaciones y
+
+130
+00:08:00.491 --> 00:08:02.651
+llamadas cada semana, este estÃ¡ bien,
+
+131
+00:08:03.231 --> 00:08:05.791
+ayuda expertos ocultos, ya tenia ni mÃ¡s si pasar,
+
+132
+00:08:06.191 --> 00:08:13.011
+me gusta la vamos a poner la opciÃ³n 2 para
+
+133
+00:08:13.011 --> 00:08:18.551
+generar leads calific para generar
+
+134
+00:08:18.551 --> 00:08:23.091
+5 leads calificados por semana vamos a
+
+135
+00:08:23.091 --> 00:08:29.171
+hacerlo como un poquito mÃ¡s tangible sin
+
+136
+00:08:29.171 --> 00:08:33.691
+importar el nÃºmero de seguidores por
+
+137
+00:08:33.691 --> 00:08:34.151
+ejemplo
+
+138
+00:08:39.611 --> 00:08:41.671
+no depende de referidos,
+
+139
+00:08:41.811 --> 00:08:44.631
+vamos a ver que nos da.
+
+140
+00:08:44.631 --> 00:08:50.351
+Entonces le ponemos acÃ¡ y nos va a empezar a diferentes ayudas
+
+141
+00:08:50.351 --> 00:08:53.731
+fundadores y consultores en el sistema simple para generar cinco disqualificados por semana sin
+
+142
+00:08:53.731 --> 00:08:55.811
+depender ni eso no me lo sÃ©, perfecto.
+
+143
+00:08:56.351 --> 00:08:58.491
+Â¿CÃ³mo vendes tÃº? Es importante, no. A ver,
+
+144
+00:08:58.651 --> 00:09:00.691
+una parte importante aquÃ­,
+
+145
+00:09:01.011 --> 00:09:05.391
+John, la idea es que ustedes hagan las cosas que ya venan haciendo y
+
+146
+00:09:05.391 --> 00:09:09.491
+que les funciona, habrÃ¡ gente que le guste hacer las llamadas por Zoom,
+
+147
+00:09:09.731 --> 00:09:14.291
+habrÃ¡ gente que cierre por telÃ©fono, incluso ir a una reuniÃ³n presencial,
+
+148
+00:09:14.431 --> 00:09:16.791
+a un workshop, es una reuniÃ³n presencial de irse a tomar un cafÃ©,
+
+149
+00:09:17.431 --> 00:09:20.131
+la realidad es que el CTA va a ir mÃ¡s en funciÃ³n de cÃ³mo
+
+150
+00:09:20.131 --> 00:09:24.791
+ustedes venden o de cÃ³mo las ofertas en el transcurso
+
+151
+00:09:24.791 --> 00:09:27.051
+el tiempo las pueden ir cambiando,
+
+152
+00:09:27.051 --> 00:09:30.811
+entonces por ejemplo yo en este caso, yo los estoy direcciÃ³n en una llamada
+
+153
+00:09:30.811 --> 00:09:33.991
+de zoom o sea para la campaÃ±a que yo estoy haciendo pero en probablemente
+
+154
+00:09:33.991 --> 00:09:36.951
+el siguiente mes o en un par de meses voy a lanzar otra campaÃ±a
+
+155
+00:09:36.951 --> 00:09:41.611
+pero para ahora direccionarlos a un workshop o un webinada entonces el
+
+156
+00:09:41.611 --> 00:09:46.271
+costo de acciÃ³n va cambiando segÃºn tu necesidad o segÃºn cÃ³mo estÃ©s
+
+157
+00:09:46.271 --> 00:09:51.251
+acostumbrado a hacerlo, Â¿acuerdo? Entonces en este caso le voy a poner zoom,
+
+158
+00:09:51.451 --> 00:09:53.651
+vamos para para ver el ejercicio,
+
+159
+00:09:53.971 --> 00:09:56.231
+entonces aquÃ­ estÃ¡,
+
+160
+00:09:56.311 --> 00:09:59.211
+Â¿no? Dice justo tipo de lit frÃ­o,
+
+161
+00:09:59.411 --> 00:10:02.651
+hola nombre, sÃ© que no hemos hablado antes, estoy buscando un grupo pequeÃ±o de
+
+162
+00:10:02.651 --> 00:10:07.071
+fundadores y consultores para ayudarles a generar cinco litres calificados por semana sin depender
+
+163
+00:10:07.071 --> 00:10:10.631
+de referidos ni sedidores, estarÃ¡s abierto un zoom de de minutos para ver si
+
+164
+00:10:10.631 --> 00:10:14.071
+te has sentido, esto por ejemplo,
+
+165
+00:10:14.471 --> 00:10:16.591
+ya es un fluctuaciÃ³n demasiado agresivo,
+
+166
+00:10:17.051 --> 00:10:21.191
+entonces ahorita vamos, este es un poco chachipit ya saben cÃ³mo funciona,
+
+167
+00:10:21.411 --> 00:10:23.491
+hay que estarle dando para la participa delante,
+
+168
+00:10:23.551 --> 00:10:27.791
+para que justo les dÃ© la respuesta.
+
+169
+00:10:28.191 --> 00:10:32.151
+Entonces, idealmente aquÃ­ lo que tienen hacer es como hacer unos 3,
+
+170
+00:10:32.371 --> 00:10:37.291
+5 back-in-forwards para que justo les dÃ© como el mensaje que ustedes
+
+171
+00:10:37.291 --> 00:10:39.411
+escribirÃ­an, un poco lo que quieren lograr es eso o no.
+
+172
+00:10:39.531 --> 00:10:42.511
+O a partir de aquÃ­ la verdad es que ya estÃ¡ bastante bien.
+
+173
+00:10:42.891 --> 00:10:45.311
+Lo Ãºnico que quizÃ¡s podrÃ­an cambiar es, en vez de esto,
+
+174
+00:10:45.611 --> 00:10:49.331
+es esto es algo que como el mensaje que yo tenÃ­a,
+
+175
+00:10:49.331 --> 00:10:52.491
+es como algo que tÃº podrÃ­as estar interesado,
+
+176
+00:10:52.751 --> 00:10:57.271
+podrÃ­a ser, por ejemplo, vamos a ver el por canal por
+
+177
+00:10:57.271 --> 00:10:59.491
+correo electrÃ³nico, o la sÃ© que no hemos hablado antes,
+
+178
+00:10:59.611 --> 00:11:02.311
+posterioro en un poco pequeÃ±os, muy similar, poquito mÃ¡s largo,
+
+179
+00:11:02.491 --> 00:11:06.051
+no, le voy a hacerlos independentes referidos, 100 rachas de contenidos importantes,
+
+180
+00:11:06.231 --> 00:11:08.711
+nÃºmero de seguidores, por ejemplo esto,
+
+181
+00:11:08.791 --> 00:11:11.131
+no te abrirÃ­as, a un zoom, tambiÃ©n la palabra abrirÃ­as,
+
+182
+00:11:11.291 --> 00:11:13.971
+no sÃ© cÃ³mo que en espaÃ±ol son habÃ­a,
+
+183
+00:11:14.171 --> 00:11:17.211
+no, este podrÃ­a ser lo mismo,
+
+184
+00:11:18.051 --> 00:11:20.851
+esto es algo que te podrÃ­a interesar, algo un poco mÃ¡s soft,
+
+185
+00:11:20.931 --> 00:11:22.991
+digamos. WhatsApp, hola,
+
+186
+00:11:23.071 --> 00:11:25.751
+estoy en algunos fondores y constructores, lo estoy dando, estÃ¡ muy bien,
+
+187
+00:11:26.051 --> 00:11:29.631
+sin depender el ferido, es un poco mÃ¡s casual, telato un zoom de nuevo,
+
+188
+00:11:29.671 --> 00:11:34.151
+no con tu acciÃ³n, no estÃ¡ tan bueno. Este es para un tibio,
+
+189
+00:11:34.271 --> 00:11:37.271
+hola, solo querÃ­a ver si te interesa algo, estoy dando fondores y constructores,
+
+190
+00:11:37.851 --> 00:11:39.891
+ok, vamos y este es Close Lost.
+
+191
+00:11:40.171 --> 00:11:42.351
+EstÃ¡n pensando en nuestra conversaciÃ³n, pasaba muy bien,
+
+192
+00:11:42.611 --> 00:11:45.891
+estos meses estoy dando fondores y constructores general, como te digo con eso,
+
+193
+00:11:46.051 --> 00:11:50.571
+perfecto, si quieres lo revisamos o si quieres y si es algo que te
+
+194
+00:11:50.571 --> 00:11:53.711
+interesa dime y te mando mÃ¡s informaciÃ³n,
+
+195
+00:11:53.791 --> 00:11:57.171
+no podrÃ­as hacer. Entonces aquÃ­ estÃ¡n los diferentes canales como puedes ver,
+
+196
+00:11:57.231 --> 00:12:01.411
+para que tÃº ya lo puedas como armar, pero vamos a dar como un
+
+197
+00:12:01.411 --> 00:12:04.311
+doble clica lo que estÃ¡ aquÃ­, Â¿de acuerdo? Entonces vamos a poner,
+
+198
+00:12:04.391 --> 00:12:08.271
+por ejemplo, estÃ¡ bien lo del Zoom,
+
+199
+00:12:08.271 --> 00:12:11.991
+pero siento que te estÃ¡s adelantando.
+
+200
+00:12:13.591 --> 00:12:18.571
+DeberÃ­a ser primero, esto
+
+201
+00:12:18.571 --> 00:12:22.451
+algo como y perdÃ³n que no hable por el micrÃ³fono,
+
+202
+00:12:22.451 --> 00:12:24.771
+pero por alguna razÃ³n cuando estoy, digo lo voy a intentar,
+
+203
+00:12:25.031 --> 00:12:28.211
+a ver, vamos a ver, por alguna vez cuando estoy grabando seguramente porque tengo
+
+204
+00:12:28.211 --> 00:12:30.631
+un micrÃ³fono aquÃ­ con que no me dejarÃ¡, pero vamos a ver,
+
+205
+00:12:30.631 --> 00:12:35.671
+debe ser algo como, no,
+
+206
+00:12:35.671 --> 00:12:38.211
+no pasa absolutamente nada, no nos va a poder,
+
+207
+00:12:38.431 --> 00:12:44.751
+ok. DeberÃ­a ser primero algo como esto
+
+208
+00:12:44.751 --> 00:12:49.051
+es algo que te puede interesar,
+
+209
+00:12:49.451 --> 00:12:53.011
+algo asÃ­. Entonces, con el,
+
+210
+00:12:53.151 --> 00:12:58.971
+con el, estÃ¡vino, el un presento en el sitio y en el sitio por
+
+211
+00:12:58.971 --> 00:13:03.491
+otro lado vamos a
+
+212
+00:13:03.491 --> 00:13:08.691
+darle un doble click y digamos
+
+213
+00:13:08.691 --> 00:13:13.271
+que las personas que estoy buscando son
+
+214
+00:13:13.271 --> 00:13:18.451
+Ãºnicamente no sÃ© de BogotÃ¡ vamos a poner de
+
+215
+00:13:18.451 --> 00:13:24.431
+BogotÃ¡ para que se sienta mÃ¡s personalizado
+
+216
+00:13:24.431 --> 00:13:30.971
+y en este caso solamente serÃ¡n consultores
+
+217
+00:13:30.971 --> 00:13:34.551
+de vamos a poner liderazgo,
+
+218
+00:13:34.831 --> 00:13:37.811
+nada mÃ¡s para para ver el ejercicio ver que como sale no,
+
+219
+00:13:38.711 --> 00:13:41.011
+entonces le ponemos eso,
+
+220
+00:13:41.451 --> 00:13:46.431
+entonces aquÃ­ no justo, ok, dice hola
+
+221
+00:13:46.431 --> 00:13:50.551
+nombre, se queremos hablar antes de buscarnos consultores de liderazgo que en BogotÃ¡,
+
+222
+00:13:50.711 --> 00:13:53.571
+que quieran generar sin coliz calificados por semanas y estÃ¡ perfecto.
+
+223
+00:13:53.631 --> 00:13:57.851
+O sea, el ejercicio un poco que quiero que vean ustedes aquÃ­ es eso.
+
+224
+00:13:57.871 --> 00:14:02.511
+No imagÃ­nense que ustedes son justo, no imagÃ­nense que ustedes son consultores del liderazgo
+
+225
+00:14:02.511 --> 00:14:05.531
+de recursos humanos, no sÃ©, ustedes reciben este mensaje.
+
+226
+00:14:06.011 --> 00:14:08.811
+Si ustedes reciben este mensaje y ustedes son consultores del liderazgo,
+
+227
+00:14:08.811 --> 00:14:11.291
+realmente tienen la necesidad de generar,
+
+228
+00:14:11.371 --> 00:14:13.711
+o sea, de que alguien les ayude con la generaciÃ³n del ITS, o sea,
+
+229
+00:14:13.771 --> 00:14:16.411
+inmediatamente van a contestar. O sea, y just mira,
+
+230
+00:14:16.471 --> 00:14:18.991
+esto es algo que podrÃ­a interesar hasta buenÃ­simo.
+
+231
+00:14:19.531 --> 00:14:22.331
+Ok, aquÃ­ estÃ¡n de nuevo,
+
+232
+00:14:22.391 --> 00:14:25.451
+Â¿no? Â¿CÃ³mo tibios? Estoy de una consulta de realidad. Bueno, votar este me encanta.
+
+233
+00:14:25.711 --> 00:14:28.611
+O sea, y asÃ­ incluso podrÃ­amos darle todavÃ­a como,
+
+234
+00:14:28.711 --> 00:14:31.691
+como, como, como doble clic,
+
+235
+00:14:31.791 --> 00:14:34.211
+Â¿no? Como todavÃ­a es mÃ¡s, vamos a poner esto,
+
+236
+00:14:34.411 --> 00:14:39.251
+vamos a darles
+
+237
+00:14:39.251 --> 00:14:43.511
+un poco mÃ¡s de,
+
+238
+00:14:43.971 --> 00:14:50.071
+vamos a hacer mÃ¡s especÃ­ficos
+
+239
+00:14:50.071 --> 00:14:54.751
+con que estoy buscando a
+
+240
+00:14:54.751 --> 00:14:57.371
+en BogotÃ¡,
+
+241
+00:14:57.471 --> 00:15:02.131
+en BogotÃ¡, pero Ãºnicamente de la zona G.
+
+242
+00:15:02.711 --> 00:15:06.131
+Si no me acuerdo, si mal no recuerdo hay una zona G en BogotÃ¡
+
+243
+00:15:06.131 --> 00:15:08.511
+y creo que es famosilla, entonces nada mÃ¡s para ver cÃ³mo sale,
+
+244
+00:15:08.591 --> 00:15:13.411
+Â¿no? Entonces esto es lo interesante o podrÃ­a ser por industria,
+
+245
+00:15:13.411 --> 00:15:15.971
+Â¿no? De liderazgo en empresas de consumo, por ejemplo,
+
+246
+00:15:16.451 --> 00:15:21.031
+Entonces, cuando ustedes, y esto no va a ser tan tito de
+
+247
+00:15:21.031 --> 00:15:24.051
+acÃ¡, vos votas especialmente de la zona G para ir a esa genera cinco
+
+248
+00:15:24.051 --> 00:15:27.011
+risa aquÃ­ por ejemplo, podrÃ­as ser consultores y de largo que se encuentran en
+
+249
+00:15:27.011 --> 00:15:29.551
+la zona G en vos votar, podrÃ­as ser una vez cambiando un poquito,
+
+250
+00:15:30.231 --> 00:15:33.611
+pero bueno, este es como el set de mensajes iniciales para que ustedes lo
+
+251
+00:15:33.611 --> 00:15:36.671
+vean craftiando, acuerdo a la lista que ustedes crearon,
+
+252
+00:15:36.811 --> 00:15:41.451
+y aquÃ­ hay algunas como sugerencias, no? Probablemente
+
+253
+00:15:41.451 --> 00:15:43.651
+la primera campaÃ±a, las primeras campaÃ±as,
+
+254
+00:15:43.891 --> 00:15:46.351
+como su networking va a ser chiquito, pues a lo mejor lo van a
+
+255
+00:15:46.351 --> 00:15:50.571
+hacer un poco mÃ¡s abierto. Pero imagÃ­nense si ustedes mes a mes estÃ¡n creando
+
+256
+00:15:50.571 --> 00:15:54.031
+sus listas de clientes ideales. Y de hecho yo sÃ© que eso no lo
+
+257
+00:15:54.031 --> 00:15:56.251
+hemos visto, pero eso va a estar en el mÃ³dulo 2,
+
+258
+00:15:56.371 --> 00:15:59.591
+va a ser el primer tema de cuÃ¡les son ya las actividades,
+
+259
+00:15:59.731 --> 00:16:02.111
+digamos, que vamos a estar haciendo semana tras semana.
+
+260
+00:16:02.491 --> 00:16:04.751
+SÃ© que es crear listas de clientes potenciales,
+
+261
+00:16:04.911 --> 00:16:09.771
+salir a conectar y luego iniciando conversaciones con los que vayan aceptando.
+
+262
+00:16:10.131 --> 00:16:14.651
+Y luego cada mes estÃ¡ corriendo esta campaÃ±a con los nuevos contactos y
+
+263
+00:16:14.651 --> 00:16:16.891
+con los lids que se quedaron perdidos, etcÃ©tera,
+
+264
+00:16:16.891 --> 00:16:21.011
+no un poco como la misma dinÃ¡mica, pero incorporando estos nuevos contactos.
+
+265
+00:16:21.371 --> 00:16:24.931
+Entonces, conforme ustedes vayan creciendo tambiÃ©n su red de contactos,
+
+266
+00:16:25.451 --> 00:16:27.751
+a lo mejor ahorita no lo pueden hacer tan especÃ­fico,
+
+267
+00:16:27.851 --> 00:16:31.011
+pero en algÃºn momento, si se ponen,
+
+268
+00:16:31.011 --> 00:16:33.331
+por ejemplo, a pura gente, BogotÃ¡, BogotÃ¡, BogotÃ¡, BogotÃ¡,
+
+269
+00:16:33.491 --> 00:16:38.251
+pueden llegar a un momento en donde incluso lo puedan segmentar hasta esa pequeÃ±a
+
+270
+00:16:38.251 --> 00:16:40.991
+zona y van a tener suficiente para poder correr la campaÃ±a.
+
+271
+00:16:40.991 --> 00:16:44.531
+y ahÃ­ donde empieza a ser un montÃ³n de sentido y la gente cuando
+
+272
+00:16:44.531 --> 00:16:48.691
+lo lee es cuando cuando empieza como como a mejorar un montÃ³n de las
+
+273
+00:16:48.691 --> 00:16:53.971
+conversiones porque se siente muchÃ­simo mÃ¡s personalizado en mensaje entonces de
+
+274
+00:16:53.971 --> 00:16:56.971
+la misma manera no solamente es geogrÃ¡fico tambiÃ©n puede ser por industria lo que
+
+275
+00:16:56.971 --> 00:17:00.991
+le decÃ­a ok si ustedes se meten a consumo y le dan consumo,
+
+276
+00:17:01.071 --> 00:17:10.911
+consumo, consumo, entonces imagÃ­nense
+
+277
+00:17:10.911 --> 00:17:14.251
+cuando capieto el tiempo en enfocarse en un nicho,
+
+278
+00:17:14.371 --> 00:17:16.591
+o sea, lo mejor al principio estÃ¡n chiquitos,
+
+279
+00:17:16.711 --> 00:17:18.851
+a mejor estÃ¡n dejando como,
+
+280
+00:17:19.631 --> 00:17:23.571
+o sea, no tienen tantas oportunidades, pero conforme van avanzando y si el contenido
+
+281
+00:17:23.571 --> 00:17:27.111
+de mÃ¡s estÃ¡ refocado en la misma regla del uno y tienen el mismo
+
+282
+00:17:27.111 --> 00:17:31.611
+avatar, y es la misma industria, y es el mismo zonas geogrÃ¡ficas,
+
+283
+00:17:31.791 --> 00:17:36.191
+etcÃ©tera, o sea, ahÃ­ es cuando ya el cuchillo empieza a entrar y empieza
+
+284
+00:17:36.191 --> 00:17:38.751
+a ser como, o sea, empiezo a de hacer sentido.
+
+285
+00:17:39.411 --> 00:17:41.931
+AdemÃ¡s, de que el ticket lo pueden subir mucho mÃ¡s,
+
+286
+00:17:42.111 --> 00:17:44.251
+porque se siente mucho mÃ¡s especÃ­fico por lo mismo.
+
+287
+00:17:44.391 --> 00:17:46.751
+Si ustedes en el banner, imagÃ­nense,
+
+288
+00:17:46.771 --> 00:17:49.451
+y es nada mÃ¡s con un ejemplo de que en el banner ponemos esto
+
+289
+00:17:49.451 --> 00:17:53.971
+de que oye ayuda a consultores de liderazgo en BogotÃ¡ o en
+
+290
+00:17:53.971 --> 00:17:56.111
+Colombia, ponerlo un poquito mÃ¡s abierto,
+
+291
+00:17:56.731 --> 00:18:00.171
+a que logren tal loudcom, y eso tambiÃ©n en el headline.
+
+292
+00:18:00.551 --> 00:18:04.431
+Y luego ustedes hacen su campaÃ±a y en la campaÃ±a todo estÃ¡ como alineado
+
+293
+00:18:04.431 --> 00:18:08.391
+a eso precisamente, no de que hoy estoy buscando unos consultores del liderazgo en
+
+294
+00:18:08.391 --> 00:18:12.291
+este caso por ejemplo BogotÃ¡, hoy si si eran otra campaÃ±a en Cali o
+
+295
+00:18:12.291 --> 00:18:15.971
+en Cali o corren una campaÃ±a en BogotÃ¡ y otra en Cali,
+
+296
+00:18:16.071 --> 00:18:20.191
+al mismo tiempo el mejor la mitad y la mitad 65 y 65 y
+
+297
+00:18:20.191 --> 00:18:23.571
+corren dos encuencias en paralelo y ahÃ­ van viendo cuÃ¡les son como las que
+
+298
+00:18:23.571 --> 00:18:26.751
+mejor funcionan, entonces cuando empiezan a hacer eso,
+
+299
+00:18:27.091 --> 00:18:30.291
+o sea, con el tiempo se empieza a hacer eso como un interÃ©s compuesto,
+
+300
+00:18:30.311 --> 00:18:32.851
+una gole de nieve y empiezan a tener super buenos resultados. Entonces,
+
+301
+00:18:33.031 --> 00:18:35.951
+nada mÃ¡s querÃ­a explicarles cÃ³mo funciona esto,
+
+302
+00:18:36.511 --> 00:18:40.771
+cÃ³mo podemos hacer el set de mensajes iniciales y en la prÃ³xima secciÃ³n vamos
+
+303
+00:18:40.771 --> 00:18:43.471
+a construir los mensajes de seguimiento que son dos,
+
+304
+00:18:43.851 --> 00:18:47.111
+que es el mensaje seguimiento uno y lo el Hail Mary o el Ãºltimo
+
+305
+00:18:47.111 --> 00:18:50.991
+mensaje y con eso cerramos,
+
+306
+00:18:51.191 --> 00:18:54.591
+Â¿vale? Nos vemos en la siguiente de secciÃ³n entonces.

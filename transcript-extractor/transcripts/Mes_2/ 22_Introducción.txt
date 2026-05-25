@@ -1,0 +1,491 @@
+# Introducción
+Curso: Mes 2
+Loom: https://www.loom.com/share/fff6860a0a164a998a26ade88f687081
+
+─────────────────────────────────────
+
+WEBVTT
+
+1
+00:00:00.202 --> 00:00:04.342
+<v 0>team super emocionado por por fin tocar este tema,</v>
+
+2
+00:00:04.342 --> 00:00:08.442
+vamos a hablar ahora de contenido, es probablemente mi tema favorito,
+
+3
+00:00:08.742 --> 00:00:12.522
+puedo estar hablando un montÃ³n de horas de contenido prÃ¡cticamente todo el dÃ­a,
+
+4
+00:00:12.862 --> 00:00:17.362
+es algo que me emociona mucho y esto lo vamos a complementar justo con
+
+5
+00:00:17.362 --> 00:00:21.982
+la rutina diaria y semanal, vamos a ver quÃ© mecanismos sonos que funcionan para
+
+6
+00:00:21.982 --> 00:00:26.102
+crear contenido y contenido que realmente empiece pues a jalar,
+
+7
+00:00:26.262 --> 00:00:31.262
+que empieza a jalar el contenido
+
+8
+00:00:31.262 --> 00:00:34.162
+al final del dÃ­a es mostrar tu producto en LinkedIn.
+
+9
+00:00:34.662 --> 00:00:37.802
+Entonces es lo que al final del dÃ­a te va posicionando,
+
+10
+00:00:37.962 --> 00:00:42.702
+va construyendo confianza y va convirtiendo los lectores en prospectos.
+
+11
+00:00:42.782 --> 00:00:45.022
+Entonces si no haces buen contenido,
+
+12
+00:00:45.122 --> 00:00:48.182
+la verdad es que te vas a quedar ahÃ­, aquÃ­ vamos a ver quÃ©
+
+13
+00:00:48.182 --> 00:00:52.122
+tipo de contenidos son los que mejor funcionan y por quÃ© son interesantes.
+
+14
+00:00:52.282 --> 00:00:55.122
+Entonces, nada mÃ¡s para recordar,
+
+15
+00:00:55.242 --> 00:00:59.242
+hay dos maneras para generar confiancias y se acuerdan cuando habÃ­amos,
+
+16
+00:00:59.682 --> 00:01:04.302
+cuando empezamos, platicÃ¡bamos que aquÃ­ lo que queremos hacer es construir un sistema
+
+17
+00:01:04.302 --> 00:01:09.182
+de confianza, Â¿acuerdo? Entonces, para construir un sistema de confianza necesitamos hacer
+
+18
+00:01:09.182 --> 00:01:13.142
+varios mecanismos y entre ellos lo vamos dividiendo,
+
+19
+00:01:13.302 --> 00:01:15.982
+es que es la parte de la prospecciÃ³n y la parte del contenido.
+
+20
+00:01:16.482 --> 00:01:20.862
+Ahora, las ventajas de la parte del contenido es que le vamos a hablar
+
+21
+00:01:20.862 --> 00:01:24.242
+de uno a muchos. Esta es la ventaja principal,
+
+22
+00:01:24.722 --> 00:01:28.482
+entonces cuando empiezas a ser buen contenido y que ademÃ¡s estÃ¡ alineado la regla
+
+23
+00:01:28.482 --> 00:01:33.122
+del uno en donde hablas de un problema especÃ­fico con una soluciÃ³n a travÃ©s
+
+24
+00:01:33.122 --> 00:01:36.562
+de un mecanismo y estÃ¡s buscando una sola prueba,
+
+25
+00:01:37.082 --> 00:01:39.802
+cuando alineas todo eso y tu contenido tambiÃ©n va alineado a eso,
+
+26
+00:01:40.002 --> 00:01:43.742
+es cuando empiezas a generar tambiÃ©n esta atracciÃ³n,
+
+27
+00:01:43.742 --> 00:01:47.922
+que no necesariamente vas a necesitar un alcance tremendo,
+
+28
+00:01:48.602 --> 00:01:51.422
+pero si le vas a empezar a hablar a la gente adecuada para que
+
+29
+00:01:51.422 --> 00:01:53.962
+justamente empiezas a generar leads y tambiÃ©n cierto alcance.
+
+30
+00:01:54.342 --> 00:01:58.142
+De todas maneras, en aparte del contenido acÃ¡ vamos a ver 5 tipos de
+
+31
+00:01:58.142 --> 00:02:00.282
+contenido, que justo te ayuden,
+
+32
+00:02:00.422 --> 00:02:04.042
+no nada mÃ¡s a generar leads, sino tambiÃ©n que te empiezan a generar cierto
+
+33
+00:02:04.042 --> 00:02:06.782
+alcance, cierto Engage porque tambiÃ©n es importante,
+
+34
+00:02:07.442 --> 00:02:10.222
+hay que jugar el juego, que al final del dÃ­a este es una red
+
+35
+00:02:10.222 --> 00:02:12.962
+social y hay que tratarla un poco como tal, aunque es corporate,
+
+36
+00:02:13.502 --> 00:02:17.422
+la verdad es que tambiÃ©n vale la pena hacer piezas que no tienen nada
+
+37
+00:02:17.422 --> 00:02:20.182
+que ver quizÃ¡s para vender, porque al final del dÃ­a en la mezcla de
+
+38
+00:02:20.182 --> 00:02:22.302
+las dos es lo que te va dando justo esta tracciÃ³n,
+
+39
+00:02:22.442 --> 00:02:27.162
+vale, y la otra forma para generar confianza es a travÃ©s de la prospecciÃ³n,
+
+40
+00:02:27.902 --> 00:02:31.282
+hay pros y cons para las dos formatos,
+
+41
+00:02:31.342 --> 00:02:33.442
+vamos a aclararlos aquÃ­ rÃ¡pidamente,
+
+42
+00:02:34.082 --> 00:02:38.802
+el contenido es muy bueno justo para atraer a una cantidad
+
+43
+00:02:38.802 --> 00:02:43.682
+importante como de Litz lo Ãºnico malo y hay que decirlo es
+
+44
+00:02:43.682 --> 00:02:47.642
+la mayorÃ­a de los Litz o de las personas con las que quizÃ¡s puedas
+
+45
+00:02:47.642 --> 00:02:52.602
+iniciar conversaciones no van a estar calificados porque normalmente la gente que estÃ¡ un
+
+46
+00:02:52.602 --> 00:02:57.222
+poco mÃ¡s activa en LinkedIn pues terminan no siendo tus clientes
+
+47
+00:02:57.222 --> 00:03:00.802
+lo bueno de la prospecciÃ³n pero lo bueno es pues al final eso va
+
+48
+00:03:00.802 --> 00:03:03.882
+a generar no como mucho ruido y en el mediano largo plazo si que
+
+49
+00:03:03.882 --> 00:03:06.122
+empieza a retruir bastante,
+
+50
+00:03:06.382 --> 00:03:10.982
+no, a diferencia de la prospecciÃ³n que como tÃº aquÃ­ creas tus listas de
+
+51
+00:03:10.982 --> 00:03:14.922
+cliente ideal, al final del dÃ­a tÃº ya tienes a tu ICP,
+
+52
+00:03:15.242 --> 00:03:19.022
+a tu perfil de cliente ideal, entonces sales superclaro,
+
+53
+00:03:19.082 --> 00:03:22.182
+targetiano a las empresas y a las personas a las que tÃº quieres targetear.
+
+54
+00:03:22.682 --> 00:03:27.862
+Entonces al final del dÃ­a cuando vas usando los dos mecanismos,
+
+55
+00:03:27.862 --> 00:03:30.082
+pues vas generando como esta tracciÃ³n,
+
+56
+00:03:30.202 --> 00:03:34.122
+Â¿de acuerdo? entonces quÃ© lo que vamos a ver en este en este modo
+
+57
+00:03:34.122 --> 00:03:38.982
+lo vamos a ver primero la anatomÃ­a de quÃ© significa una buena publicaciÃ³n normalmente
+
+58
+00:03:38.982 --> 00:03:43.502
+tiene ciertos elementos vamos a descomponer estos elementos para
+
+59
+00:03:43.502 --> 00:03:48.422
+que los puedas entender son siete elementos entonces no necesariamente todas las publicaciones
+
+60
+00:03:48.422 --> 00:03:52.842
+tienen estos siete elementos pero en la medida de lo posible estÃ¡ bueno luego
+
+61
+00:03:52.842 --> 00:03:56.042
+combinar algunos de ellos si se pueden los siete los siete aunque normalmente si
+
+62
+00:03:56.042 --> 00:04:00.642
+salen los siete casi siempre es una publicaciÃ³n bastante larga pero esto es para
+
+63
+00:04:00.642 --> 00:04:05.222
+que ustedes puedan identificar como las partecitas que componen
+
+64
+00:04:05.222 --> 00:04:09.122
+una buena publicaciÃ³n y esto estÃ¡ bueno porque al final del dÃ­a ustedes van
+
+65
+00:04:09.122 --> 00:04:13.042
+a empezar a notar patrones con el contenido y luego luego cuando ya empiezan
+
+66
+00:04:13.042 --> 00:04:17.162
+a escribir y empiezan a soltarse la realidad es que empiezan a ver justo
+
+67
+00:04:17.162 --> 00:04:21.982
+se puede leer algo y rÃ¡pidamente decir este es una buena publicaciÃ³n entonces
+
+68
+00:04:21.982 --> 00:04:25.802
+pueden ya empezar a distinguir y tambiÃ©n con su propio contenido,
+
+69
+00:04:25.942 --> 00:04:29.862
+porque si uno tiene ni siquiera las piezas que componen una buena pieza al
+
+70
+00:04:29.862 --> 00:04:31.982
+final, luego escriben, escriben,
+
+71
+00:04:32.062 --> 00:04:35.162
+escriben, no tienen tracciÃ³n, no tienen alcance, no generan leads y pues no saben
+
+72
+00:04:35.162 --> 00:04:38.442
+por quÃ©, entonces vamos a echarle una anÃ¡lisis esa parte,
+
+73
+00:04:38.922 --> 00:04:41.102
+luego vamos a meternos tambiÃ©n a la parte de los ganchos,
+
+74
+00:04:41.162 --> 00:04:43.602
+los hooks que para mÃ­ es como la parte mÃ¡s importante,
+
+75
+00:04:44.062 --> 00:04:46.982
+hay que captar la atenciÃ³n en estas primeras tres lÃ­neas y no lo captas,
+
+76
+00:04:47.122 --> 00:04:50.322
+bye, entonces hay hooks que sean a parte de arriba que son de texto
+
+77
+00:04:50.322 --> 00:04:54.022
+y luego los de imagen. Entonces vamos a ver quÃ© tipo de hooks sonos
+
+78
+00:04:54.022 --> 00:04:58.682
+que funcionan, hay varios y aquÃ­ tambiÃ©n he hecho como un anÃ¡lisis
+
+79
+00:04:58.682 --> 00:05:02.622
+y he identificado,
+
+80
+00:05:02.902 --> 00:05:06.002
+cuÃ¡les son como los mejores ganchos de acuerdo a ciertas caracterÃ­sticas.
+
+81
+00:05:06.282 --> 00:05:11.002
+Y luego vamos a meternos a las publicaciones que mejor funcionan
+
+82
+00:05:11.002 --> 00:05:15.942
+para generar alcance y para generar leads. En lugar de tener como un
+
+83
+00:05:15.942 --> 00:05:20.262
+pilares de contenido, acÃ¡ yo lo que propuestos son los tipos de contenido que
+
+84
+00:05:20.262 --> 00:05:24.782
+mejor funcionan, Â¿vale? Entonces la idea es que los combinen con sus ideas
+
+85
+00:05:24.782 --> 00:05:28.782
+de contenido que tienen y que los puedan vaciar a este tipo de contenido,
+
+86
+00:05:28.802 --> 00:05:31.462
+Â¿vale? Y son contenidos que mÃ¡s funcionan bastante bien,
+
+87
+00:05:31.462 --> 00:05:34.122
+en verdad son seis, pero aquÃ­ no vamos a enfocar en cinco.
+
+88
+00:05:34.602 --> 00:05:36.622
+Luego nos vamos a meter a los patrones de escritura,
+
+89
+00:05:37.282 --> 00:05:39.782
+justo, Â¿no? Pues para ver cuÃ¡l es el tono que,
+
+90
+00:05:40.042 --> 00:05:43.042
+o sea, los tonos que funcionan, cuÃ¡les son las formas, cÃ³mo tienen que escribir,
+
+91
+00:05:43.162 --> 00:05:46.602
+cÃ³mo tienen que ponerlo de cierta manera para que el lector,
+
+92
+00:05:47.162 --> 00:05:51.642
+pues le haga sentido no le de flojera leerlo y luego por Ãºltimo un
+
+93
+00:05:51.642 --> 00:05:56.662
+pro tip un tip bien bueno para que ustedes puedan buscar como inspiraciÃ³n
+
+94
+00:05:56.662 --> 00:06:01.362
+para que puedan agarrar estas ideas de contenido y las puedan
+
+95
+00:06:01.362 --> 00:06:05.542
+vaciar yo lo uso todo el tiempo todo el tiempo y la verdad es
+
+96
+00:06:05.542 --> 00:06:08.922
+que me he dado muy buenos resultados entonces cuando terminemos este mÃ³dulo ya vas
+
+97
+00:06:08.922 --> 00:06:13.702
+a tener unas bases bien solidas para crear contenido esto al
+
+98
+00:06:13.702 --> 00:06:17.042
+final del dÃ­a es mucha prÃ¡ctica la verdad es que yo te puedo dar
+
+99
+00:06:17.042 --> 00:06:20.502
+todos los frameworks te puedo dar a gente, te puedo dar toda la teorÃ­a,
+
+100
+00:06:20.862 --> 00:06:23.622
+te puedo mostrar lo que yo estoy haciendo, te puedo poner ejemplos de otros
+
+101
+00:06:23.622 --> 00:06:27.662
+creadores, todo lo podemos desblosar en diferentes frameworks,
+
+102
+00:06:28.022 --> 00:06:32.162
+pero la realidad es que por mÃ¡s que lo leas no vas a obtener
+
+103
+00:06:32.162 --> 00:06:34.702
+resultados a menos que lo hagas y lo hagas en el largo plazo.
+
+104
+00:06:34.922 --> 00:06:37.082
+Entonces, este es un juego, digamos,
+
+105
+00:06:37.162 --> 00:06:39.382
+que al final tienes que empezar y le vas dando,
+
+106
+00:06:40.302 --> 00:06:43.202
+cosas que a mÃ­ me funcionan es gamificar un poco tambiÃ©n esto,
+
+107
+00:06:43.302 --> 00:06:45.942
+es como que es una actividad que nada tengo que hacer,
+
+108
+00:06:46.082 --> 00:06:49.482
+entonces voy revisando mi mÃ©trica y se convierte un poco como en un juego,
+
+109
+00:06:49.622 --> 00:06:51.802
+entonces no te salvas de esa,
+
+110
+00:06:52.082 --> 00:06:56.662
+por eso hay tanta informaciÃ³n en el fin justo
+
+111
+00:06:56.662 --> 00:06:58.982
+que van repitiendo esto, no de constancia, constancia,
+
+112
+00:06:59.042 --> 00:07:03.802
+bueno, al final si es algo que se tiene que hacer y conforme van
+
+113
+00:07:03.802 --> 00:07:05.942
+agarrando estos formatos que son unos,
+
+114
+00:07:05.942 --> 00:07:09.442
+no son los Ãºnicos, hay un montÃ³n, van a ir viendo justo que otros
+
+115
+00:07:09.442 --> 00:07:12.862
+pueden incorporar para su propio estilo, van haciendo su propio tono,
+
+116
+00:07:13.042 --> 00:07:17.042
+ahorita no se enganchen tanto de, ah, es que esto no es tanto mi
+
+117
+00:07:17.042 --> 00:07:19.082
+tono, no es mi estilo, estÃ¡ bien,
+
+118
+00:07:19.202 --> 00:07:22.822
+o sea idealmente al principio pues es nada mÃ¡s a cachar un poquito la
+
+119
+00:07:22.822 --> 00:07:26.382
+idea y tratar luego con la misma prÃ¡ctica a ir encontrando su voz y
+
+120
+00:07:26.382 --> 00:07:31.202
+su tono, vale, entonces si mÃ¡s empecemos de lleno y vamos nos primero
+
+121
+00:07:31.202 --> 00:07:33.742
+con las siete piezas que componen una buena publicaciÃ³n.

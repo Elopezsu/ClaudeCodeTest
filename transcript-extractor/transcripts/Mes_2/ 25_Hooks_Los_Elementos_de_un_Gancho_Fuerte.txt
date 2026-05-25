@@ -1,0 +1,1507 @@
+# Hooks: Los Elementos de un Gancho Fuerte
+Curso: Mes 2
+Loom: https://www.loom.com/share/1e517726bdc94f05bbf97b9fab871b02
+
+─────────────────────────────────────
+
+WEBVTT
+
+1
+00:00:00.128 --> 00:00:03.568
+<v 0>team, ahora ya nos vamos a meter de lleno a la parte de los</v>
+
+2
+00:00:03.568 --> 00:00:06.188
+hooks de los ganchos a los elementos que lo componen,
+
+3
+00:00:06.308 --> 00:00:08.948
+son 9. Entonces, ehm,
+
+4
+00:00:09.128 --> 00:00:12.508
+aquÃ­ son 9 elementos que tambiÃ©n se pueden ir mezclando,
+
+5
+00:00:12.828 --> 00:00:16.148
+eh, pero cada uno de ellos tiene como una idea muy clara,
+
+6
+00:00:16.588 --> 00:00:20.508
+eh, y vamos a ver, o sea ejemplos y cuÃ¡les son cada uno de
+
+7
+00:00:20.508 --> 00:00:25.108
+ellos, justo no he notado que los que mejor funcionan
+
+8
+00:00:25.108 --> 00:00:29.808
+es cuando puedes meter algunos de estos elementos en
+
+9
+00:00:29.808 --> 00:00:34.348
+un mismo hook, entonces de esta manera vas a hacer que genera tambiÃ©n un
+
+10
+00:00:34.348 --> 00:00:36.888
+poquito mÃ¡s detracciÃ³n, sobre todo por ejemplo hay unos que son mÃ¡s fÃ¡cil de
+
+11
+00:00:36.888 --> 00:00:41.408
+meter, sobre todo por ejemplo hay un elemento y me adelanto que es de
+
+12
+00:00:41.408 --> 00:00:43.468
+nÃºmeros concretos,
+
+13
+00:00:43.468 --> 00:00:47.328
+que de un sustantivo concreto,
+
+14
+00:00:47.468 --> 00:00:50.888
+entonces este lo puedes incorporar en muchos de los otros elementos que estÃ¡n acÃ¡,
+
+15
+00:00:51.768 --> 00:00:54.748
+tambiÃ©n por ejemplo la perspectiva personal,
+
+16
+00:00:55.188 --> 00:00:59.968
+etcÃ©tera, entonces ahorita vamos a ver justo cuÃ¡les son estos elementos
+
+17
+00:00:59.968 --> 00:01:04.128
+para que los los podemos ver y he puesto un documento en la parte
+
+18
+00:01:04.128 --> 00:01:08.268
+abajo que nos vamos a ir a la parte final del video para explicarles
+
+19
+00:01:08.268 --> 00:01:12.588
+por ahÃ­ una ejercicio que puedan hacer. Hay algunas plantillas tambiÃ©n que puedan utilizar.
+
+20
+00:01:13.448 --> 00:01:18.068
+Entonces, para que este documento lo puedan utilizar como refuerzo de lo que
+
+21
+00:01:18.068 --> 00:01:22.588
+vamos a ver acÃ¡. Y adicional es un documento que les puede servir como
+
+22
+00:01:22.588 --> 00:01:26.668
+un stack. Digamos que la idea es que vayan ustedes compilando.
+
+23
+00:01:27.148 --> 00:01:30.428
+Para que cuando ustedes interactÃºen con la inteligencia artificial,
+
+24
+00:01:31.048 --> 00:01:34.288
+tengan todos estos documentos que les puede servir de contexto,
+
+25
+00:01:34.288 --> 00:01:37.688
+para que cuando ustedes, justo quieran crear ideas,
+
+26
+00:01:37.988 --> 00:01:42.648
+que quieran crear alguna publicaciÃ³n que les pueda dar como
+
+27
+00:01:42.648 --> 00:01:48.008
+mejores respuestas, ya saben que yo no soy muy fan de escribir
+
+28
+00:01:48.008 --> 00:01:52.288
+con la inteligencia artificial, pero entiendo la barrera que puede representar para muchos,
+
+29
+00:01:52.468 --> 00:01:58.448
+entonces ese documento les puede servir para justamente poder incorporarlo
+
+30
+00:01:58.448 --> 00:02:01.548
+y empezar a tener un un poco mÃ¡s de contexto, junto con la regla
+
+31
+00:02:01.548 --> 00:02:05.088
+del 1 y eso, pero bueno vamos a ver tambiÃ©n como ideas de cÃ³mo
+
+32
+00:02:05.088 --> 00:02:07.528
+usar tambiÃ©n en chatchip.t,
+
+33
+00:02:07.788 --> 00:02:10.408
+etcÃ©tera con todo lo que habÃ­amos recopilando acÃ¡,
+
+34
+00:02:10.888 --> 00:02:15.448
+para que por lo menos les pueda entregar mejores ideas y
+
+35
+00:02:15.448 --> 00:02:18.448
+publicaciones un poquito mÃ¡s acercadas a su tono,
+
+36
+00:02:18.448 --> 00:02:21.148
+que ustedes ya namastean que cambiar hay algunas cosas.
+
+37
+00:02:21.468 --> 00:02:26.248
+Entonces, habiendo hecho el anterior vÃ¡monos entonces con los nueve
+
+38
+00:02:26.248 --> 00:02:32.088
+elementos y el primero
+
+39
+00:02:32.088 --> 00:02:36.648
+de ellos es si catriz o crevilidad ganada bÃ¡sicamente es
+
+40
+00:02:36.648 --> 00:02:41.228
+algo que te pasÃ³ algo que aprendiste al algÃºn tropiezo que que te
+
+41
+00:02:41.228 --> 00:02:45.468
+saliÃ³ esto pues al final te va dando crevilidad esto se puede hacer de
+
+42
+00:02:45.468 --> 00:02:49.328
+diferentes maneras lo puedes hacer a travÃ©s como de street link o lo puedes
+
+43
+00:02:49.328 --> 00:02:53.928
+hacer tambiÃ©n por como una publicaciÃ³n como
+
+44
+00:02:53.928 --> 00:02:56.288
+este tipo. Entonces, si se fijan, por ejemplo,
+
+45
+00:02:56.468 --> 00:03:01.168
+he puesto esta, este ejemplo de una publicaciÃ³n mÃ­a,
+
+46
+00:03:01.648 --> 00:03:06.428
+fÃ­jense como yo me estoy posicionando de algo
+
+47
+00:03:06.428 --> 00:03:09.908
+que me pasÃ³ en un inicio cuando iba empezando, de que yo estoy dando
+
+48
+00:03:09.908 --> 00:03:12.308
+el consejo y que no estÃ© posiciones como freelancerno.
+
+49
+00:03:12.388 --> 00:03:15.788
+Entonces, justo pongo acÃ¡, nunca te posiciones como Free Lancer,
+
+50
+00:03:16.068 --> 00:03:18.188
+yo lo hice un tiempo y casi muero de hambre,
+
+51
+00:03:18.688 --> 00:03:23.288
+hablando tambiÃ©n de los loops abiertos y los loops cerrados fÃ­jense como
+
+52
+00:03:23.288 --> 00:03:27.328
+este si tiene el loop cerrado, es decir, como que pones toda la idea
+
+53
+00:03:27.328 --> 00:03:31.428
+en esta parte del gancho,
+
+54
+00:03:32.308 --> 00:03:36.888
+pero la gente justo como le da como esa curiosidad de
+
+55
+00:03:36.888 --> 00:03:39.248
+saber a quÃ© me refiero cuando hago este statement,
+
+56
+00:03:39.428 --> 00:03:41.448
+entonces por eso como le da clica, ver mÃ¡s,
+
+57
+00:03:41.448 --> 00:03:45.408
+Y encima, esta imagen funciona tambiÃ©n como doble hook,
+
+58
+00:03:45.768 --> 00:03:48.768
+Â¿de acuerdo? Entonces, este funcionÃ³ muy bien,
+
+59
+00:03:48.988 --> 00:03:52.528
+tuvo 71 comentarios, 211 likes,
+
+60
+00:03:52.668 --> 00:03:55.048
+207 comentarios. Entonces,
+
+61
+00:03:55.268 --> 00:03:58.588
+este es el primero, Â¿no? Entonces, nada mÃ¡s como cicatriz,
+
+62
+00:03:58.768 --> 00:04:01.028
+cosas que ustedes han hecho, errores que han cometido,
+
+63
+00:04:01.188 --> 00:04:03.668
+cosas que han aprendido, entonces lo ponen,
+
+64
+00:04:03.688 --> 00:04:06.408
+digamos, dentro del hook y funcionan bastante bien.
+
+65
+00:04:06.968 --> 00:04:11.768
+Luego el nÃºmero dos es un nÃºmero sustantivo concreto y
+
+66
+00:04:11.768 --> 00:04:14.748
+se acuerdan lo que les habÃ­a dicho, no se ha muchos elementos se van
+
+67
+00:04:14.748 --> 00:04:19.768
+a mezclar, entonces en este caso tambiÃ©n es como algÃºn
+
+68
+00:04:19.768 --> 00:04:22.108
+logro que esta persona hizo Luis Garau,
+
+69
+00:04:22.668 --> 00:04:27.268
+pero aquÃ­ especÃ­ficamente enfocÃ¡ndonos en la parte del nÃºmero sustantivo
+
+70
+00:04:27.268 --> 00:04:29.668
+concreto, es bien aparte de especificidad,
+
+71
+00:04:30.308 --> 00:04:35.048
+es mucho mejor que a extracciÃ³n, los nÃºmeros detienen el scroll porque son concretos,
+
+72
+00:04:35.208 --> 00:04:39.548
+creÃ­bles, se notan y sobre todo esto hace mucho sentido cuando ven aquÃ­ que
+
+73
+00:04:39.548 --> 00:04:44.108
+dice 126 54 aquÃ­ y en el social proof de alguna
+
+74
+00:04:44.108 --> 00:04:48.868
+manera en la imagen que ponen como refuerzo el doble juc tambiÃ©n
+
+75
+00:04:48.868 --> 00:04:52.288
+pone 12654, esto es by the way,
+
+76
+00:04:52.408 --> 00:04:54.988
+alantÃ¡ndome tambiÃ©n para los jucs visuales,
+
+77
+00:04:55.088 --> 00:04:59.708
+los jucs visuales funcionan muy bien cuando
+
+78
+00:04:59.708 --> 00:05:04.848
+justamente estÃ¡n a alineados a la lÃ­nea que tÃº estÃ¡s poniendo en el cucho,
+
+79
+00:05:04.848 --> 00:05:09.488
+como en este caso Ã©l estÃ¡ poniendo este nÃºmero grande
+
+80
+00:05:09.488 --> 00:05:11.768
+y lo estÃ¡ poniendo tambiÃ©n en una parte abajo,
+
+81
+00:05:11.768 --> 00:05:16.348
+entonces de esta manera estÃ¡ como amarrando, entonces mi recomendaciÃ³n tambiÃ©n aquÃ­ cuando ustedes
+
+82
+00:05:16.348 --> 00:05:19.568
+hablen de nÃºmeros en particular de lo que sea que estÃ©n haciendo,
+
+83
+00:05:19.988 --> 00:05:22.688
+si tienen una manera de poderlo probar a travÃ©s de una imagen,
+
+84
+00:05:22.948 --> 00:05:27.168
+con una imagen super sencilla como este pantalla solo pueden poner,
+
+85
+00:05:27.908 --> 00:05:31.928
+entonces en este caso es muy claro, Ã©l habla de dos cosas aquÃ­ especÃ­ficas,
+
+86
+00:05:32.008 --> 00:05:35.648
+no un sustantivo concreto, habla como de un tiempo en particular que son en
+
+87
+00:05:35.648 --> 00:05:40.228
+14 dÃ­as, aquÃ­ estÃ¡ la primera como parte de
+
+88
+00:05:40.228 --> 00:05:42.308
+nÃºmero concreto, de fecha concreta,
+
+89
+00:05:42.728 --> 00:05:46.688
+he conseguido y luego el nÃºmero, tantas impresiones con cuÃ¡nto con 10 posts,
+
+90
+00:05:46.828 --> 00:05:51.548
+entonces si se fijan es nÃºmero, nÃºmero, nÃºmero y luego son 10.265
+
+91
+00:05:51.548 --> 00:05:56.508
+impresiones de media que se desde que tomÃ© una decisiÃ³n dos
+
+92
+00:05:56.508 --> 00:06:01.148
+puntos, entonces ahÃ­ ya empieza tambiÃ©n la historia de cÃ³mo le hizo y
+
+93
+00:06:01.148 --> 00:06:05.728
+justamente va a hablar de precisamente cÃ³mo hizo
+
+94
+00:06:05.728 --> 00:06:07.868
+esto, esto que lo hago,
+
+95
+00:06:08.028 --> 00:06:12.668
+entonces este es un muy buen hook, una manera muy
+
+96
+00:06:12.668 --> 00:06:16.128
+buena para poder mostrar la informaciÃ³n el gancho.
+
+97
+00:06:17.768 --> 00:06:20.328
+El elemento no me lo tres, tu perspectiva personal.
+
+98
+00:06:20.968 --> 00:06:24.928
+El gancho de venir desde tu experiencia de algo que este se puede parecer
+
+99
+00:06:24.928 --> 00:06:27.048
+un poco la credibilidad ganada,
+
+100
+00:06:27.568 --> 00:06:32.168
+solamente que este puede ser como desde una opiniÃ³n o desde algo que tÃº
+
+101
+00:06:32.168 --> 00:06:36.548
+crees tambiÃ©n sobre ti mismo, entonces aquÃ­ es hablar tambiÃ©n un poco de ti
+
+102
+00:06:36.548 --> 00:06:39.428
+lo mismo, es tratar de usar el yo,
+
+103
+00:06:39.708 --> 00:06:43.488
+mi experiencia, lo que yo yo soy yo soy esto yo soy esto otro
+
+104
+00:06:43.488 --> 00:06:47.328
+que que claro pues al final el dÃ­a que es personal que es especÃ­fico
+
+105
+00:06:47.328 --> 00:06:51.248
+y que es imposible encontrar a otro lado no entonces en este caso Paula
+
+106
+00:06:51.248 --> 00:06:56.088
+que es muy buena creadora dice soy fiable y me vas en tres pilares
+
+107
+00:06:56.088 --> 00:06:58.668
+que ni el mejor CRM pueda traquear,
+
+108
+00:06:58.748 --> 00:07:03.688
+entonces ella escribe muy bien siga
+
+109
+00:07:03.688 --> 00:07:08.528
+la es un buen referente para poderse inspirar entonces ella
+
+110
+00:07:08.528 --> 00:07:13.088
+pone eso como es fiable y entonces por
+
+111
+00:07:13.088 --> 00:07:15.788
+quÃ© ella estÃ¡ como diciendo que es fiable,
+
+112
+00:07:15.928 --> 00:07:19.148
+entonces ella dice pues es que me va a suen tres pilares y luego
+
+113
+00:07:19.148 --> 00:07:23.108
+lo compara contra un CRM, entonces ni siquiera el CRM ni el mejor CRM
+
+114
+00:07:23.108 --> 00:07:27.808
+lo puede traquear, entonces como el final del dÃ­a los CRMs
+
+115
+00:07:27.808 --> 00:07:32.628
+de lo que tratan justo es de proporcionar datos y que sea la fuente
+
+116
+00:07:32.628 --> 00:07:37.108
+la verdad a la hora de presentar los datos para los que estamos vendiendo,
+
+117
+00:07:37.608 --> 00:07:40.268
+entonces ella estÃ¡ diciendo ni siquiera eso,
+
+118
+00:07:40.568 --> 00:07:43.968
+es tan fiable como yo, entonces pone una foto suya,
+
+119
+00:07:44.348 --> 00:07:47.128
+con un corazÃ³n tremendo, o sea, este es un juxazo,
+
+120
+00:07:47.628 --> 00:07:50.568
+360, 103 comentarios Zapsi,
+
+121
+00:07:50.688 --> 00:07:53.228
+evidentemente iba a funcionar bastante bien. Luego,
+
+122
+00:07:53.428 --> 00:07:55.928
+nÃºmero 4, curiosidad, mÃ¡s tensiÃ³n.
+
+123
+00:07:55.928 --> 00:08:01.088
+aquÃ­ es tu gancho debe crear tensiÃ³n,
+
+124
+00:08:01.148 --> 00:08:05.248
+debe como generar como esta fuerza,
+
+125
+00:08:05.448 --> 00:08:08.628
+debe generar, o sea no hype sino curiosidad,
+
+126
+00:08:08.728 --> 00:08:12.728
+el trabajo del gancho en este caso es que le debe clic mÃ¡s,
+
+127
+00:08:12.848 --> 00:08:16.148
+entonces algo que genere pues esta tensiÃ³n,
+
+128
+00:08:16.248 --> 00:08:20.968
+este es un claro ejemplo, o sea, sÃºper especÃ­fico tambiÃ©n tiene nÃºmero de
+
+129
+00:08:20.968 --> 00:08:24.408
+cÃ³mo puedes generar este tipo de tensiÃ³n,
+
+130
+00:08:24.408 --> 00:08:28.988
+curiosidad o sea de general chismesito yo les decÃ­a en
+
+131
+00:08:28.988 --> 00:08:33.828
+el capÃ­tulo anterior de que yo soy un poco clickbait en ocasiones y
+
+132
+00:08:33.828 --> 00:08:38.108
+aquÃ­ pueden ver un clave ejemplo de cÃ³mo puede ser un tablo idea aquÃ­
+
+133
+00:08:38.108 --> 00:08:43.788
+al final de de basfido
+
+134
+00:08:43.788 --> 00:08:48.528
+como si fuera de una revista de chismes no dice ayer casi
+
+135
+00:08:48.528 --> 00:08:50.708
+aviento la laptop por la ventana en un call,
+
+136
+00:08:51.128 --> 00:08:53.288
+un millÃ³n de views por mes,
+
+137
+00:08:53.668 --> 00:08:58.088
+ni un solo lira. Lo increÃ­ble de esto es que esto real me pasÃ³,
+
+138
+00:08:58.248 --> 00:09:02.848
+o sea, fue el caso de una persona que pues
+
+139
+00:09:02.848 --> 00:09:07.368
+estaba llegando un millÃ³n de views y no llegaban a los,
+
+140
+00:09:07.688 --> 00:09:10.308
+o sea, no le escribÃ­an, no tenÃ­a leads. Entonces,
+
+141
+00:09:10.808 --> 00:09:14.228
+obviamente esto de ayer casi aventÃ³ la laptop por la ventana,
+
+142
+00:09:14.228 --> 00:09:18.908
+pues fue un poco exagerado, pero es precisamente para que generar esta atenciÃ³n y
+
+143
+00:09:18.908 --> 00:09:21.908
+que la gente como que le pareciera tambiÃ©n,
+
+144
+00:09:21.908 --> 00:09:25.848
+es como fuerte, Â¿no? Este es un hook,
+
+145
+00:09:26.248 --> 00:09:28.368
+o sea, que genera atenciÃ³n que estÃ¡ fuerte,
+
+146
+00:09:28.468 --> 00:09:30.568
+que parece un titular de una restechismo.
+
+147
+00:09:31.128 --> 00:09:34.248
+Ahora, tambiÃ©n es importante que cuando hagas un hook de este tipo,
+
+148
+00:09:34.468 --> 00:09:44.208
+el delivery, tambiÃ©n no entregues bien para que
+
+149
+00:09:44.208 --> 00:09:46.288
+pues este tuvo 84 likes,
+
+150
+00:09:46.288 --> 00:09:48.788
+24 comentarios, 4 cheers, estuvo bastante bien,
+
+151
+00:09:48.928 --> 00:09:50.928
+por ahÃ­ le he hecho una de las comentarios de mejeron, ahÃ­ que buen
+
+152
+00:09:50.928 --> 00:09:53.528
+hook, o sea este es un buen hook la verdad, no siempre se le
+
+153
+00:09:53.528 --> 00:09:56.148
+ocurren unos buenos hooks pero a veces sÃ­,
+
+154
+00:09:56.908 --> 00:10:00.468
+promesa de valor, estos funcionan muy bien por ejemplo para los lead magnets,
+
+155
+00:10:00.928 --> 00:10:04.188
+entonces esto lo van a haber bien seguido cuando cuando genera no,
+
+156
+00:10:04.268 --> 00:10:06.868
+cuando hagan, no empiezan a hacer como el contenido de lead magnets,
+
+157
+00:10:07.008 --> 00:10:11.068
+entonces es muy especÃ­fico para para ese tipo de de publicaciones,
+
+158
+00:10:11.608 --> 00:10:15.688
+o para los educativos tips hacks etcÃ©tera entonces tÃº estÃ¡s diciendo y pues aquÃ­
+
+159
+00:10:15.688 --> 00:10:20.288
+estÃ¡n los 10 hacks los 10 hacks para mejorar el proceso de
+
+160
+00:10:20.288 --> 00:10:24.868
+recrutamiento yo lo uso yo lo he usado el aÃ±o pasado y he
+
+161
+00:10:24.868 --> 00:10:30.308
+incrementado el 20 por ciento no sÃ© o
+
+162
+00:10:30.308 --> 00:10:33.608
+he disminuido un 20 por ciento el tiempo de recrutamiento,
+
+163
+00:10:33.608 --> 00:10:38.148
+entonces aquÃ­ justo no es lo que aquÃ­ tÃº le tienes
+
+164
+00:10:38.148 --> 00:10:41.048
+que decir exactamente que lo que van a encontrar con lo que tÃº le
+
+165
+00:10:41.048 --> 00:10:45.648
+estÃ¡s diciendo vale entonces en este caso es bien fÃ¡cil no aquÃ­
+
+166
+00:10:45.648 --> 00:10:48.328
+yo hago doble jÃº que este es la imagen y dice en este no
+
+167
+00:10:48.328 --> 00:10:52.988
+con este con estos scripts mis clientes estÃ¡n agendando 20 30
+
+168
+00:10:52.988 --> 00:10:57.968
+reuniones al mes sin casos de Ã©xito y sin aquÃ­
+
+169
+00:10:57.968 --> 00:11:01.368
+habÃ­a puesto garantÃ­as pero todas maneras entienden entonces estÃ¡ bien no acceder a los
+
+170
+00:11:01.368 --> 00:11:05.908
+scripts aquÃ­ y aquÃ­ estÃ¡n los scripts este tuvo 183 likes y 10.000
+
+171
+00:11:05.908 --> 00:11:09.968
+el comentario, como es un nismagnet, pues le fue bastante bien y es literal,
+
+172
+00:11:10.248 --> 00:11:13.928
+promesa valoros, yo le estoy diciendo, y con esto tÃº vas a encontrar esto,
+
+173
+00:11:14.088 --> 00:11:16.468
+Â¿vale? Entonces es como super straightforward,
+
+174
+00:11:16.688 --> 00:11:18.868
+super directo. NÃºmero 6,
+
+175
+00:11:19.008 --> 00:11:23.688
+apalancamiento de marca, este Ãºltimamente lo han explotado
+
+176
+00:11:23.688 --> 00:11:28.328
+muchÃ­simo, es aprovechar justo tambiÃ©n cuando lo agarran tambiÃ©n
+
+177
+00:11:28.328 --> 00:11:33.128
+con los trends, estos esto funciona muy bien o sea agarrar por ejemplo ahora
+
+178
+00:11:33.128 --> 00:11:37.508
+no sÃ© lo de batbonic que justo este no con el superbÃ³logo con los
+
+179
+00:11:37.508 --> 00:11:42.168
+granisantes o la captura de maduro o cuando sale alguna noticia de
+
+180
+00:11:42.168 --> 00:11:46.688
+Elon Musk o poner un villano de o sea agarrar como una
+
+181
+00:11:46.688 --> 00:11:52.408
+persona muy grande o una marca tambiÃ©n Netflix Amazon etcÃ©tera
+
+182
+00:11:52.408 --> 00:11:56.928
+entonces y sobre todo funcionan como como para dar como puntos de
+
+183
+00:11:56.928 --> 00:12:00.588
+vista de algo en particular, entonces esto funcionan super bien,
+
+184
+00:12:01.348 --> 00:12:04.308
+o sea no hay que explicarlo tampoco. Muchos se te cuelgas un poco de
+
+185
+00:12:04.308 --> 00:12:06.568
+la marca, en este caso personal,
+
+186
+00:12:06.628 --> 00:12:08.988
+por ejemplo, de Bad Bunny o de la marca marca, Netflix,
+
+187
+00:12:09.188 --> 00:12:11.728
+etcÃ©tera, entonces tÃº lo agarras y lo metes,
+
+188
+00:12:11.788 --> 00:12:15.368
+entonces aquÃ­ ella estÃ¡ contando como un historia donde dice,
+
+189
+00:12:15.508 --> 00:12:17.628
+anoche, no superbol, Bad Bunny, hizo algo,
+
+190
+00:12:18.128 --> 00:12:23.348
+que la mayorÃ­a de los CMOS llevamos aÃ±os intentando explicar y
+
+191
+00:12:23.348 --> 00:12:26.008
+en realidad era un video, una mÃ¡s que viste como la captura de pantalla
+
+192
+00:12:26.008 --> 00:12:28.608
+y saliÃ³ esto, pero pues era un video ahÃ­ con Batman y bailando,
+
+193
+00:12:29.028 --> 00:12:31.708
+este tuvo 440 likes, 71 comentarios.
+
+194
+00:12:32.208 --> 00:12:34.288
+Estos son de los mÃ¡s fÃ¡ciles,
+
+195
+00:12:34.348 --> 00:12:37.468
+yo creo que cuando Palanca es una marca, yo he visto mucha gente,
+
+196
+00:12:37.688 --> 00:12:40.848
+es mÃ¡s, estaba practicando con un prospecto,
+
+197
+00:12:40.848 --> 00:12:43.768
+no, no serÃ­a tan tito acÃ¡, de cÃ³mo pueden aprovechar este,
+
+198
+00:12:43.848 --> 00:12:46.568
+este tren, digamos, Â¿no? Hace poquito,
+
+199
+00:12:46.568 --> 00:12:51.128
+estÃ¡ hablando con un prospecto que literalmente va empezando y el Ãºnico
+
+200
+00:12:51.128 --> 00:12:53.388
+que hace es poner noticias literal,
+
+201
+00:12:53.388 --> 00:12:56.488
+o sea, como yo creo que incluso estÃ¡ lo de detener medio automatizado,
+
+202
+00:12:56.568 --> 00:12:59.788
+ni siquiera sus publicaciones son tan buenas, desde un punto de vista de que
+
+203
+00:12:59.788 --> 00:13:03.348
+las estÃ¡ escribiendo literalmente, se notan que son muy de chat y piti,
+
+204
+00:13:03.548 --> 00:13:07.468
+pero lo que sÃ­ estÃ¡ haciendo bien es que los hooks le estÃ¡ poniendo
+
+205
+00:13:07.468 --> 00:13:13.188
+como mucha tensiÃ³n y estÃ¡ agarrando cosas como como que
+
+206
+00:13:13.188 --> 00:13:16.348
+estÃ¡n pasando, o sea, literalmente de no sÃ©,
+
+207
+00:13:16.468 --> 00:13:19.968
+por ejemplo, el otro dÃ­a hablaba de nÃº de que se convirtiÃ³ en el
+
+208
+00:13:19.968 --> 00:13:22.048
+tercer banco con mÃ¡s o el segundo,
+
+209
+00:13:22.388 --> 00:13:26.988
+no, el tercer banco con mÃ¡s personas y desplazÃ³ a
+
+210
+00:13:26.988 --> 00:13:30.668
+unos muy grandes como Santander o a Norte que son bancos de aquÃ­ en
+
+211
+00:13:30.668 --> 00:13:34.008
+MÃ©xico y entonces justo como diciendo que hoy en mu,
+
+212
+00:13:35.068 --> 00:13:38.908
+acaba, acaba, es el tercer banco con mÃ¡s tal y apenas tiene tres aÃ±os,
+
+213
+00:13:39.028 --> 00:13:43.768
+algo asÃ­, entonces era algo, como buen cook y luego ya explicaba
+
+214
+00:13:43.768 --> 00:13:48.288
+un poquito, entonces Ã©l ahorita reciÃ©n acaba de ver su publicaciÃ³n o sea Ã©l
+
+215
+00:13:48.288 --> 00:13:52.948
+hizo una publicaciÃ³n y en un mes ya superÃ³ el millÃ³n
+
+216
+00:13:52.948 --> 00:13:55.808
+de views y es lo Ãºnico que hace lo Ãºnico que publica son como
+
+217
+00:13:55.808 --> 00:14:01.148
+noticias noticias noticias trens trens trens y se les hacen unos definitivamente
+
+218
+00:14:01.148 --> 00:14:05.548
+no funcionan pero repente otros se les vuelven super virales vale entonces nada lo
+
+219
+00:14:05.548 --> 00:14:08.608
+que lo que les quiero decir es que este tipo de publicaciones funcionan bastante
+
+220
+00:14:08.608 --> 00:14:12.608
+bien porque te estÃ¡n se estÃ¡n colgando en el dÃ­a de otros de otras
+
+221
+00:14:12.608 --> 00:14:14.168
+personas grandes vale
+
+222
+00:14:19.568 --> 00:14:23.868
+Luego tenemos patrÃ³n interrumpido, que es un fraseo directo y un esperado que rompe
+
+223
+00:14:23.868 --> 00:14:27.788
+el pensamiento automÃ¡tico. No son cosas que al final del dÃ­a,
+
+224
+00:14:27.988 --> 00:14:32.888
+quizÃ¡s si es una conjetura o una conclusiÃ³n o algo de algo
+
+225
+00:14:32.888 --> 00:14:35.868
+en especÃ­fico que tÃº piensas que deberÃ­as ser,
+
+226
+00:14:35.888 --> 00:14:41.228
+es como un patrÃ³n ya que todo
+
+227
+00:14:41.228 --> 00:14:43.448
+mundo Cuando piensa y luego lo cambias, en este caso,
+
+228
+00:14:43.528 --> 00:14:45.568
+por ejemplo, ella pone,
+
+229
+00:14:46.028 --> 00:14:48.708
+ella tambiÃ©n escribo muy bien, tambiÃ©n siga mal. Se llama,
+
+230
+00:14:49.008 --> 00:14:51.248
+dice, la Tandon necesita mÃ¡s Garibis,
+
+231
+00:14:51.408 --> 00:14:54.048
+al final del dÃ­a de san, que Garibis, para los que no sepan,
+
+232
+00:14:54.168 --> 00:14:56.808
+pues es un gurÃº del marketing, bueno, es una persona bien,
+
+233
+00:14:57.148 --> 00:15:00.688
+o sea, que ademÃ¡s le ha atinado a muchos trends de marketing que han
+
+234
+00:15:00.688 --> 00:15:03.768
+pasado, Ã©l habla antes de que,
+
+235
+00:15:03.828 --> 00:15:06.108
+o sea, cuando empezÃ³ TikTok, de las cosas que se tenÃ­an que hacer en
+
+236
+00:15:06.108 --> 00:15:10.228
+TikTok y le ha atinado casi a todo. entonces es una persona ahÃ­ bien
+
+237
+00:15:10.228 --> 00:15:14.568
+visionada en el mundo del marketing y entonces en Estados Unidos es como sÃºper
+
+238
+00:15:14.568 --> 00:15:19.328
+respetado y aquÃ­ tambiÃ©n o podrÃ­amos agarrar a otro personaje como
+
+239
+00:15:19.328 --> 00:15:24.287
+se me fue el nombre el barbÃ³n este el de a
+
+240
+00:15:24.287 --> 00:15:28.887
+hundred million Alex Formosi Alex Formosi y entonces esos al
+
+241
+00:15:28.887 --> 00:15:31.767
+final es la tabna en el sistema Garibis o en este caso podrÃ­a ser
+
+242
+00:15:31.767 --> 00:15:36.427
+mÃ¡s Alex Formosi en el sistema de esculturales no imitadores porque
+
+243
+00:15:36.427 --> 00:15:39.407
+al final ya sabemos que la tantin otro contexto lo que estÃ¡ diciendo estÃ¡
+
+244
+00:15:39.407 --> 00:15:43.567
+muy bien y tiene pues este patrÃ³n interrumpido en donde en donde casi todo
+
+245
+00:15:43.567 --> 00:15:47.307
+mundo por ejemplo siga Alex formÃ³ un sigar y vi tratara de esos elementos
+
+246
+00:15:47.307 --> 00:15:51.367
+sin corporarlos acÃ¡ entonces ella como que estÃ¡ dando una idea contra el de
+
+247
+00:15:51.367 --> 00:15:55.347
+que hoy etapa no necesitas esto necesitas hacer esta otra cosa entonces esto es
+
+248
+00:15:55.347 --> 00:16:00.247
+funciona muy bien 139 likes 23 comentarios toma
+
+249
+00:16:00.247 --> 00:16:03.267
+de postura, una opiniÃ³n con riesgo que revela tu visiÃ³n del mundo y te
+
+250
+00:16:03.207 --> 00:16:05.287
+te diferencia,
+
+251
+00:16:05.447 --> 00:16:08.267
+notivia, claras, las interacciones ya no valen nada en LinkedIn,
+
+252
+00:16:09.067 --> 00:16:12.247
+un post con 24 likes, tuvo 1336,
+
+253
+00:16:13.870 --> 00:16:18.581
+13.976 impresiones y esto es tambiÃ©n un poco como la opiniÃ³n acerca de
+
+254
+00:16:18.581 --> 00:16:23.241
+o queda aquÃ­ a veces puede ser explÃ­cito o implÃ­cito que en este
+
+255
+00:16:23.241 --> 00:16:28.161
+caso por ejemplo es de la idea de que muchos creadores
+
+256
+00:16:28.161 --> 00:16:32.681
+te dicen que tienes que comentar en mucha gente y
+
+257
+00:16:32.681 --> 00:16:37.061
+que al final del dÃ­a eso pues es lo que te ayuda tambiÃ©n a
+
+258
+00:16:37.061 --> 00:16:40.981
+que tenga mÃ¡s impresiones entonces aquÃ­ al el final del dÃ­a estoy quitando,
+
+259
+00:16:41.201 --> 00:16:46.081
+dismitificando ese pensamiento en
+
+260
+00:16:46.081 --> 00:16:49.481
+donde mira, pues estÃ¡ tu 24 likes y 12 comentarios,
+
+261
+00:16:49.741 --> 00:16:52.081
+nada y aÃºn asÃ­ tuvo muchÃ­simas impresiones,
+
+262
+00:16:52.221 --> 00:16:56.221
+entonces no es necesario jugar a veces este juego que te dicen que jueves
+
+263
+00:16:56.221 --> 00:16:59.621
+de que comenta para que te cometen y entre mÃ¡s te cometen mÃ¡s interacciones
+
+264
+00:16:59.621 --> 00:17:04.481
+o mÃ¡s impresiones, entonces al final justo es como romper con esa creencia
+
+265
+00:17:04.481 --> 00:17:07.621
+y al final aquÃ­ estÃ¡ como la prova,
+
+266
+00:17:07.781 --> 00:17:11.401
+entonces este estÃ¡ bueno para para ese tipo de cosas.
+
+267
+00:17:11.421 --> 00:17:14.601
+Otra idea que se me ocurre ahorita de momento es o sea si debo
+
+268
+00:17:14.601 --> 00:17:19.241
+te pronto es, por ejemplo, algo a lo mejor polÃ­tico,
+
+269
+00:17:19.441 --> 00:17:24.041
+que yo no creo ni izquierdas ni derechas, porque al
+
+270
+00:17:24.041 --> 00:17:26.461
+final, al final es lo mismo,
+
+271
+00:17:26.841 --> 00:17:31.681
+o sea, por ejemplo, eso podrÃ­a ser otra donde hay gente que se pelea,
+
+272
+00:17:31.681 --> 00:17:36.261
+que republicanos, demÃ³cratas o en este caso izquierdas o derechas y
+
+273
+00:17:36.261 --> 00:17:39.681
+este sÃ­ es un opiniÃ³n personal para mÃ­ es exactamente lo mismo nada mÃ¡s
+
+274
+00:17:39.681 --> 00:17:42.661
+lo Ãºnico que cambia es el postureo ideolÃ³gico un poco,
+
+275
+00:17:42.801 --> 00:17:45.321
+pero al final el cambio material no lo hace,
+
+276
+00:17:45.501 --> 00:17:49.261
+no me quiero meter en polÃ­tica pero entiendo en el punto,
+
+277
+00:17:49.881 --> 00:17:54.561
+luego viene la parte de contraste, si observas las publicaciones con mejor desempeÃ±o tambiÃ©n
+
+278
+00:17:54.561 --> 00:17:59.121
+utilizar mucho este tipo de elementos
+
+279
+00:17:59.121 --> 00:18:02.481
+que es como de contraste, es decir pequeÃ±o versus grande,
+
+280
+00:18:02.641 --> 00:18:04.881
+difÃ­cil versus fÃ¡cil, o sea, se como polarizarlo,
+
+281
+00:18:05.001 --> 00:18:08.081
+lejos, cerca, oculto, obvio, etcÃ©tera.
+
+282
+00:18:08.141 --> 00:18:12.221
+Y lo pueden hacer tambiÃ©n, ejemplificÃ¡ndolo con algo que sea como tangible y entre
+
+283
+00:18:12.221 --> 00:18:14.401
+mÃ¡s tangible mejor. Este, por ejemplo,
+
+284
+00:18:14.681 --> 00:18:18.421
+me funcionÃ³ muy bien. Mi sistema de seguimiento cabe en un solo post-it.
+
+285
+00:18:18.681 --> 00:18:23.241
+Esto es interesante porque es como de algo que aparentemente podrÃ­a ser
+
+286
+00:18:23.241 --> 00:18:25.501
+muy grande, o sea, el sistema de seguimiento.
+
+287
+00:18:27.841 --> 00:18:32.221
+Â¿CuÃ¡ntas cosas podrÃ­an venir dentro de todo un sistema y los estoy ejemplificando que
+
+288
+00:18:32.221 --> 00:18:34.861
+cabrÃ­an un solo post-it, Â¿no? que es pues es chiquitito.
+
+289
+00:18:35.381 --> 00:18:37.481
+Y entonces como que pongo, usÃ³ la regla 1,
+
+290
+00:18:37.581 --> 00:18:40.481
+1, 3, 7. Entonces la gente como que dice que es eso y le
+
+291
+00:18:40.481 --> 00:18:45.021
+da click en en mÃ¡s, Â¿no? Entonces este le fue bastante bien en cuanto
+
+292
+00:18:45.021 --> 00:18:48.981
+alcance. Entonces si notaste lo que les decÃ­a,
+
+293
+00:18:49.321 --> 00:18:53.781
+muchas de de todas estas como ejemplos se mezclaron,
+
+294
+00:18:53.881 --> 00:18:56.601
+o sea como los los elementos se van mezclando.
+
+295
+00:18:56.601 --> 00:19:01.261
+Entonces, la idea lo que les decÃ­a es tratar de incorporar estos diferentes elementos
+
+296
+00:19:01.871 --> 00:19:06.381
+para que justamente en esta mezcla puedan tener mayor alcance
+
+297
+00:19:06.381 --> 00:19:11.341
+en sus publicaciones. Y van a ver quÃ© conforme los vayan como interiorizÃ¡ndolo,
+
+298
+00:19:11.461 --> 00:19:13.581
+los nÃºmeros, los contrastes,
+
+299
+00:19:13.781 --> 00:19:18.581
+las opiniones, todos los que estÃ¡n acÃ¡ y
+
+300
+00:19:18.581 --> 00:19:23.101
+los vayan metiendo, van a empezar a notar justo estos patrones los
+
+301
+00:19:23.101 --> 00:19:25.661
+van a empezar escribir mejores ganchos,
+
+302
+00:19:25.841 --> 00:19:30.561
+van a empezar a ver en el feed, justamente quien escribiÃ³
+
+303
+00:19:30.561 --> 00:19:33.001
+como una buena pieza de contenido con el puro gancho,
+
+304
+00:19:33.041 --> 00:19:37.721
+etcÃ©tera, les va a ir comodando esta habilidad de poder
+
+305
+00:19:37.721 --> 00:19:42.281
+discernir si estÃ¡n haciendo buen contenido o no y lo
+
+306
+00:19:42.281 --> 00:19:44.681
+van a empezar a notar tambiÃ©n en sus nÃºmeros que al final del dÃ­a
+
+307
+00:19:44.681 --> 00:19:49.401
+pues es es lo mÃ¡s importante ahora rapidÃ­simo les hizo un poco largo
+
+308
+00:19:49.401 --> 00:19:52.341
+este video, pero vale la pena,
+
+309
+00:19:52.461 --> 00:19:56.661
+me voy a meter acÃ¡ en el documento que les decÃ­a nada mÃ¡s para
+
+310
+00:19:57.201 --> 00:20:00.481
+irnos a la parte que me importa que es la de hasta el final
+
+311
+00:20:00.481 --> 00:20:03.561
+para que hagan un ejercicio que creo que les pueda ayudar.
+
+312
+00:20:05.581 --> 00:20:08.021
+Entonces bÃ¡sicamente acÃ¡,
+
+313
+00:20:08.341 --> 00:20:11.661
+este documento ya saben, lo pueden utilizar para prompts,
+
+314
+00:20:11.701 --> 00:20:15.481
+etcÃ©tera, contexto, lo importante quizÃ¡s es esto,
+
+315
+00:20:15.601 --> 00:20:19.781
+aquÃ­ hay como 10 fÃ³rmulas plugin play o sea que ustedes pudieran usar obviamente
+
+316
+00:20:19.781 --> 00:20:23.821
+pues hay que contextualizarlo a su tipo negocio y aquÃ­ hay cada uno o
+
+317
+00:20:23.821 --> 00:20:28.881
+sea como un mezclado nÃ³sica 3 lecciÃ³n resultado patrÃ³n de agnÃ³stico error etcÃ©tera
+
+318
+00:20:28.881 --> 00:20:33.701
+entonces pueden usar como estos plugin play para su propio contenido ir probando
+
+319
+00:20:33.701 --> 00:20:38.301
+pero la parte interesante es esto vale o sea es un scorecard
+
+320
+00:20:38.301 --> 00:20:43.381
+que estarÃ­a bueno que cuando ustedes escriban sus hooks,
+
+321
+00:20:43.621 --> 00:20:47.981
+pues puedan ustedes revisarlo por su propia cuenta.
+
+322
+00:20:48.221 --> 00:20:50.241
+Entonces, esto estÃ¡ escrito por ustedes,
+
+323
+00:20:50.241 --> 00:20:52.961
+o sea, tiene su experiencia, tiene tu voz, datos concretos,
+
+324
+00:20:53.141 --> 00:20:55.661
+tuyos, tu experiencia, entonces ahÃ­ le ponen,
+
+325
+00:20:55.661 --> 00:20:57.961
+Â¿no? De que sÃ­, claridad, Selena, respiraciÃ³n,
+
+326
+00:20:58.021 --> 00:21:01.841
+es decir, que el formato de los,
+
+327
+00:21:02.061 --> 00:21:05.281
+o sea, el hook este como corto para que se pueda leer,
+
+328
+00:21:05.281 --> 00:21:08.761
+o sea, que sea contundente y que no sea tampoco como tan largo y
+
+329
+00:21:08.761 --> 00:21:13.641
+que tenga los puntos y las separaciones, que se pueda ser como entender rÃ¡pidamente
+
+330
+00:21:13.641 --> 00:21:16.101
+y que tenga tensiones. Este es sÃºper importante,
+
+331
+00:21:16.361 --> 00:21:18.521
+no sea si hay una ganancia, un dolor, identidad,
+
+332
+00:21:18.721 --> 00:21:21.361
+algÃºn aprendizaje, una lecciÃ³n, etcÃ©tera.
+
+333
+00:21:21.521 --> 00:21:25.301
+Entonces aquÃ­ hay errores comunes,
+
+334
+00:21:25.601 --> 00:21:29.001
+un vago, por ejemplo, crece mÃ¡s rÃ¡pido, no te se queda un poco ahÃ­
+
+335
+00:21:29.001 --> 00:21:33.121
+en vivo, se queda un poco abierto, mejor agenda 12 reuniones al mes con
+
+336
+00:21:33.121 --> 00:21:37.761
+tres actividades, nÃºmeros concretos. Tivio elimina tal vez mÃ¡s o menos
+
+337
+00:21:37.761 --> 00:21:41.261
+a veces, se tiene que sentir arriesgada o se tiene que sentir,
+
+338
+00:21:41.801 --> 00:21:43.921
+ok, que es,
+
+339
+00:21:44.121 --> 00:21:46.181
+no, no, no, no, mÃ¡s o menos que es, no.
+
+340
+00:21:47.341 --> 00:21:50.581
+Hay que quitarle en la media lo posible todo el lenguaje pasivo,
+
+341
+00:21:50.961 --> 00:21:55.321
+por ejemplo, esto se cometieron errores, mejor cometÃ­ 13 errores y los paguecaro,
+
+342
+00:21:55.341 --> 00:21:59.901
+Â¿no? que se sienta justo esta parte como mÃ¡s activa y mÃ¡s de
+
+343
+00:21:59.901 --> 00:22:04.621
+la perspectiva esto es importante si tu opiniÃ³n
+
+344
+00:22:04.621 --> 00:22:07.741
+no incÃ³modo un poco, probablemente no va a generar conversaciones,
+
+345
+00:22:07.961 --> 00:22:11.361
+esto es una charla que o este es un tipo de contenido que yo
+
+346
+00:22:11.361 --> 00:22:16.441
+veo muy muy seguido en LinkedIn que
+
+347
+00:22:16.441 --> 00:22:21.621
+hay mucho contenido vainilla, le llamo yo que es como contenido que no genera
+
+348
+00:22:21.621 --> 00:22:26.221
+conversaciones que es como muy safe, que hablan al mejor
+
+349
+00:22:26.221 --> 00:22:29.841
+de temas tambiÃ©n con muy abiertos y terminan como no,
+
+350
+00:22:30.121 --> 00:22:34.101
+no metiÃ©ndose, entonces aquÃ­ al final de lo que tratamos es eso,
+
+351
+00:22:34.241 --> 00:22:37.101
+como de incomodar, de dar nuestro opiniÃ³n,
+
+352
+00:22:37.301 --> 00:22:41.081
+de tener nuestro juicio, de que se note las cosas que estamos haciendo,
+
+353
+00:22:41.241 --> 00:22:43.801
+de los errores que estamos cometiendo, etcÃ©tera,
+
+354
+00:22:43.821 --> 00:22:46.721
+entonces en la media lo posible cuando vayamos haciendo esto en los hooks y
+
+355
+00:22:46.721 --> 00:22:50.961
+en el contenido, vamos a empezar a agarrar un poquito mÃ¡s detracciÃ³n.
+
+356
+00:22:51.521 --> 00:22:55.821
+Ejercicio deario de Jux, es algo que ustedes pueden hacer para ir mejorando,
+
+357
+00:22:56.121 --> 00:22:59.361
+pongan si un timer de 10 minutos y en esos 10 minutos tratan de
+
+358
+00:22:59.361 --> 00:23:02.461
+escribir 10 ganchos y una solididad es decir, ustedes ya tienen una idea de
+
+359
+00:23:02.461 --> 00:23:04.621
+un contenido, agarren estos elementos,
+
+360
+00:23:04.921 --> 00:23:07.621
+puedes agarrar lo que ya estÃ¡ aquÃ­, bloque en play y traten como de
+
+361
+00:23:08.181 --> 00:23:10.561
+escribirlo si se puede mejor encuaderno,
+
+362
+00:23:10.641 --> 00:23:15.241
+esta misma idea en diferentes Ã¡ngulos y van a ver que van a
+
+363
+00:23:15.241 --> 00:23:20.241
+empezar a mejorar tambiÃ©n como las diferentes Ã¡ngulos y perspectivas
+
+364
+00:23:20.241 --> 00:23:23.521
+de cÃ³mo pueden escribir una misma historia con diferentes formas.
+
+365
+00:23:23.781 --> 00:23:27.441
+Entonces con eso luego hacen como lo de la calificaciÃ³n que aquÃ­ estÃ¡n,
+
+366
+00:23:27.661 --> 00:23:32.261
+como la forma de poderlo hacer y los con los que
+
+367
+00:23:32.261 --> 00:23:34.701
+te quedes, o sea, de todos los dÃ­as vas a ver tÃº,
+
+368
+00:23:34.881 --> 00:23:38.281
+o sea, lo vas a ver cuÃ¡les son cÃ³modos mejores y esos los que
+
+369
+00:23:38.281 --> 00:23:40.321
+mÃ¡s te gustan, nos puedes agarrar, Â¿de acuerdo?
+
+370
+00:23:40.961 --> 00:23:45.901
+Entonces, este es una ejercicio muy sencillo que despuÃ©s haybar con estos diminutitos,
+
+371
+00:23:45.901 --> 00:23:49.561
+escribir mejores ganchos y con el tiempo pues van a ir mejorando en la
+
+372
+00:23:49.561 --> 00:23:52.081
+generaciÃ³n de los lanches y el contenido. Entonces,
+
+373
+00:23:52.541 --> 00:23:57.341
+nada, muchas gracias. Vamos ahora a pasarnos a la parte
+
+374
+00:23:57.341 --> 00:24:01.981
+del contenido. Espero que esta parte de los canchos se haya quedado
+
+375
+00:24:01.981 --> 00:24:03.401
+claro y seguimos avanzando.

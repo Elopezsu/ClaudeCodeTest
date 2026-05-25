@@ -1,0 +1,315 @@
+# El Eje Central: Sistema de Confianza
+Curso: (Empieza aquí) Introducción
+Loom: https://www.loom.com/share/6e381a1437124660be6cb2f3aa148740
+
+─────────────────────────────────────
+
+WEBVTT
+
+1
+00:00:00.940 --> 00:00:05.620
+<v 0>Si estÃ¡s aquÃ­, puede ser que ya hayas utilizado LinkedIn y</v>
+
+2
+00:00:05.620 --> 00:00:10.180
+no hayas obtenido buenos resultados. Probablemente ya contrataste alguna agencia para
+
+3
+00:00:10.180 --> 00:00:13.040
+ayudarte a generar demanda y simplemente no,
+
+4
+00:00:13.040 --> 00:00:17.320
+no obtuviste resultados. O probablemente ya contrataste algÃºn programa,
+
+5
+00:00:17.560 --> 00:00:20.320
+algÃºn otro programa y te ayudÃ³ en algunas cosas,
+
+6
+00:00:20.320 --> 00:00:23.900
+pero todavÃ­a estÃ¡s ahÃ­ como cogeando un poquito en la parte de generaciÃ³n de
+
+7
+00:00:23.900 --> 00:00:27.300
+demanda. Y la realidad es que la mayorÃ­a de las estrategias que estÃ¡n en
+
+8
+00:00:27.300 --> 00:00:30.060
+LinkedIn, eh,
+
+9
+00:00:30.060 --> 00:00:35.740
+casi todos los mecanismos estÃ¡n pensados mÃ¡s bien en generar leads en
+
+10
+00:00:35.740 --> 00:00:38.580
+lugar de generar confianza y ayer donde viene el problema.
+
+11
+00:00:39.280 --> 00:00:42.520
+La mayorÃ­a de las agencias o de los coches o eso,
+
+12
+00:00:42.660 --> 00:00:44.740
+o sea, lo que terminan haciendo es mÃ¡s allÃ¡ de,
+
+13
+00:00:44.960 --> 00:00:48.380
+sabes como crea contenido y eso, o sea, mÃ¡s enfocado a una generaciÃ³n de
+
+14
+00:00:48.380 --> 00:00:52.920
+manda es envÃ­a un montÃ³n de mensajes a la mayor cantidad posible de clientes
+
+15
+00:00:52.920 --> 00:00:57.500
+a sus listas y empiezas a salir o a veces es incluso tambiÃ©n e
+
+16
+00:00:57.500 --> 00:00:59.080
+e e e e e e e e e e e e e e
+
+17
+00:00:59.080 --> 00:01:02.340
+e e e e e e e e e e e e e e
+
+18
+00:01:02.340 --> 00:01:06.880
+e e e e e e e e e e
+
+19
+00:01:06.880 --> 00:01:11.780
+e e e e e
+
+20
+00:01:11.780 --> 00:01:17.540
+e e e e e e e e e
+
+21
+00:01:17.540 --> 00:01:22.140
+e e e e e e e e e e e
+
+22
+00:01:22.140 --> 00:01:26.740
+e e e e e que estÃ¡s hablando de interesarte
+
+23
+00:01:26.740 --> 00:01:31.300
+realmente por esa persona, entonces lo que termina pasando es que te ignoran,
+
+24
+00:01:31.300 --> 00:01:33.500
+mandas el mensaje, mandas dos, tres mensajes,
+
+25
+00:01:33.660 --> 00:01:36.180
+vamos a organizar las conversaciones y boom, mandas el pitch,
+
+26
+00:01:36.680 --> 00:01:40.760
+entonces cuando lo haces de esa manera la realidad es que simplemente vas quemando
+
+27
+00:01:40.760 --> 00:01:43.300
+como tus oportunidades, Â¿no? Entonces,
+
+28
+00:01:43.500 --> 00:01:48.260
+Â¿quÃ© lo que vamos a hacer acÃ¡ bÃ¡sicamente es vamos a construir un mecanismo
+
+29
+00:01:48.260 --> 00:01:50.840
+de confianza y lo vamos a hacer con estas dos cosas.
+
+30
+00:01:51.640 --> 00:01:55.920
+Primero lo que queremos hacer es construir familiaridad con la gente con la que
+
+31
+00:01:55.920 --> 00:01:59.440
+va a ser interactual y esto lo va a hacer a travÃ©s de las
+
+32
+00:01:59.440 --> 00:02:02.160
+experiencias, a travÃ©s de los intereses,
+
+33
+00:02:02.400 --> 00:02:06.140
+a travÃ©s del transfondo compartido que lo va a hacer con el contenido y
+
+34
+00:02:06.140 --> 00:02:09.840
+tambiÃ©n en los DMs y por otro lado es el valor percibido,
+
+35
+00:02:09.900 --> 00:02:13.380
+que es lo que tÃº les vas a ir dando justamente en este camino,
+
+36
+00:02:13.580 --> 00:02:16.080
+a los insights, el entretenimiento,
+
+37
+00:02:16.380 --> 00:02:20.020
+cualquier cosa que justamente hagan que la otra persona diga,
+
+38
+00:02:20.060 --> 00:02:24.220
+oye, esta persona es experta en tal tema y que le resulte familiar,
+
+39
+00:02:24.420 --> 00:02:28.740
+entonces eso es al final del dÃ­a lo que estamos tratando de hacer acÃ¡,
+
+40
+00:02:29.540 --> 00:02:34.660
+con esto vamos a construir justo la parte de confianza
+
+41
+00:02:34.660 --> 00:02:39.180
+y lo que queremos hacer es pasar del 0% al 100%
+
+42
+00:02:39.180 --> 00:02:41.620
+y lo vamos a hacer precisamente con eso,
+
+43
+00:02:42.060 --> 00:02:47.440
+entonces cÃ³mo lo vas a construir, lo vas a construir con tres cosas realmente,
+
+44
+00:02:47.660 --> 00:02:49.840
+solamente con tres cosas, la primera es con el contenido,
+
+45
+00:02:50.580 --> 00:02:53.580
+con la construcciÃ³n, justo de confianza de uno a muchos,
+
+46
+00:02:53.900 --> 00:02:56.380
+que este es la parte interesante porque todo mundo,
+
+47
+00:02:56.580 --> 00:03:00.720
+como que es, sabes como que se focaliza mucho en la generaciÃ³n de contenido,
+
+48
+00:03:00.960 --> 00:03:03.300
+es precisamente por eso, porque se la canse luego,
+
+49
+00:03:03.640 --> 00:03:08.180
+si lo haces bien, llega a miles, entonces de pronto que te empiezan a
+
+50
+00:03:08.180 --> 00:03:10.900
+ver con tanta familiaridad, es muy rÃ¡pido,
+
+51
+00:03:10.900 --> 00:03:12.940
+tambiÃ©n puedes escalar el valor percibido. Entonces,
+
+52
+00:03:13.400 --> 00:03:15.900
+esa es una manera. Otra manera es con las conversaciones,
+
+53
+00:03:16.000 --> 00:03:19.000
+que al final del dÃ­a, si quieres hacer negocios, tienes que hacer las ventas
+
+54
+00:03:19.000 --> 00:03:22.320
+por chat. No hay de otra. El contenido,
+
+55
+00:03:22.460 --> 00:03:25.040
+digamos, que cata la atenciÃ³n y con el chat conviertes.
+
+56
+00:03:25.800 --> 00:03:29.520
+Y ademÃ¡s, es la forma mÃ¡s rÃ¡pida de construir confianza,
+
+57
+00:03:29.600 --> 00:03:32.080
+porque este vas uno a uno. O sea, el otro es uno a muchos,
+
+58
+00:03:32.180 --> 00:03:34.440
+pero es un poco mÃ¡s brot, mÃ¡s abierto.
+
+59
+00:03:35.000 --> 00:03:37.820
+Y este es uno a uno en donde si tu lleva una buena conversaciÃ³n
+
+60
+00:03:37.820 --> 00:03:41.120
+y le das valor y realmente te interesa por esta persona bueno vas a
+
+61
+00:03:41.120 --> 00:03:45.760
+construir este sistema de confianza. Entonces lo que termina pasando acÃ¡
+
+62
+00:03:45.760 --> 00:03:50.380
+justo es lo que queremos hacer es ir avanzando en esta
+
+63
+00:03:50.380 --> 00:03:55.540
+lÃ­nea de confianza si podemos llegar al 100% vamos a estar totalmente
+
+64
+00:03:55.540 --> 00:04:00.520
+del otro lado porque esto significa que aquÃ­ ya nos nos van
+
+65
+00:04:00.520 --> 00:04:05.120
+a ir recomendando y vamos a no solamente
+
+66
+00:04:05.120 --> 00:04:09.080
+crecer con el contenido y con la prospecciÃ³n y con todo eso sino ya
+
+67
+00:04:09.080 --> 00:04:12.440
+la misma gente te va recomendando con el boca boca y demÃ¡s y de
+
+68
+00:04:12.440 --> 00:04:15.700
+esta manera ya se va haciendo como un flywheel ya sabes como un ciclo
+
+69
+00:04:15.700 --> 00:04:21.020
+un loop en donde empiezas a crecer con estos elementos entonces y
+
+70
+00:04:21.020 --> 00:04:24.240
+es mÃ¡s yo te hago la pregunta no se probablemente estÃ¡s aquÃ­ porque viste
+
+71
+00:04:24.240 --> 00:04:28.100
+algo a mi contenido porque es cargaste algo porque a lo mejor me viste
+
+72
+00:04:28.100 --> 00:04:32.180
+en algÃºn correo electrÃ³nico o porque iniciÃ³ una conversaciÃ³n contigo y y si te
+
+73
+00:04:32.180 --> 00:04:36.840
+fijas son como diferentes canales en donde eso construye esta familiaridad y
+
+74
+00:04:36.840 --> 00:04:41.360
+este valor percibido a travÃ©s de estos diferentes como puntos y eso
+
+75
+00:04:41.360 --> 00:04:43.140
+es lo que vamos a construir y eso es lo que tÃº vas a
+
+76
+00:04:43.140 --> 00:04:47.120
+construir acÃ¡. entonces nos vamos a olvidar del sistema de litz y nos vamos
+
+77
+00:04:47.120 --> 00:04:49.780
+a focalizar al sistema de confianza abancemos

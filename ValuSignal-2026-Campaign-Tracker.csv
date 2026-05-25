@@ -1,0 +1,18 @@
+WEEKLY DASHBOARD,,,,,,,,
+Week,Emails Sent,Opens,Open Rate,Replies,Reply Rate,Registrations,Conversion Rate (replies→reg),Notes
+Week 1 (fill date),,,,,,,"=IF(E3=0,0,G3/E3)","=TEXT(H3,""0%"")"
+Week 2 (fill date),,,,,,,"=IF(E4=0,0,G4/E4)","=TEXT(H4,""0%"")"
+Week 3 (fill date),,,,,,,"=IF(E5=0,0,G5/E5)","=TEXT(H5,""0%"")"
+Week 4 (fill date),,,,,,,"=IF(E6=0,0,G6/E6)","=TEXT(H6,""0%"")"
+Week 5 (fill date),,,,,,,"=IF(E7=0,0,G7/E7)","=TEXT(H7,""0%"")"
+Week 6 (fill date),,,,,,,"=IF(E8=0,0,G8/E8)","=TEXT(H8,""0%"")"
+TOTALS,=SUM(B3:B8),=SUM(C3:C8),"=TEXT(IF(B9=0,0,C9/B9),""0%"")",=SUM(E3:E8),"=TEXT(IF(B9=0,0,E9/B9),""0%"")",=SUM(G3:G8),"=TEXT(IF(E9=0,0,G9/E9),""0%"")","Pull Emails Sent + Opens + Replies weekly from Instantly.ai Analytics"
+,,,,,,,,
+,,,,,,,,
+REPLY LOG (Deianne fills this),,,,,,,,
+Date Reply Received,First Name,Last Name,Email,Email That Got the Reply (E1/FU1/FU2/FU3/FU4/FU5),Deianne Responded? (Y/N),Date Responded,Registered? (Y/N),Date Registered
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,

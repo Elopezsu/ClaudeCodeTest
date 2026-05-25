@@ -1,0 +1,1075 @@
+# Tracking y Ejecución
+Curso: Mes 1
+Loom: https://www.loom.com/share/0eeab38b938a458d90bf3dcbfb38276f
+
+─────────────────────────────────────
+
+WEBVTT
+
+1
+00:00:00.395 --> 00:00:04.995
+<v 0>Team, ahora sÃ­, el momento de la verdad vamos a lanzar</v>
+
+2
+00:00:04.995 --> 00:00:09.555
+la campaÃ±a, espero que ya tengas a todos tus contactos puestos en el
+
+3
+00:00:09.555 --> 00:00:14.695
+excel que tengas ya las cosas listas para empezar a darle,
+
+4
+00:00:14.815 --> 00:00:18.155
+Â¿de acuerdo? Entonces, como va a funcionar,
+
+5
+00:00:18.275 --> 00:00:20.655
+esto es una campaÃ±a que dura siete dÃ­as,
+
+6
+00:00:21.035 --> 00:00:25.415
+se corre, bueno, dura nueve dÃ­as, se corre un viernes o lunes y se
+
+7
+00:00:25.415 --> 00:00:27.515
+acaba al martes de la siguiente semana.
+
+8
+00:00:27.515 --> 00:00:32.155
+Entonces, vamos a ver tambiÃ©n cÃ³mo se ve el flujo,
+
+9
+00:00:32.335 --> 00:00:35.575
+cuÃ¡ntos mensajes tienes que mandar, en quÃ© dÃ­a tienes que mandarlo mensajes.
+
+10
+00:00:35.995 --> 00:00:39.115
+De todas maneras, tuya tienes los scripts, tuya tienes el primer mensaje,
+
+11
+00:00:39.315 --> 00:00:42.915
+el segundo mensaje, el Help Mary, tienes las preguntas de calificaciÃ³n,
+
+12
+00:00:43.275 --> 00:00:46.855
+espero que lo tengas todo en un documento, tienes tus contactos y nada mÃ¡s
+
+13
+00:00:46.855 --> 00:00:49.075
+hay que ver cÃ³mo lo vamos a acomodar, Â¿de acuerdo?
+
+14
+00:00:49.575 --> 00:00:51.735
+Pero primero, quiero enseÃ±ar ese esto.
+
+15
+00:00:52.175 --> 00:00:55.455
+Â¿Por quÃ© funciona esta campaÃ±a? por una razÃ³n particular,
+
+16
+00:00:55.655 --> 00:00:59.195
+estÃ¡ lineado a lo que hemos venido trabajando desde un inicio con la regla
+
+17
+00:00:59.195 --> 00:01:04.335
+del 1. Â¿De acuerdo? Estamos primero con la regla del 1 si lo
+
+18
+00:01:04.335 --> 00:01:08.995
+hacemos memoria es un solo avatar con un solo problema,
+
+19
+00:01:09.255 --> 00:01:12.675
+con un mecanismo, con una prueba,
+
+20
+00:01:12.995 --> 00:01:17.255
+entonces nada mÃ¡s estar alineados con eso y de aquÃ­ se descompone justo mÃ¡s
+
+21
+00:01:17.255 --> 00:01:21.975
+bien se agarras y se saca la oferta y entonces
+
+22
+00:01:21.975 --> 00:01:25.815
+ya con oferta vas haciendo toda esta campaÃ±a y las vas armÃ¡ndonos.
+
+23
+00:01:25.995 --> 00:01:30.815
+Entonces, funciona especÃ­ficamente porque estÃ¡s haciendo mucho volumen,
+
+24
+00:01:31.315 --> 00:01:33.535
+porque todo estÃ¡ lineado a la oferta que creaste,
+
+25
+00:01:34.095 --> 00:01:38.175
+porque los mensajes estÃ¡n alineados con eso, porque los postes estÃ¡n alineados con eso,
+
+26
+00:01:38.435 --> 00:01:41.735
+porque lo que termina pasando es que cuando manda a los mensajes o creas
+
+27
+00:01:41.735 --> 00:01:45.335
+el contenido, la gente tambiÃ©n va a tu perfil, revisa y si tu banner
+
+28
+00:01:45.335 --> 00:01:50.055
+tambiÃ©n estÃ¡ lineado a ese mismo automa esa misma transformaciÃ³n y tu titular
+
+29
+00:01:50.055 --> 00:01:53.215
+tambiÃ©n y tu acerca de todo empieza a ser mÃ¡s sentido.
+
+30
+00:01:53.855 --> 00:01:57.355
+Entonces la gente que tenga la necesidad bien puntual de lo que tu estÃ¡s
+
+31
+00:01:59.015 --> 00:02:01.755
+ofreciendo es cuando en realidad empiezan a contestar.
+
+32
+00:02:02.135 --> 00:02:04.275
+Entonces por eso es que funciona esta campaÃ±a.
+
+33
+00:02:04.475 --> 00:02:07.995
+Entonces es un juego de volumen y es un juego de alineaciÃ³n con respecto
+
+34
+00:02:07.995 --> 00:02:10.995
+a tu mensaje y con respecto a lo que les vas a ayudar a
+
+35
+00:02:10.995 --> 00:02:13.235
+ellos con la transformaciÃ³n. Â¿De acuerdo?
+
+36
+00:02:15.815 --> 00:02:20.535
+entonces importante esta campaÃ±a pueden pasar dos cosas
+
+37
+00:02:20.535 --> 00:02:22.895
+o que func, tres cosas en realidad,
+
+38
+00:02:23.095 --> 00:02:25.475
+que funcione de las ampute y que te va increÃ­ble,
+
+39
+00:02:25.835 --> 00:02:29.375
+que funcione mÃ¡s o menos o que definitivamente no funcione.
+
+40
+00:02:30.015 --> 00:02:33.355
+Si funcionÃ³ extraordinariamente bien,
+
+41
+00:02:33.575 --> 00:02:35.955
+ya estÃ¡s hecho, no hay muchas cosas que cambiar,
+
+42
+00:02:36.135 --> 00:02:38.275
+vas a ir cambiando algunos detallitos,
+
+43
+00:02:38.895 --> 00:02:42.835
+pero la verdad es que tu oferta estÃ¡ super aliÃ±ada y estÃ¡ excelente y
+
+44
+00:02:42.835 --> 00:02:47.175
+sÃ­ y asÃ­ si la tasa de respuesta por ejemplo fue baja digamos que
+
+45
+00:02:47.175 --> 00:02:50.075
+no llega hasta el dÃ­a es por ciento en tu en la tasa de
+
+46
+00:02:50.075 --> 00:02:54.095
+respuesta con todos los mensajes que mandaste es que tu mensaje no estÃ¡ resonando
+
+47
+00:02:54.095 --> 00:02:57.955
+hay algo todavÃ­a que no tal vez el auto no estÃ¡ todavÃ­a como tan
+
+48
+00:02:57.955 --> 00:03:02.635
+pulido no necesitas mÃ¡s especificidad si la gente por ejemplo respondiÃ³
+
+49
+00:03:02.635 --> 00:03:07.215
+pero no calificÃ³ estÃ¡s conectando el perfil equivocado hay que hay que
+
+50
+00:03:07.215 --> 00:03:11.075
+ver si tÃº hay cp y esto normalmente pasa por eso o por no
+
+51
+00:03:11.075 --> 00:03:13.535
+anicharse, no, por querer abarcar mucho.
+
+52
+00:03:13.715 --> 00:03:16.095
+Entonces, cuando abarcas mucho, empieza a tu mensaje,
+
+53
+00:03:16.095 --> 00:03:19.595
+se diluye. Entonces, hay que ajustar la lista y hay que ajustar la parte
+
+54
+00:03:19.595 --> 00:03:22.095
+de la bata, Â¿no? SÃ­, calificaron, pero no compraban,
+
+55
+00:03:22.095 --> 00:03:26.755
+es porque tu oferta no hendo suficientemente persuasiva o porque no es clara o
+
+56
+00:03:26.755 --> 00:03:29.895
+porque no es atractiva. O sea, hay que trabajar ahÃ­ en el posicionamiento o
+
+57
+00:03:29.895 --> 00:03:32.255
+probablemente en el pricing, Â¿acuerdo? Entonces,
+
+58
+00:03:32.875 --> 00:03:34.935
+ese es si funciona mÃ¡s o menos.
+
+59
+00:03:35.275 --> 00:03:39.395
+Y si definitivamente no funciona, es porque al final del dÃ­a tienes que ajustar
+
+60
+00:03:39.395 --> 00:03:42.115
+probablemente todo, no desde la regla del 1, irte hasta el inicio,
+
+61
+00:03:42.695 --> 00:03:45.815
+ir viendo a ver porque no, pero estÃ¡ buenÃ­simo,
+
+62
+00:03:46.195 --> 00:03:51.055
+porque hay mucha gente que se queda como tratando de validar su oferta
+
+63
+00:03:51.055 --> 00:03:53.775
+o lo que ofrecen y pueden pasar 2,
+
+64
+00:03:54.015 --> 00:03:58.375
+3, 4 meses y probablemente agarran una venta o 2 ventas por ahÃ­,
+
+65
+00:03:58.555 --> 00:04:01.075
+pero no estÃ¡n consolidando absolutamente nada.
+
+66
+00:04:01.255 --> 00:04:06.155
+Entonces, este es un sprint super agresivo en donde te vas a
+
+67
+00:04:06.155 --> 00:04:10.175
+acceder un montÃ³n de cosas con respecto a tu campaÃ±a,
+
+68
+00:04:10.695 --> 00:04:15.355
+Â¿de acuerdo? Entonces les voy a enseÃ±ar mi campaÃ±a
+
+69
+00:04:15.355 --> 00:04:19.515
+para que ustedes la vean y luego vamos a ver cÃ³mo van a ejecutar
+
+70
+00:04:19.515 --> 00:04:24.275
+ustedes la suba, Â¿de acuerdo? Entonces vamos aquÃ­ a
+
+71
+00:04:24.275 --> 00:04:26.935
+verlo,
+
+72
+00:04:26.995 --> 00:04:30.555
+a ver, vamos a cambiar de este lado. Primero ese seÃ±olo de la data,
+
+73
+00:04:30.555 --> 00:04:34.855
+aquÃ­ yo corrÃ­ alrededor de 160 contactos,
+
+74
+00:04:34.855 --> 00:04:39.695
+lo hice un poco a prisa porque estÃ¡ ajusto grabando estas sesiones o
+
+75
+00:04:39.695 --> 00:04:42.815
+estas, estas, estas, estos videos para ustedes,
+
+76
+00:04:43.055 --> 00:04:45.955
+pero tambiÃ©n estÃ¡ corriendo de la campaÃ±a, entonces estaba con montones cosas,
+
+77
+00:04:45.955 --> 00:04:49.835
+dije no, tengo que, tengo que lanzarlo y sÃ© mi campaÃ±a y salino,
+
+78
+00:04:50.335 --> 00:04:52.395
+entonces estos son como todos los contactos,
+
+79
+00:04:52.475 --> 00:04:55.835
+justo que puse acÃ¡, nos pueden ver, entonces me tomÃ© el tiempo igual de
+
+80
+00:04:55.835 --> 00:05:00.535
+poner los todos y tal, ya sÃ© que es
+
+81
+00:05:00.535 --> 00:05:04.755
+un poner los dos, hay herramientas que pueden usar en donde ustedes pueden poner,
+
+82
+00:05:04.895 --> 00:05:07.835
+como les les pasaba por ahÃ­,
+
+83
+00:05:07.935 --> 00:05:13.315
+Phantom Buster o hay otras Prospeya o Galaxy que si ustedes mandan
+
+84
+00:05:13.315 --> 00:05:16.075
+estos mensajes, pueden descargar el CCB, si descargar el CCB,
+
+85
+00:05:16.135 --> 00:05:18.855
+bueno, lo pueden poner acÃ¡ y de los Guarrems y de los Inbound,
+
+86
+00:05:18.855 --> 00:05:21.595
+como son mÃ¡s poquitos, esos manualmente los pueden poner,
+
+87
+00:05:21.735 --> 00:05:25.375
+no hay tanto no hay tanto problema, entonces lo interesante aquÃ­ es que cuando
+
+88
+00:05:25.375 --> 00:05:28.835
+se llena esto, ya se llena tambiÃ©n esta otra parte que es el dashboard
+
+89
+00:05:28.835 --> 00:05:33.195
+y aquÃ­ viene a parte importante porque aquÃ­ es donde ustedes se van a
+
+90
+00:05:33.195 --> 00:05:36.675
+ir dando cuenta en donde es donde tienen que darle como doble clic,
+
+91
+00:05:37.375 --> 00:05:40.515
+no todos los avatares funcionan de la misma manera,
+
+92
+00:05:40.815 --> 00:05:43.735
+hay canales en donde les funcionan mejor a unos que a otros,
+
+93
+00:05:43.915 --> 00:05:47.775
+no hay recetas mÃ¡gicas acÃ¡, por eso tener visibilidad lo mejor que pueda pasar
+
+94
+00:05:47.775 --> 00:05:52.295
+en este caso, esto ya estÃ¡ formulado cuando ustedes vayan llenando la informaciÃ³n de
+
+95
+00:05:52.295 --> 00:05:55.615
+ella, aquÃ­ se va a ir como poniendo estos porcentajes olitos,
+
+96
+00:05:56.115 --> 00:05:58.155
+pero aquÃ­ les cuento cÃ³mo me fue a mÃ­, no? Entonces,
+
+97
+00:05:58.475 --> 00:06:01.095
+yo tuve 159 contactos,
+
+98
+00:06:01.375 --> 00:06:04.375
+respondieron 56, es decir, 35 por ciento.
+
+99
+00:06:04.935 --> 00:06:07.735
+Agenda un llamada 15, es decir, de 259,
+
+100
+00:06:08.035 --> 00:06:10.595
+27 por ciento, no son menos, y tuve 5 ganados,
+
+101
+00:06:10.715 --> 00:06:12.915
+o sea, un 3 por ciento sobre el total.
+
+102
+00:06:13.615 --> 00:06:18.335
+Â¿CÃ³mo se ve? Estos son el tipo de lids
+
+103
+00:06:18.335 --> 00:06:20.815
+que habÃ­amos criticado anteriormente que existen,
+
+104
+00:06:20.815 --> 00:06:23.435
+o sea estÃ¡n los frÃ­os, worms, inbound y cerrado perdido,
+
+105
+00:06:23.655 --> 00:06:25.935
+entonces de estos interesantes de esto,
+
+106
+00:06:26.435 --> 00:06:31.555
+worm fueron el 8% inbound el
+
+107
+00:06:31.555 --> 00:06:34.735
+50% sobre el total,
+
+108
+00:06:35.255 --> 00:06:39.935
+quiere decir que de los frÃ­os yo no ganÃ© ninguno ni de los
+
+109
+00:06:39.935 --> 00:06:43.335
+cerrados perdidos, que yo pensÃ© que los cerrados perdidos en este caso iba a
+
+110
+00:06:43.335 --> 00:06:46.715
+sacar, era gente con la que yo habÃ­a hablado,
+
+111
+00:06:47.275 --> 00:06:51.935
+pero muchos de estos la de hecho la mitad estÃ¡n para enero
+
+112
+00:06:51.935 --> 00:06:56.515
+entonces probablemente en enero este nÃºmero cambia y en frÃ­o tambiÃ©n tengo varios
+
+113
+00:06:56.515 --> 00:07:01.155
+ahÃ­ que son tambiÃ©n para enero entonces tambiÃ©n esto cambia normalmente frÃ­o es va
+
+114
+00:07:01.155 --> 00:07:04.775
+a ser la tasa siempre mÃ¡s baja no pero de esto si deberÃ­a ser
+
+115
+00:07:04.775 --> 00:07:09.355
+si deberÃ­a haber cerrado quizÃ¡s unos unos dos o tres entonces al
+
+116
+00:07:09.355 --> 00:07:13.915
+final es eso o sea no no es para que ustedes vayan teniendo
+
+117
+00:07:13.915 --> 00:07:17.735
+tambiÃ©n esta visibilidad entonces que ustedes le vayan apuntando un poco a ella a
+
+118
+00:07:17.735 --> 00:07:20.435
+cÃ³mo se puede ir viendo su campaÃ±a. Ahora,
+
+119
+00:07:20.735 --> 00:07:23.295
+Â¿cÃ³mo se ve la ejecuciÃ³n? O sea,
+
+120
+00:07:23.375 --> 00:07:25.855
+Â¿cÃ³mo lo tendrÃ­an ya que hacer ustedes? BÃ¡sicamente es asÃ­,
+
+121
+00:07:25.955 --> 00:07:29.795
+Â¿no? Como primero, a ver, no voy a poner ahora de lo otro lado,
+
+122
+00:07:30.495 --> 00:07:35.675
+ahÃ­ se le mejorÃ³, Â¿ok? Idealmente,
+
+123
+00:07:36.135 --> 00:07:38.515
+y de hecho, yo voy a correr la campaÃ±a en enero,
+
+124
+00:07:38.755 --> 00:07:40.895
+ya, o sea, completa, tendrÃ­an que,
+
+125
+00:07:41.075 --> 00:07:43.815
+como que le decÃ­a, unos 200 contactos,
+
+126
+00:07:43.815 --> 00:07:48.715
+150 o cientos contactos y un poco como funciona es que mandan por baches
+
+127
+00:07:48.715 --> 00:07:50.855
+el primer mensaje el martes miÃ©rcoles,
+
+128
+00:07:51.035 --> 00:07:55.095
+jueves y viernes y luego ven que hay mensajes de seguimiento bueno el mensaje
+
+129
+00:07:55.095 --> 00:07:58.955
+de seguimiento del martes lo mandan al miÃ©rcoles y el mensaje de seguimiento lo
+
+130
+00:07:58.955 --> 00:08:05.515
+mandan el jueves y el
+
+131
+00:08:05.515 --> 00:08:08.515
+viernes y asÃ­ sucesivamente Entonces,
+
+132
+00:08:08.515 --> 00:08:12.415
+como se ve el timeline por dÃ­a para que quede un poquito mÃ¡s claro,
+
+133
+00:08:13.055 --> 00:08:15.335
+el viernes mandan el post de introducciÃ³n,
+
+134
+00:08:15.895 --> 00:08:18.935
+o sea que es el que ya tienen allÃ¡, espero que ya tengan todo
+
+135
+00:08:18.935 --> 00:08:22.495
+listo, que todo lo tengan en sus documentos, que ya sepan sus scripts,
+
+136
+00:08:23.235 --> 00:08:26.055
+el de apertura, los deseamientos,
+
+137
+00:08:26.355 --> 00:08:28.495
+el gmary, las dos publicaciones,
+
+138
+00:08:29.075 --> 00:08:36.575
+las preguntas de calificaciÃ³n, etcÃ©tera,
+
+139
+00:08:36.575 --> 00:08:41.095
+que el viernes previo a la campaÃ±a ya de mensajes o podrÃ­an hacerlo tambiÃ©n
+
+140
+00:08:41.095 --> 00:08:44.615
+en lunes. Entonces lo que termina pasando y de hecho aquÃ­ ya puede ser
+
+141
+00:08:44.615 --> 00:08:48.755
+que inician algunas conversaciones, porque ponen esta esta esta publicaciÃ³n,
+
+142
+00:08:48.955 --> 00:08:53.655
+hay un soft llamado la acciÃ³n y con eso quizÃ¡s algo
+
+143
+00:08:53.655 --> 00:08:58.195
+llegue algÃºn inbound. No de hecho, mis pocos inbounds y y warms que estuvieron
+
+144
+00:08:58.195 --> 00:09:00.695
+ahÃ­ fueron justamente de las publicaciones,
+
+145
+00:09:00.875 --> 00:09:05.535
+entonces funcionan. Entonces pueden poner esa
+
+146
+00:09:05.535 --> 00:09:08.875
+publicaciÃ³n. AquÃ­ nada mÃ¡s hemos puesto dos publicaciones.
+
+147
+00:09:09.135 --> 00:09:12.315
+Ustedes pueden llenar los espacios si es que ya que eran contenido un poco
+
+148
+00:09:12.315 --> 00:09:16.155
+mÃ¡s escala, los pueden poner con el contenido habitual que ustedes ponen.
+
+149
+00:09:17.035 --> 00:09:19.535
+Por ejemplo el lunes normal,
+
+150
+00:09:20.215 --> 00:09:23.315
+el martes en este caso es el de lanzamiento, el miÃ©rcoles normal,
+
+151
+00:09:23.495 --> 00:09:27.715
+jueves normal y el viernes puedan poner quizÃ¡s alguno otro como de ventas,
+
+152
+00:09:27.755 --> 00:09:30.235
+se pueden inspirarnos que yo tengo ahÃ­ un poco, no se van a mi
+
+153
+00:09:30.235 --> 00:09:34.375
+perfil y pueden ver en esa semana cÃ³mo corrÃ­ yo la campaÃ±a.
+
+154
+00:09:35.035 --> 00:09:38.995
+Me acuerdo, pero la idea es, o sea, el mÃ­nimo son poner como estas
+
+155
+00:09:38.995 --> 00:09:42.095
+dos publicaciones, entonces el bien es coronaprimera,
+
+156
+00:09:42.395 --> 00:09:44.775
+lunes, dejando todo listo, el martes,
+
+157
+00:09:44.795 --> 00:09:48.215
+que es cuando se el lanzamiento, ahÃ­ lanzan la publicaciÃ³n de la oferta,
+
+158
+00:09:48.295 --> 00:09:51.455
+que se hace una publicaciÃ³n, con cambio opuesto en linke,
+
+159
+00:09:51.495 --> 00:09:53.675
+en que cerca que esto les va a dar un 30% de disinal,
+
+160
+00:09:53.895 --> 00:09:56.235
+ahÃ­ acuense cÃ³mo les dije cÃ³mo lo pueden hacer,
+
+161
+00:09:56.235 --> 00:09:58.875
+Â¿no? y aquÃ­ lanzan la primera, el primer bach,
+
+162
+00:09:59.215 --> 00:10:01.735
+que es los 50 mensajes iniciales,
+
+163
+00:10:02.155 --> 00:10:04.695
+ahÃ­ va respondiendo, los que te van diciendo, punta,
+
+164
+00:10:04.755 --> 00:10:09.075
+va respondiendo, ahora, ojo, por favor limpie en su agenda,
+
+165
+00:10:09.695 --> 00:10:13.855
+estos dÃ­as para que estÃ¡, o sea, para que estÃ©n 100% focados en esto,
+
+166
+00:10:14.215 --> 00:10:16.555
+es una campaÃ±a reagreciva, tambiÃ©n es cansada,
+
+167
+00:10:16.795 --> 00:10:19.175
+hay que estarle metiendo un montÃ³n de tiempo, pero eh,
+
+168
+00:10:19.395 --> 00:10:22.655
+si en 7 dÃ­as pueden cerrar 5, 7 dÃ­as clientes,
+
+169
+00:10:22.655 --> 00:10:25.615
+o sea, creo que vale bastante la pena.
+
+170
+00:10:25.795 --> 00:10:30.495
+Entonces es nada mÃ¡s una campaÃ±a que corren una vez por mes o si
+
+171
+00:10:30.495 --> 00:10:34.155
+es que una vez por mes es mucho porque justo no pueden tampoco por
+
+172
+00:10:34.155 --> 00:10:37.535
+su tipo de negocio tener tantos clientes,
+
+173
+00:10:37.615 --> 00:10:40.275
+pues mira, happy problem y la corren cada tres meses.
+
+174
+00:10:40.515 --> 00:10:43.355
+Entonces aquÃ­ al final del dÃ­a tambiÃ©n va a depender del tipo negocio,
+
+175
+00:10:43.555 --> 00:10:48.115
+Â¿de acuerdo? TambiÃ©n vamos a ver cÃ³mo se pueden ir rotando en estas
+
+176
+00:10:48.115 --> 00:10:51.755
+ofertas, vamos a ver ahora. Entonces eso es el martes,
+
+177
+00:10:52.375 --> 00:10:57.155
+miÃ©rcoles, inicio el bach 2, mandan 50 mensajes nuevos y mandan
+
+178
+00:10:57.155 --> 00:11:01.935
+los 50 mensajes que ya tienen del follow up del dÃ­a lunes,
+
+179
+00:11:02.155 --> 00:11:06.795
+del dÃ­a martes, y asÃ­ sucesivamente el jueves lanzan 50 mensajes
+
+180
+00:11:06.795 --> 00:11:11.875
+nuevos mÃ¡s los 50 del follow ups del martes
+
+181
+00:11:11.875 --> 00:11:15.895
+que son no es helpmary o sea el Ãºltimo mensaje de seguimiento y los
+
+182
+00:11:15.895 --> 00:11:20.735
+50 mensajes del martes o sea el desegimiento entonces aquÃ­
+
+183
+00:11:20.735 --> 00:11:24.915
+aquÃ­ lo pueden ir leyendo este quizÃ¡s visualmente se ve un poquito mejor mÃ¡s
+
+184
+00:11:24.915 --> 00:11:30.415
+fÃ¡cil saca hasta notes martes mensajes iniciales 50 miÃ©rcoles
+
+185
+00:11:30.415 --> 00:11:35.275
+el follow up 1 50 o ser un dÃ­a despuÃ©s jueves Ãºltimo mensaje
+
+186
+00:11:35.275 --> 00:11:40.595
+50 entonces el bach 1 bach 2 inician el miÃ©rcoles das
+
+187
+00:11:40.595 --> 00:11:44.915
+en el follow-up 1 o el jueves y el follow-up 2 el viernes y
+
+188
+00:11:44.915 --> 00:11:49.575
+asÃ­ van juntando baches de 50 50 contestando obviamente
+
+189
+00:11:49.575 --> 00:11:54.135
+ustedes mandan los baches y conforme les va contestando ustedes los van direccionando
+
+190
+00:11:54.135 --> 00:11:59.035
+a la llamada de calificaciÃ³n y a la iban agendando sus llamadas de ventano
+
+191
+00:11:59.035 --> 00:12:03.555
+entonces aquÃ­ estÃ¡ como pueden como esto al
+
+192
+00:12:03.555 --> 00:12:07.475
+final de lo mismo que estÃ¡ como un poco en el excel son como
+
+193
+00:12:07.475 --> 00:12:09.595
+el nÃºmero de mensajes, las respuestas,
+
+194
+00:12:09.875 --> 00:12:13.635
+los gol de ventas, eso lo pueden hacer allÃ¡, lo mismo con esto y
+
+195
+00:12:13.635 --> 00:12:17.535
+con esto, si lo quieren hacer aquÃ­, he puesto estas dos como formatos para
+
+196
+00:12:17.535 --> 00:12:21.555
+que ustedes puse en el que ustedes quieran y el checklist completo,
+
+197
+00:12:21.915 --> 00:12:24.615
+o sea, tiene que tener ya la offer lista,
+
+198
+00:12:24.755 --> 00:12:28.095
+la micro offer ya desarrollada, el pause de reintroducciÃ³n,
+
+199
+00:12:28.275 --> 00:12:30.455
+el pause de anuncio, los mensajes iniciales,
+
+200
+00:12:30.615 --> 00:12:34.635
+los follow ups, preguntas de calificaciÃ³n, el excel de tracking configurado ya con sus
+
+201
+00:12:34.635 --> 00:12:37.715
+contactos y el calendario es pejado para la semana.
+
+202
+00:12:38.215 --> 00:12:42.375
+Y aquÃ­ viene la ejecuciÃ³n para que ustedes puedan tener la accountability de lo
+
+203
+00:12:42.375 --> 00:12:47.035
+que tienen que hacer, Â¿me acuerdo? Entonces aquÃ­ estÃ¡ justo el volumen
+
+204
+00:12:47.035 --> 00:12:50.855
+total de lo que van haciendo, los las convenciones que esto sea el excelo,
+
+205
+00:12:50.935 --> 00:12:53.295
+pueden copiar y pegar acÃ¡ o lo dejan acÃ¡.
+
+206
+00:12:53.635 --> 00:12:55.835
+Lo importante es esto, Â¿no? Los Insights Clouds.
+
+207
+00:12:56.235 --> 00:12:58.435
+Â¿QuÃ©? Â¿CuÃ¡l fue el mensaje que mejor funcionÃ³? fue el primero,
+
+208
+00:12:58.635 --> 00:13:03.055
+fue el seguimiento, fue el de GeoMerry, querÃ­a tuve la tasa de respuesta mÃ¡s
+
+209
+00:13:03.055 --> 00:13:06.295
+alta. Todos estos son insights que ustedes van a quedar para que cuando ustedes
+
+210
+00:13:06.295 --> 00:13:09.155
+corran las campaÃ±as posteriores, vayan a tener mejor resultado.
+
+211
+00:13:09.695 --> 00:13:12.435
+Â¿QuÃ© objeciones sugieron mÃ¡s a las preguntas de calificaciÃ³n?
+
+212
+00:13:13.255 --> 00:13:17.775
+Â¿QuÃ© cambian para la prÃ³xima campaÃ±a? Y ya la que vayan planeando
+
+213
+00:13:17.775 --> 00:13:22.935
+justo la prÃ³xima campaÃ±a y
+
+214
+00:13:22.935 --> 00:13:27.755
+listos, a esto es al final del dÃ­a como se ve la
+
+215
+00:13:27.755 --> 00:13:32.615
+campaÃ±a, puede ser que les
+
+216
+00:13:32.615 --> 00:13:35.395
+parezco un montÃ³n y si es un montÃ³n,
+
+217
+00:13:35.715 --> 00:13:39.895
+pero es, les digo, una de la campaÃ±a que en mejores resultados les va,
+
+218
+00:13:40.135 --> 00:13:43.395
+entonces, si le ejecutan bien, si tienen su mensaje lineado,
+
+219
+00:13:43.535 --> 00:13:47.095
+les va a funcionar muy bien. Ahora, cÃ³mo pueden ir rotando mensualmente,
+
+220
+00:13:47.175 --> 00:13:49.975
+biimestralmente, trimestralmente estas campaÃ±as,
+
+221
+00:13:49.975 --> 00:13:54.755
+pueden ser por ejemplo en mes 1 hacen el lanzamiento del oferta principal que
+
+222
+00:13:54.755 --> 00:13:58.095
+fue un poco lo que vieron que yo hice. Para el mes 2 puede
+
+223
+00:13:58.095 --> 00:14:03.035
+ser mismo servicio pero diferente Ã¡ngulo. Por ejemplo en mi caso yo
+
+224
+00:14:03.035 --> 00:14:06.575
+en esta fue de que hoy he posado un 5 list calificados recurrentes por
+
+225
+00:14:06.575 --> 00:14:10.395
+semana en 60 dÃ­as con mi programa. En esta serÃ­a no sÃ© en el
+
+226
+00:14:10.395 --> 00:14:14.255
+mes 2. Sistema que aplicar tus ventas sin contar los referidos,
+
+227
+00:14:14.515 --> 00:14:18.615
+esa podrÃ­a ser otra. Mestre es un poder cidadero en un caso de uso
+
+228
+00:14:18.615 --> 00:14:22.735
+especÃ­fico. Â¿CÃ³mo cerramos 15 clientes con mi cliente tal en 45 dÃ­as con este
+
+229
+00:14:22.735 --> 00:14:26.135
+sistema? PodrÃ­a ser una campaÃ±a en donde entran,
+
+230
+00:14:26.655 --> 00:14:29.915
+yo les enseÃ±o como le dicen, Â¿no? El otro es un workshop quizÃ¡ gratuito
+
+231
+00:14:29.915 --> 00:14:33.475
+en mes 4. Â¿CÃ³mo se alid Magnets? Que es un tema que estÃ¡ lineado
+
+232
+00:14:33.935 --> 00:14:36.175
+para conseguir de escena de licen un dÃ­a, por ejemplo.
+
+233
+00:14:36.755 --> 00:14:40.935
+Entonces, ven como, como, como ponidos dando tambiÃ©n otra cosa que pueden hacer es
+
+234
+00:14:40.935 --> 00:14:43.475
+industria, Â¿no? Si ustedes trabajan con diferentes industrias,
+
+235
+00:14:43.615 --> 00:14:45.975
+podrÃ­an ascorrar una donde sea, por ejemplo, consumo,
+
+236
+00:14:46.435 --> 00:14:50.255
+otra donde sea retail, otra donde sea tal y van cambiando a mÃ¡s algunos
+
+237
+00:14:50.255 --> 00:14:54.755
+elementos de tal manera que la campaÃ±a no se siente cansada es una campaÃ±a
+
+238
+00:14:54.755 --> 00:14:59.015
+que puede estar fresca todo el tiempo y lo mÃ¡s interesante es que todo
+
+239
+00:14:59.015 --> 00:15:02.835
+se va haciendo como un efecto bola de nieve no en el mes uno
+
+240
+00:15:02.835 --> 00:15:06.975
+quizÃ¡s no llegan a los doscientos contactos estÃ¡ bien de todo manera lancela pero
+
+241
+00:15:06.975 --> 00:15:11.495
+en el mes dos cuando vayamos en el cuando vayamos integrando
+
+242
+00:15:11.495 --> 00:15:15.195
+mÃ¡s gente a nuestro networking pues podemos correr campaÃ±a,
+
+243
+00:15:15.355 --> 00:15:19.015
+probablemente no a los que le lanzaste la campaÃ±a principal,
+
+244
+00:15:19.015 --> 00:15:23.275
+pero si haces un webinar, por ejemplo, podrÃ­as invitar a los nuevos,
+
+245
+00:15:23.795 --> 00:15:28.335
+mÃ¡s los viejitos que ya tuviste antes porque es un tema totalmente nuevo.
+
+246
+00:15:28.815 --> 00:15:31.375
+Entonces pueden ser no 200, pueden ser 500,
+
+247
+00:15:31.675 --> 00:15:33.835
+pueden ser 900, pueden ser un montÃ³n de gente,
+
+248
+00:15:34.035 --> 00:15:40.135
+entonces este es como la manera de cÃ³mo
+
+249
+00:15:40.135 --> 00:15:42.195
+se va haciendo esto tambiÃ©n como mÃ¡s grande,
+
+250
+00:15:43.155 --> 00:15:47.915
+ustedes vayan viÃ©ndolo como lo pueden ir ejecutando de acuerdo a su tipo
+
+251
+00:15:47.915 --> 00:15:52.435
+de negocio, ahora es mi recomendaciÃ³n es que lo lanzen
+
+252
+00:15:52.435 --> 00:15:56.695
+lo antes posible para justo validar y tal y a partir de ahÃ­ ustedes
+
+253
+00:15:56.695 --> 00:16:00.195
+ya van viendo que tanto lo lanzan que o sea y vamos tambiÃ©n,
+
+254
+00:16:00.875 --> 00:16:04.815
+tambiÃ©n vamos a ir viendo cÃ³mo ir automatizando tambiÃ©n estas partes de los procesos,
+
+255
+00:16:04.895 --> 00:16:09.235
+hay herramientas en donde sacan las listas de seÃ³n Navigator y quizÃ¡s dos mensajes
+
+256
+00:16:09.235 --> 00:16:14.335
+ya que los tienes craftyados puedes poner ahÃ­ y que se manden solitos y
+
+257
+00:16:14.335 --> 00:16:17.995
+ya nada mÃ¡s como que descargas para poderlo pasar en el excel y hacerlo
+
+258
+00:16:17.995 --> 00:16:23.775
+tambiÃ©n todo un poco mÃ¡s mÃ¡s sencillo entonces no espero
+
+259
+00:16:23.775 --> 00:16:28.295
+que les vaya sÃºper bien con esta campaÃ±a ya saben ahÃ­ en en
+
+260
+00:16:28.295 --> 00:16:32.975
+la comunidad por favor pongan ahÃ­ cÃ³mo les fue pongan en la parte de
+
+261
+00:16:32.975 --> 00:16:37.315
+de de los wins de los triunfos,
+
+262
+00:16:37.415 --> 00:16:39.615
+que fue, o sea, que les fue, cuÃ¡ntos lits sacaron,
+
+263
+00:16:39.795 --> 00:16:42.695
+cuÃ¡ntos llamadas de ventas, cuÃ¡ntos cierres, de verdad,
+
+264
+00:16:42.995 --> 00:16:45.015
+esta campaÃ±a si la que ejecutan, o sea,
+
+265
+00:16:45.075 --> 00:16:47.515
+si la planean bien y la que ejecutan bien, les va a dar tres
+
+266
+00:16:47.515 --> 00:16:50.015
+menos resultados. Nada, listo,
+
+267
+00:16:50.135 --> 00:16:52.095
+nos vemos en el siguiente mÃ³dulo.

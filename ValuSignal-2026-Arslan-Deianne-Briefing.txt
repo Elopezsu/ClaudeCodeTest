@@ -1,0 +1,140 @@
+ValuSignal 2026 — Campaign Briefing
+For: Arslan (campaign setup) + Deianne (reply management)
+Prepared by: Eunice Lopez
+Date: 2026-04-13
+────────────────────────────────────────────────────────────────
+
+
+PART 1 — ARSLAN: Instantly.ai Setup
+════════════════════════════════════════════════════════════════
+
+CAMPAIGN DETAILS
+- Campaign name: ValuSignal 2026 Cold Email
+- Audience: ~25,000 residential appraisers in the U.S.
+- Accounts: 30 email accounts across 10 domains (currently warming up)
+- Platform: Instantly.ai
+- Goal: Drive registrations to https://www.valusignal.com/register
+
+EMAIL SEQUENCE TO LOAD
+Load the 6-email sequence from: ValuSignal-2026-Updated-Email-Sequence.txt
+Each email has 3 variations (A/B/C). Use Variation A as the default.
+Run A/B tests on Variation B or C when Instantly allows split testing.
+
+Sequence timing:
+Email 1  →  wait 3 days  →  FU1  →  wait 4 days  →  FU2
+→  wait 4 days  →  FU3  →  wait 4 days  →  FU4  →  wait 3 days  →  FU5
+
+Stop sequence when: contact replies OR unsubscribes
+
+PERSONALIZATION VARIABLE
+- {{first_name}} — must be mapped to the first name field in the contact list
+
+SENDING SETTINGS (recommended for warm-up safety)
+- Max emails per account per day: 30–40 (increase gradually)
+- Send window: business hours only (U.S. time zones — Eastern or Central)
+- Randomize send time: ON
+- Track opens and replies: ON
+- Unsubscribe link: ON (required)
+
+UNIBOX SETUP (for reply management)
+1. Go to Settings → Team Members
+2. Invite Deianne with her email address
+3. Set her role to "Member"
+4. Go to Unibox → Notifications → enable "email notification on new reply" for Deianne
+5. When a reply comes in, assign the lead to Deianne from the Unibox
+
+WEEKLY REPORTING (every Monday)
+Pull from Instantly.ai Analytics and send to Eunice:
+- Emails sent (that week)
+- Open count
+- Reply count
+Eunice will calculate rates and track conversions in the shared tracker.
+
+────────────────────────────────────────────────────────────────
+
+
+PART 2 — DEIANNE: Reply Management
+════════════════════════════════════════════════════════════════
+
+YOUR ROLE
+When an appraiser replies to one of the cold emails, you are the conversion point.
+Your job: respond within 24 hours, warm and human, and guide them to register.
+
+HOW YOU'LL GET NOTIFIED
+Instantly.ai will send you an email notification every time a reply comes in.
+You'll also be able to see all replies in the Unibox inside Instantly.ai.
+Arslan will assign the lead to you directly.
+
+REPLY TEMPLATE (use this as your base — personalize as needed)
+────────────────────────────────────
+Hey [First Name], thanks for getting back to me. Really glad this caught your eye.
+
+Here's the direct link to register: https://www.valusignal.com/register. The Appraiser Track is the main pass and gives you access to all the sessions, the Claude Code workshop, the on-demand replays for three months, and everything else on the schedule.
+
+If you have any questions about what's covered or want help picking the right track, just let me know. Happy to walk you through it.
+
+Looking forward to having you there.
+
+Hansel
+ValuSignal 2026
+www.valusignal.com
+────────────────────────────────────
+
+COMMON SITUATIONS
+
+If they ask about price:
+→ Tickets are $47 off through June 1. After that the price goes up.
+   Register here: https://www.valusignal.com/register
+
+If they ask about CE credit:
+→ ValuSignal 2026 is non-CE by design. That means speakers can go much deeper
+   on the topics that matter — practical strategy, UAD 3.6, AI tools — without
+   the constraints of a CE format.
+
+If they ask about UAD 3.6:
+→ Yes, UAD 3.6 readiness is one of the core sessions. The conference is
+   September 18–19, which is before the November 2 implementation date,
+   so attendees will have time to apply what they learn.
+
+If they ask about group pricing:
+→ For teams of 10+ appraisers, email info@valusignal.com for group rates.
+
+If they ask about speaking or sponsoring:
+→ Direct them to https://www.valusignal.com/sponsor
+
+If they say they're not interested / ask to be removed:
+→ "No problem at all, I'll take you off the list. Thanks for letting me know."
+   Then mark them as unsubscribed in Instantly.ai.
+
+TRACKING (your part)
+Every time someone replies and then registers, log it in the tracking sheet:
+ValuSignal-2026-Campaign-Tracker (Google Sheet — link TBD)
+
+Columns to fill:
+- Date reply received
+- First name, last name, email
+- Which email triggered the reply (Email 1, FU1, FU2, etc.)
+- Did you respond? (Y/N) + date
+- Did they register? (Y/N) + date
+
+This is how we measure conversion rate each week.
+
+────────────────────────────────────────────────────────────────
+
+
+PART 3 — WEEKLY RHYTHM
+════════════════════════════════════════════════════════════════
+
+Every Monday:
+1. Arslan sends Eunice: emails sent, opens, replies from Instantly.ai Analytics
+2. Deianne updates the Reply Log in the tracker sheet with any new conversions
+3. Eunice reviews numbers and shares weekly summary with Hansel
+
+Key dates:
+- June 1, 2026 — $47 discount deadline (urgency window for campaign)
+- September 18–19, 2026 — ValuSignal 2026 event
+- November 2, 2026 — UAD 3.6 implementation (use as urgency hook closer to date)
+
+────────────────────────────────────────────────────────────────
+
+Questions? Contact Eunice Lopez.

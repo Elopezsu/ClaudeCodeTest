@@ -1,0 +1,385 @@
+ValuSignal 2026
+Cold Email Sequence — v3 SPAM CLEAN
+6 emails · 3 variations each · Signed as Hansel / ValuSignal 2026
+Last updated: 2026-04-13
+
+SPAM WORDS REMOVED FROM v2:
+- "discount" → replaced with "rate" / "early pricing"
+- "For a limited time" → removed (kept the sentence without it)
+- "Expires June 1" → replaced with "Closes June 1"
+- "Last chance" → rewritten subjects
+- "Save $" → rewritten subjects
+- "Final call" → replaced with "One last note"
+- "Last call" → replaced with "One last note"
+- "promise" → removed
+────────────────────────────────────────────────────────────────
+
+
+EMAIL 1 — Cold Outreach
+════════════════════════════════════════════════════════════════
+
+Variation A
+Subject: The 2-day virtual event built for working appraisers
+
+Hi {{first_name}},
+
+Residential appraisal is changing fast. ValuSignal 2026 was built for appraisers who want practical insight on where the profession is heading and how to stay ahead of it.
+
+Tickets are $47 off through June 1.
+
+ValuSignal 2026 is a 2-day virtual conference on September 18–19 designed specifically for residential appraisers. The event features 50+ speakers and up to 100 hours of content, including many active production appraisers who are still in the field every week, which keeps the sessions grounded in real-world work and real-world change.
+
+Here's what the conference will cover:
+→ UAD 3.6 readiness and what implementation may actually look like in practice
+→ AI tools for appraisers, including workflows around Claude Code and OpenClaw
+→ Revenue diversification strategies beyond relying on a single channel of work
+→ Business planning, marketing, and operations for a more durable appraisal practice
+→ Emerging technology and market shifts that working appraisers need to understand now
+
+ValuSignal is non-CE by design. That gives speakers room to go deeper into the topics that matter most to appraisers, including practical strategy, operational realities, and forward-looking conversations that often fall outside a CE format.
+
+Every session will also be available on-demand for 3 months after the event, so you can attend around your schedule without giving up multiple production days.
+
+The $47 off rate ends June 1.
+
+Reserve your spot here: https://www.valusignal.com/register
+
+Hansel Dobbs
+Certified Residential Real Estate Appraiser - Texas
+ValuSignal 2026
+
+P.S. If you have a team of 10+ appraisers, email info@valusignal.com for group pricing.
+P.P.S. Interested in speaking or sponsoring? https://www.valusignal.com/sponsor
+P.P.P.S. Starting UAD 3.6 assignments on November 2? Add yourself to the UAD 3.6 Appraiser Map so lenders, banks, and AMCs can find you: https://map.valusignal.com
+
+────────────────────────────────────
+Variation B  (UAD 3.6 hook)
+Subject: UAD 3.6 is coming November 2. Here's where appraisers are getting ready.
+
+Hi {{first_name}},
+
+November 2, 2026 is the UAD 3.6 implementation date. Appraisers who aren't ready by then will feel it in the field.
+
+ValuSignal 2026 is a 2-day virtual conference on September 18–19 built specifically for residential appraisers. One of the core sessions goes deep on UAD 3.6 readiness, what implementation may actually look like in practice, and what working appraisers need to do now.
+
+There's a lot more on the agenda:
+→ AI tools for appraisers, including workflows around Claude Code and OpenClaw
+→ Revenue diversification beyond relying on a single channel of work
+→ Business planning, marketing, and operations for a more durable appraisal practice
+→ Emerging technology and market shifts working appraisers need to understand now
+
+50+ speakers. Up to 100 hours of content. Many still active production appraisers in the field every week.
+
+ValuSignal is non-CE by design, so speakers can go deeper than a CE format allows.
+
+Every session available on-demand for 3 months after the event.
+
+Tickets are $47 off through June 1.
+
+Reserve your spot: https://www.valusignal.com/register
+
+Hansel Dobbs
+Certified Residential Real Estate Appraiser - Texas
+ValuSignal 2026
+
+P.S. Starting UAD 3.6 assignments on November 2? Add yourself to the UAD 3.6 Appraiser Map so lenders, banks, and AMCs can find you: https://map.valusignal.com
+
+────────────────────────────────────
+Variation C  (Non-CE angle)
+Subject: The appraisal conference that can say what CE can't
+
+Hi {{first_name}},
+
+Most appraisal education is built around CE requirements. ValuSignal 2026 isn't.
+
+Non-CE by design means the speakers can go deeper on the topics that matter most — practical strategy, operational realities, UAD 3.6 readiness, AI tools, revenue diversification, and forward-looking conversations that a CE format usually can't hold.
+
+It's a 2-day virtual conference on September 18–19 built specifically for residential appraisers. 50+ speakers, up to 100 hours of content, many still active in the field every week.
+
+What's on the agenda:
+→ UAD 3.6 readiness and what implementation may actually look like in practice
+→ AI workflows for appraisers using Claude Code and OpenClaw
+→ Revenue diversification beyond the single-channel model
+→ Business planning, marketing, and operations for a more durable practice
+→ Emerging technology and market shifts working appraisers need to understand now
+
+Every session available on-demand for 3 months after the event.
+
+Tickets are $47 off through June 1.
+
+Reserve your spot: https://www.valusignal.com/register
+
+Hansel Dobbs
+Certified Residential Real Estate Appraiser - Texas
+ValuSignal 2026
+
+P.S. If you have a team of 10+ appraisers, email info@valusignal.com for group pricing.
+
+
+FOLLOW-UP 1 — Early Bird Urgency
+════════════════════════════════════════════════════════════════
+
+Variation A
+Subject: ValuSignal 2026 early pricing ends June 1
+
+ValuSignal 2026
+Beat the deadline.
+
+The $47 off rate is live through June 1. After that, the price goes up.
+
+The Appraiser Track gets you every session, the AI workflow workshops, UAD 3.6 prep, and 3 months of on-demand replays for September 18–19 and beyond.
+
+Register before June 1: https://www.valusignal.com/register
+
+Closes June 1.
+
+Hansel
+ValuSignal 2026
+
+────────────────────────────────────
+Variation B
+Subject: Heads up — ValuSignal 2026 pricing closes June 1
+
+ValuSignal 2026
+June 1 is the cutoff.
+
+If you've been thinking about it, now's the time. The $47 off rate closes June 1, then the price goes up.
+
+Full access, up to 100 hours of sessions, Claude Code and OpenClaw workshops, UAD 3.6 readiness, 3 months of replay.
+
+Register here: https://www.valusignal.com/register
+
+Closes June 1.
+
+Hansel
+ValuSignal 2026
+
+────────────────────────────────────
+Variation C
+Subject: ValuSignal 2026 early pricing closes June 1
+
+ValuSignal 2026
+June 1 it changes.
+
+The $47 off rate ends June 1. Every session, every AI workshop, UAD 3.6 prep, 3 months of replay, locked in before the price goes up.
+
+Register here: https://www.valusignal.com/register
+
+Closes June 1.
+
+Hansel
+ValuSignal 2026
+
+
+FOLLOW-UP 2 — AI Workshop (Claude Code + OpenClaw)
+════════════════════════════════════════════════════════════════
+
+Variation A
+Subject: First hands-on AI workshop at an appraisal conference
+
+ValuSignal 2026
+This one's new.
+
+No other appraisal conference has done this. Hands-on Claude Code and OpenClaw workflows built specifically for how appraisers work. No tech background needed.
+
+Walk away using these tools the next day.
+
+See the full agenda: https://www.valusignal.com/register
+
+Hansel
+ValuSignal 2026
+
+────────────────────────────────────
+Variation B
+Subject: Learn Claude Code and OpenClaw at ValuSignal 2026 — built for appraisers
+
+ValuSignal 2026
+AI, for appraisers.
+
+The industry's first hands-on AI workshop. Claude Code, OpenClaw, real appraisal workflows. Practical, zero tech background required.
+
+Walk away ready to use them the next day.
+
+See the workshop: https://www.valusignal.com/register
+
+Hansel
+ValuSignal 2026
+
+────────────────────────────────────
+Variation C
+Subject: The AI workshop appraisers have been waiting for
+
+ValuSignal 2026
+Finally.
+
+Hands-on Claude Code and OpenClaw workflows built for appraisers. Practical sessions, no tech background required.
+
+See the workshop: https://www.valusignal.com/register
+
+Hansel
+ValuSignal 2026
+
+
+FOLLOW-UP 3 — Volume of Value (up to 100 hours)
+════════════════════════════════════════════════════════════════
+
+Variation A
+Subject: Up to 100 hours of appraisal content for one registration
+
+ValuSignal 2026
+One pass. Everything.
+
+Up to 100 hours of sessions. 50+ speakers. 3 months of on-demand replays.
+You don't have to attend live — pick the sessions that matter and come back to the rest.
+
+Register here: https://www.valusignal.com/register
+
+Hansel
+ValuSignal 2026
+
+────────────────────────────────────
+Variation B
+Subject: 50 speakers. 100 hours. 3 months of replay. ValuSignal 2026.
+
+ValuSignal 2026
+Here's the full scope.
+
+50+ appraisers on one stage. Up to 100 hours of content. Everything on-demand for 3 months.
+No filler. No one paid to be on stage.
+
+September 18–19. See who's speaking: https://www.valusignal.com/register
+
+Hansel
+ValuSignal 2026
+
+────────────────────────────────────
+Variation C
+Subject: Up to 100 hours of content. One registration. ValuSignal 2026.
+
+ValuSignal 2026
+Here's what you're getting.
+
+Up to 100 hours. 50+ vetted speakers. 3 months of replay access after the event.
+Many still in active production every week. September 18–19.
+
+Register here: https://www.valusignal.com/register
+
+Hansel
+ValuSignal 2026
+
+
+FOLLOW-UP 4 — Revenue Diversification + UAD 3.6
+════════════════════════════════════════════════════════════════
+
+Variation A  (Revenue angle)
+Subject: Two ways appraisers are building beyond the single-channel model
+
+ValuSignal 2026
+New revenue, same license.
+
+Revenue diversification is one of the core topics at ValuSignal 2026. Real appraisers sharing the strategies that worked, what it took to make the shift, and how to build a more durable practice without starting over.
+
+See the sessions: https://www.valusignal.com/register
+
+Hansel
+ValuSignal 2026
+
+────────────────────────────────────
+Variation B  (AMC pain angle)
+Subject: The AMC model isn't getting better. ValuSignal 2026 has sessions on what comes next.
+
+ValuSignal 2026
+The fees aren't moving.
+
+Revenue diversification, new practice areas, and strategies for building outside the single-channel model. Full sessions from appraisers who've already made the shift.
+
+See the sessions: https://www.valusignal.com/register
+
+Hansel
+ValuSignal 2026
+
+────────────────────────────────────
+Variation C  (UAD 3.6 angle)
+Subject: UAD 3.6 starts November 2. ValuSignal 2026 is the prep session.
+
+ValuSignal 2026
+November 2 is coming.
+
+UAD 3.6 readiness is a full session at ValuSignal 2026. What implementation may actually look like in practice, what lenders and AMCs are expecting, and how to get ahead of it before your first assignment under the new form.
+
+September 18–19. Before November 2.
+
+Reserve your spot: https://www.valusignal.com/register
+
+Hansel
+ValuSignal 2026
+
+P.S. Starting UAD 3.6 assignments on November 2? Add yourself to the UAD 3.6 Appraiser Map so lenders, banks, and AMCs can find you: https://map.valusignal.com
+
+
+FOLLOW-UP 5 — Final Close
+════════════════════════════════════════════════════════════════
+
+Variation A
+Subject: ValuSignal 2026 pricing goes up June 1
+
+ValuSignal 2026
+One last note.
+
+This is the last email I'll send on this. The $47 off rate closes June 1.
+
+Every session, the Claude Code and OpenClaw workshops, UAD 3.6 prep, 3 months of replays. September 18–19.
+
+After June 1 the price goes up. It won't come back down.
+
+Register here: https://www.valusignal.com/register
+
+Closes June 1.
+
+Hansel
+ValuSignal 2026
+
+────────────────────────────────────
+Variation B
+Subject: One last note — ValuSignal 2026 pricing ends June 1
+
+ValuSignal 2026
+One last thing.
+
+The $47 off rate closes June 1. Every session, the Claude Code and OpenClaw workshops, UAD 3.6 readiness, 3 months of replay. It won't come back down.
+
+Register here: https://www.valusignal.com/register
+
+Closes June 1.
+
+Hansel
+ValuSignal 2026
+
+────────────────────────────────────
+Variation C
+Subject: Before I leave you alone — ValuSignal 2026 pricing closes June 1
+
+ValuSignal 2026
+Last one.
+
+Every session, the AI workshops, UAD 3.6 prep, revenue diversification content, 3 months of replays. $47 off until June 1, then the price goes up.
+
+If something's holding you back, reply and tell me what it is.
+
+https://www.valusignal.com/register
+
+Closes June 1.
+
+Hansel
+ValuSignal 2026
+
+
+────────────────────────────────────────────────────────────────
+SEQUENCE TIMING
+────────────────────────────────────────────────────────────────
+Email 1  →  +3 days  →  FU1  →  +4 days  →  FU2  →  +4 days
+→  FU3  →  +4 days  →  FU4  →  +3 days  →  FU5
+
+A/B TEST RECOMMENDATIONS
+- FU1: "early pricing ends June 1" (A) vs "early pricing closes June 1" (C)
+- FU4: Revenue angle (A/B) vs UAD 3.6 angle (C) — UAD 3.6 will outperform as November 2 approaches

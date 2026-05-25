@@ -1,0 +1,851 @@
+# Creando tu Lista Inicial
+Curso: Mes 1
+Loom: https://www.loom.com/share/b88fbaee613f446183ad8e1945b189e2
+
+─────────────────────────────────────
+
+WEBVTT
+
+1
+00:00:00.850 --> 00:00:05.010
+<v 0>Listo, team, vamos con las listas de clientes ideales,</v>
+
+2
+00:00:05.730 --> 00:00:08.510
+eh, algo que pueden hacer primero, como primero ejercicio,
+
+3
+00:00:08.710 --> 00:00:10.790
+van a revisar su lista de clientes potenciales,
+
+4
+00:00:10.850 --> 00:00:13.770
+asÃ­ un vistazo general y se van a dar cuenta que la mayorÃ­a no
+
+5
+00:00:13.770 --> 00:00:16.170
+son sus perfiles de clientes cidades, no tambiÃ©n por eso,
+
+6
+00:00:16.470 --> 00:00:19.850
+es importante, dentro de todo, con los contactos que tienen su networking,
+
+7
+00:00:19.850 --> 00:00:23.030
+pues escoger bien, con quienes van a hacer esta campaÃ±a,
+
+8
+00:00:23.230 --> 00:00:28.070
+entonces, en esta secciÃ³n justamente vamos a ver cÃ³mo pueden crear su primera lista
+
+9
+00:00:28.070 --> 00:00:32.790
+de clientes potenciales y cÃ³mo lo vamos a trabajar.
+
+10
+00:00:32.970 --> 00:00:35.230
+Entonces, nada mÃ¡s como por contexto,
+
+11
+00:00:35.350 --> 00:00:38.270
+imagÃ­nense que ustedes son una agencia de recursos humanos.
+
+12
+00:00:38.850 --> 00:00:43.510
+Si ustedes buscan, por ejemplo, a todos los directores de recursos humanos en lÃ­ncad,
+
+13
+00:00:43.630 --> 00:00:48.310
+pues probablemente les van a salir de un montÃ³n de industrias y de
+
+14
+00:00:48.310 --> 00:00:52.970
+giros que a lo mejor ustedes no, pero si a lo mejor ustedes especÃ­ficamente
+
+15
+00:00:52.970 --> 00:00:57.630
+buscan empresas de recursos humanos directores de recursos humanos de empresas de consumo de
+
+16
+00:00:57.630 --> 00:01:02.590
+50 o 200 empleados, probablemente tengan problemas
+
+17
+00:01:02.590 --> 00:01:05.370
+de rotaciÃ³n o algo, pues van a tener mejores resultados,
+
+18
+00:01:05.590 --> 00:01:07.970
+entonces la lista se va haciendo un poco mÃ¡s pequeÃ±a,
+
+19
+00:01:07.970 --> 00:01:10.510
+tambiÃ©n esto va a depender de su networking y tal,
+
+20
+00:01:10.650 --> 00:01:13.870
+evidentemente, como lo platicamos en la secciÃ³n pasada,
+
+21
+00:01:14.630 --> 00:01:19.130
+si van empezando y tienen su networking chiquito,
+
+22
+00:01:19.650 --> 00:01:23.170
+pues vamos a empezar chiquitos, no ahora, para que este tipo de campaÃ±as funcionen,
+
+23
+00:01:23.170 --> 00:01:25.250
+si tienen que ser un poco mÃ¡s abolumen,
+
+24
+00:01:25.410 --> 00:01:27.550
+pero esto lo vamos a ir trabajando con conforme ustedes,
+
+25
+00:01:27.730 --> 00:01:30.750
+como la bola en nieve, lo que les decÃ­a, van a estar haciendo ciertas
+
+26
+00:01:30.750 --> 00:01:34.710
+actividades para incrementarnos su networking con su ICP,
+
+27
+00:01:35.150 --> 00:01:37.830
+al final del dÃ­a, probablemente ahorita no tengan tan buenos resultados,
+
+28
+00:01:38.030 --> 00:01:40.710
+pero en mes dos, en mes tres de que vayan corriendo la campaÃ±a,
+
+29
+00:01:41.010 --> 00:01:43.330
+evidentemente esto se va a empezar a poner interesante.
+
+30
+00:01:43.690 --> 00:01:46.470
+Entonces, hay diferentes maneras de hacer las listas,
+
+31
+00:01:46.610 --> 00:01:50.750
+recuerden, o sea, estÃ¡ en la parte de LinkedIn, estÃ¡ sus correos electrÃ³nicos trabajos
+
+32
+00:01:50.750 --> 00:01:55.530
+pasados, etcÃ©tera. Si de momento no tienen como demasiados perfiles
+
+33
+00:01:55.530 --> 00:02:00.310
+de clientes ideales, hagan el ejercicio como quiere hacerlo con la
+
+34
+00:02:00.310 --> 00:02:02.430
+gente que estÃ¡ un poquito mÃ¡s en general,
+
+35
+00:02:02.430 --> 00:02:05.710
+no, o sea, lo mejor no tan focalizada, lo que queremos en algÃºn momento
+
+36
+00:02:05.710 --> 00:02:08.850
+es que estÃ© sÃºper focalizada, pero por ahÃ­ puedes salir algo interesante,
+
+37
+00:02:08.850 --> 00:02:11.010
+entonces recuerden correos,
+
+38
+00:02:11.150 --> 00:02:15.830
+whatsapp, LinkedIn, etcÃ©tera. Ahora vamos a ver cÃ³mo
+
+39
+00:02:15.830 --> 00:02:20.490
+podemos correr justo el gpt que tiene
+
+40
+00:02:20.490 --> 00:02:24.310
+en la parte de abajo, de hecho voy a compartir pantalla por acÃ¡ para
+
+41
+00:02:24.310 --> 00:02:28.930
+que ustedes puedan ver pero bÃ¡sicamente si ustedes van en la parte de abajo
+
+42
+00:02:28.930 --> 00:02:31.270
+estÃ¡ el creador de listas,
+
+43
+00:02:31.390 --> 00:02:35.090
+entonces les va a dar esto entonces si le dan clic a quien empecemos
+
+44
+00:02:35.090 --> 00:02:39.630
+les va justo como decir hoy pues pasame tu
+
+45
+00:02:39.630 --> 00:02:44.450
+regla del uno tu documento de tu documento
+
+46
+00:02:44.450 --> 00:02:49.490
+de de posicionamiento entonces lo
+
+47
+00:02:49.490 --> 00:02:52.670
+vamos a agarrar esto es como mÃ­nimo ya despuÃ©s les voy a enseÃ±ar tambiÃ©n
+
+48
+00:02:52.670 --> 00:02:57.290
+a usar esta este gpt para
+
+49
+00:02:57.290 --> 00:03:01.870
+que no nada mÃ¡s sea por ejemplo con sus contactos de primer grado,
+
+50
+00:03:02.350 --> 00:03:05.650
+sino que podamos usarla para diferentes mecanismos.
+
+51
+00:03:06.550 --> 00:03:11.510
+Cuando esas prospecciÃ³n en frÃ­o a veces necesitas bajar como algunos otras seÃ±ales
+
+52
+00:03:11.510 --> 00:03:15.110
+que los vamos a ver, pero ahorita nos vamos a enfocar especÃ­ficamente para los
+
+53
+00:03:15.110 --> 00:03:17.710
+contactos de primer grado, para los que ya tienes actualmente.
+
+54
+00:03:20.070 --> 00:03:23.330
+Entonces, vamos a copiar esto, lo pegamos aquÃ­.
+
+55
+00:03:27.250 --> 00:03:31.010
+y esto es lo que nos da, nos da el resumen del ICP y
+
+56
+00:03:31.010 --> 00:03:34.190
+lo aquÃ­ viene ya la parte interesante, no dice opciones de la industria,
+
+57
+00:03:34.410 --> 00:03:37.110
+estos digamos que son como los filtros que ustedes van a poner en esa
+
+58
+00:03:37.110 --> 00:03:39.610
+es una videatoria, ahorita vamos a ver especÃ­ficamente cuÃ¡les,
+
+59
+00:03:40.090 --> 00:03:44.670
+pero justo no es de que tendrÃ­amos que buscar categorÃ­as de consultorÃ­a empresarial
+
+60
+00:03:44.670 --> 00:03:49.290
+en mi caso, no? Coaching profesionales evidentemente cuando ustedes tengan su documento
+
+61
+00:03:49.290 --> 00:03:52.990
+de la regla del uno lo van a poner acÃ¡ y aquÃ­ les va
+
+62
+00:03:52.990 --> 00:03:56.590
+a dar como sus criterios que tendrÃ­an que buscar, sus desagencias creativas,
+
+63
+00:03:56.830 --> 00:03:58.970
+servicios profesionales, recrutamiento, finanzas,
+
+64
+00:03:58.970 --> 00:04:01.790
+esas pequeÃ±os. Y aquÃ­ vienen, como los filtros,
+
+65
+00:04:02.050 --> 00:04:04.090
+el tamaÃ±o empresa de uno a diez empleados, por ejemplo,
+
+66
+00:04:04.090 --> 00:04:06.790
+si nos vamos acÃ¡ empleados en la empresa,
+
+67
+00:04:07.070 --> 00:04:10.530
+para mÃ­ tendrÃ­a que ser de uno a diez y tendrÃ­a que ser autÃ³nomo,
+
+68
+00:04:10.530 --> 00:04:13.470
+Â¿no? Entonces, seÃ±or el diseÃ±o fundador,
+
+69
+00:04:13.670 --> 00:04:16.210
+CEO, puerta, y luego indÃºstria,
+
+70
+00:04:16.350 --> 00:04:21.450
+tres, cuatro industrias sugeridas, que son las industrias estas que estÃ¡n acÃ¡,
+
+71
+00:04:22.130 --> 00:04:27.310
+luego la geografÃ­a, en este caso para mi serie en MÃ©xico y LatinoamÃ©rica,
+
+72
+00:04:27.970 --> 00:04:31.390
+actividad, este es sÃºper importante tambiÃ©n, por ejemplo,
+
+73
+00:04:31.690 --> 00:04:34.750
+ha publicado en LinkedIn, este siempre ponga lo aprendido,
+
+74
+00:04:34.850 --> 00:04:38.450
+porque es como la gente que interactÃºa alguna manera un poquito mÃ¡s con LinkedIn,
+
+75
+00:04:38.750 --> 00:04:42.710
+entonces importante, luego propietario,
+
+76
+00:04:42.770 --> 00:04:47.550
+direcciÃ³n, solo tal, este estÃ¡ bien bueno como te da tambiÃ©n
+
+77
+00:04:47.550 --> 00:04:52.310
+aquÃ­ como el output, la cadena voliana nada mÃ¡s para ponerlo como en
+
+78
+00:04:52.310 --> 00:04:57.290
+palabras sencillas, bÃ¡sicamente es como una especie de filtros
+
+79
+00:04:57.290 --> 00:05:01.270
+que los ponen en el buscador, entonces yo copio esto por ejemplo y lo
+
+80
+00:05:01.270 --> 00:05:04.330
+pongo acÃ¡, me va a dar, me va a dar ciertos criterios,
+
+81
+00:05:04.330 --> 00:05:09.530
+Â¿vale? Entonces si lo ponemos asÃ­, me va a dar una
+
+82
+00:05:09.530 --> 00:05:14.210
+listita, Â¿no? Y entonces esta digamos que es como la
+
+83
+00:05:14.210 --> 00:05:17.850
+manera rÃ¡pida de poder tener como tus primeros filtros,
+
+84
+00:05:18.110 --> 00:05:20.730
+voy a pausar aquÃ­ y voy a poner todos los filtros que me estÃ¡
+
+85
+00:05:20.730 --> 00:05:24.410
+diciendo acÃ¡ y ya vamos a meter directamente hacia el Navigator y ahÃ­ les
+
+86
+00:05:24.410 --> 00:05:27.750
+digo que hacer, Â¿vale? acÃ¡ estamos de vuelta,
+
+87
+00:05:28.090 --> 00:05:31.370
+este es bÃ¡sicamente los filtros que he puesto, pero antes de enseÃ±ar a los
+
+88
+00:05:31.370 --> 00:05:35.130
+filtros les voy a decir dÃ³nde tendrÃ­an que ustedes buscarlo,
+
+89
+00:05:35.290 --> 00:05:40.990
+una vez que estÃ©n dentro de el Navigator, Ãºnicamente
+
+90
+00:05:40.990 --> 00:05:43.990
+lo Ãºnico que tendrÃ­an que hacer es picarle aquÃ­ donde dice filtros de posibles
+
+91
+00:05:43.990 --> 00:05:46.490
+clientes y les va a salir a esto, que es bÃ¡sicamente lo que estoy
+
+92
+00:05:46.490 --> 00:05:48.570
+poniendo a canto. Estos que yo puse aquÃ­,
+
+93
+00:05:49.090 --> 00:05:51.570
+son los que me dio chachipit y yo puse algunos otros que son los
+
+94
+00:05:51.570 --> 00:05:54.530
+que vamos a ver puntualmente ahorita, Â¿no? Entonces,
+
+95
+00:05:54.530 --> 00:05:58.450
+si se fijaron en la lista de chachipit y me dijo que voy a
+
+96
+00:05:58.450 --> 00:06:01.150
+buscar de uno a diez, mÃ¡ximo,
+
+97
+00:06:01.370 --> 00:06:05.090
+entonces autÃ³nomo y uno a diez he puesto y evidentemente pues los que son,
+
+98
+00:06:05.470 --> 00:06:09.230
+a ver, voy a mover esto para acÃ¡. que creo que es,
+
+99
+00:06:09.370 --> 00:06:13.190
+ahÃ­ estÃ¡, se va a ver mejor. Entonces, lo ponemos esto aquÃ­,
+
+100
+00:06:13.290 --> 00:06:15.310
+entonces, si se fijan es como el propietario, socio,
+
+101
+00:06:15.350 --> 00:06:17.810
+el director, director ejecutivo, que son como los syllables,
+
+102
+00:06:18.150 --> 00:06:22.530
+y a mÃ­ me interesa mÃ¡s tambiÃ©n como los dueÃ±os, he puesto en este
+
+103
+00:06:22.530 --> 00:06:25.770
+caso en particular solamente puesto ciudad de MÃ©xico,
+
+104
+00:06:26.030 --> 00:06:29.190
+entonces aquÃ­ es donde justo ustedes pueden empezar cÃ³mo anicharse,
+
+105
+00:06:29.430 --> 00:06:31.890
+evidentemente yo ya tengo un networking un poco amplio,
+
+106
+00:06:31.970 --> 00:06:34.990
+entonces puedo puedo hacerlo un poco mÃ¡s especÃ­fico,
+
+107
+00:06:34.990 --> 00:06:38.470
+en su caso quizÃ¡s si no tienen tantos pero lo pueden dejar mÃ¡s abierto,
+
+108
+00:06:39.070 --> 00:06:41.770
+entonces si lo dejan mÃ¡s abierto, pues evidentemente se va haciendo mÃ¡s grande,
+
+109
+00:06:41.910 --> 00:06:44.010
+entonces entre mÃ¡s filtros pongan,
+
+110
+00:06:45.850 --> 00:06:50.470
+la lista se va haciendo mejor, pero tambiÃ©n si no tienen muchos contactos
+
+111
+00:06:50.470 --> 00:06:54.570
+a la hora de que quitan contactar los problemes de los resultados,
+
+112
+00:06:55.270 --> 00:06:59.550
+les salgan muy poquitos, mi por ejemplo, con estos filtros me salieron 204 resultados,
+
+113
+00:07:00.170 --> 00:07:02.950
+entonces ahÃ­ ustedes tienen que ir lo midiendo mÃ¡s o menos,
+
+114
+00:07:03.610 --> 00:07:08.890
+para este caso en particular, como son sus propios contactos tampoco recomiendo
+
+115
+00:07:08.890 --> 00:07:13.570
+que le pongan demasiados filtros, en contactos tendrÃ­an que ponerle aquÃ­ contacto de primer
+
+116
+00:07:13.570 --> 00:07:16.650
+grado y Ã©ste que es muy importante, no que ha publicado ni inquietar.
+
+117
+00:07:16.770 --> 00:07:20.930
+Entonces, si se fijan a mi mesa leÃ³n, 204 resultados y si lo revisamos
+
+118
+00:07:20.930 --> 00:07:23.010
+estÃ¡n muy bien, notos,
+
+119
+00:07:23.330 --> 00:07:25.350
+o sea, estÃ¡, por ejemplo,
+
+120
+00:07:26.150 --> 00:07:30.430
+ella que es de recursos humanos, Ã©l es business que de una inmobiliaria,
+
+121
+00:07:30.670 --> 00:07:35.130
+Ã©l es fundador de negocios industriales,
+
+122
+00:07:35.290 --> 00:07:39.390
+inteligencia artificial, me funciona, es un fundador de conexiÃ³n PIME,
+
+123
+00:07:39.490 --> 00:07:44.590
+me funciona, fundador exponencial, presidente fundador de posturas
+
+124
+00:07:44.590 --> 00:07:47.190
+de legÃ¡lmina, este es como un abogado.
+
+125
+00:07:48.010 --> 00:07:51.410
+En fin, es que que que me pudiera servir casi todos son siguios y
+
+126
+00:07:51.410 --> 00:07:53.990
+fundadores y eso no que es mi ICP,
+
+127
+00:07:53.990 --> 00:07:58.610
+tampoco yo me fijo como tanto en de que si son exactamente no exactamente
+
+128
+00:07:58.610 --> 00:08:01.330
+yo prefiero salir, mandar los mensajes,
+
+129
+00:08:01.790 --> 00:08:04.390
+si no son pues no son no me van a contestar aquÃ­ al final
+
+130
+00:08:04.390 --> 00:08:08.710
+del dÃ­a es como tratar de hacerlo tambiÃ©n lo mÃ¡s rÃ¡pido posible y nada
+
+131
+00:08:08.710 --> 00:08:13.570
+como quiero validando, entonces digamos que para allÃ¡ poder crear la lista lo
+
+132
+00:08:13.570 --> 00:08:17.310
+Ãºnico que tendrÃ­an que hacer es como aquÃ­ ondice seleccionar todo lo le ponen
+
+133
+00:08:17.310 --> 00:08:20.670
+guardar en lista y vamos a crear lista,
+
+134
+00:08:20.750 --> 00:08:25.250
+entonces voy a ponerla aquÃ­ draft ahora hay algo bien molesto dentro de ser
+
+135
+00:08:25.250 --> 00:08:28.530
+los Navigator pero bueno mira no podemos hacer nada asÃ­ funciona ahorita vamos a
+
+136
+00:08:28.530 --> 00:08:33.170
+ver quÃ© es voy a poner draft pues nada mÃ¡s no ustedes pues
+
+137
+00:08:33.170 --> 00:08:37.070
+ahÃ­ pondrÃ¡n su ICP o sea como como como hicieron como su bÃºsqueda vamos
+
+138
+00:08:37.070 --> 00:08:40.710
+a poner crear y guardar la Ãºnica parte mala que tiene esto es esto
+
+139
+00:08:40.710 --> 00:08:43.630
+o sea cuando tÃº le pones asÃ­ no hay una manera de poder agarrar
+
+140
+00:08:43.630 --> 00:08:48.310
+a todos los contactos de una y meterlos tienes que irte pÃ¡gina por pÃ¡gina
+
+141
+00:08:48.310 --> 00:08:52.850
+y hacer esto como que te vas acÃ¡ le pones a seleccionar le pones
+
+142
+00:08:52.850 --> 00:08:56.710
+a guardar en lista le pones en la lista que tÃº hiciste que en
+
+143
+00:08:56.710 --> 00:08:59.930
+este caso es de la prueba y luego te vuelves a bajar le das
+
+144
+00:08:59.930 --> 00:09:04.150
+al 3 y asÃ­ sucesivamente entonces pues si es un poco molesto pero bueno
+
+145
+00:09:04.150 --> 00:09:08.830
+mira al final si te pones a hacerle en 5
+
+146
+00:09:08.830 --> 00:09:10.910
+minutos 7 minutos acabas tu lista completo,
+
+147
+00:09:11.090 --> 00:09:13.290
+entonces tampoco estÃ¡ tan mal, Â¿vale?
+
+148
+00:09:15.110 --> 00:09:20.390
+Y asÃ­ continÃºan por un tiempo hasta que tengan la lista completa,
+
+149
+00:09:20.850 --> 00:09:23.170
+posteriormente una vez que ya la tienen lista,
+
+150
+00:09:23.270 --> 00:09:27.190
+bueno ahÃ­ se va a quedar, entonces nada mÃ¡s para que la puedan ver,
+
+151
+00:09:27.410 --> 00:09:29.770
+justo no, si ustedes se meten a esos Navigator,
+
+152
+00:09:29.770 --> 00:09:32.110
+se meten aquÃ­ de un diseposible clientes,
+
+153
+00:09:32.130 --> 00:09:34.510
+en la parte arriba, les van a salir todas las listas que han hecho,
+
+154
+00:09:34.510 --> 00:09:38.910
+Entonces, Ãºnico que tendrÃ­an que hacer es aquÃ­ poner en Drath Prova y ya
+
+155
+00:09:38.910 --> 00:09:42.770
+les van a salir. Ahora, lo Ãºnico malo de SEOs Navigator al final del
+
+156
+00:09:42.770 --> 00:09:45.030
+dÃ­a es que no puedes bajar un CSV, o sea,
+
+157
+00:09:45.070 --> 00:09:47.670
+no puedes bajar un excel de los contactos que tienes aquÃ­.
+
+158
+00:09:48.350 --> 00:09:52.470
+Entonces, hay diferentes maneras de hacerlo. Ahora, yo tambiÃ©n dentro del documento les he
+
+159
+00:09:52.470 --> 00:09:56.170
+puesto esto como justo para que tengan un poco mÃ¡s de acantabilidad de las
+
+160
+00:09:56.170 --> 00:10:01.150
+cosas que pudieran hacer acÃ¡, en donde idealmente pudieran
+
+161
+00:10:01.150 --> 00:10:03.790
+cargar toda su visita de contactos aquÃ­ ya sÃ© que es un trabajo y
+
+162
+00:10:03.790 --> 00:10:07.350
+medio manual, no detendrÃ­an que poner la gente que estÃ¡ acÃ¡,
+
+163
+00:10:08.210 --> 00:10:12.770
+no sÃ© por ejemplo Ã©l, entonces se expondrÃ­an de que
+
+164
+00:10:12.770 --> 00:10:18.370
+Ã©l aquÃ­, Ã©l es de
+
+165
+00:10:18.370 --> 00:10:20.810
+LinkedIn, este es un tipo de lit,
+
+166
+00:10:21.510 --> 00:10:25.630
+este es bueno,
+
+167
+00:10:25.770 --> 00:10:27.930
+bueno, y tendrÃ­an que estar revisando de cuÃ¡l es cada uno, Â¿no?
+
+168
+00:10:28.390 --> 00:10:30.970
+Hay otra manera y hay otras herramientas que les pone a ayudar a hacer
+
+169
+00:10:30.970 --> 00:10:33.870
+esto y una que se llama Phantom Buster que es esta que estÃ¡ aquÃ­,
+
+170
+00:10:34.490 --> 00:10:36.750
+que incluso pudieran correrla,
+
+171
+00:10:36.750 --> 00:10:39.510
+creo que tiene una acciÃ³n gratuito,
+
+172
+00:10:39.510 --> 00:10:42.690
+tienen 15 dÃ­as gratuitos, algo asÃ­ como de cosas que puedan hacer entonces lo
+
+173
+00:10:42.690 --> 00:10:46.430
+pueden aprovechar, pueden usar este como Phantom,
+
+174
+00:10:46.570 --> 00:10:51.890
+que es como una forma de ustedes usar lo
+
+175
+00:10:51.890 --> 00:10:55.030
+que haces justo eso, como ser Scrapping, si le ponen aquÃ­,
+
+176
+00:10:55.550 --> 00:10:59.270
+ponen en este caso el domain que estÃ¡ aquÃ­ arriba,
+
+177
+00:10:59.350 --> 00:11:01.890
+se lo copen y lo pegan ahÃ­ y les va a descargar un ccb
+
+178
+00:11:01.890 --> 00:11:05.330
+con toda la informaciÃ³n, entonces ya mÃ¡s fÃ¡cil pudieran tener la lista aquÃ­ ya
+
+179
+00:11:05.330 --> 00:11:08.190
+puesta con los 250 contactos.
+
+180
+00:11:08.450 --> 00:11:12.470
+Es un poco manual ya sÃ© esto pero vale la pena igual lo pueden
+
+181
+00:11:12.470 --> 00:11:16.170
+hacer en dos, tres dÃ­as con tiempos a lo van haciendo no sÃ© tampoco
+
+182
+00:11:16.170 --> 00:11:20.090
+es necesario como como ser el chiste de esto es que si planearlo bien
+
+183
+00:11:20.090 --> 00:11:25.090
+y si tenerlo bien puesto aquÃ­ todo para que justamente ustedes sepan
+
+184
+00:11:25.090 --> 00:11:27.350
+exactamente quÃ© hacer y cÃ³mo incorporarlo.
+
+185
+00:11:27.350 --> 00:11:29.630
+Ahora, una vez que ya tengan esto,
+
+186
+00:11:29.990 --> 00:11:32.050
+lo pueden trabajar de dos maneras,
+
+187
+00:11:32.210 --> 00:11:36.770
+pueden usar alguna plataforma de automatizaciÃ³n o lo pueden hacer de manera manual.
+
+188
+00:11:37.570 --> 00:11:41.570
+De hecho, tambiÃ©n una manera de automatizar tambiÃ©n es como igual,
+
+189
+00:11:41.690 --> 00:11:44.190
+copiando esta lista, usando herramientas,
+
+190
+00:11:44.450 --> 00:11:47.350
+ademÃ¡s de Phantom Buster, puede ser como Octopus,
+
+191
+00:11:47.630 --> 00:11:52.310
+como Prospeya y etc. entonces tambiÃ©n pudieran hacer usarlas
+
+192
+00:11:52.310 --> 00:11:57.770
+herramientas pero como quiera vale la pena que si tengan como quiera el
+
+193
+00:11:57.770 --> 00:12:02.310
+estoy eno para que ustedes sepan exactamente cÃ³mo les fue en la
+
+194
+00:12:02.310 --> 00:12:07.190
+campaÃ±a porque normalmente estas herramientas
+
+195
+00:12:07.190 --> 00:12:12.470
+lo que termina pasando es que nada mÃ¡s mandan los mensajes y si
+
+196
+00:12:12.470 --> 00:12:16.170
+tienen como el porcentaje de los que contestaron pero luego de ahÃ­ ya no
+
+197
+00:12:16.170 --> 00:12:19.190
+sÃ© quÃ© ya se queda y no no es un cerrement. Entonces no sabes
+
+198
+00:12:19.190 --> 00:12:23.730
+cuÃ¡ntas personas tuviste a calificaciÃ³n y cuÃ¡ntas tuviste a llamada de venta.
+
+199
+00:12:23.910 --> 00:12:28.170
+Entonces lo pueden lo pueden usar. De hecho me parece que voy a hacer
+
+200
+00:12:28.170 --> 00:12:30.630
+el ejercicio como quieran Prospeyaid.
+
+201
+00:12:30.870 --> 00:12:35.530
+Tienen creo que 15 dÃ­as de prueba lo pueden tambiÃ©n correr para esta
+
+202
+00:12:35.530 --> 00:12:40.130
+misma campaÃ±a. Entonces me parece que pudiÃ©ramos usarlo tambiÃ©n
+
+203
+00:12:40.130 --> 00:12:43.690
+para que vean ese formato como lo pudiÃ©ramos hacer.
+
+204
+00:12:44.790 --> 00:12:46.870
+Entonces, nada mÃ¡s para que vean como un domino,
+
+205
+00:12:46.910 --> 00:12:49.030
+un ejercicio de cÃ³mo se verÃ­a esto corriendo.
+
+206
+00:12:49.310 --> 00:12:52.270
+Entonces, ahora que ya saben cÃ³mo hacer las listas,
+
+207
+00:12:52.390 --> 00:12:54.870
+ahora vamos a craftear los mensajes ideales,
+
+208
+00:12:55.350 --> 00:13:00.050
+los primos mensajes de los de conexiÃ³n y como los mensajes de
+
+209
+00:13:00.050 --> 00:13:04.070
+seguimiento y luego los siguientes pasos que es de calificaciÃ³n y la llamada de
+
+210
+00:13:04.070 --> 00:13:06.470
+venta. Entonces, nos vemos en la siguiente intersecciÃ³n.
+
+211
+00:13:06.810 --> 00:13:07.110
+Gracias.

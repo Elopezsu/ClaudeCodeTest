@@ -1,0 +1,13 @@
+{
+  "name": "transcript-extractor",
+  "version": "1.0.0",
+  "description": "Extracts Loom transcripts from a Skool classroom",
+  "main": "extract.js",
+  "scripts": {
+    "start": "node extract.js",
+    "install-browsers": "npx playwright install chromium"
+  },
+  "dependencies": {
+    "playwright": "^1.43.0"
+  }
+}

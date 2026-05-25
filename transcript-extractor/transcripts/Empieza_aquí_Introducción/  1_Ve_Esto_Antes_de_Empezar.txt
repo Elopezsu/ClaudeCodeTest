@@ -1,0 +1,355 @@
+# Ve Esto Antes de Empezar
+Curso: (Empieza aquí) Introducción
+Loom: https://www.loom.com/share/76b4bd3ffdc24921bb12f17ced599714
+
+─────────────────────────────────────
+
+WEBVTT
+
+1
+00:00:00.560 --> 00:00:03.060
+<v 0>Bienvenido, bienvenida. Gracias por estar aquÃ­.</v>
+
+2
+00:00:03.400 --> 00:00:07.840
+Perdona aquÃ­ por el tecito, pero es para poder calentarme porque me quitÃ© la
+
+3
+00:00:07.840 --> 00:00:10.600
+chamarrita. Dicen que es bueno quitarte,
+
+4
+00:00:11.640 --> 00:00:14.340
+o sea, un tener un poco de frÃ­o, mientras haces esto,
+
+5
+00:00:14.380 --> 00:00:16.500
+entonces bueno, acÃ¡ estÃ¡. Ehh,
+
+6
+00:00:16.520 --> 00:00:18.740
+es muy simple. Lo que voy a ayudar a,
+
+7
+00:00:18.860 --> 00:00:23.380
+a trabajar con ustedes es a que puedan generar 5 lits calificados por
+
+8
+00:00:23.380 --> 00:00:27.580
+semana de manera predecible. es lo que vamos a lograr en estos prÃ³ximos meses,
+
+9
+00:00:27.780 --> 00:00:30.700
+este no es un curso o un taller de hoy pues mira,
+
+10
+00:00:30.840 --> 00:00:33.900
+genera contenido aquÃ­, construir una marca personal,
+
+11
+00:00:34.200 --> 00:00:38.940
+etcÃ©tera, mÃ¡s bien lo que tratamos de ser es instalar un sistema completo con
+
+12
+00:00:38.940 --> 00:00:42.400
+el paso a paso para que se pase exactamente quÃ© hacer y en quÃ©
+
+13
+00:00:42.400 --> 00:00:44.500
+momento hacerlo para tener esta predictividad.
+
+14
+00:00:45.100 --> 00:00:48.560
+Entonces la crua realidad que yo veo con muchos negocios es que tienen servicios
+
+15
+00:00:48.560 --> 00:00:50.580
+excepcionales, tienen servicios super buenos,
+
+16
+00:00:51.040 --> 00:00:55.360
+pero no saben el mecanismo que necesitan usar el sistema que necesitan usar para
+
+17
+00:00:55.360 --> 00:00:59.140
+poderse generar demanda y lo que termina pasando es lo tÃ­pico,
+
+18
+00:00:59.280 --> 00:01:02.480
+o sea, al final van dependiendo de referidos,
+
+19
+00:01:02.840 --> 00:01:06.940
+no saben quÃ© hacer, de repente hace un esfuerzo aquÃ­ y allÃ¡ y se
+
+20
+00:01:06.940 --> 00:01:09.200
+quema, al final termina siendo bastante complejo,
+
+21
+00:01:09.320 --> 00:01:13.840
+por eso construye esto, bÃ¡sicamente esto es lo que vamos a
+
+22
+00:01:13.840 --> 00:01:18.960
+lograr, lo que queremos hacer es pasar de la inconsistencia
+
+23
+00:01:18.960 --> 00:01:23.840
+a la predictabilidad. No queremos ya que sigas
+
+24
+00:01:23.840 --> 00:01:28.420
+publicando contenidos sin que tenga pues el retorno que realmente deberÃ­a tener dependiendo
+
+25
+00:01:28.420 --> 00:01:31.100
+justo de estos referidos o del algoritmo o de la suerte,
+
+26
+00:01:31.720 --> 00:01:34.920
+sintiendo ti cÃ³modo en los chats en los DMs y no saber quÃ© decir,
+
+27
+00:01:35.500 --> 00:01:39.840
+intentando ser conocido por un montÃ³n de cosas en lugar de ser conocido por
+
+28
+00:01:39.840 --> 00:01:44.300
+un tema en particular, sintiÃ©ndote invisible porque ser contenido quizÃ¡s no es pega,
+
+29
+00:01:44.660 --> 00:01:49.600
+no te estÃ¡ trayendo ningÃºn tipo de de retorno o en los chats dejan
+
+30
+00:01:49.600 --> 00:01:54.260
+en visto te dejan no sabes cÃ³mo avanzar y justo
+
+31
+00:01:54.260 --> 00:01:58.840
+lo que vamos a hacer ahora despuÃ©s en este programa es pasar
+
+32
+00:01:58.840 --> 00:02:03.640
+al otro lado no justo lo que queremos lograr es pasar de
+
+33
+00:02:03.640 --> 00:02:07.280
+este lugar a este lugar y lo vamos a hacer si en un ritmo
+
+34
+00:02:07.280 --> 00:02:10.920
+diario de actividades y ademÃ¡s se construyÃ³ el programa para hacerlo de esa manera
+
+35
+00:02:10.920 --> 00:02:15.820
+para hacer de manera consecutiva durante los tres meses.
+
+36
+00:02:16.360 --> 00:02:18.840
+Con esto vamos a crear todo un sistema inbound,
+
+37
+00:02:18.840 --> 00:02:21.740
+vamos a crear un sistema outbound, no te preocupes,
+
+38
+00:02:21.940 --> 00:02:25.860
+inbound es todo lo que te cae, nomÃ¡s en palabras de marketing,
+
+39
+00:02:26.400 --> 00:02:29.520
+outbound es tÃº salir a buscar, entonces vamos a buscar estos dos mecanismos.
+
+40
+00:02:29.900 --> 00:02:32.580
+La parte del contenido para ir generando confianza,
+
+41
+00:02:32.720 --> 00:02:38.020
+familiaridad, la parte de el Outbound para empezar a buscar clientes sÃºper especÃ­ficos
+
+42
+00:02:38.020 --> 00:02:40.080
+de tu perfil de cliente ideal, Â¿no?
+
+43
+00:02:40.620 --> 00:02:44.860
+Vamos a tambiÃ©n trabajar en aparte los chats para hacer los mÃ¡s conversacionales que
+
+44
+00:02:44.860 --> 00:02:48.340
+no sea como pitch de ventas y vas a ver que con esto tambiÃ©n
+
+45
+00:02:48.340 --> 00:02:52.060
+vas a empezar a mejorar ahÃ­ en tus conversaciones,
+
+46
+00:02:52.060 --> 00:02:58.020
+vas a hacer tambiÃ©n reconocido por una sola cosa especÃ­fica para que tu mensaje
+
+47
+00:02:58.020 --> 00:03:00.100
+no se disperse, digamos, en todo el ruido,
+
+48
+00:03:00.160 --> 00:03:03.180
+sino que te conozcan por una sola cosa, y al final del dÃ­a que
+
+49
+00:03:03.180 --> 00:03:05.700
+se ha reconocido, respetado y referido,
+
+50
+00:03:05.920 --> 00:03:11.180
+Â¿no? Entonces, eso es lo que vamos a lograr acÃ¡ y
+
+51
+00:03:11.180 --> 00:03:16.040
+bÃ¡sicamente lo que queremos construir aquÃ­ es este
+
+52
+00:03:16.040 --> 00:03:19.180
+sistema y te voy a explicar un poquito cÃ³mo es que lleguÃ© aquÃ­.
+
+53
+00:03:19.520 --> 00:03:24.240
+En realidad, yo tengo 12 aÃ±os de experiencia vendiendo en hace un
+
+54
+00:03:24.240 --> 00:03:27.340
+par de aÃ±os, Bueno,
+
+55
+00:03:27.340 --> 00:03:31.880
+del 2020 o 2024 me quedÃ© sin trabajo tres veces y justo dije,
+
+56
+00:03:31.880 --> 00:03:35.100
+bueno, voy a ser un salto de fe y a hacer un poco lo
+
+57
+00:03:35.100 --> 00:03:37.920
+que yo hago. EmpecÃ© con las teorÃ­as de ventas y tal.
+
+58
+00:03:38.380 --> 00:03:40.880
+Y justo me empezÃ³ a dar cuenta que ya no era suficiente.
+
+59
+00:03:41.380 --> 00:03:45.980
+Hay tanta gente haciendo como cosas increÃ­bles que al final ya
+
+60
+00:03:45.980 --> 00:03:49.400
+nada mÃ¡s dar como una consultoria o eso a veces se queda un poco
+
+61
+00:03:49.400 --> 00:03:51.500
+corto. nos necesitas ser como mÃ¡s cosas,
+
+62
+00:03:52.200 --> 00:03:55.020
+sobre todo si quieres salir tÃº como adelante.
+
+63
+00:03:55.400 --> 00:03:58.220
+Entonces necesitas como empaquetar bien tu servicio,
+
+64
+00:03:58.600 --> 00:04:02.360
+dejarlo de tal manera que que cientas a veces como que era la opciÃ³n
+
+65
+00:04:02.360 --> 00:04:06.980
+correcta. Y entonces aquÃ­ he destilado todo este aprendizaje que he tenido
+
+66
+00:04:06.980 --> 00:04:10.440
+en estos 12 aÃ±os, en estos dos aÃ±os con dos formaciones,
+
+67
+00:04:11.000 --> 00:04:15.540
+incorporÃ© marketing, incorporÃ© tambiÃ©n generaciones de manda
+
+68
+00:04:15.540 --> 00:04:20.180
+que ahÃ­ cogÃ­a un poco y entonces lo he destilado en
+
+69
+00:04:20.180 --> 00:04:24.980
+este programa en donde lo que quiero hacer es quitarnos las cosas de relleno,
+
+70
+00:04:25.440 --> 00:04:29.720
+quitarnos las cosas teÃ³ricas y no 100% a la prÃ¡ctica.
+
+71
+00:04:30.680 --> 00:04:34.480
+Por Ãºltimo, yo sÃ© que hay quizÃ¡s hay temas dependiendo en que he estado
+
+72
+00:04:34.480 --> 00:04:38.380
+ustedes que a lo mejor ya hiciste mi recomendaciÃ³n es que te vayas paso
+
+73
+00:04:38.380 --> 00:04:42.940
+a paso por los videos porque todo se va construyendo desde el
+
+74
+00:04:42.940 --> 00:04:45.380
+inicio, vas a ver que va a haber un montÃ³n de prompts,
+
+75
+00:04:45.580 --> 00:04:49.460
+un montÃ³n de GPs que te van a ayudar al proceso para ir construyendo
+
+76
+00:04:49.460 --> 00:04:54.180
+este sistema, entonces te conviene ir refinando quizÃ¡s algunas cosas que probablemente tuya
+
+77
+00:04:54.180 --> 00:04:58.480
+domines, simplemente por el hecho de el tipo de documento y el tipo de
+
+78
+00:04:58.480 --> 00:05:01.120
+informaciÃ³n que vas a empezar a obtener,
+
+79
+00:05:01.220 --> 00:05:04.600
+simplemente lo que tuya tienes, pasarlo a un cierto tipo de formato,
+
+80
+00:05:05.140 --> 00:05:08.200
+porque eso es lo que nos va a ayudar tambiÃ©n a que hacer de
+
+81
+00:05:08.200 --> 00:05:11.180
+este problema tambiÃ©n, algo un poco mÃ¡s sencillo.
+
+82
+00:05:11.420 --> 00:05:15.040
+Entonces, justo ya nada mÃ¡s para finalizar,
+
+83
+00:05:15.260 --> 00:05:19.120
+queremos evitar estas montaÃ±as rusas de emociones de tener un mes bueno,
+
+84
+00:05:19.120 --> 00:05:22.920
+un mes malo y empezar a tener justo esta predictividad,
+
+85
+00:05:23.480 --> 00:05:26.620
+tener estos leads que empiezas a crecer, que empiezas a facturar.
+
+86
+00:05:27.340 --> 00:05:29.500
+Entonces, nada, muchas gracias por estar aquÃ­ de nuevo,
+
+87
+00:05:29.860 --> 00:05:32.060
+listos para empezar, nos vemos en el siguiente modo.

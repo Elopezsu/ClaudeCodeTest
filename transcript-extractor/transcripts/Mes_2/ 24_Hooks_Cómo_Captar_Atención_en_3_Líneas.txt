@@ -1,0 +1,923 @@
+# Hooks: Cómo Captar Atención en 3 Líneas
+Curso: Mes 2
+Loom: https://www.loom.com/share/2ef2413385114d82b17971baa9a28a8c
+
+─────────────────────────────────────
+
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:04.693
+<v 0>La pieza mÃ¡s importante para que una publicaciÃ³n tenga mayor alcance</v>
+
+2
+00:00:04.693 --> 00:00:08.373
+y en este caso alcance es ganchos.
+
+3
+00:00:09.053 --> 00:00:12.793
+Entonces, primera cosa que vamos a ver dentro de los ganchos es,
+
+4
+00:00:14.013 --> 00:00:16.713
+Â¿cuÃ¡les son como los cuatro formatos?
+
+5
+00:00:16.913 --> 00:00:20.213
+SerÃ­an formatos, sÃ­. Que, LinkedIn te permite,
+
+6
+00:00:21.113 --> 00:00:25.653
+eh, usar para poder escribir los ganchos y esto se va a usar para
+
+7
+00:00:25.653 --> 00:00:28.133
+diferentes cosas o se pueden usar diferentes cosas.
+
+8
+00:00:28.753 --> 00:00:31.013
+Si quieres tener, o sea,
+
+9
+00:00:31.113 --> 00:00:34.233
+tu idea es como muy cortita, puedes usar un formato,
+
+10
+00:00:34.413 --> 00:00:36.533
+si tu dices muy larga, puedes usar otro y asÃ­. Entonces,
+
+11
+00:00:36.613 --> 00:00:41.413
+vamos a ver, Â¿cuÃ¡les son estas como formatos para que puedas
+
+12
+00:00:41.413 --> 00:00:45.993
+ver quizÃ¡s un poco las diferencias y vamos a explicar tambiÃ©n cÃ³mo puedes
+
+13
+00:00:45.993 --> 00:00:50.793
+ver, digamos, estos ganchos tambiÃ©n
+
+14
+00:00:50.793 --> 00:00:53.633
+en un previsualizado, Â¿no? Que ya hemos hablado del se llama autorera.
+
+15
+00:00:54.233 --> 00:00:58.813
+Entonces nada mÃ¡s es importante tambiÃ©n aclarar lo que
+
+16
+00:00:58.813 --> 00:01:04.213
+ya hemos venido practicando de que en este caso existen
+
+17
+00:01:04.213 --> 00:01:07.973
+dos tipos de ganchos en una publicaciÃ³n que es el gancho de texto y
+
+18
+00:01:07.973 --> 00:01:12.553
+el gancho visual. Para este caso en particular nos vamos a enfocar
+
+19
+00:01:12.553 --> 00:01:17.333
+especÃ­ficamente para el gancho de texto que es justamente como la parte
+
+20
+00:01:17.333 --> 00:01:22.473
+arriba y es digamos como la parte el copy principal
+
+21
+00:01:22.473 --> 00:01:26.193
+para la publicaciÃ³n en el gancho visual pues hay un montÃ³n de formatos estÃ¡n
+
+22
+00:01:26.193 --> 00:01:28.993
+los caduceles, estÃ¡n las imÃ¡genes, estÃ¡n las infografÃ­as,
+
+23
+00:01:29.373 --> 00:01:34.073
+estÃ¡n vÃ­deos etcÃ©tera pero eso son un poco mÃ¡s complejos acÃ¡
+
+24
+00:01:34.073 --> 00:01:37.333
+nos vamos a enfocar en los ganchos de texto, entonces cada uno al final
+
+25
+00:01:37.333 --> 00:01:41.773
+pues cumple una funciÃ³n diferente y la idea es que tambiÃ©n ustedes vayan haciendo
+
+26
+00:01:41.773 --> 00:01:44.773
+como sus tac de ganchos de esta manera tambiÃ©n les va a como ir
+
+27
+00:01:44.773 --> 00:01:47.193
+facilitando la vida en un futuro. Entonces,
+
+28
+00:01:47.933 --> 00:01:52.513
+la principal regla en este caso es ustedes solamente tienen tres lÃ­neas.
+
+29
+00:01:52.573 --> 00:01:56.173
+Entonces, la regla de las tres lÃ­neas solamente pueden usar tres lÃ­neas,
+
+30
+00:01:56.353 --> 00:02:00.933
+muy pocas palabras, entonces tienen que aprovechar ese espacio que tienen para meter
+
+31
+00:02:00.933 --> 00:02:05.773
+toda la idea de su contenido en ese espacio
+
+32
+00:02:05.773 --> 00:02:09.313
+que les dan. Entonces, hay dos maneras para poder lo hacer es el lup
+
+33
+00:02:09.313 --> 00:02:13.193
+abierto o el lup cerrado el lup abierto es cuando tÃº pones una idea
+
+34
+00:02:13.193 --> 00:02:18.473
+y lo dejas un poco como a la intriga para que la gente como
+
+35
+00:02:18.473 --> 00:02:23.593
+que quieras saber mÃ¡s y esto esto normalmente funciona como
+
+36
+00:02:23.593 --> 00:02:28.873
+el trailer de pelÃ­cula donde nada mÃ¡s pones como
+
+37
+00:02:28.873 --> 00:02:33.413
+una partecita pero le dejas ahÃ­ como la galletita para que la gente pues
+
+38
+00:02:33.413 --> 00:02:37.233
+quiera ver mÃ¡s y el otro es el lup cerrado que normalmente funciona muy
+
+39
+00:02:37.233 --> 00:02:41.313
+bien, por ejemplo, con opiniones contrarios o cuando tÃº quieres poner una idea fuerte
+
+40
+00:02:41.313 --> 00:02:45.153
+y que se note tu idea, entonces tÃº cierras la idea o el loop
+
+41
+00:02:45.153 --> 00:02:48.633
+cerrado para que la gente como que se quede pensando que ya me,
+
+42
+00:02:48.653 --> 00:02:51.593
+ya me dio la idea completa pero quiero saber mÃ¡s,
+
+43
+00:02:51.733 --> 00:02:55.413
+quiero saber por quÃ© piensa eso acerca de este tema en particular,
+
+44
+00:02:55.533 --> 00:02:57.833
+entonces son como un poco las diferencias,
+
+45
+00:02:58.433 --> 00:03:00.453
+en total mÃ¡s o menos tenemos unos 120,
+
+46
+00:03:00.453 --> 00:03:05.413
+150 caracteres que son los que puedes poner dentro de estas tres lÃ­neas y
+
+47
+00:03:05.413 --> 00:03:10.253
+entonces la idea es que en estas tres lÃ­neas podemos meter justo las
+
+48
+00:03:10.973 --> 00:03:15.913
+toda la idea como si fuera un titular y algunos
+
+49
+00:03:15.913 --> 00:03:20.633
+quizÃ¡s estarÃ¡n un poco en contra de lo que les voy a decir pero
+
+50
+00:03:20.633 --> 00:03:25.313
+al final del dÃ­a yo un poco lo que uso es clickbait hay
+
+51
+00:03:25.313 --> 00:03:29.613
+que decirlo para los que no estÃ©n tan familiarizados con quÃ© es clickbait son
+
+52
+00:03:29.613 --> 00:03:33.833
+como este tipo de titulares que son un poco escandalosos,
+
+53
+00:03:34.513 --> 00:03:39.293
+un poco como las revistas acÃ¡ en MÃ©xico de estos de de chismes o
+
+54
+00:03:39.293 --> 00:03:43.333
+habÃ­a una pÃ¡gina tambiÃ©n muy famosa de blogs que se va a Buzzfeed o
+
+55
+00:03:43.333 --> 00:03:47.953
+como todos estos tabloides tabloides digamos como de de chismes de patichapo
+
+56
+00:03:47.953 --> 00:03:52.473
+y eso entonces tratar de usar un poco obviamente bajÃ¡ndolo
+
+57
+00:03:52.473 --> 00:03:55.833
+de nivel y poniÃ©ndolo en contexto empresarial, pero un poco lo que queremos hacer
+
+58
+00:03:55.833 --> 00:03:59.173
+es que se vea como un titular, como un eso,
+
+59
+00:03:59.253 --> 00:04:04.333
+como algo que genera justamente esta atenciÃ³n
+
+60
+00:04:04.333 --> 00:04:08.893
+y tensiÃ³n tambiÃ©n. Entonces, la idea justo de hacerlo
+
+61
+00:04:08.893 --> 00:04:12.053
+de esta manera es que la gente le de clic a ver mÃ¡s,
+
+62
+00:04:12.193 --> 00:04:14.293
+si no, no lo vas a lograr, se queda muy vainilla,
+
+63
+00:04:14.373 --> 00:04:18.413
+no lo vas a lograr, si se queda como muy ahÃ­ o la idea
+
+64
+00:04:18.413 --> 00:04:20.633
+como que no se entiende, no lo vas a lograr.
+
+65
+00:04:20.633 --> 00:04:25.113
+por eso es importante y por eso yo incentivo a que lo han un
+
+66
+00:04:25.113 --> 00:04:29.673
+poco clickbait para que para que esto funcione entonces la idea es
+
+67
+00:04:29.673 --> 00:04:34.933
+plantear la historia la idea es no revelarla o es asÃ­ pero
+
+68
+00:04:34.933 --> 00:04:37.453
+la idea es que se queden como pues esta idea de que la gente
+
+69
+00:04:37.453 --> 00:04:42.173
+le pueda dar como click a ver mÃ¡s entonces me
+
+70
+00:04:42.173 --> 00:04:46.073
+voy para acÃ¡ para que vean ahora los patrones de lo que les habÃ­a
+
+71
+00:04:46.073 --> 00:04:51.133
+dicho los formatos para que vean justo a
+
+72
+00:04:51.133 --> 00:04:54.253
+esta,
+
+73
+00:04:54.933 --> 00:04:59.893
+este patrÃ³n ya aprovechado aquÃ­ nat es
+
+74
+00:04:59.893 --> 00:05:04.033
+el patrÃ³n 1 0 0 y es llenar la primera lÃ­nea y dejarlas segÃºn
+
+75
+00:05:04.033 --> 00:05:06.413
+la tercera en blanco, recuerden tenemos tres lÃ­neas,
+
+76
+00:05:06.693 --> 00:05:11.513
+entonces hay que crear tensiÃ³n cuando un
+
+77
+00:05:11.513 --> 00:05:14.173
+solo en un cedo es suficiente, en este caso creo que el ella estÃ¡
+
+78
+00:05:14.173 --> 00:05:16.673
+perfecto, ahÃ­ el perdi un cliente, punto,
+
+79
+00:05:17.153 --> 00:05:19.753
+pues porque funciona, porque crea atenciÃ³n,
+
+80
+00:05:19.993 --> 00:05:24.733
+porque la gente quiere saber mÃ¡s, por el chismesito y ella acompaÃ±Ã³ con este,
+
+81
+00:05:24.813 --> 00:05:26.933
+con este imagen visual,
+
+82
+00:05:26.933 --> 00:05:29.133
+entonces con que la gente se pregunta, ok,
+
+83
+00:05:29.373 --> 00:05:33.213
+esto que quiere decir con esto, se queda, es un look abierto,
+
+84
+00:05:33.333 --> 00:05:37.633
+demasiado abierto, entonces genera esta atenciÃ³n y la gente da clic en ver mÃ¡s,
+
+85
+00:05:38.033 --> 00:05:41.933
+y fÃ­jense que tambiÃ©n funcionÃ³, que pues bueno 344 personas leieron like,
+
+86
+00:05:42.093 --> 00:05:44.253
+mÃ¡s un alcance seguramente bastante grande,
+
+87
+00:05:44.253 --> 00:05:49.033
+Â¿no? Entonces este tipo de patrones funcionan
+
+88
+00:05:49.033 --> 00:05:53.653
+bien cuando son muy contundentes. Lo tenemos el patrÃ³n 1-0-1,
+
+89
+00:05:54.273 --> 00:05:56.513
+que es llenar a primera lÃ­nea, dejarlas a un en blanco,
+
+90
+00:05:56.553 --> 00:06:03.933
+y lo usa usar la tercera para crear
+
+91
+00:06:03.933 --> 00:06:07.173
+espacio visual para respirar. Esto es mÃ¡s como un tema de formato para que
+
+92
+00:06:07.173 --> 00:06:12.053
+no se vea como todo junto, Â¿vale? Entonces en este caso es
+
+93
+00:06:12.053 --> 00:06:17.273
+lo que podemos
+
+94
+00:06:17.273 --> 00:06:21.433
+ver este ejemplo, no dice, persona normal e ibrose algo a tempera caiza el
+
+95
+00:06:21.433 --> 00:06:24.073
+depa, espacio, persona en linkein,
+
+96
+00:06:24.213 --> 00:06:26.513
+dos puntos, esta diferencia de no,
+
+97
+00:06:26.753 --> 00:06:32.813
+este al igual del que el de nat es un loop abierto
+
+98
+00:06:32.813 --> 00:06:36.373
+aquÃ­ no se cierra la idea y entonces aquÃ­ justo no es como ok
+
+99
+00:06:36.373 --> 00:06:40.833
+alguien lo estÃ¡ leyendo a ver este es un tema hot por asÃ­ decirlo
+
+100
+00:06:40.833 --> 00:06:45.453
+porque pues a mucha gente justo no que estÃ¡ en LinkedIn como es un
+
+101
+00:06:45.453 --> 00:06:50.013
+poco como la crÃ­tica hacia al LinkedIn entonces la gente como que lo
+
+102
+00:06:50.013 --> 00:06:54.853
+toma pues con un morno entonces aquÃ­ se fue con 979
+
+103
+00:06:54.853 --> 00:07:00.213
+likes y 45 comentarios porque justo no se habla de
+
+104
+00:07:00.213 --> 00:07:03.753
+esta diferencia entre lo que harÃ­a una persona normal y lo que harÃ­a una
+
+105
+00:07:03.753 --> 00:07:06.813
+persona en Ninke y entonces se queda el lupa y abierto entonces la gente
+
+106
+00:07:06.813 --> 00:07:11.973
+igual por quienes a ver mÃ¡s lo tenemos el el patrÃ³n uno uno
+
+107
+00:07:11.973 --> 00:07:16.533
+a bajar esto que se estÃ¡ convenio si van aquÃ­ el patrÃ³n uno
+
+108
+00:07:16.533 --> 00:07:21.233
+uno uno que usar usar las tres lÃ­neas consecutivas normalmente esta funciona bien cuando
+
+109
+00:07:21.233 --> 00:07:26.013
+quieres tener comunidad muy completa de algo algo que normalmente
+
+110
+00:07:26.013 --> 00:07:30.573
+es cuando por ejemplo estos experimentos o cuando quieres plasmar
+
+111
+00:07:30.573 --> 00:07:33.473
+como una idea completa y no tal cÃ¡ncer el espacio bueno usa las 3
+
+112
+00:07:33.473 --> 00:07:37.633
+lÃ­neas, por ejemplo Ã©l dice mira yo tengo un montÃ³n de llamadas de venta
+
+113
+00:07:37.633 --> 00:07:41.613
+con gente corporativa asÃ­ que estoy construyendo un diccionario de cosas que deberÃ­a de
+
+114
+00:07:41.613 --> 00:07:44.013
+saber pero no siempre son tan claras,
+
+115
+00:07:44.193 --> 00:07:48.053
+este tambiÃ©n es un loop abierto, la mayorÃ­a de los de los hooks van
+
+116
+00:07:48.053 --> 00:07:52.733
+a venir mÃ¡s como en loop abierto porque justo como
+
+117
+00:07:52.733 --> 00:07:55.613
+que dejan ahÃ­ un poco la intriga y la gente pues le da clic
+
+118
+00:07:55.613 --> 00:07:59.873
+a ver mÃ¡s a menos que sea como les digo una opiniÃ³n como bien
+
+119
+00:07:59.873 --> 00:08:02.253
+contundente pues lo Entonces,
+
+120
+00:08:02.633 --> 00:08:05.853
+esto estÃ¡ muy bueno porque fÃ­jense, o sea, es como todo Ã©l querÃ­a poner
+
+121
+00:08:05.853 --> 00:08:09.453
+como una historia de Ã©l, entonces en justo,
+
+122
+00:08:09.553 --> 00:08:12.993
+de todas las llamadas de ventas, entonces como que las bajÃ³ y las va
+
+123
+00:08:12.993 --> 00:08:15.013
+a poner un diccionario la gente que lo sigue sabe,
+
+124
+00:08:15.313 --> 00:08:17.413
+que Ã©l siempre tiene un montÃ³n de llamadas de ventas,
+
+125
+00:08:17.493 --> 00:08:20.273
+entonces pues nada, genera como este intrigador,
+
+126
+00:08:20.733 --> 00:08:22.933
+lo tenemos el patrÃ³n 1-1-0,
+
+127
+00:08:23.613 --> 00:08:30.853
+que es llena las primeras dos dÃ­neas, luego de
+
+128
+00:08:31.413 --> 00:08:35.213
+este caso se pueden usar de hecho de dos maneras,
+
+129
+00:08:35.653 --> 00:08:39.033
+una manera por ejemplo es esta que usÃ³ Guillermo en este caso,
+
+130
+00:08:39.453 --> 00:08:45.093
+que es al final poner
+
+131
+00:08:45.093 --> 00:08:49.613
+como toda la idea digamos como completa en un solo enunciado que
+
+132
+00:08:49.613 --> 00:08:54.033
+se hace un poco mÃ¡s largo, como aquÃ­ no dice el 90 por ciento
+
+133
+00:08:54.033 --> 00:08:57.653
+de los posts que publico van sin fotos. Este lo pudo haber bajado a
+
+134
+00:08:57.653 --> 00:09:01.713
+darle espacio en blanco y luego poner el otro texto,
+
+135
+00:09:02.293 --> 00:09:06.053
+pero lo que veo es que como estÃ¡ muy largo, seguramente no iba a
+
+136
+00:09:06.053 --> 00:09:08.973
+caber bien en el tercer renglÃ³n,
+
+137
+00:09:09.013 --> 00:09:12.233
+entonces lo puso todo pegado para que se alcanzara a ver.
+
+138
+00:09:12.713 --> 00:09:16.493
+Porque algo que tenemos que tomar en cuenta tiene que ver con esto que
+
+139
+00:09:16.493 --> 00:09:21.213
+hice mÃ¡s. Por eso vamos a usar este herramienta que estÃ¡ aquÃ­,
+
+140
+00:09:21.213 --> 00:09:26.273
+mÃ¡s vamos a hacer el experimento para
+
+141
+00:09:26.273 --> 00:09:31.133
+que ustedes puedan ver justamente puedan que
+
+142
+00:09:31.133 --> 00:09:35.053
+no se les vaya como esta partecita y que puedan completar la idea y
+
+143
+00:09:35.053 --> 00:09:39.693
+que justo ustedes empiecen ya a formatear precisamente los ganchos entonces
+
+144
+00:09:39.693 --> 00:09:44.713
+si se fijan todos estos son buenos ganchos son como muy contundentes
+
+145
+00:09:44.713 --> 00:09:49.053
+este tambiÃ©n estÃ¡ muy bueno, Ã©l es tambiÃ©n bastante popular en EspaÃ±a,
+
+146
+00:09:49.293 --> 00:09:53.853
+entonces tambiÃ©n se fue bastante bien. Tips adicionales
+
+147
+00:09:53.853 --> 00:09:57.753
+para ganchos, esto lo que les decÃ­a que ahorita vamos a ser como el
+
+148
+00:09:57.753 --> 00:09:59.873
+experimento, nada mÃ¡s que aquÃ­,
+
+149
+00:10:00.033 --> 00:10:03.793
+como se imagen, vamos,
+
+150
+00:10:05.633 --> 00:10:11.233
+voy a pausar tantito y voy a hacer algo que les
+
+151
+00:10:11.233 --> 00:10:15.593
+quiero mostrar. buenÃ­simo,
+
+152
+00:10:15.593 --> 00:10:20.593
+acÃ¡ he vuelto, he puesto esta herramienta
+
+153
+00:10:20.593 --> 00:10:23.833
+que es gratuita, se las puse ahÃ­ tambiÃ©n en la parte abajo para que
+
+154
+00:10:23.833 --> 00:10:28.573
+la puedan revisar, se llama autorerape, es el formateador
+
+155
+00:10:28.573 --> 00:10:33.133
+de texto, entonces vamos a arrar justo el ejemplo que tenÃ­amos de
+
+156
+00:10:33.133 --> 00:10:36.853
+Guillermo para que vean aquÃ­ cÃ³mo cambiÃ³ un poco y cÃ³mo pueden acomodarnos y
+
+157
+00:10:36.853 --> 00:10:39.413
+estos nada mÃ¡s para que ustedes tengan tambiÃ©n un ni de cÃ³mo lo pueden
+
+158
+00:10:39.413 --> 00:10:43.073
+ir acomodando. Entonces, este es como su publicaciÃ³n,
+
+159
+00:10:43.193 --> 00:10:46.633
+vale. Entonces, fÃ­jense Ã©l, quizÃ¡s lo va como esta manera por la razÃ³n.
+
+160
+00:10:46.753 --> 00:10:51.493
+Entonces, como quiere mostrar toda la idea completa aquÃ­ y entonces si
+
+161
+00:10:51.493 --> 00:10:54.233
+se fijan aquÃ­ tiene dos y conoce esta cosa,
+
+162
+00:10:54.373 --> 00:10:57.073
+no, esta que es como la computadora. AsÃ­ es como lo verÃ­a la gente
+
+163
+00:10:57.073 --> 00:10:59.813
+desde el ordenador, desde el laptop,
+
+164
+00:11:00.073 --> 00:11:04.213
+normal y asÃ­ es como lo verÃ­a la gente desde el celular.
+
+165
+00:11:04.733 --> 00:11:07.033
+Entonces, si se fijan aquÃ­ el mor,
+
+166
+00:11:07.633 --> 00:11:11.773
+corta la parte que dice posibles. Pero de todas maneras,
+
+167
+00:11:11.913 --> 00:11:15.753
+aunque esto haya pasado,
+
+168
+00:11:16.353 --> 00:11:18.793
+funcionan bien porque sÃ­ se termina de completar la idea,
+
+169
+00:11:19.133 --> 00:11:22.893
+no? Eso es solo hay tres explicaciones, ademÃ¡s faltaron como la parte posibles.
+
+170
+00:11:22.993 --> 00:11:25.993
+Entonces, cuando le da gente le pica more en teorÃ­a ya te sale toda
+
+171
+00:11:25.993 --> 00:11:28.613
+la publicaciÃ³n. Entonces,
+
+172
+00:11:29.053 --> 00:11:34.673
+si este, por ejemplo, lo hubiera agarrado aquÃ­ y lo hubiera puesto en
+
+173
+00:11:34.673 --> 00:11:36.993
+dos lÃ­neas, fÃ­jense cÃ³mo se corta,
+
+174
+00:11:37.273 --> 00:11:40.493
+es como 90% de los posts que publico van sin foto y aÃºn asÃ­
+
+175
+00:11:40.493 --> 00:11:44.073
+funcionan solo hay tres y la idea no se termina de completar,
+
+176
+00:11:44.113 --> 00:11:49.253
+Â¿de acuerdo? Entonces si esta publicaciÃ³n hubiera
+
+177
+00:11:49.253 --> 00:11:52.353
+dejado asÃ­ y lo pone asÃ­,
+
+178
+00:11:52.853 --> 00:11:57.533
+fÃ­jense cÃ³mo se baja el funcionan porque es mÃ¡s de una y se termina
+
+179
+00:11:57.533 --> 00:12:00.893
+la idea. Entonces por eso lo puso de esta manera,
+
+180
+00:12:01.113 --> 00:12:03.693
+ahora pudiera pudo haber hecho esto,
+
+181
+00:12:04.073 --> 00:12:08.533
+pero se desverraron, no es como el 90% despuÃ©s que aplicaban sin foto y
+
+182
+00:12:08.533 --> 00:12:11.313
+en asÃ­, y como que se corta un poco de ediciÃ³n se funcionan y
+
+183
+00:12:11.313 --> 00:12:13.913
+luego punto solo hay tres explicaciones posibles.
+
+184
+00:12:14.473 --> 00:12:19.093
+Entonces si se fijan aquÃ­ por lo que Ã©l querÃ­a comunicar la manera,
+
+185
+00:12:19.513 --> 00:12:22.753
+o sea, la mejor manera para poderlo hacer es hacerlo todo completo.
+
+186
+00:12:23.293 --> 00:12:26.313
+Entonces por eso me refiero que va a depender tambiÃ©n de la idea que
+
+187
+00:12:26.313 --> 00:12:32.593
+ustedes quieran hacer, de cÃ³mo lo pueden justamente formatear
+
+188
+00:12:32.593 --> 00:12:37.053
+para que se alcance a consolidar toda la idea dentro del espacio que ustedes
+
+189
+00:12:37.053 --> 00:12:41.273
+tienen. Por eso, hago mucho encapiÃ© de usar este herramienta o alguna que tenga
+
+190
+00:12:41.273 --> 00:12:43.353
+esto, porque la gente, o sea,
+
+191
+00:12:43.433 --> 00:12:45.993
+aunque te quepan aquÃ­, digamos,
+
+192
+00:12:46.153 --> 00:12:48.373
+las dos o tres lÃ­neas, a la gente se olvida,
+
+193
+00:12:48.793 --> 00:12:53.333
+esta partecita que se come el mismo espacio de linke
+
+194
+00:12:53.333 --> 00:12:58.153
+y entonces muchas veces se queda como la idea y un poco rota,
+
+195
+00:12:58.693 --> 00:13:03.073
+entonces por eso es importante conocer todos estos patrones y ver cÃ³mo pueden acomodar
+
+196
+00:13:03.073 --> 00:13:05.133
+este gancho y que haga sentido.
+
+197
+00:13:05.838 --> 00:13:09.998
+ahora algunas ideas adicionales AdemÃ¡s de esto,
+
+198
+00:13:10.198 --> 00:13:13.798
+que tambiÃ©n son importantes como aclarar,
+
+199
+00:13:14.178 --> 00:13:19.038
+es como que el texto este
+
+200
+00:13:19.038 --> 00:13:21.278
+bien formateado para el celular,
+
+201
+00:13:22.138 --> 00:13:26.638
+se hay que optimizarlo para el mÃ³vil, hay que previsualizar todo el juki y
+
+202
+00:13:26.638 --> 00:13:30.538
+el texto antes de publicar para que vean que estÃ¡ bien escrito.
+
+203
+00:13:31.438 --> 00:13:33.898
+En ocasiones tambiÃ©n estÃ¡ bien usar como la palabra pero,
+
+204
+00:13:33.998 --> 00:13:37.038
+porque la palabra pero genera atenciÃ³n, entonces tÃº puedes poner como una idea central
+
+205
+00:13:37.038 --> 00:13:40.078
+y lo puedes poner como un perro para dar la intenciÃ³n.
+
+206
+00:13:40.278 --> 00:13:43.158
+Hay que usar como lenguaje sÃºper claro, sÃºper sencillo,
+
+207
+00:13:43.398 --> 00:13:48.258
+preciso, un problema que veo tambiÃ©n muy muy seguido cuando
+
+208
+00:13:48.258 --> 00:13:51.838
+la gente va empezando, es que trate poner muchas ideas tambiÃ©n en una publicaciÃ³n.
+
+209
+00:13:52.098 --> 00:13:54.378
+AquÃ­ la idea es como quitar el ruido,
+
+210
+00:13:54.598 --> 00:13:57.598
+una sola idea, quitar palabras que estÃ¡n de sobra,
+
+211
+00:13:57.738 --> 00:14:01.118
+no hay que sobreexplicar cosas sÃºper concretas,
+
+212
+00:14:01.178 --> 00:14:05.338
+hay un espacio limitado tanto nos ganchos como una y la gente no le
+
+213
+00:14:05.338 --> 00:14:10.358
+he pues entonces hay que aprovecharlo y conforme vas construyendo tambiÃ©n los
+
+214
+00:14:10.358 --> 00:14:13.598
+clientes que tÃº tienes tu misma trayectoria,
+
+215
+00:14:13.598 --> 00:14:19.098
+los mismos errores, tus cicatrices, etcÃ©tera pues hay que aprovechar esa credibilidad entonces que
+
+216
+00:14:19.098 --> 00:14:22.598
+puedo decir solo yo cuÃ¡l es mi Ã¡ngulo, cuÃ¡l es la cosa que a
+
+217
+00:14:22.598 --> 00:14:26.998
+mÃ­ me pasÃ³ y mi opiniÃ³n sobre algo en particular entonces eso le da
+
+218
+00:14:26.998 --> 00:14:30.618
+como con el tiempo pues este tono que es al final lo que todos
+
+219
+00:14:30.618 --> 00:14:33.198
+queremos y te va haciendo destacar con el tiempo.
+
+220
+00:14:33.358 --> 00:14:37.958
+Entonces, por contexto, los ganchos muestran mezclan por diferentes tipos
+
+221
+00:14:37.958 --> 00:14:42.138
+de elementos para darle justo esta naturalidad y este impacto.
+
+222
+00:14:42.738 --> 00:14:44.998
+Entonces, esta habilidad, al final del dÃ­a,
+
+223
+00:14:45.078 --> 00:14:49.718
+las lavas incorporando, sobre todo cuando empiezas a conocer precisamente quÃ© elementos
+
+224
+00:14:49.718 --> 00:14:52.918
+son, quÃ© son los que tenemos que incorporar dentro de los ganchos,
+
+225
+00:14:52.938 --> 00:14:55.538
+que son precisamente los que vamos a ver en el siguiente capÃ­tulo,
+
+226
+00:14:55.938 --> 00:15:00.578
+entonces es importante tambiÃ©n ver estos elementos que hacen de
+
+227
+00:15:00.578 --> 00:15:05.318
+un buen gancho o sea lo hacen eso como que sea mÃ¡s contundente
+
+228
+00:15:05.318 --> 00:15:07.358
+y lo hacen ser un buen gancho o no,
+
+229
+00:15:07.478 --> 00:15:10.278
+entonces vamos a ver estos elementos en el siguiente capÃ­tulo

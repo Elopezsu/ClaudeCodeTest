@@ -1,0 +1,1027 @@
+# Patrones de Escritura
+Curso: Mes 2
+Loom: https://www.loom.com/share/705b1a7264434375af78666b06ee9dc6
+
+─────────────────────────────────────
+
+WEBVTT
+
+1
+00:00:00.450 --> 00:00:05.010
+<v 0>Team, es muy importante el formato y la manera</v>
+
+2
+00:00:05.010 --> 00:00:08.030
+en cÃ³mo van a escribir en LinkedIn, ehm,
+
+3
+00:00:08.070 --> 00:00:10.530
+porque pueden tener los mejores insights del mundo,
+
+4
+00:00:10.790 --> 00:00:15.150
+pero si no lo entregan con el formato que la gente estÃ¡ acostumbrada o
+
+5
+00:00:15.150 --> 00:00:18.070
+le gusta consumir,
+
+6
+00:00:18.210 --> 00:00:20.810
+dentro del LinkedIn la verdad es que va a tener,
+
+7
+00:00:20.870 --> 00:00:24.650
+eh, problemas con el alcance y con la generaciÃ³n de lits.
+
+8
+00:00:25.570 --> 00:00:29.250
+Eh, hay muchos formatos que seguramente los han leÃ­do por ahÃ­ en donde pues
+
+9
+00:00:29.250 --> 00:00:33.930
+tienen que poner como listas, tienen que poner como la parte
+
+10
+00:00:33.930 --> 00:00:36.670
+de los ganchos que sea escaneable, que sea dijerible,
+
+11
+00:00:36.850 --> 00:00:38.990
+que sea mÃ¡s activo, no tan pasivo,
+
+12
+00:00:39.670 --> 00:00:44.210
+pero tambiÃ©n es verdad que el uso excesivo del formato tambiÃ©n
+
+13
+00:00:44.210 --> 00:00:48.830
+destruye un poco tu alcance porque al final del dÃ­a pues se
+
+14
+00:00:48.830 --> 00:00:52.810
+nota demasiado pulido y se nota como demasiado puesto pocho chipitinto,
+
+15
+00:00:52.810 --> 00:00:57.790
+es hay que encontrar como el balance justo entre lo que significa que
+
+16
+00:00:57.790 --> 00:01:02.610
+tu contenido sea descaÃ±able, entre lo que significa usar los patrones clÃ¡sicos
+
+17
+00:01:02.610 --> 00:01:05.070
+de escritura para redes sociales, en este caso para LinkedIn,
+
+18
+00:01:05.610 --> 00:01:10.330
+y lo que significa escribir con un poco mÃ¡s de criterios siguiendo
+
+19
+00:01:10.330 --> 00:01:17.350
+ciertos patrones, pero a la vez tratando de darle siempre nuestro punto
+
+20
+00:01:17.350 --> 00:01:22.070
+de vista, Â¿de acuerdo? entonces hay varios fundamentos que tenemos
+
+21
+00:01:22.070 --> 00:01:26.670
+que ver por acÃ¡, entonces el primer fundamento serÃ­a como
+
+22
+00:01:26.670 --> 00:01:31.550
+tratar de escribir, esto ya lo hemos repetido a lo largo de todo el
+
+23
+00:01:31.550 --> 00:01:36.070
+programa y tambiÃ©n a la parte del contenido tiene que ver con
+
+24
+00:01:36.070 --> 00:01:40.570
+hay que escribir desde nuestro punto de vista de evitar hablar de la empresa,
+
+25
+00:01:41.170 --> 00:01:48.310
+hablar desde el punto de
+
+26
+00:01:48.310 --> 00:01:53.230
+vista usar yo palabras que tÃº normalmente usarÃ­as o las palabras que se
+
+27
+00:01:53.230 --> 00:01:58.790
+usan dentro de tu industria evitar palabras o
+
+28
+00:01:58.790 --> 00:02:03.530
+jergas como tipo sinergia, optimizar estas palabras que son como una mÃ¡s puro relleno.
+
+29
+00:02:05.050 --> 00:02:09.650
+Y tambiÃ©n algo que que se recomienda hacer es
+
+30
+00:02:09.650 --> 00:02:12.890
+como hacer como preguntas retÃ³ricas.
+
+31
+00:02:12.890 --> 00:02:16.670
+Cuando escribes contenido algo que funciona muy bien es como suscribir,
+
+32
+00:02:16.810 --> 00:02:19.650
+preguntar retÃ³ricas, usar la ironÃ­a,
+
+33
+00:02:20.250 --> 00:02:22.450
+usar estos elementos que son un poco mÃ¡s humanos,
+
+34
+00:02:22.450 --> 00:02:28.470
+entonces de ahÃ­ creo que es importante tambiÃ©n como poderlo
+
+35
+00:02:28.470 --> 00:02:31.930
+mostrar, Â¿no? Por otro lado,
+
+36
+00:02:31.990 --> 00:02:36.990
+la manera como mÃ¡s fÃ¡cil pueden empezar como a
+
+37
+00:02:36.990 --> 00:02:40.790
+escribir, es siguiendo como ciertos formatos que ya funcionan.
+
+38
+00:02:40.970 --> 00:02:45.090
+Entonces acuense esto que les dice que la gente no lee,
+
+39
+00:02:45.370 --> 00:02:48.090
+ahora escanea, la expanda atenciÃ³n, por contexto,
+
+40
+00:02:48.370 --> 00:02:51.550
+la palabra del 2024 fue Brainwrot,
+
+41
+00:02:51.690 --> 00:02:54.850
+que bÃ¡sicamente significa que se te irrite el cerebro.
+
+42
+00:02:55.770 --> 00:03:00.290
+Entonces tristemente esa fue la palabra del 2024 y eso es
+
+43
+00:03:00.290 --> 00:03:05.810
+justamente porque la gente ya estÃ¡ sÃºper adicta a la
+
+44
+00:03:05.810 --> 00:03:09.690
+redes sociales y ya ni siquiera ve ni lea nada nada mÃ¡s va como
+
+45
+00:03:09.690 --> 00:03:14.210
+escroleando entonces necesitas poder captar esa atenciÃ³n y por eso
+
+46
+00:03:14.210 --> 00:03:17.410
+es que tÃº le tienes que dar lo mÃ¡s dijerido posible tomando un cuenta
+
+47
+00:03:17.410 --> 00:03:22.350
+las cosas que le dije anteriormente entonces para hacerlo hay diferentes formatos que
+
+48
+00:03:22.350 --> 00:03:26.310
+funcionan muy bien para para que se puede escanear de manera sencilla hay diferentes
+
+49
+00:03:26.310 --> 00:03:30.850
+reglas estÃ¡ la regla 1-3-1 1-3-1 1-5-1 que no es
+
+50
+00:03:30.850 --> 00:03:34.990
+otra cosa que poner por ejemplo en el 1-3-1 es una oraciÃ³n de algo
+
+51
+00:03:34.990 --> 00:03:38.750
+que tÃº estÃ¡s como presentando y lo opones tres viÃ±etas y lo opones una
+
+52
+00:03:38.750 --> 00:03:43.430
+oraciÃ³n como de resumen, o que resumen justo las viÃ±etas y la idea
+
+53
+00:03:43.430 --> 00:03:46.210
+central, por ejemplo el formato 1,
+
+54
+00:03:46.290 --> 00:03:48.310
+1, 1, 3, 1 es una igual,
+
+55
+00:03:48.450 --> 00:03:52.050
+una oraciÃ³n de introducciÃ³n y luego ahÃ­ mismo opones como la respuesta y luego
+
+56
+00:03:52.050 --> 00:03:56.650
+opones tres viÃ±etas que apoyen esa respuesta y la
+
+57
+00:03:56.650 --> 00:04:01.170
+oraciÃ³n de resumen, entonces al final si te fijas se van repitiendo
+
+58
+00:04:01.170 --> 00:04:05.710
+estos 9.1.1 es igual, una introducciÃ³n a mejor cuando quieres hacer una idea mÃ¡s
+
+59
+00:04:05.710 --> 00:04:09.670
+larga, pone 5 buletes. Esto es lo que te permite es que en lugar
+
+60
+00:04:09.670 --> 00:04:13.070
+de que pongas un texto largo, lo que vas a hacer es que lo
+
+61
+00:04:13.070 --> 00:04:15.370
+desprendes y lo haces en diferentes buletes.
+
+62
+00:04:15.450 --> 00:04:17.970
+Casi todo el texto largo se puede poner en buletes,
+
+63
+00:04:18.470 --> 00:04:22.890
+entonces es algo como, o sea, es una recomendaciÃ³n que podrÃ­a funcionar ahÃ­ bastante
+
+64
+00:04:22.890 --> 00:04:26.870
+bien. Y mÃ¡s o menos para que vean tengan una idea de cÃ³mo se
+
+65
+00:04:26.870 --> 00:04:27.470
+puede ver,
+
+66
+00:04:32.230 --> 00:04:35.750
+AquÃ­ tengo esta publicaciÃ³n para que vean cÃ³mo estÃ¡ puesto,
+
+67
+00:04:35.750 --> 00:04:37.790
+es sÃºper sencillo,
+
+68
+00:04:37.890 --> 00:04:40.190
+entonces este tiene, por ejemplo, 1, 4, 1,
+
+69
+00:04:40.310 --> 00:04:42.430
+1, 4, 1 y luego 4,
+
+70
+00:04:42.690 --> 00:04:45.070
+1, 1. Y es muy fÃ¡cil leer,
+
+71
+00:04:45.430 --> 00:04:47.850
+fÃ­jense como dice aquÃ­, mi vida profesional no tiene sentido,
+
+72
+00:04:48.050 --> 00:04:50.630
+eso es como la frase inicial o es el juc,
+
+73
+00:04:51.270 --> 00:04:54.410
+y lo vienen porque en teorÃ­a no tendrÃ­an sentido,
+
+74
+00:04:54.590 --> 00:04:58.910
+no, esto es 4 y luego es como una conclusiÃ³n con respecto a esto
+
+75
+00:04:58.910 --> 00:05:02.950
+es lo que me dijo mi familia, tambiÃ©n un corporativo y luego abro otra
+
+76
+00:05:02.950 --> 00:05:07.710
+idea, mientras tanto mi camino sin sentido me dio esto y luego Ã©stos cuatro
+
+77
+00:05:07.710 --> 00:05:09.990
+y luego como una conclusiÃ³n de esto,
+
+78
+00:05:10.050 --> 00:05:12.230
+no todos estÃ¡n persiguiendo la definiciÃ³n de Ã©xito de otros,
+
+79
+00:05:12.490 --> 00:05:15.090
+Ã©stos cuatro y luego yo quiero algo diferente,
+
+80
+00:05:15.290 --> 00:05:18.770
+mis tÃ©rminos sus reglas y lo prefiero cada malito dÃ­a,
+
+81
+00:05:18.910 --> 00:05:22.190
+entonces fÃ­jense como se puede leer bien fÃ¡cil,
+
+82
+00:05:22.390 --> 00:05:24.910
+es bien sencillo,
+
+83
+00:05:24.990 --> 00:05:29.570
+realmente la idea centrada mÃ¡s estÃ¡ como en estas oraciones y lo demÃ¡s
+
+84
+00:05:29.570 --> 00:05:31.830
+es lo que va complementando ese dÃ­a central,
+
+85
+00:05:31.830 --> 00:05:36.530
+entonces cuando empezamos a pensar un poco en cÃ³mo mostrar las ideas desde
+
+86
+00:05:36.530 --> 00:05:40.170
+un punto de vista mÃ¡s sencillo,
+
+87
+00:05:40.170 --> 00:05:43.430
+como en este caso la realidad es que todo se va haciendo tambiÃ©n mÃ¡s
+
+88
+00:05:43.430 --> 00:05:48.210
+fÃ¡cil, ahora ojo, hay que tener tambiÃ©n mucho cuidado con respecto
+
+89
+00:05:48.210 --> 00:05:51.910
+a poner los lÃ­sticos porque que algo que tambiÃ©n chatchipity hace muy bien es
+
+90
+00:05:51.910 --> 00:05:56.630
+formatear un poco los tipos de publicaciones hacia
+
+91
+00:05:56.630 --> 00:06:01.270
+ese tipo
+
+92
+00:06:01.270 --> 00:06:06.190
+de, o sea como ese formato, Â¿vale? Entonces realmente aquÃ­ lo importante
+
+93
+00:06:06.190 --> 00:06:11.110
+serÃ­a como la selecciÃ³n de palabras que usas y evitar
+
+94
+00:06:11.110 --> 00:06:14.330
+como estos paralelismos y estas palabras que tÃº nunca dirÃ­as,
+
+95
+00:06:14.330 --> 00:06:18.130
+entonces es mÃ¡s bien si chatchipity de algo como lo camerÃ­as con algo que
+
+96
+00:06:18.130 --> 00:06:22.690
+tÃº cidirÃ­as y por supuesto los lÃ­sticos o los bulegs que te daches de
+
+97
+00:06:22.690 --> 00:06:26.590
+peticie siempre estÃ¡n super por encima, entonces hay que bajarlo mÃ¡s,
+
+98
+00:06:27.690 --> 00:06:30.530
+entonces la idea con esto es como puedes ver,
+
+99
+00:06:30.590 --> 00:06:33.310
+es alternar entre oraciones y ideas,
+
+100
+00:06:33.650 --> 00:06:36.190
+supone la idea, los bulegs,
+
+101
+00:06:36.230 --> 00:06:38.330
+luego puedes poner como texto un poco mÃ¡s grande,
+
+102
+00:06:38.670 --> 00:06:40.730
+el chiste es que se vea, o sea como digerible,
+
+103
+00:06:41.410 --> 00:06:44.530
+usar oraciones de una sola lÃ­nea, pÃ¡rrafos de una sola oraciÃ³n,
+
+104
+00:06:44.530 --> 00:06:49.490
+a veces pueden irse dos o tres estÃ¡ bien y por supuesto
+
+105
+00:06:49.490 --> 00:06:54.230
+que se optimice para para el mÃ³vil no de hecho por eso estÃ¡ la
+
+106
+00:06:54.230 --> 00:06:58.890
+herramienta autorera que ya se los pasen los mÃºbulos pasados aquÃ­
+
+107
+00:06:58.890 --> 00:07:02.630
+les dejo el link de todas maneras para que puedan revisar cÃ³mo se ve
+
+108
+00:07:02.630 --> 00:07:07.810
+el texto dentro de lo que estÃ¡n escribiendo entonces
+
+109
+00:07:07.810 --> 00:07:12.450
+aquÃ­ hay como algunos ejemplos de cÃ³mo pudiera ser no
+
+110
+00:07:12.450 --> 00:07:17.010
+por ejemplo si Si usted tiene una idea de por quÃ© es
+
+111
+00:07:17.010 --> 00:07:19.430
+importante posicionarte,
+
+112
+00:07:19.550 --> 00:07:22.368
+no voy a leer acÃ¡, dice, voy AcÃ¡ dice,
+
+113
+00:07:22.668 --> 00:07:26.968
+el contenido en LinkedIn es importante porque te ayuda a posicionarte general leads y
+
+114
+00:07:26.968 --> 00:07:30.928
+tambiÃ©n te permite construir autoridad y conectar con tu audiencia y si lo haces
+
+115
+00:07:30.928 --> 00:07:35.308
+bien, pues obtener muchos resultados. entonces fÃ­jense como este es pues un texto largo
+
+116
+00:07:35.308 --> 00:07:37.748
+que se siente usar poco digerible,
+
+117
+00:07:37.888 --> 00:07:41.608
+Â¿no? este es como estarÃ­a mal escrito y como estarÃ­a bien escrito dice,
+
+118
+00:07:41.908 --> 00:07:44.928
+el contenido en link is tu mejor arma para sacar lista escala,
+
+119
+00:07:45.088 --> 00:07:49.608
+te permite y aquÃ­ lo importante son estos tres puntos que ahÃ­ tendrÃ­as
+
+120
+00:07:49.608 --> 00:07:52.948
+que pensar tÃº y desde tu perspectiva cual es serÃ­an en lugar de los
+
+121
+00:07:52.948 --> 00:07:56.448
+que te hacha chipitino, entonces por ejemplo aquÃ­ es hablarle a muchos desde tu
+
+122
+00:07:56.448 --> 00:08:00.188
+experiencia con su realidad autoridad por la reputaciÃ³n de tu mensaje y resonar con
+
+123
+00:08:00.188 --> 00:08:02.848
+los que tiene el el problema que resuelves. Si lo haces bien,
+
+124
+00:08:02.968 --> 00:08:05.028
+los resultados serÃ¡n exponenciales. Entonces, esta idea,
+
+125
+00:08:05.268 --> 00:08:08.528
+al final es lo mismo que esto, solo que escrito de manera mÃ¡s activa
+
+126
+00:08:08.528 --> 00:08:10.668
+y de manera mÃ¡s fÃ¡cil de leer,
+
+127
+00:08:10.908 --> 00:08:16.628
+Â¿vale? Entonces, eso es importante a la hora de describir.
+
+128
+00:08:18.248 --> 00:08:20.328
+Otra cosa tambiÃ©n, un tip,
+
+129
+00:08:20.728 --> 00:08:23.528
+es poner por ejemplo transiciones, Â¿no? Hay veces que,
+
+130
+00:08:23.788 --> 00:08:29.848
+por el hecho justo de que estamos escribiendo contenido en LinkedIn
+
+131
+00:08:29.848 --> 00:08:33.948
+como que se nos volvÃ­a a poner estas, estas como palabras de transiciÃ³n,
+
+132
+00:08:34.168 --> 00:08:37.848
+como ahora, velo asÃ­, en otras palabras,
+
+133
+00:08:38.228 --> 00:08:41.448
+esto significa la diferencia, entonces cuando pones este tipo de cosas,
+
+134
+00:08:41.668 --> 00:08:44.288
+le llamo como conectores, cuando pones estos conectores,
+
+135
+00:08:44.308 --> 00:08:47.948
+al final hacen que tambiÃ©n tengan un poco mÃ¡s de sentido el texto,
+
+136
+00:08:48.448 --> 00:08:50.988
+entonces tÃº puedes, por ejemplo, poner una idea que diga,
+
+137
+00:08:51.188 --> 00:08:55.268
+no sÃ©, linkain, produce el engagement, los posts con mÃ¡s comentarios llegan a mÃ¡s
+
+138
+00:08:55.268 --> 00:08:59.428
+gente, entonces son dos ideas, pero entonces podrÃ­as poner y se entiende mÃ¡s si
+
+139
+00:08:59.428 --> 00:09:03.508
+imagÃ­nate que es la parte inicial de FIWAL y se es LinkedIn pero dice
+
+140
+00:09:03.508 --> 00:09:08.208
+el engagement. Eso significa que los posts con mÃ¡s comentarios llegan a mÃ¡s gente.
+
+141
+00:09:08.488 --> 00:09:12.688
+Entonces es un conector que al final ayuda para que la idea central tenga
+
+142
+00:09:12.688 --> 00:09:15.748
+como mÃ¡s peso y por supuesto cosas que hay que poner,
+
+143
+00:09:15.908 --> 00:09:19.348
+que esto tambiÃ©n lo vimos dentro de los hooks y de la parte del
+
+144
+00:09:19.348 --> 00:09:22.488
+contenido arriba son nÃºmeros y datos especÃ­ficos.
+
+145
+00:09:22.488 --> 00:09:25.008
+Entre mÃ¡s porcentajes, nÃºmeros,
+
+146
+00:09:25.428 --> 00:09:28.368
+fechas, resultados, listas,
+
+147
+00:09:28.568 --> 00:09:31.388
+contexto temporal, mÃ©tricas,
+
+148
+00:09:31.468 --> 00:09:34.688
+etcÃ©tera que podamos meter, va a ser, va a ser mucho mejor.
+
+149
+00:09:35.188 --> 00:09:39.508
+Ahora, hay una parte sÃºper importante tambiÃ©n aquÃ­ que ya lo hemos estado tambiÃ©n
+
+150
+00:09:39.508 --> 00:09:42.688
+platicando y que vale la pena otra vez reforzar y tiene que ver con
+
+151
+00:09:42.688 --> 00:09:47.628
+esto, Â¿verdad? Es sÃºper importante porque
+
+152
+00:09:47.628 --> 00:09:52.088
+todos estos formatos al final ya la inteligencia artificial ha avanzado tanto que prÃ¡cticamente
+
+153
+00:09:52.088 --> 00:09:56.608
+te los Entonces en ese sentido el formato es donde quizÃ¡s menos
+
+154
+00:09:56.608 --> 00:10:00.548
+van a batallar, donde hay que meterle mucho mÃ¡s empuje,
+
+155
+00:10:00.748 --> 00:10:04.908
+es precisamente en encontrar esta diferencia entre hacer contenido,
+
+156
+00:10:05.288 --> 00:10:07.588
+que suene humano y que suene de ustedes al contenido,
+
+157
+00:10:07.708 --> 00:10:12.228
+que hace la inteligencia artificial. Y un patrÃ³n muy comÃºn que normalmente pasa
+
+158
+00:10:12.228 --> 00:10:15.228
+cuando creas contenido con la inteligencia artificial,
+
+159
+00:10:15.228 --> 00:10:18.168
+es que se queda justamente en los dolores muy genÃ©ricos,
+
+160
+00:10:18.268 --> 00:10:22.708
+muy arriba, o opiniones como que ahÃ­ que no se van un poquito mÃ¡s
+
+161
+00:10:22.708 --> 00:10:25.028
+allÃ¡, o no hay un Ã¡ngulo especÃ­fico,
+
+162
+00:10:25.168 --> 00:10:28.208
+o sea, se quedan, yo le llamo como en el save song y cuando
+
+163
+00:10:28.208 --> 00:10:32.208
+se quedan en el save song, al final termina por no conectar,
+
+164
+00:10:32.288 --> 00:10:36.988
+es mejor, al final, tener una opiniÃ³n fuerte en donde abraz polÃ©mica
+
+165
+00:10:36.988 --> 00:10:39.568
+con gente que quizÃ¡s no va a pensar con igual que tÃº,
+
+166
+00:10:39.568 --> 00:10:44.088
+pero al final estÃ¡ dejando tu marca y eso va a resonar mucho mÃ¡s
+
+167
+00:10:44.088 --> 00:10:47.708
+que quedarte con este contenido o este formato muy vainilla,
+
+168
+00:10:47.708 --> 00:10:50.868
+Â¿vale? Entonces cuando tÃº hablas desde tu postura,
+
+169
+00:10:51.008 --> 00:10:54.428
+desde tu Ã¡ngulo, desde tu propia experiencia,
+
+170
+00:10:54.428 --> 00:10:57.788
+pues vas a tener dolores especÃ­ficos que tienes con tu cliente ideal y contigo
+
+171
+00:10:57.788 --> 00:11:02.008
+mismo, vas a tener evidentemente estas opiniones de lo que tÃº crees o no
+
+172
+00:11:02.008 --> 00:11:05.368
+crees y por quÃ© lo crees, Â¿no? Y vas a tener conocimiento tÃ©cnico desde
+
+173
+00:11:05.368 --> 00:11:10.188
+tu perspectiva. Entonces al final, esos son los elementos bÃ¡sicos para
+
+174
+00:11:10.188 --> 00:11:12.888
+que la inteligencia artificial al final del dÃ­a,
+
+175
+00:11:12.948 --> 00:11:17.048
+nunca, nunca, nunca, va a,
+
+176
+00:11:17.048 --> 00:11:19.068
+te va a poder copiar,
+
+177
+00:11:19.368 --> 00:11:21.588
+vale? Entonces, nada,
+
+178
+00:11:21.788 --> 00:11:26.408
+al final, esto es un poco lo que es
+
+179
+00:11:26.408 --> 00:11:29.828
+importante para poder meter acÃ¡,
+
+180
+00:11:30.028 --> 00:11:32.588
+o sea, tus opiniones, otra cosa sÃºper importante,
+
+181
+00:11:33.208 --> 00:11:38.808
+que creo que vale la pena tambiÃ©n mencionar es poder
+
+182
+00:11:38.808 --> 00:11:43.368
+le meter ahora mismo el estÃ¡ funcionando muy bien como meter un poquito de
+
+183
+00:11:43.368 --> 00:11:47.948
+humor o referencias culturales o opiniones en tu
+
+184
+00:11:47.948 --> 00:11:52.588
+publicaciÃ³n o hacerla sÃ­ un poquito mÃ¡s controversiales hacerlas un poquito
+
+185
+00:11:52.588 --> 00:11:57.228
+mÃ¡s eso como que tengan un poco mÃ¡s de intenciÃ³n y sobre
+
+186
+00:11:57.228 --> 00:12:00.908
+todo cuando tienes estas referencias culturales que chachupit nunca lo va a hacer,
+
+187
+00:12:00.948 --> 00:12:03.448
+ejemplo, si tÃº eres de Colombia, posea lo mejor,
+
+188
+00:12:03.528 --> 00:12:06.208
+usas palabras colombianas, y no solo palabras colombianas,
+
+189
+00:12:06.308 --> 00:12:09.588
+sino referencias geogrÃ¡ficas, por ejemplo, si tÃº hablas de algo de BogotÃ¡ y a
+
+190
+00:12:09.588 --> 00:12:12.528
+mejor traÃ­s a la mesa algo que tenga que ver con BogotÃ¡,
+
+191
+00:12:12.768 --> 00:12:16.168
+son cosas que muy difÃ­cilmente la inteligencia artificial lo harÃ­a.
+
+192
+00:12:16.288 --> 00:12:20.148
+De la misma manera que cuando eres un insider o cuando eres una persona
+
+193
+00:12:20.148 --> 00:12:23.408
+que estÃ¡ justo dentro de un grupo especÃ­fico,
+
+194
+00:12:23.448 --> 00:12:26.728
+pues puedes usar este tipo de palabras que de la misma manera la inteligencia
+
+195
+00:12:26.728 --> 00:12:29.528
+artificial jamÃ¡s te harÃ­a. una ejercicio muy sencillo,
+
+196
+00:12:29.608 --> 00:12:34.588
+tambiÃ©n que puedes hacer es si tÃº
+
+197
+00:12:34.588 --> 00:12:37.408
+tienes una idea, siempre piensa,
+
+198
+00:12:37.608 --> 00:12:42.148
+esto es algo que yo lo podrÃ­a gugliar o lo podrÃ¡ encontrar dentro de
+
+199
+00:12:42.148 --> 00:12:45.828
+si le pregunta la inteligencia artificial si la respuesta si quiere decir que lo
+
+200
+00:12:45.828 --> 00:12:49.448
+tienes que cambiar, o sea la idea tiene que venir mÃ¡s eso como desde
+
+201
+00:12:49.448 --> 00:12:52.588
+ti y entonces cuando lo escribes, de verdad que se sientos,
+
+202
+00:12:52.588 --> 00:12:56.008
+con tu y escribes una idea, tu y es como quises esto no esto
+
+203
+00:12:56.008 --> 00:13:00.628
+no me lo va a dar nunca la inteligencia artificial y otro
+
+204
+00:13:00.628 --> 00:13:05.388
+pro tip es quizÃ¡s meterle quizÃ¡s un poquito de imperfectiÃ³n ahorita
+
+205
+00:13:05.388 --> 00:13:09.928
+en este momento funciona mejor porque precisamente por lo mismo no hay tanto
+
+206
+00:13:09.928 --> 00:13:14.888
+contenido inteligencia artificial tan sÃºper estructurado y tambiÃ©n puesto que
+
+207
+00:13:14.888 --> 00:13:19.368
+al final tambiÃ©n de repente vale la pena poner algo por ahÃ­ algÃºn typo
+
+208
+00:13:19.368 --> 00:13:22.608
+o quizÃ¡s no seguir estos formatos tan al pie de la letra y a
+
+209
+00:13:22.608 --> 00:13:25.968
+lo mejor mezcarlos un poco con los buletes y a lo mejor un texto
+
+210
+00:13:25.968 --> 00:13:30.968
+un poquito mÃ¡s gordo y poner quizÃ¡s algunas palabras que anteriormente
+
+211
+00:13:30.968 --> 00:13:35.248
+en la vieja escuela te irÃ­an que no las pongas precisamente porque lo que
+
+212
+00:13:35.248 --> 00:13:39.368
+quieres es que suene mÃ¡s natural, entonces como la gente ya se cansÃ³ de
+
+213
+00:13:39.368 --> 00:13:44.208
+estas publicaciones tan pulidas cuando ponÃ©s esta imperfecciÃ³n aunque se de manera intencional
+
+214
+00:13:44.208 --> 00:13:47.668
+funciona, Â¿vale? y por supuesto siempre,
+
+215
+00:13:48.048 --> 00:13:50.448
+siempre, siempre hablar de los dolores de tu audiencia.
+
+216
+00:13:50.628 --> 00:13:56.788
+Al final, cuando hablas de sus dolores, cuando hablas justo como personificas,
+
+217
+00:13:56.808 --> 00:14:01.268
+por ejemplo, algÃºn tipo de dolor y lo pones ahÃ­ en evidencia,
+
+218
+00:14:01.388 --> 00:14:04.928
+tambiÃ©n ese tipo como de mensajes conectan mejor,
+
+219
+00:14:05.048 --> 00:14:07.348
+Â¿no? Que eso tampoco, la inteligencia artificial lo va a hacer.
+
+220
+00:14:07.828 --> 00:14:12.408
+Ejemplos, y yo publicara algo con respecto a gente que estaba tallando en
+
+221
+00:14:12.408 --> 00:14:15.348
+el link por decir algo asÃ­ como que no sÃ©,
+
+222
+00:14:15.568 --> 00:14:17.628
+hablando de una persona a tÃº, Â¿no? a ti.
+
+223
+00:14:17.628 --> 00:14:20.908
+entonces de que puedes decir, llevas tres meses publicando en LinkedIn,
+
+224
+00:14:21.588 --> 00:14:23.668
+tienes 200 conexiones nuevas,
+
+225
+00:14:24.068 --> 00:14:28.688
+pero sigue sin vender, te dejan en visto y apenas has tenido tres
+
+226
+00:14:28.688 --> 00:14:31.628
+llamadas piensas, puta, LinkedIn no es para mÃ­,
+
+227
+00:14:32.048 --> 00:14:34.328
+eso es muy diferente a decir,
+
+228
+00:14:34.408 --> 00:14:36.868
+por ejemplo muchos emprendedores luchan con generables,
+
+229
+00:14:37.228 --> 00:14:40.208
+entonces cuando cuentas una historia y la persona,
+
+230
+00:14:40.428 --> 00:14:43.208
+o sea, la si le pones como el escenario,
+
+231
+00:14:43.608 --> 00:14:48.468
+es mucho mucho mÃ¡s sÃ³lido que nada mÃ¡s poner como el dolor asÃ­ puntual,
+
+232
+00:14:48.688 --> 00:14:54.728
+explico, entonces es tipo como de tips ayudan tambiÃ©n para escribir mejor
+
+233
+00:14:54.728 --> 00:14:57.108
+y otra cosa,
+
+234
+00:14:57.148 --> 00:15:00.808
+los algoritmos siempre van cambiando,
+
+235
+00:15:00.828 --> 00:15:04.348
+Â¿no? hace yo me acuerdo cuando empecÃ© a ver lo del contenido toda y
+
+236
+00:15:04.348 --> 00:15:06.528
+si quieres escribir, por ejemplo, se usaba muchos emojis,
+
+237
+00:15:06.908 --> 00:15:11.088
+todas estas reglas generales, por ejemplo, del de los bullets y eso funcionaba sÃºper
+
+238
+00:15:11.088 --> 00:15:14.408
+bien, ponÃ­as cualquier tipo de contenido ahÃ­ contigo una foto,
+
+239
+00:15:14.528 --> 00:15:16.808
+una selfie, tenÃ­as un montÃ³n de impresiones y asÃ­.
+
+240
+00:15:17.548 --> 00:15:20.968
+La verdad es que cada vez es mÃ¡s complicado y en ese sentido por
+
+241
+00:15:20.968 --> 00:15:25.048
+eso es mÃ¡s importante siempre hablar como desde desde nuestro perspectiva,
+
+242
+00:15:25.168 --> 00:15:28.228
+porque puede cambiar el algoritmo, pero al final del dÃ­a la psicologÃ­a,
+
+243
+00:15:28.428 --> 00:15:32.208
+la sociologÃ­a, la manera de cÃ³mo pensamos y podemos conectar esa nueva cambiar.
+
+244
+00:15:32.408 --> 00:15:37.408
+Entonces, cuando empieces a hacer este tipo de contenido que va mÃ¡s desde la
+
+245
+00:15:37.408 --> 00:15:40.688
+persona hacia la otra persona, no importa cÃ³mo cambiar el algoritmo,
+
+246
+00:15:40.908 --> 00:15:43.628
+siempre va a terminar cambiando. Entonces los formatos,
+
+247
+00:15:43.628 --> 00:15:46.728
+al final van y vienen, cambian de pronto se usan emojis,
+
+248
+00:15:46.848 --> 00:15:49.608
+de pronto se usan algunos tipos de contenido,
+
+249
+00:15:50.068 --> 00:15:53.968
+pero al final mientras entendamos esta lÃ³gica y por eso es importante este capÃ­tulo,
+
+250
+00:15:54.488 --> 00:15:57.088
+vamos a poder salir adelante aunque el algoritmo cambia,
+
+251
+00:15:57.188 --> 00:16:00.308
+entonces nada, este es todo por este capÃ­tulo,
+
+252
+00:16:00.528 --> 00:16:02.948
+ahora nos vamos a ir a la Ãºltima parte,
+
+253
+00:16:03.068 --> 00:16:06.068
+que es un tipo muy rÃ¡pido, que les voy a enseÃ±ar,
+
+254
+00:16:06.068 --> 00:16:09.668
+que les va a servir para justo tener comodidad de contenido que rÃ¡pido puedan
+
+255
+00:16:09.668 --> 00:16:11.268
+generar piezas, Â¿de acuerdo?

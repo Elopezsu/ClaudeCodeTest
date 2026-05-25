@@ -1,0 +1,480 @@
+<!-- ─────────────────────────────────────────────────────
+     ValuSignal 2026 — Freedom Appraise Demo Card (Webflow Embed)
+     Paste this entire block into a Webflow "Embed" element.
+     No external dependencies. Fully self-contained.
+───────────────────────────────────────────────────────── -->
+
+<style>
+  /* All rules scoped to .vs-fa to avoid Webflow conflicts */
+  .vs-fa {
+    --vs-bg:      #080e18;
+    --vs-card:    #0d1a28;
+    --vs-teal:    #00d4b0;
+    --vs-white:   #ffffff;
+    --vs-gray:    #7a8799;
+    --vs-muted:   #b0bbc8;
+    --vs-border:  rgba(0,212,176,.14);
+    --vs-badge-bg: rgba(0,212,176,.08);
+    font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif;
+    background: var(--vs-bg);
+    color: var(--vs-white);
+    padding: 48px 32px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .vs-fa *, .vs-fa *::before, .vs-fa *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* ── CARD SHELL ─────────────────────────────────────── */
+  .vs-fa .fa-card {
+    max-width: 900px;
+    margin: 0 auto;
+    background: var(--vs-card);
+    border: 1px solid var(--vs-border);
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  /* ── HEADER BAND ─────────────────────────────────────── */
+  .vs-fa .fa-header {
+    background: linear-gradient(135deg, #0a1e32 0%, #0d2540 100%);
+    border-bottom: 1px solid var(--vs-border);
+    padding: 36px 44px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 32px;
+    flex-wrap: wrap;
+  }
+  .vs-fa .fa-header-left { flex: 1; min-width: 260px; }
+  .vs-fa .fa-founding-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--vs-teal);
+    background: var(--vs-badge-bg);
+    border: 1px solid rgba(0,212,176,.25);
+    border-radius: 20px;
+    padding: 5px 13px;
+    margin-bottom: 14px;
+  }
+  .vs-fa .fa-founding-badge::before {
+    content: '✦';
+    font-size: 9px;
+  }
+  .vs-fa .fa-title {
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: -.02em;
+    color: var(--vs-white);
+    margin-bottom: 6px;
+  }
+  .vs-fa .fa-title span { color: var(--vs-teal); }
+  .vs-fa .fa-track-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+  }
+  .vs-fa .fa-tag {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--vs-gray);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .vs-fa .fa-tag-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--vs-teal);
+    flex-shrink: 0;
+  }
+
+  /* Speaker box (top right of header) */
+  .vs-fa .fa-speaker-box {
+    background: rgba(0,0,0,.25);
+    border: 1px solid var(--vs-border);
+    border-radius: 14px;
+    padding: 20px 24px;
+    min-width: 240px;
+    flex-shrink: 0;
+  }
+  .vs-fa .fa-speaker-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--vs-gray);
+    margin-bottom: 10px;
+  }
+  .vs-fa .fa-speaker-name {
+    font-size: 16px;
+    font-weight: 800;
+    color: var(--vs-white);
+    margin-bottom: 2px;
+  }
+  .vs-fa .fa-speaker-role {
+    font-size: 12px;
+    color: var(--vs-teal);
+    font-weight: 600;
+    margin-bottom: 10px;
+    line-height: 1.4;
+  }
+  .vs-fa .fa-speaker-bio {
+    font-size: 12px;
+    color: var(--vs-muted);
+    line-height: 1.6;
+  }
+
+  /* ── BODY GRID ───────────────────────────────────────── */
+  .vs-fa .fa-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+  }
+  .vs-fa .fa-col {
+    padding: 36px 44px;
+  }
+  .vs-fa .fa-col:first-child {
+    border-right: 1px solid var(--vs-border);
+  }
+
+  .vs-fa .fa-section-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+    color: var(--vs-teal);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .vs-fa .fa-section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--vs-border);
+  }
+
+  /* Feature list */
+  .vs-fa .fa-features {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-bottom: 32px;
+  }
+  .vs-fa .fa-feature {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+  }
+  .vs-fa .fa-feature-icon {
+    width: 32px; height: 32px;
+    border-radius: 8px;
+    background: rgba(0,212,176,.1);
+    border: 1px solid rgba(0,212,176,.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .vs-fa .fa-feature-text {}
+  .vs-fa .fa-feature-name {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--vs-white);
+    margin-bottom: 3px;
+  }
+  .vs-fa .fa-feature-desc {
+    font-size: 12.5px;
+    color: var(--vs-muted);
+    line-height: 1.55;
+  }
+
+  /* Demo walkthrough bullets */
+  .vs-fa .fa-bullets {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    margin-bottom: 28px;
+  }
+  .vs-fa .fa-bullets li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 13px;
+    color: var(--vs-muted);
+    line-height: 1.5;
+  }
+  .vs-fa .fa-arrow {
+    color: var(--vs-teal);
+    font-size: 13px;
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  /* Audience pills */
+  .vs-fa .fa-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin-bottom: 28px;
+  }
+  .vs-fa .fa-pill {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: .06em;
+    color: #7ef0de;
+    background: rgba(0,212,176,.1);
+    border: 1px solid rgba(0,212,176,.25);
+    border-radius: 100px;
+    padding: 5px 12px;
+  }
+
+  /* ── METRICS ROW ─────────────────────────────────────── */
+  .vs-fa .fa-metrics {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    border-top: 1px solid var(--vs-border);
+  }
+  .vs-fa .fa-metric {
+    padding: 24px 20px;
+    text-align: center;
+    border-right: 1px solid var(--vs-border);
+  }
+  .vs-fa .fa-metric:last-child { border-right: none; }
+  .vs-fa .fa-metric-num {
+    font-size: 26px;
+    font-weight: 900;
+    color: var(--vs-teal);
+    line-height: 1;
+    margin-bottom: 4px;
+    letter-spacing: -.02em;
+  }
+  .vs-fa .fa-metric-label {
+    font-size: 11px;
+    color: var(--vs-gray);
+    font-weight: 500;
+    line-height: 1.3;
+  }
+
+  /* ── FOOTER ──────────────────────────────────────────── */
+  .vs-fa .fa-footer {
+    border-top: 1px solid var(--vs-border);
+    padding: 28px 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    background: rgba(0,0,0,.15);
+  }
+  .vs-fa .fa-takeaway {
+    flex: 1;
+    min-width: 260px;
+  }
+  .vs-fa .fa-takeaway-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--vs-teal);
+    margin-bottom: 6px;
+  }
+  .vs-fa .fa-takeaway-text {
+    font-size: 13px;
+    color: var(--vs-muted);
+    line-height: 1.6;
+    font-style: italic;
+  }
+  .vs-fa .fa-cta-group {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+  }
+  .vs-fa .fa-link {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--vs-teal);
+    text-decoration: none;
+    letter-spacing: .04em;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    transition: opacity .2s;
+  }
+  .vs-fa .fa-link:hover { opacity: .75; }
+  .vs-fa .fa-cta {
+    display: inline-block;
+    background: var(--vs-teal);
+    color: #080e18;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    padding: 13px 22px;
+    border-radius: 9px;
+    text-decoration: none;
+    transition: background .2s;
+    white-space: nowrap;
+  }
+  .vs-fa .fa-cta:hover { background: #00b89a; }
+
+  /* ── RESPONSIVE ──────────────────────────────────────── */
+  @media (max-width: 720px) {
+    .vs-fa { padding: 32px 16px; }
+    .vs-fa .fa-header { padding: 28px 24px; flex-direction: column; }
+    .vs-fa .fa-speaker-box { min-width: unset; width: 100%; }
+    .vs-fa .fa-body { grid-template-columns: 1fr; }
+    .vs-fa .fa-col:first-child { border-right: none; border-bottom: 1px solid var(--vs-border); }
+    .vs-fa .fa-col { padding: 28px 24px; }
+    .vs-fa .fa-metrics { grid-template-columns: repeat(2, 1fr); }
+    .vs-fa .fa-metric:nth-child(2) { border-right: none; }
+    .vs-fa .fa-metric:nth-child(3) { border-top: 1px solid var(--vs-border); }
+    .vs-fa .fa-metric:nth-child(4) { border-top: 1px solid var(--vs-border); border-right: none; }
+    .vs-fa .fa-footer { padding: 24px; flex-direction: column; align-items: flex-start; }
+    .vs-fa .fa-title { font-size: 20px; }
+  }
+</style>
+
+<div class="vs-fa">
+  <div class="fa-card">
+
+    <!-- ── HEADER ───────────────────────────────────────── -->
+    <div class="fa-header">
+      <div class="fa-header-left">
+        <div class="fa-founding-badge">Founding Partner · Tech Demo</div>
+        <h2 class="fa-title">Freedom Appraise:<br/><span>Appraiser-Built</span> Software<br/>for End-to-End Workflow</h2>
+        <div class="fa-track-row">
+          <span class="fa-tag"><span class="fa-tag-dot"></span>Track: Tech Demos</span>
+          <span class="fa-tag"><span class="fa-tag-dot"></span>Session Type: Demo</span>
+          <span class="fa-tag"><span class="fa-tag-dot"></span>2 Hours</span>
+        </div>
+      </div>
+
+      <div class="fa-speaker-box">
+        <div class="fa-speaker-label">Speaker</div>
+        <div class="fa-speaker-name">Andy Arledge</div>
+        <div class="fa-speaker-role">President &amp; Founder, Freedom Appraise LLC</div>
+        <div class="fa-speaker-bio">Certified residential appraiser and software entrepreneur with 20+ years in appraisal practice, real estate operations, and technology development. Creator of Freedom Appraise, a mobile-first cloud platform trusted by appraisers nationwide.</div>
+      </div>
+    </div>
+
+    <!-- ── BODY: TWO COLUMNS ─────────────────────────────── -->
+    <div class="fa-body">
+
+      <!-- LEFT: What the Platform Does -->
+      <div class="fa-col">
+        <div class="fa-section-label">What the Platform Does</div>
+        <div class="fa-features">
+          <div class="fa-feature">
+            <div class="fa-feature-icon">☁️</div>
+            <div class="fa-feature-text">
+              <div class="fa-feature-name">Mobile &amp; Cloud Access</div>
+              <div class="fa-feature-desc">Full appraisal workflow available from the field or office — any device, any location, in real production scenarios.</div>
+            </div>
+          </div>
+          <div class="fa-feature">
+            <div class="fa-feature-icon">⚡</div>
+            <div class="fa-feature-text">
+              <div class="fa-feature-name">Automated Form Population</div>
+              <div class="fa-feature-desc">MLS data imports directly into appraisal forms, eliminating manual data entry and reducing rework.</div>
+            </div>
+          </div>
+          <div class="fa-feature">
+            <div class="fa-feature-icon">📐</div>
+            <div class="fa-feature-text">
+              <div class="fa-feature-name">Integrated Sketching Tools</div>
+              <div class="fa-feature-desc">Built-in sketching and floor plan tools synced to your appraisal data — no third-party app switching.</div>
+            </div>
+          </div>
+          <div class="fa-feature">
+            <div class="fa-feature-icon">📊</div>
+            <div class="fa-feature-text">
+              <div class="fa-feature-name">MLS Import &amp; Adjustment Support</div>
+              <div class="fa-feature-desc">Streamlined comparables workflow with adjustment support tools that preserve appraiser judgment throughout.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT: What's Being Demonstrated + Who It's For -->
+      <div class="fa-col">
+        <div class="fa-section-label">What's Being Demonstrated</div>
+        <ul class="fa-bullets">
+          <li><span class="fa-arrow">→</span>End-to-end appraisal workflow within Freedom Appraise</li>
+          <li><span class="fa-arrow">→</span>Mobile and cloud-based access in real production scenarios</li>
+          <li><span class="fa-arrow">→</span>Automated population of forms and data imports</li>
+          <li><span class="fa-arrow">→</span>Integrated sketching and adjustment support tools</li>
+          <li><span class="fa-arrow">→</span>How automation reduces rework while preserving valuation analysis</li>
+        </ul>
+
+        <div class="fa-section-label">Who This Is For</div>
+        <div class="fa-pills">
+          <span class="fa-pill">Mobile-First Appraisers</span>
+          <span class="fa-pill">Solo Practitioners</span>
+          <span class="fa-pill">Small Firms</span>
+          <span class="fa-pill">High-Volume Appraisers</span>
+          <span class="fa-pill">Practitioner-Built Fans</span>
+        </div>
+        <p style="font-size:12px;color:#7a8799;line-height:1.5;">
+          <strong style="color:#b0bbc8;">Audience:</strong> Real Estate Appraisers
+        </p>
+      </div>
+
+    </div>
+
+    <!-- ── METRICS ROW ────────────────────────────────────── -->
+    <div class="fa-metrics">
+      <div class="fa-metric">
+        <div class="fa-metric-num">20+</div>
+        <div class="fa-metric-label">Years appraiser experience (founder)</div>
+      </div>
+      <div class="fa-metric">
+        <div class="fa-metric-num">2 hr</div>
+        <div class="fa-metric-label">Live demo session length</div>
+      </div>
+      <div class="fa-metric">
+        <div class="fa-metric-num">4</div>
+        <div class="fa-metric-label">Core workflow automation areas</div>
+      </div>
+      <div class="fa-metric">
+        <div class="fa-metric-num">1</div>
+        <div class="fa-metric-label">Platform: field to final report</div>
+      </div>
+    </div>
+
+    <!-- ── FOOTER ─────────────────────────────────────────── -->
+    <div class="fa-footer">
+      <div class="fa-takeaway">
+        <div class="fa-takeaway-label">Core Takeaway</div>
+        <p class="fa-takeaway-text">Attendees leave with a clear understanding of how Freedom Appraise supports faster, more flexible appraisal workflows by automating the mechanics while leaving valuation decisions firmly with the appraiser.</p>
+      </div>
+      <div class="fa-cta-group">
+        <a href="https://www.freedomappraise.com" target="_blank" rel="noopener" class="fa-link">freedomappraise.com →</a>
+        <a href="https://www.valusignal.com/register" target="_blank" rel="noopener" class="fa-cta">Register to Attend →</a>
+      </div>
+    </div>
+
+  </div>
+</div>
