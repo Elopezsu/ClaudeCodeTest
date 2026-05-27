@@ -26,9 +26,9 @@ Sponsor selects the **Featured Partner** tier at **$2,500**. Upon receipt of ful
 | Website listing | Sponsor logo (linked) on ValuSignal.com — live from signing through 30 days post-event |
 | Expo Hall listing | Sponsor name and logo listed in the Zoom Events Expo Hall, visible to all registered attendees |
 | Email visibility | Sponsor logo in all attendee-facing ValuSignal emails (pre-event, event day, post-event) |
-| Social recognition | Minimum one (1) sponsor acknowledgment post across ValuSignal social channels |
-| Interactive virtual booth | Zoom Events Expo Hall booth with: branded video, downloadable content, live rep chat (up to 5 reps), and automatic lead capture |
-| Post-event lead list | Full attendee export (first name, last name, email, organization) in CSV format — delivered within 5 business days of event close |
+| Social recognition | Minimum one (1) sponsor acknowledgment post across ValuSignal social channels, published manually by ValuSignal Marketing Manager |
+| Interactive virtual booth | Zoom Events Expo Hall booth with: branded video, downloadable content (up to 3 images, up to 5 PDFs), live rep in booth, and automatic lead capture (every visitor logged with name, email, and organization) |
+| Post-event lead list | Full attendee export (first name, last name, email, organization) in CSV format — delivered within 5 business days of event close. CRM sync available via Zapier at Sponsor's own setup. |
 | 5-minute speaking slot | Live or Simulive session during a main-program block; full attendee audience; Sponsor controls content and CTA |
 | Dedicated email | One (1) email to full registered attendee list, sent by ValuSignal using Sponsor-provided content (subject to Organizer pre-approval) |
 
@@ -52,7 +52,7 @@ Payment is due within **10 business days** of the Effective Date. Accepted payme
 
 Sponsor agrees to submit the following assets within **14 business days** of payment confirmation:
 
-**Booth assets:** High-resolution logo (PNG/SVG), company video (MP4, max 3 min), downloadable content files (PDF), company description (100 words max), rep contact list (up to 5 names and emails for booth access).
+**Booth assets:** High-resolution logo (PNG/SVG), company video (MP4, max 3 min), up to 3 images (JPG/PNG), up to 5 downloadable content files (PDF), company description (100 words max), rep name(s) and email(s) for booth access.
 
 **Speaking slot assets:** Presentation slides (PowerPoint or Google Slides), speaker bio (100 words max), headshot (high-res JPG/PNG), format preference (Live or Simulive).
 

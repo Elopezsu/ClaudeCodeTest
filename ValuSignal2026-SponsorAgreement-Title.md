@@ -25,18 +25,18 @@ Sponsor selects the **Title Sponsor** tier at **$10,000**. Upon receipt of full 
 
 | Deliverable | Details |
 |---|---|
-| Co-branding | "ValuSignal 2026 — Presented by [Sponsor Name]" on: website header, all outbound emails, event registration confirmation, social media posts, session recordings, and partner communications — active from signing through 30 days post-event |
+| Co-branding | "ValuSignal 2026 — Presented by [Sponsor Name]" on: website header, all outbound emails, event registration confirmation, and social media posts — active from signing through 30 days post-event. A co-branded intro card will be manually added by ValuSignal to all session recordings before they are published to attendees. |
 | "Powered by" homepage placement | Above-the-fold placement on ValuSignal.com, linked to Sponsor's designated URL — active from signing through 30 days post-event |
-| 15-minute keynote slot | Main stage, full attendee audience; no concurrent sessions during this slot; Live or Simulive format at Sponsor's election; Sponsor controls content, slides, and CTA; introduced by ValuSignal host with Sponsor bio |
-| Premium Expo Hall booth | Priority placement in Zoom Events Expo Hall; up to 20 live reps; branded video; full content library (downloads); live rep chat; meeting scheduling tool (attendees book directly with Sponsor reps); automatic lead capture |
-| Full attendee lead list | Complete registered attendee export (first name, last name, email, organization) in CSV format — delivered within 5 business days of event close |
+| Podcast interview | 10–15 minutes on stage with a ValuSignal industry host, in front of the full live audience; format at Sponsor's election — Live on stage during the event, or pre-recorded and aired as a featured session; Sponsor-approved talking points submitted in advance; introduced by ValuSignal host with Sponsor bio |
+| Premium Expo Hall booth | Priority placement (Platinum tier) in Zoom Events Expo Hall; up to 4 concurrent meeting rooms for live rep conversations with attendees; branded video; full content library (up to 5 images, up to 5 PDFs); live rep chat; automatic lead capture |
+| Full attendee lead list | Complete registered attendee export (first name, last name, email, organization) in CSV format — delivered within 5 business days of event close. CRM sync available via Zapier at Sponsor's own setup. |
 | Dedicated email | One (1) email to full registered attendee list, sent by ValuSignal using Sponsor-provided content (subject to Organizer pre-approval) |
-| Full post-event analytics package | Delivered within 10 business days of event close: booth visit count and time-per-visit, content download breakdown, chat interaction volume, keynote viewership and average watch time (including 30-day replay), email open and click-through rates, meeting scheduling data, attendee engagement by session |
-| All Core & Featured placements | Website listing, Expo Hall visibility, email logo placement, social recognition, speaking slot (5-min slot upgraded to 15-min keynote as described above) |
+| Post-event analytics report | Delivered within 10 business days of event close: booth visit count, in-booth lead capture summary, email open and click-through rates, session attendance data, and meeting room usage |
+| All Core & Featured placements | Website listing, Expo Hall visibility, email logo placement, social recognition posts (published manually by ValuSignal Marketing Manager) |
 
 Organizer acknowledges that Sponsor's exclusive Title position will not be shared with, sold to, or approximated by any other party for the duration of this Agreement.
 
-**Deliverable Failure:** If Organizer fails to provide one or more deliverables listed above due to reasons within Organizer's control, Sponsor shall notify Organizer in writing. Organizer has 10 business days to cure. If uncured, Sponsor is entitled to a pro-rated refund for the undelivered item(s) based on the following value allocation: co-branding package = $2,500 | keynote slot = $2,000 | homepage placement = $1,000 | premium booth = $2,000 | analytics package = $500 | lead list = $1,000 | dedicated email = $500 | Core & Featured placements = $500. Total: $10,000.
+**Deliverable Failure:** If Organizer fails to provide one or more deliverables listed above due to reasons within Organizer's control, Sponsor shall notify Organizer in writing. Organizer has 10 business days to cure. If uncured, Sponsor is entitled to a pro-rated refund for the undelivered item(s) based on the following value allocation: co-branding package = $2,500 | podcast interview = $2,000 | homepage placement = $1,000 | premium booth = $2,000 | analytics report = $500 | lead list = $1,000 | dedicated email = $500 | Core & Featured placements = $500. Total: $10,000.
 
 **Attendee Count Disclosure:** Organizer shall provide Sponsor with a written post-event report within 10 business days of event close, including: total registered attendees, total unique session viewers, and Sponsor's booth visit count. If total registered attendance is below 500, Sponsor may request a partial refund of up to 15% of the total sponsorship fee within 15 days of receiving the report.
 
@@ -62,8 +62,8 @@ Sponsor agrees to submit the following assets on the timelines specified:
 - Brand assets: high-resolution logo files (PNG and SVG), brand guidelines or approved color specifications, co-branding lockup preferences, designated website URL for all links.
 
 **Within 21 business days of deposit confirmation:**
-- Keynote assets: presentation slides (PowerPoint or Google Slides), speaker bio (150 words max), speaker headshot (high-res JPG/PNG), format preference (Live or Simulive), AV requirements if Live.
-- Booth assets: company video (MP4, max 5 min), full content library files (PDF), company description (150 words max), list of up to 20 rep names and emails for booth access and meeting scheduler configuration.
+- Podcast interview assets: speaker bio (150 words max), speaker headshot (high-res JPG/PNG), format preference (Live or pre-recorded), 3–5 approved talking points or topic areas for the host, AV requirements if Live.
+- Booth assets: company video (MP4, max 5 min), up to 5 images (JPG/PNG), up to 5 downloadable content files (PDF), company description (150 words max), list of up to 4 rep names and emails for booth meeting room access.
 
 **No later than 30 days before event date:**
 - Dedicated email copy: subject line, body text, CTA link — subject to Organizer approval within 5 business days of submission.
@@ -89,7 +89,7 @@ All cancellations must be submitted in writing to eunice@valusignal.com and hans
 - **Sponsor grants** Organizer a limited, non-exclusive license to use Sponsor's logo, name, brand assets, and submitted content solely for the purpose of fulfilling the deliverables described in Section 2, for the duration of this Agreement.
 - **Organizer grants** Sponsor a limited, non-exclusive license to use the ValuSignal 2026 name and logo in Sponsor's own promotional materials identifying Sponsor as the official Title Sponsor of ValuSignal 2026 ("ValuSignal 2026, Presented by [Sponsor Name]"), for the duration of the event period and up to 12 months post-event for retrospective case study and marketing use.
 - The post-event lead list is provided for Sponsor's direct marketing use only. Sponsor agrees not to sell, license, or transfer the lead list to any third party.
-- Sponsor retains ownership of all content submitted for the keynote and dedicated email. Organizer retains the right to include Sponsor's keynote in post-event recordings and replays for 90 days; Sponsor may request extension in writing.
+- Sponsor retains ownership of all content submitted for the podcast interview and dedicated email. Organizer retains the right to include Sponsor's podcast interview in post-event recordings and replays for 90 days; Sponsor may request extension in writing.
 - Organizer retains all rights to the ValuSignal brand, event content, and conference materials. Sponsor's co-branding rights are limited to the scope described in this Agreement.
 
 ---

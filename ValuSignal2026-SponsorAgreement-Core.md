@@ -26,7 +26,7 @@ Sponsor selects the **Core Partner** tier at **$1,000**. Upon receipt of full pa
 | Website listing | Sponsor logo (linked) on ValuSignal.com — live from signing through 30 days post-event |
 | Expo Hall presence | Sponsor name and logo listed in the Zoom Events Expo Hall, visible to all registered attendees |
 | Email visibility | Sponsor logo included in all attendee-facing emails sent by ValuSignal (pre-event, event day, post-event recap) |
-| Social recognition | Minimum one (1) sponsor acknowledgment post across ValuSignal social media channels |
+| Social recognition | Minimum one (1) sponsor acknowledgment post across ValuSignal social media channels, published manually by ValuSignal Marketing Manager |
 
 Deliverables are contingent on timely submission of Sponsor assets (see Section 4).
 
