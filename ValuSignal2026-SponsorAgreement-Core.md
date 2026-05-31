@@ -1,3 +1,5 @@
+Google Doc: https://docs.google.com/document/d/1NqW_QgMJgsuEZ4sCX7alnpfS4DgRHr0ZFRElnDx8w24
+
 SPONSORSHIP AGREEMENT – CORE PARTNER
 ValuSignal 2026 | $1,000
 

@@ -1,3 +1,5 @@
+Google Doc: https://docs.google.com/document/d/16LA9kQ7XGqAmMwCsV806cEzQIz6O21YIDzrAIkiQh0w
+
 SPONSORSHIP AGREEMENT – TITLE SPONSOR
 ValuSignal 2026 | $10,000
 

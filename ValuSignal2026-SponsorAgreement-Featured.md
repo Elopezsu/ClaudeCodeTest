@@ -1,3 +1,5 @@
+Google Doc: https://docs.google.com/document/d/1dwk3_pseA45gOtwqansluz5vFwPMotQfiF5hjLkc3MM
+
 SPONSORSHIP AGREEMENT – FEATURED PARTNER
 ValuSignal 2026 | $2,500
 
