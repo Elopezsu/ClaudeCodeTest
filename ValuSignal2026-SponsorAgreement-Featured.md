@@ -1,135 +1,142 @@
-# SPONSORSHIP AGREEMENT — FEATURED PARTNER
-## ValuSignal 2026 | $2,500
+SPONSORSHIP AGREEMENT – FEATURED PARTNER
+ValuSignal 2026 | $2,500
 
----
+This Sponsorship Agreement ("Agreement") is entered into as of the date signed below ("Effective Date") by and between:
 
-**This Sponsorship Agreement** ("Agreement") is entered into as of the date signed below ("Effective Date") by and between:
+HLD Enterprises LLC, a Texas limited liability company doing business as ValuSignal ("Organizer"), represented by Hansel Dobbs.
 
-**ValuSignal LLC** ("Organizer"), a company organized under the laws of the State of Texas, represented by Hansel Dobbs, and
+_______________________________________ ("Sponsor"), represented by _____________________________, ________________________.
 
-**[Sponsor Company Name]** ("Sponsor"), represented by **[Authorized Signatory Name]**, **[Title]**.
+1. EVENT
 
----
+ValuSignal 2026 is a national virtual conference for residential real estate appraisers across the United States, hosted on Zoom Events and scheduled for September 18–19, 2026. Organizer projects 300–600 registered attendees, with a target audience of residential real estate appraisers from across the United States.
 
-### 1. EVENT
+Attendance Disclaimer: The attendance projection above is a good-faith estimate only and does not constitute a guarantee, warranty, or representation of actual attendance. Sponsor acknowledges that actual attendance may vary materially from the projection and that no portion of the sponsorship fee is contingent on attendance figures. Sponsor's decision to enter this Agreement is not based on any guaranteed attendance level.
 
-ValuSignal 2026 is a national virtual conference for the U.S. valuation profession, hosted on Zoom Events and scheduled for **September 18–19, 2026**. The event is expected to reach 2,000–3,000 registered attendees across all 50 states.
+2. SPONSORSHIP PACKAGE & DELIVERABLES
 
----
+Sponsor selects the Featured Partner tier at $2,500. Upon receipt of full payment and approved sponsor assets, Organizer agrees to deliver:
 
-### 2. SPONSORSHIP PACKAGE & DELIVERABLES
+Deliverable | Details
+Website listing | Sponsor logo and company name (linked) on ValuSignal.com sponsor section, live from signing through 90 days post-event.
+Expo Hall presence | Sponsor name and logo listed in the Zoom Events Expo Hall lobby, visible to all registered attendees who access the event. Featured sponsors receive priority placement over Core tier.
+Email visibility | Sponsor logo included in every attendee-facing email: pre-event sends, event-day communications, and post-event recap.
+Social recognition | Minimum one (1) sponsor acknowledgment post across ValuSignal social media channels, published by the ValuSignal Marketing Team during the campaign.
+Interactive virtual booth | Sponsor booth in the Zoom Events Expo Hall with: company branded video, downloadable content (up to 5 files), live rep chat (up to 2 reps during event hours), and automatic lead capture — every booth visitor logged with name, email, and organization.
+Post-event lead list | Full registered attendee export (first name, last name, email, organization) in CSV format, delivered within 5 business days of event close. For Sponsor's direct outreach use only; not for resale or transfer to third parties.
+5-minute speaking slot | One (1) dedicated 5-minute session during a main-program block, in front of the full attendee audience. Format at Sponsor's election: Live or Simulive. Sponsor controls content, slides, and call to action. Scheduling coordinated by Organizer.
+Dedicated email | One (1) email to the full registered attendee list, sent by ValuSignal using Sponsor-provided content (subject line, body text, and CTA link), subject to Organizer review and approval. Timing at Sponsor's election: pre-event, event week, or post-event.
 
-Sponsor selects the **Featured Partner** tier at **$2,500**. Upon receipt of full payment and approved sponsor assets, Organizer agrees to deliver all Core benefits plus:
+Deliverable Failure and Cure Period: If Organizer fails to provide a deliverable category, Sponsor must provide Organizer with written notice describing the alleged failure with reasonable specificity. Organizer shall have ten (10) business days from receipt of such notice to cure the alleged failure. If Organizer does not cure within that period, Sponsor is entitled to a pro-rated refund based on the following value allocations: Core placements (website listing, Expo Hall presence, email visibility, social recognition) ($500), Virtual booth and lead capture ($600), Post-event lead list ($500), 5-minute speaking slot ($500), and Dedicated email ($400). Total: $2,500. Pro-rated refunds are available only for the complete failure to deliver a category and not for de minimis, technical, or temporary failures.
 
-| Deliverable | Details |
-|---|---|
-| Website listing | Sponsor logo (linked) on ValuSignal.com — live from signing through 30 days post-event |
-| Expo Hall listing | Sponsor name and logo listed in the Zoom Events Expo Hall, visible to all registered attendees |
-| Email visibility | Sponsor logo in all attendee-facing ValuSignal emails (pre-event, event day, post-event) |
-| Social recognition | Minimum one (1) sponsor acknowledgment post across ValuSignal social channels, published manually by ValuSignal Marketing Manager |
-| Interactive virtual booth | Zoom Events Expo Hall booth with: branded video, downloadable content (up to 3 images, up to 5 PDFs), live rep in booth, and automatic lead capture (every visitor logged with name, email, and organization) |
-| Post-event lead list | Full attendee export (first name, last name, email, organization) in CSV format — delivered within 5 business days of event close. CRM sync available via Zapier at Sponsor's own setup. |
-| 5-minute speaking slot | Live or Simulive session during a main-program block; full attendee audience; Sponsor controls content and CTA |
-| Dedicated email | One (1) email to full registered attendee list, sent by ValuSignal using Sponsor-provided content (subject to Organizer pre-approval) |
+3. SPONSORSHIP FEE & PAYMENT
 
-Booth placement within the Expo Hall is assigned by Organizer. Featured sponsors receive priority placement over Core. Deliverables are contingent on timely submission of Sponsor assets (see Section 4).
+Total Fee: $2,500 (USD).
+Payment Due: Within ten (10) business days of the Effective Date.
+Methods: Check, ACH transfer, or credit card.
+Slot Confirmation: The sponsorship slot is not confirmed until payment is received in full.
+Late or Non-Payment: If full payment is not received within ten (10) business days of the Effective Date, Organizer may terminate this Agreement without further notice or liability and release the sponsorship slot to another party.
 
-**Deliverable Failure:** If Organizer fails to provide one or more deliverables listed above due to reasons within Organizer's control, Sponsor shall notify Organizer in writing. Organizer has 10 business days to cure. If uncured, Sponsor is entitled to a pro-rated refund for the undelivered item(s) based on the following value allocation: speaking slot = $400, dedicated email = $400, lead list = $400, virtual booth = $500, Core placements = $800. Total: $2,500.
+4. SPONSOR OBLIGATIONS
 
-**Attendee Count Disclosure:** Organizer shall provide Sponsor with the total registered attendee count within 5 business days of event close, alongside the lead list delivery. If total attendance is below 500 registered attendees, Sponsor may request a partial refund of up to 20% of the sponsorship fee within 15 days of receiving the attendance report.
+Sponsor agrees to submit all of the following assets by September 1, 2026:
 
----
+Brand and listing assets: High-resolution logo file (PNG or SVG, minimum 500px wide, transparent background), company website URL, and company description (50 words maximum, for Expo Hall listing).
 
-### 3. SPONSORSHIP FEE & PAYMENT
+Booth assets: Company video (MP4, maximum 3 minutes), up to 5 downloadable content files (PDF), rep name(s) and email address(es) for up to 2 booth chat reps.
 
-**Total Fee: $2,500 (USD)**
+Speaking slot assets: Presentation slides (PowerPoint or Google Slides), speaker bio (100 words maximum), speaker headshot (high-resolution JPG or PNG), and format preference (Live or Simulive).
 
-Payment is due within **10 business days** of the Effective Date. Accepted payment methods: check, ACH transfer, or credit card. Sponsorship slot is not confirmed until payment is received in full. Organizer will issue an invoice upon execution of this Agreement.
+Dedicated email copy: Subject line, body text, and CTA link, subject to Organizer approval within five (5) business days of submission.
 
----
+Late Asset Delivery: If Sponsor fails to deliver assets by September 1, 2026, Organizer's deliverable obligations may be delayed or reduced accordingly, and no refund shall be owed for any reduction in benefit caused by Sponsor's late delivery.
 
-### 4. SPONSOR OBLIGATIONS
+Content Approval: Organizer reserves the right, in its reasonable discretion, to reject or require revision of any sponsor materials that conflict with the professional standards of the valuation industry, applicable law, or Organizer's brand guidelines. Organizer shall provide written notice of any rejection and a reasonable opportunity for Sponsor to cure.
 
-Sponsor agrees to submit the following assets within **14 business days** of payment confirmation:
+5. INTELLECTUAL PROPERTY LICENSE
 
-**Booth assets:** High-resolution logo (PNG/SVG), company video (MP4, max 3 min), up to 3 images (JPG/PNG), up to 5 downloadable content files (PDF), company description (100 words max), rep name(s) and email(s) for booth access.
+Sponsor grants Organizer a limited, non-exclusive, royalty-free, worldwide license to use Sponsor's name, logo, trademarks, and approved marketing materials solely for the purpose of fulfilling Organizer's obligations under this Agreement and promoting the event. This license terminates ninety (90) days after the conclusion of the event, except that Organizer may retain archival copies, post-event recap materials, and historical references to past sponsors in perpetuity. Sponsor represents and warrants that it has all necessary rights to grant this license.
 
-**Speaking slot assets:** Presentation slides (PowerPoint or Google Slides), speaker bio (100 words max), headshot (high-res JPG/PNG), format preference (Live or Simulive).
+The post-event lead list is provided for Sponsor's direct marketing use only. Sponsor agrees not to sell, license, or transfer the lead list to any third party.
 
-**Dedicated email:** Sponsor-provided copy (subject line, body text, CTA link) submitted no later than **30 days before event date**, subject to Organizer approval within 5 business days.
+6. EXCLUSIVITY
 
-Failure to submit assets within these windows may result in delayed or forfeited deliverables. Organizer is not responsible for delays caused by late asset submission.
+This sponsorship does not include category, industry, or competitive exclusivity. Organizer may, in its sole discretion, accept sponsorships from competitors of Sponsor or from companies operating in the same or adjacent industry categories.
 
----
+7. CANCELLATION & REFUND POLICY
 
-### 5. CANCELLATION & REFUND POLICY
-
-- **Cancellation by Sponsor before June 1, 2026:** 50% refund of sponsorship fee paid.
-- **Cancellation by Sponsor on or after June 1, 2026:** No refund. All deliverables cease upon written cancellation notice. Lead list will not be delivered.
-- **Cancellation by Organizer (event cancelled):** Full refund of sponsorship fee paid within 30 days.
-- **Cancellation by Organizer (event rescheduled):** Sponsor may transfer the agreement to the rescheduled event at no additional cost, or request a full refund within 15 days of notice.
+Cancellation by Sponsor before September 1, 2026: 50% refund of sponsorship fee paid.
+Cancellation by Sponsor on or after September 1, 2026: No refund. Post-event lead list and speaking slot will not be delivered.
+Cancellation by Organizer (event cancelled and not rescheduled): Full refund of sponsorship fee paid within thirty (30) days of cancellation notice.
+Cancellation by Organizer (event rescheduled): Sponsor may transfer the agreement to the rescheduled event or request a full refund within thirty (30) days of notice.
 
 All cancellations must be submitted in writing to eunice@valusignal.com.
 
----
+8. FORCE MAJEURE
 
-### 6. INTELLECTUAL PROPERTY
+Neither party shall be liable for any failure or delay in performance under this Agreement due to causes beyond its reasonable control, including without limitation acts of God, war, terrorism, civil unrest, pandemic or epidemic, government action or order, internet or telecommunications outages, failure of third-party platform providers (including Zoom Events), labor disputes, fire, flood, or natural disaster (each a "Force Majeure Event"). If a Force Majeure Event prevents the event from occurring on the scheduled dates, Organizer's sole obligation shall be, at Organizer's election, to (a) reschedule the event to a reasonably comparable date, in which case this Agreement shall remain in effect and transfer to the rescheduled event, or (b) refund the sponsorship fee paid, less any non-recoverable costs Organizer has incurred in good faith on Sponsor's behalf.
 
-- **Sponsor grants** Organizer a limited, non-exclusive license to use Sponsor's logo, name, and submitted content solely for the purpose of fulfilling the deliverables described in Section 2, for the duration of this Agreement.
-- **Organizer grants** Sponsor a limited, non-exclusive license to use the ValuSignal 2026 name and logo in Sponsor's own promotional materials identifying Sponsor as an official Featured Partner of ValuSignal 2026, for the duration of the event period.
-- The post-event lead list is provided for Sponsor's direct marketing use only. Sponsor agrees not to sell, license, or transfer the lead list to any third party.
-- Sponsor retains ownership of all content submitted for the speaking slot and dedicated email. Organizer retains the right to include Sponsor's speaking session in post-event recordings and replays for 90 days.
-- Neither party may use the other's intellectual property beyond the scope of this Agreement without prior written consent.
+9. LIMITATION OF LIABILITY
 
----
+Cap on Liability. In no event shall Organizer's total aggregate liability arising out of or related to this Agreement, whether in contract, tort (including negligence), strict liability, or any other legal theory, exceed the total sponsorship fees actually paid by Sponsor to Organizer under this Agreement.
 
-### 7. GENERAL TERMS
+Exclusion of Damages. In no event shall Organizer be liable for any indirect, incidental, consequential, special, exemplary, or punitive damages, including without limitation lost profits, lost revenue, lost business opportunities, loss of goodwill, or cost of substitute services, even if Organizer has been advised of the possibility of such damages.
 
-**Content Approval:** Organizer reserves the right to reject or request revision of any Sponsor-submitted content (email copy, speaking content, booth materials) that is factually inaccurate, legally inappropriate, or inconsistent with ValuSignal's professional standards. Sponsor will be notified within 5 business days of submission. If Organizer does not respond within 5 business days, content is deemed approved.
+Essential Basis. The parties acknowledge that the limitations in this Section are an essential basis of the bargain and shall apply notwithstanding the failure of any limited remedy.
 
-**Liability:** Organizer's total liability under this Agreement shall not exceed the total sponsorship fee paid by Sponsor. Neither party is liable for indirect, incidental, or consequential damages, including but not limited to lost revenue, lost profits, or lost business opportunity.
+10. INDEMNIFICATION
 
-**Force Majeure:** Neither party shall be in breach of this Agreement for any delay or failure caused by circumstances beyond their reasonable control, including but not limited to platform outages, natural disasters, public health emergencies, acts of government, or internet infrastructure failures. Organizer shall notify Sponsor in writing within 5 business days of such an event and the parties shall negotiate in good faith within 30 days of that notice to determine a resolution — including rescheduling or pro-rated refund. If no resolution is reached within 30 days, Sponsor may request a full refund of all fees paid within 15 days thereafter.
+By Sponsor. Sponsor represents and warrants that (i) it has all necessary rights to the materials it submits under this Agreement, (ii) such materials do not infringe any third party's intellectual property, publicity, or privacy rights, and (iii) such materials comply with all applicable laws. Sponsor shall defend, indemnify, and hold harmless Organizer, its affiliates, and their respective officers, directors, employees, and agents from and against any and all third-party claims, damages, liabilities, costs, and expenses (including reasonable attorneys' fees) arising out of or relating to (a) Sponsor's submitted materials, (b) Sponsor's products or services, or (c) Sponsor's breach of this Agreement.
 
-**Amendment:** Any modification to this Agreement must be made in writing and signed by authorized representatives of both parties. Email confirmation from both parties' authorized signatories constitutes a valid written amendment. Verbal amendments are not enforceable.
+11. GOVERNING LAW & VENUE
 
-**Governing Law:** This Agreement is governed by the laws of the State of Texas. Any dispute arising under this Agreement shall first be addressed through good-faith written negotiation between the parties for a period of 15 days from written notice of the dispute. If unresolved, disputes shall be submitted to binding arbitration in Dallas County, Texas, before a single mutually agreed arbitrator. Arbitration costs shall be shared equally unless the arbitrator determines one party acted in bad faith.
+This Agreement shall be governed by and construed in accordance with the laws of the State of Texas, without regard to its conflict of laws principles. The parties consent to the exclusive jurisdiction and venue of the state and federal courts located in Collin County, Texas, for any dispute arising out of or relating to this Agreement, and waive any objection based on forum non conveniens or improper venue.
 
-**Entire Agreement:** This document constitutes the entire agreement between the parties and supersedes all prior discussions.
+12. RELATIONSHIP OF THE PARTIES
 
----
+Nothing in this Agreement shall be construed to create a partnership, joint venture, agency, employment, or fiduciary relationship between the parties. Neither party has authority to bind the other or to incur obligations on the other's behalf. Sponsor's participation does not constitute an endorsement of Sponsor by Organizer.
 
-### 8. SIGNATURES
+13. ASSIGNMENT
 
-By signing below, both parties agree to the terms of this Agreement.
+Neither party may assign this Agreement, in whole or in part, without the prior written consent of the other party, except that Organizer may assign this Agreement without consent to a successor entity in connection with a merger, reorganization, acquisition, or sale of all or substantially all of its assets or equity. Any purported assignment in violation of this Section is void.
 
-**ORGANIZER**
+14. NOTICES
 
-Signature: _________________________________ Date: ___________
+All notices under this Agreement must be in writing and delivered by email (with confirmation of receipt) or by recognized overnight courier to the addresses set forth below the signature blocks. Notices are deemed given upon confirmed receipt by email or one (1) business day after deposit with the courier.
 
+15. GENERAL PROVISIONS
+
+Entire Agreement. This Agreement constitutes the entire agreement between the parties with respect to the subject matter hereof and supersedes all prior or contemporaneous negotiations, proposals, representations, or agreements, whether written or oral.
+
+Amendments. No amendment, modification, or waiver of any provision of this Agreement is effective unless in writing and signed by both parties.
+
+Severability. If any provision of this Agreement is held to be invalid or unenforceable, that provision shall be modified to the minimum extent necessary to make it enforceable, and the remaining provisions shall remain in full force and effect.
+
+No Waiver. The failure of either party to enforce any right or provision of this Agreement shall not constitute a waiver of such right or provision or any other right or provision.
+
+Counterparts and Electronic Signatures. This Agreement may be executed in counterparts, each of which shall be deemed an original, and all of which together shall constitute one and the same instrument. Electronic signatures (including via DocuSign) shall have the same legal effect as original signatures.
+
+Survival. Sections 5 (IP License, post-termination portions), 9 (Limitation of Liability), 10 (Indemnification), 11 (Governing Law & Venue), 14 (Notices), and 15 (General Provisions) shall survive termination or expiration of this Agreement.
+
+16. SIGNATURES
+
+By signing below, each party represents that the individual signing has full authority to bind the named party, and the parties agree to the terms of this Agreement.
+
+ORGANIZER
+
+Signature: _________________________________
+Date: ___________
 Name: Hansel Dobbs
-
-Title: Conference Organizer, ValuSignal LLC
-
+Title: Manager, HLD Enterprises LLC dba ValuSignal
 Email: hansel@valusignal.com
+Address: ________________________________
 
----
+SPONSOR
 
-**SPONSOR**
-
-Signature: _________________________________ Date: ___________
-
+Signature: _________________________________
+Date: ___________
 Name: _________________________________
-
-Title: _________________________________
-
-Company: _________________________________
-
-Email: _________________________________
-
-Phone: _________________________________
-
----
-
-*Questions? Contact Eunice Lopez — eunice@valusignal.com | +1 469 501 1207*
-*ValuSignal 2026 · valusignal.com/sponsor · CONFIDENTIAL*
+Title: ________________
+Company: ______________________________
+Email: __________________________________
+Address: ________________________________
