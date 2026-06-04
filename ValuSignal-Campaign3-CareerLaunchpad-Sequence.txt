@@ -1,0 +1,331 @@
+VALUSIGNAL 2026 — CAMPAIGN 3: CAREER LAUNCHPAD
+College Appraisers Cold Email Sequence
+Generated: 2026-06-04
+══════════════════════════════════════════════════════════════
+
+
+SEQUENCE TIMING
+───────────────
+Cold:  Day 1 → +2d → FU1 → +3d → FU2 → +4d → FU3 (Jun 15) → +4d → FU4 → +3d → FU5
+Warm:  Reply Day → +2d → WFU1 → +3d → WFU2 → +4d → WFU3 → +4d → WFU4
+
+EARLY BIRD DEADLINE: June 15, 2026 — forty-seven dollars (regular: ninety-seven)
+EVENT: September 18–19, 2026
+
+
+══════════════════════════════════════════════════════════════
+COLD SEQUENCE
+══════════════════════════════════════════════════════════════
+
+
+──────────────────────────────────────────────────────────────
+EMAIL 1 — VARIANT A
+Subject: missing career path, {{first_name}}
+Timing: Day 1 | New email
+──────────────────────────────────────────────────────────────
+
+{{first_name}},
+
+Most students in business, real estate, and analytics programs never
+hear valuation mentioned as a career option.
+
+ValuSignal 2026 is hosting Aspiring Appraisers: Launch Your Career
+in Valuation on September 18–19 — a Career Launchpad track featuring
+practitioners like Lisa Desmarais, VP of Appraisal Issues at The
+Appraisal Foundation.
+
+Early bird closes June 15.
+
+Want me to send the one-page flyer?
+
+Hansel Dobbs, MNAA, CDEI
+Founder, ValuSignal
+Allen, TX
+reply "remove" and I'll update my list
+
+
+──────────────────────────────────────────────────────────────
+EMAIL 1 — VARIANT B
+Subject: valuation + analytics, {{first_name}}
+Timing: Day 1 | New email
+──────────────────────────────────────────────────────────────
+
+{{first_name}},
+
+Valuation is where real estate, analytics, and AI are converging —
+and most students in those fields have never heard it mentioned.
+
+ValuSignal 2026 is hosting Aspiring Appraisers: Launch Your Career
+in Valuation on September 18–19, a Career Launchpad track with
+practitioners like Paul Ryll, a multi-state Certified General
+Appraiser and RICS member.
+
+Early bird closes June 15.
+
+Want me to send the one-page flyer?
+
+Hansel Dobbs, MNAA, CDEI
+Founder, ValuSignal
+Allen, TX
+reply "remove" and I'll update my list
+
+
+──────────────────────────────────────────────────────────────
+EMAIL 1 — VARIANT C
+Subject: curriculum gap, {{first_name}}
+Timing: Day 1 | New email
+──────────────────────────────────────────────────────────────
+
+{{first_name}},
+
+Career guidance for students in business usually covers brokerage,
+banking, and corporate finance — and leaves valuation out entirely.
+
+ValuSignal 2026 is hosting Aspiring Appraisers: Launch Your Career
+in Valuation on September 18–19, a Career Launchpad track built
+around practitioner conversations across six disciplines, not theory.
+
+Melissa Bond — developer of more than forty appraisal training
+courses since 1994 — is one of the featured speakers.
+
+Want me to send the one-page flyer before June 15?
+
+Hansel Dobbs, MNAA, CDEI
+Founder, ValuSignal
+Allen, TX
+reply "remove" and I'll update my list
+
+
+──────────────────────────────────────────────────────────────
+FU1 — DEADLINE
+Subject: LEAVE BLANK (threads in Instantly.ai)
+Timing: Day 3 | Reply in thread
+──────────────────────────────────────────────────────────────
+
+{{first_name}},
+
+Early bird pricing on Aspiring Appraisers closes June 15.
+
+Students who register before the deadline get the full program at
+forty-seven dollars instead of ninety-seven.
+
+That gap may be worth flagging to students exploring real estate,
+analytics, or business careers.
+
+I still have the one-page flyer if you'd like me to send it over.
+
+Hansel Dobbs, MNAA, CDEI
+Founder, ValuSignal
+Allen, TX
+reply "remove" and I'll update my list
+
+
+──────────────────────────────────────────────────────────────
+FU2 — VALUE-ADD (replay access)
+Subject: LEAVE BLANK (threads in Instantly.ai)
+Timing: Day 6 | Reply in thread
+──────────────────────────────────────────────────────────────
+
+{{first_name}},
+
+Every session at Aspiring Appraisers includes three months of
+replay access.
+
+Students who can't attend live on September 18–19 still get the
+full content on demand.
+
+Early bird holds through June 15 at forty-seven dollars.
+
+I still have the flyer if you'd like to pass it along.
+
+Hansel Dobbs, MNAA, CDEI
+Founder, ValuSignal
+Allen, TX
+reply "remove" and I'll update my list
+
+
+──────────────────────────────────────────────────────────────
+FU3 — SOCIAL PROOF (deadline day)
+Subject: LEAVE BLANK (threads in Instantly.ai)
+Timing: Day 10 (June 15) | Reply in thread
+──────────────────────────────────────────────────────────────
+
+{{first_name}},
+
+Today is the last day for early bird pricing on Aspiring Appraisers.
+
+Lisa Desmarais — VP of Appraisal Issues at The Appraisal Foundation
+— is one of the featured practitioners, alongside speakers covering
+six disciplines in two days.
+
+The sessions are built for honest conversation, not theory — students
+get a clear picture of the profession before committing to it.
+
+I still have the flyer if it helps move things along today.
+
+Hansel Dobbs, MNAA, CDEI
+Founder, ValuSignal
+Allen, TX
+reply "remove" and I'll update my list
+
+
+──────────────────────────────────────────────────────────────
+FU4 — PAIN
+Subject: LEAVE BLANK (threads in Instantly.ai)
+Timing: Day 14 | Reply in thread
+──────────────────────────────────────────────────────────────
+
+{{first_name}},
+
+Most students exploring business or real estate careers have no clear
+picture of what day-to-day valuation work actually looks like.
+
+Aspiring Appraisers is built for that — panel conversations across
+three experience levels so students hear it directly from
+practitioners.
+
+Early bird has closed, but registration is still open before
+September 18.
+
+Happy to resend the flyer.
+
+Hansel Dobbs, MNAA, CDEI
+Founder, ValuSignal
+Allen, TX
+reply "remove" and I'll update my list
+
+
+──────────────────────────────────────────────────────────────
+FU5 — FINAL CLOSE
+Subject: LEAVE BLANK (threads in Instantly.ai)
+Timing: Day 17 | Reply in thread
+──────────────────────────────────────────────────────────────
+
+{{first_name}},
+
+Last note — Aspiring Appraisers at ValuSignal 2026 runs
+September 18–19 and registration is still open.
+
+If you have students exploring careers in real estate, analytics, or
+business who haven't found a clear direction yet, this was built for
+exactly that conversation.
+
+Happy to send the registration details anytime — no need to respond
+either way if the timing doesn't work.
+
+Hansel Dobbs, MNAA, CDEI
+Founder, ValuSignal
+Allen, TX
+reply "remove" and I'll update my list
+
+
+══════════════════════════════════════════════════════════════
+WARM SEQUENCE
+(Triggered after advisor replies and receives flyer)
+══════════════════════════════════════════════════════════════
+
+
+──────────────────────────────────────────────────────────────
+WFU1 — RECEIPT + OPEN DOOR
+Subject: Re: [threads from original]
+Timing: Day 2 after reply
+──────────────────────────────────────────────────────────────
+
+{{first_name}},
+
+I can send the full speaker list and session breakdown for Aspiring
+Appraisers if you'd like to share it with students before passing
+along the flyer.
+
+Early bird closes June 15 at forty-seven dollars — worth flagging
+before the weekend.
+
+Happy to answer any questions that come up on their end.
+
+Hansel Dobbs, MNAA, CDEI
+Founder, ValuSignal
+Allen, TX
+
+
+──────────────────────────────────────────────────────────────
+WFU2 — FEATURE ANGLE (six disciplines)
+Subject: Re: [threads from original]
+Timing: Day 5 after reply
+──────────────────────────────────────────────────────────────
+
+{{first_name}},
+
+Tax assessment and business valuation are two of the six disciplines
+covered in Aspiring Appraisers — paths that connect directly to
+finance, analytics, and government careers most students already
+consider.
+
+Most career programs never mention either one.
+
+Happy to send the full breakdown if it would help make the case
+to students.
+
+Hansel Dobbs, MNAA, CDEI
+Founder, ValuSignal
+Allen, TX
+
+
+──────────────────────────────────────────────────────────────
+WFU3 — SPEAKER DEPTH
+Subject: Re: [threads from original]
+Timing: Day 9 after reply
+──────────────────────────────────────────────────────────────
+
+{{first_name}},
+
+Lisa Desmarais — VP of Appraisal Issues at The Appraisal Foundation
+— is walking students through what entry into valuation actually
+looks like at Aspiring Appraisers.
+
+She's joined by Paul Ryll, a multi-state Certified General Appraiser
+and RICS member, across panels covering three career stages.
+
+Happy to send the full speaker list if you haven't seen it yet.
+
+Hansel Dobbs, MNAA, CDEI
+Founder, ValuSignal
+Allen, TX
+
+
+──────────────────────────────────────────────────────────────
+WFU4 — FINAL CLOSE
+Subject: Re: [threads from original]
+Timing: Day 13 after reply
+──────────────────────────────────────────────────────────────
+
+{{first_name}},
+
+Last note — Aspiring Appraisers runs September 18–19 and I can
+send the registration details directly if that makes it easier
+to pass along to students.
+
+Happy to answer any questions that come up on their end.
+
+Hansel Dobbs, MNAA, CDEI
+Founder, ValuSignal
+Allen, TX
+
+
+══════════════════════════════════════════════════════════════
+DEPLOYMENT CHECKLIST
+══════════════════════════════════════════════════════════════
+
+[ ] Spam check passed via mailmeteor.com/spam-checker
+[ ] Speaker names verified: Lisa Desmarais, Paul Ryll, Melissa Bond
+[ ] Cold FU1–FU5 subjects left BLANK in Instantly.ai
+[ ] No URLs anywhere in the sequence — confirmed
+[ ] Signature confirmed: Hansel Dobbs, MNAA, CDEI /
+    Founder, ValuSignal / Allen, TX
+[ ] Unsubscribe in all cold emails: reply "remove" and I'll update my list
+[ ] Dollar amounts as words — confirmed (no $ symbols)
+[ ] {{first_name}} token format confirmed for Instantly.ai
+[ ] Warm sequence trigger: fires after advisor replies, not after Email 1
+[ ] 3 Email 1 variants loaded / 1 variant per FU confirmed
+[ ] TIMING NOTE: Launch by June 4–5 for FU3 to land on June 15.
+    If launching after June 7, remove early bird language from
+    FU1–FU2 and open on ninety-seven dollar regular price.
