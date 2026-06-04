@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Trip Tracker — Centroamérica 2026</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+:root{
+  --bg:#080e1c;--surface:#111827;--card:#1a2235;--card2:#1e293b;--border:#2a3650;
+  --primary:#6366f1;--green:#22c55e;--yellow:#f59e0b;--red:#ef4444;
+  --text:#e2e8f0;--muted:#64748b;--nav-h:68px;--hdr:56px;
+}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif;min-height:100dvh;display:flex;justify-content:center}
+#app{width:100%;max-width:430px;min-height:100dvh;display:flex;flex-direction:column;position:relative}
+
+/* HEADER */
+header{position:sticky;top:0;z-index:100;background:var(--surface);border-bottom:1px solid var(--border);height:var(--hdr);display:flex;align-items:center;justify-content:space-between;padding:0 16px}
+.hdr-left{display:flex;align-items:center;gap:8px;font-weight:600;font-size:16px}
+.hdr-right{display:flex;align-items:center;gap:10px}
+.hdr-date{font-size:11px;color:var(--muted);text-align:right;line-height:1.5}
+.hdr-date b{color:var(--primary)}
+.settings-btn{background:none;border:none;font-size:20px;cursor:pointer;padding:4px;line-height:1}
+
+/* TABS */
+.tab-content{flex:1;overflow-y:auto;padding:14px 14px calc(var(--nav-h) + 14px)}
+.view{display:none}.view.active{display:block}
+
+/* NAV */
+nav{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:100%;max-width:430px;height:var(--nav-h);background:var(--surface);border-top:1px solid var(--border);display:flex;align-items:center;justify-content:space-around;z-index:100;padding-bottom:env(safe-area-inset-bottom)}
+.nav-btn{display:flex;flex-direction:column;align-items:center;gap:3px;padding:6px 18px;background:none;border:none;cursor:pointer;color:var(--muted);font-size:10px;transition:color .15s}
+.nav-btn .ni{font-size:22px;line-height:1}
+.nav-btn.active{color:var(--primary)}
+.nav-fab{width:52px;height:52px;border-radius:50%;background:var(--primary);border:none;cursor:pointer;font-size:26px;color:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(99,102,241,.45);transition:transform .15s}
+.nav-fab:active{transform:scale(.92)}
+
+/* CARDS */
+.card{background:var(--card);border-radius:16px;padding:16px;margin-bottom:12px}
+.section-title{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.8px;margin-bottom:10px;font-weight:600}
+
+/* DASHBOARD SUMMARY */
+.sum-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px}
+.sum-card{background:var(--card);border-radius:16px;padding:14px}
+.sum-label{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px}
+.sum-amount{font-size:22px;font-weight:700;margin-bottom:3px}
+.sum-sub{font-size:11px;color:var(--muted)}
+.pbar{height:5px;background:var(--border);border-radius:3px;margin-top:8px;overflow:hidden}
+.pfill{height:100%;border-radius:3px;transition:width .4s ease}
+
+/* INSIGHT BANNER */
+.insight-banner{background:linear-gradient(135deg,#1e2d50,#1a2540);border:1px solid #2a3d6a;border-radius:12px;padding:12px 14px;margin-bottom:12px;font-size:13px;line-height:1.5;color:#93c5fd}
+
+/* EXPENSE LIST */
+.exp-item{display:flex;align-items:center;gap:10px;padding:10px 12px;background:var(--card);border-radius:12px;margin-bottom:8px}
+.exp-icon{font-size:20px;width:36px;height:36px;display:flex;align-items:center;justify-content:center;background:var(--card2);border-radius:10px;flex-shrink:0}
+.exp-info{flex:1;min-width:0}
+.exp-label{font-size:13px;font-weight:500;margin-bottom:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.exp-meta{font-size:11px;color:var(--muted)}
+.exp-usd{font-size:15px;font-weight:700;color:#f87171;white-space:nowrap}
+.exp-del{background:none;border:none;color:var(--border);cursor:pointer;font-size:18px;padding:2px 6px;line-height:1;flex-shrink:0}
+.exp-del:hover{color:var(--red)}
+
+/* ADD FORM */
+.amount-section{background:var(--card);border-radius:20px;padding:24px 20px 20px;margin-bottom:12px;text-align:center}
+.amount-label{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.8px;margin-bottom:14px}
+.amount-wrap{display:flex;align-items:center;justify-content:center;gap:8px}
+.cur-badge{background:var(--card2);border-radius:8px;padding:7px 10px;font-size:13px;font-weight:700;color:var(--primary);cursor:pointer;border:none;transition:background .15s}
+#amount-input{background:none;border:none;font-size:44px;font-weight:700;color:var(--text);width:180px;text-align:center;outline:none}
+#amount-input::placeholder{color:var(--border)}
+.usd-conv{font-size:13px;color:var(--muted);margin-top:8px;min-height:18px}
+
+.cat-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;margin-bottom:12px}
+.cat-btn{display:flex;flex-direction:column;align-items:center;gap:4px;padding:10px 4px;background:var(--card);border-radius:12px;border:2px solid transparent;cursor:pointer;transition:border-color .15s,background .15s}
+.cat-btn.sel{border-color:var(--primary);background:#1e1f4a}
+.cat-btn .ci{font-size:20px}
+.cat-btn .cl{font-size:9px;color:var(--muted);text-align:center}
+.cat-btn.sel .cl{color:var(--primary)}
+
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px}
+.form-group{margin-bottom:10px}
+.form-label{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px;display:block}
+.form-sel,.form-inp{width:100%;background:var(--card);border:1px solid var(--border);border-radius:10px;padding:11px 12px;color:var(--text);font-size:14px;outline:none;-webkit-appearance:none}
+.form-sel:focus,.form-inp:focus{border-color:var(--primary)}
+.save-btn{width:100%;background:var(--primary);color:#fff;border:none;border-radius:14px;padding:16px;font-size:16px;font-weight:600;cursor:pointer;margin-top:8px;transition:opacity .15s}
+.save-btn:active{opacity:.85}
+
+/* COUNTRIES */
+.cc{background:var(--card);border-radius:18px;padding:16px;margin-bottom:12px}
+.cc-hdr{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+.cc-name-row{display:flex;align-items:center;gap:8px}
+.cc-flag{font-size:22px}
+.cc-name{font-size:15px;font-weight:600}
+.cc-dates{font-size:11px;color:var(--muted)}
+.badge{font-size:11px;padding:3px 8px;border-radius:20px;font-weight:500}
+.b-pending{background:#1e293b;color:var(--muted)}
+.b-active{background:#1e2d50;color:#60a5fa}
+.b-done{background:#162038;color:#94a3b8}
+.b-over{background:#2d1515;color:var(--red)}
+.b-saved{background:#152d1e;color:var(--green)}
+.cc-amounts{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:6px}
+.cc-spent{font-size:20px;font-weight:700}
+.cc-budget{font-size:12px;color:var(--muted)}
+.cc-diff{font-size:12px;font-weight:600}
+.cat-bars{margin-top:12px}
+.cat-bar-row{display:flex;align-items:center;gap:8px;margin-bottom:5px}
+.cat-bar-lbl{font-size:11px;color:var(--muted);width:82px;flex-shrink:0}
+.cat-bar-bg{flex:1;height:4px;background:var(--border);border-radius:2px;overflow:hidden}
+.cat-bar-fill{height:100%;border-radius:2px}
+.cat-bar-val{font-size:11px;width:40px;text-align:right;flex-shrink:0}
+
+/* INSIGHTS */
+.ins-card{border-radius:16px;padding:14px;margin-bottom:10px}
+.ins-risk{background:#2d1515;border:1px solid #4d2020}
+.ins-save{background:#152d1e;border:1px solid #1e4d30}
+.ins-projection{background:#1a1a35;border:1px solid #2a2a5a}
+.ins-tip{background:#1f1a10;border:1px solid #4a3a10}
+.ins-hdr{display:flex;align-items:center;gap:8px;margin-bottom:5px}
+.ins-icon{font-size:18px}
+.ins-title{font-size:13px;font-weight:600}
+.ins-body{font-size:12px;color:var(--muted);line-height:1.6}
+
+/* EMPTY */
+.empty{text-align:center;padding:40px 20px;color:var(--muted)}
+.empty .ei{font-size:40px;margin-bottom:12px}
+.empty p{font-size:14px;line-height:1.6}
+
+/* TOAST */
+.toast{position:fixed;bottom:calc(var(--nav-h) + 14px);left:50%;transform:translateX(-50%);background:var(--green);color:#fff;padding:10px 22px;border-radius:20px;font-size:13px;font-weight:500;z-index:300;opacity:0;transition:opacity .2s;pointer-events:none;white-space:nowrap}
+.toast.show{opacity:1}
+
+/* OVERLAY / SHEET */
+.overlay{position:fixed;inset:0;background:rgba(0,0,0,.72);z-index:200;display:flex;align-items:flex-end;justify-content:center}
+.sheet{background:var(--surface);border-radius:20px 20px 0 0;padding:20px;width:100%;max-width:430px}
+.sheet h3{font-size:16px;margin-bottom:8px}
+.sheet p{font-size:13px;color:var(--muted);margin-bottom:16px}
+.sheet-actions{display:flex;flex-direction:column;gap:8px}
+.sheet-btn{padding:13px 16px;border-radius:12px;border:none;font-size:14px;font-weight:500;cursor:pointer;text-align:left;background:var(--card);color:var(--text)}
+.sheet-btn.danger{color:var(--red)}
+.sheet-close{width:100%;margin-top:12px;padding:13px;border-radius:12px;border:none;background:var(--border);color:var(--text);font-size:14px;font-weight:600;cursor:pointer}
+</style>
+</head>
+<body>
+<div id="app">
+  <header>
+    <div class="hdr-left" id="hdr-country">🗺️ Viaje</div>
+    <div class="hdr-right">
+      <div class="hdr-date" id="hdr-date"></div>
+      <button class="settings-btn" onclick="openSheet()">⚙️</button>
+    </div>
+  </header>
+
+  <div class="tab-content">
+    <!-- HOY -->
+    <div class="view active" id="view-dashboard">
+      <div class="sum-row">
+        <div class="sum-card">
+          <div class="sum-label">Hoy</div>
+          <div class="sum-amount" id="s-today">$0.00</div>
+          <div class="sum-sub" id="s-today-sub">de $0/día</div>
+          <div class="pbar"><div class="pfill" id="s-today-bar" style="width:0%;background:var(--green)"></div></div>
+        </div>
+        <div class="sum-card">
+          <div class="sum-label">Viaje total</div>
+          <div class="sum-amount" id="s-trip">$0.00</div>
+          <div class="sum-sub">de $2,172</div>
+          <div class="pbar"><div class="pfill" id="s-trip-bar" style="width:0%;background:var(--primary)"></div></div>
+        </div>
+      </div>
+      <div class="insight-banner" id="main-insight">Empieza a registrar gastos para ver análisis en tiempo real 🗺️</div>
+      <div class="section-title">Últimos gastos</div>
+      <div id="recent-list"></div>
+    </div>
+
+    <!-- AGREGAR -->
+    <div class="view" id="view-add">
+      <div class="amount-section">
+        <div class="amount-label">¿Cuánto gastaste?</div>
+        <div class="amount-wrap">
+          <button class="cur-badge" id="cur-badge" onclick="toggleCur()">USD</button>
+          <input type="number" id="amount-input" placeholder="0" inputmode="decimal" step="0.01" min="0">
+        </div>
+        <div class="usd-conv" id="usd-conv"></div>
+      </div>
+
+      <div class="section-title">Categoría</div>
+      <div class="cat-grid" id="cat-grid"></div>
+
+      <div class="form-row">
+        <div>
+          <label class="form-label">País</label>
+          <select class="form-sel" id="csel"></select>
+        </div>
+        <div>
+          <label class="form-label">Fecha</label>
+          <input type="date" class="form-inp" id="date-inp">
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label">Nota (opcional)</label>
+        <input type="text" class="form-inp" id="note-inp" placeholder="ej. Cena en mercado">
+      </div>
+      <button class="save-btn" onclick="saveExpense()">Guardar gasto</button>
+    </div>
+
+    <!-- PAÍSES -->
+    <div class="view" id="view-countries">
+      <div id="countries-list"></div>
+    </div>
+
+    <!-- ANÁLISIS -->
+    <div class="view" id="view-insights">
+      <div id="insights-list"></div>
+    </div>
+  </div>
+
+  <nav>
+    <button class="nav-btn active" data-tab="dashboard" onclick="goTab('dashboard')">
+      <span class="ni">🏠</span><span>Hoy</span>
+    </button>
+    <button class="nav-fab" onclick="goTab('add')">＋</button>
+    <button class="nav-btn" data-tab="countries" onclick="goTab('countries')">
+      <span class="ni">🗺️</span><span>Países</span>
+    </button>
+    <button class="nav-btn" data-tab="insights" onclick="goTab('insights')">
+      <span class="ni">📊</span><span>Análisis</span>
+    </button>
+  </nav>
+</div>
+
+<!-- SETTINGS SHEET -->
+<div class="overlay" id="settings-overlay" style="display:none" onclick="closeSheet()">
+  <div class="sheet" onclick="event.stopPropagation()">
+    <h3>⚙️ Opciones</h3>
+    <p>Trip Tracker — Centroamérica 2026</p>
+    <div class="sheet-actions">
+      <button class="sheet-btn" onclick="exportCSV()">📤 Exportar gastos a CSV</button>
+      <button class="sheet-btn danger" onclick="confirmReset()">🗑️ Borrar todos los gastos</button>
+    </div>
+    <button class="sheet-close" onclick="closeSheet()">Cerrar</button>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+// ─── DATA ───────────────────────────────────────────────
+const TOTAL_BUDGET = 2172;
+
+// Ruta INVERSA: MDE→PTY por tierra hasta GUA→MDE
+const CTRS = [
+  {id:'panama', name:'Panamá', flag:'🇵🇦', cur:'USD', rate:1,
+   start:'2026-10-29', end:'2026-11-04', days:6,
+   budget:{total:345, alojamiento:150, comida:90, actividades:80, transporte:25}},
+  {id:'costarica', name:'Costa Rica', flag:'🇨🇷', cur:'CRC', rate:530,
+   start:'2026-11-04', end:'2026-11-11', days:7,
+   budget:{total:395, alojamiento:175, comida:105, actividades:70, transporte:45}},
+  {id:'nicaragua', name:'Nicaragua', flag:'🇳🇮', cur:'NIO', rate:36,
+   start:'2026-11-11', end:'2026-11-17', days:6,
+   budget:{total:210, alojamiento:72, comida:60, actividades:55, transporte:23}},
+  {id:'elsalvador', name:'El Salvador', flag:'🇸🇻', cur:'USD', rate:1,
+   start:'2026-11-17', end:'2026-11-24', days:7,
+   budget:{total:286, alojamiento:112, comida:80, actividades:69, transporte:25}},
+  {id:'honduras', name:'Honduras', flag:'🇭🇳', cur:'HNL', rate:24.5,
+   start:'2026-11-24', end:'2026-12-01', days:7,
+   budget:{total:235, alojamiento:70, comida:70, actividades:65, transporte:30}},
+  {id:'belize', name:'Belize', flag:'🇧🇿', cur:'USD', rate:1,
+   start:'2026-12-01', end:'2026-12-06', days:5,
+   budget:{total:300, alojamiento:100, comida:65, actividades:100, transporte:35}},
+  {id:'guatemala', name:'Guatemala', flag:'🇬🇹', cur:'GTQ', rate:7.75,
+   start:'2026-12-06', end:'2026-12-16', days:10,
+   budget:{total:363, alojamiento:80, comida:96, actividades:142, transporte:45}},
+];
+
+const CATS = [
+  {id:'alojamiento', label:'Aloja.',  icon:'🏠'},
+  {id:'comida',      label:'Comida',  icon:'🍽️'},
+  {id:'actividades', label:'Activ.',  icon:'🎯'},
+  {id:'transporte',  label:'Transp.', icon:'🚌'},
+  {id:'otro',        label:'Otro',    icon:'💸'},
+];
+
+// ─── STATE ──────────────────────────────────────────────
+let exps = JSON.parse(localStorage.getItem('tc_v3') || '[]');
+let selCat = 'comida';
+let useLocal = false;
+let activeCtr = detectCtr();
+
+function saveData(){ localStorage.setItem('tc_v3', JSON.stringify(exps)); }
+
+function detectCtr(){
+  const t = today();
+  for(const c of CTRS) if(t >= c.start && t <= c.end) return c.id;
+  return t < CTRS[0].start ? CTRS[0].id : CTRS[CTRS.length-1].id;
+}
+
+function today(){ return new Date().toISOString().slice(0,10); }
+function getCtr(id){ return CTRS.find(c=>c.id===id); }
+
+// ─── COMPUTED ───────────────────────────────────────────
+function ctrExps(id){ return exps.filter(e=>e.country===id); }
+function ctrTotal(id){ return ctrExps(id).reduce((s,e)=>s+e.usd,0); }
+function todayTotal(){ return exps.filter(e=>e.date===today()).reduce((s,e)=>s+e.usd,0); }
+function tripTotal(){ return exps.reduce((s,e)=>s+e.usd,0); }
+function catCtrTotal(id,cat){ return ctrExps(id).filter(e=>e.category===cat).reduce((s,e)=>s+e.usd,0); }
+function dailyBudget(id){ const c=getCtr(id); return c ? c.budget.total/c.days : 0; }
+
+function pctColor(p){ return p>=1?'var(--red)':p>=.82?'var(--yellow)':'var(--green)'; }
+
+function ctrStatus(id){
+  const c=getCtr(id), t=today();
+  if(t < c.start) return 'pending';
+  if(t > c.end)   return 'done';
+  return 'active';
+}
+
+function fmtDate(d){
+  return new Date(d+'T00:00:00').toLocaleDateString('es',{day:'numeric',month:'short'});
+}
+
+// ─── INIT ────────────────────────────────────────────────
+function init(){
+  // Header date
+  const now = new Date();
+  const dl = getDayLabel();
+  document.getElementById('hdr-date').innerHTML =
+    now.toLocaleDateString('es',{weekday:'short',day:'numeric',month:'short'}).replace(',',' ') +
+    `<br><b>${dl}</b>`;
+
+  const c = getCtr(activeCtr);
+  document.getElementById('hdr-country').textContent = c ? `${c.flag} ${c.name}` : '🗺️ Viaje';
+
+  // Category grid
+  document.getElementById('cat-grid').innerHTML = CATS.map(ct=>
+    `<button class="cat-btn${ct.id===selCat?' sel':''}" onclick="selCategory('${ct.id}')">
+      <span class="ci">${ct.icon}</span><span class="cl">${ct.label}</span>
+    </button>`
+  ).join('');
+
+  // Country select
+  document.getElementById('csel').innerHTML = CTRS.map(c=>
+    `<option value="${c.id}"${c.id===activeCtr?' selected':''}>${c.flag} ${c.name}</option>`
+  ).join('');
+
+  document.getElementById('date-inp').value = today();
+  updateCurBadge();
+
+  document.getElementById('amount-input').addEventListener('input', updateConv);
+  document.getElementById('csel').addEventListener('change', function(){
+    activeCtr = this.value;
+    useLocal = false;
+    updateCurBadge();
+    updateConv();
+    const c = getCtr(activeCtr);
+    document.getElementById('hdr-country').textContent = `${c.flag} ${c.name}`;
+  });
+
+  renderDash(); renderCtr(); renderIns();
+}
+
+function getDayLabel(){
+  const t = today();
+  for(const c of CTRS){
+    if(t >= c.start && t <= c.end){
+      const d = Math.floor((new Date(t)-new Date(c.start))/86400000)+1;
+      return `Día ${d}/${c.days} en ${c.name}`;
+    }
+  }
+  if(t < CTRS[0].start){
+    const days = Math.ceil((new Date(CTRS[0].start)-new Date())/86400000);
+    return `${days} días para salir`;
+  }
+  return 'Viaje completado';
+}
+
+// ─── DASHBOARD ──────────────────────────────────────────
+function renderDash(){
+  const tday = todayTotal();
+  const db = dailyBudget(activeCtr);
+  const tp = db>0 ? Math.min(tday/db,1) : 0;
+  document.getElementById('s-today').textContent = `$${tday.toFixed(2)}`;
+  document.getElementById('s-today').style.color = tday>db&&db>0 ? 'var(--red)' : 'var(--text)';
+  document.getElementById('s-today-sub').textContent = `de $${db.toFixed(0)}/día`;
+  document.getElementById('s-today-bar').style.width = (tp*100)+'%';
+  document.getElementById('s-today-bar').style.background = pctColor(tp);
+
+  const tt = tripTotal();
+  const tpct = Math.min(tt/TOTAL_BUDGET,1);
+  document.getElementById('s-trip').textContent = `$${tt.toFixed(2)}`;
+  document.getElementById('s-trip-bar').style.width = (tpct*100)+'%';
+  document.getElementById('s-trip-bar').style.background = pctColor(tpct);
+
+  document.getElementById('main-insight').textContent = mainInsight();
+
+  const recent = [...exps].reverse().slice(0,10);
+  const el = document.getElementById('recent-list');
+  if(!recent.length){
+    el.innerHTML = `<div class="empty"><div class="ei">💳</div><p>Sin gastos aún.<br>Toca <b>＋</b> para agregar.</p></div>`;
+    return;
+  }
+  el.innerHTML = recent.map((e,i)=>{
+    const cat = CATS.find(c=>c.id===e.category)||CATS[4];
+    const ctr = getCtr(e.country);
+    const realIdx = exps.length-1-i;
+    return `<div class="exp-item">
+      <div class="exp-icon">${cat.icon}</div>
+      <div class="exp-info">
+        <div class="exp-label">${e.note||cat.label}</div>
+        <div class="exp-meta">${ctr?.flag||''} ${e.date} · ${cat.label}</div>
+      </div>
+      <div class="exp-usd">-$${e.usd.toFixed(2)}</div>
+      <button class="exp-del" onclick="delExp(${realIdx})">✕</button>
+    </div>`;
+  }).join('');
+}
+
+function mainInsight(){
+  const tt = tripTotal();
+  if(!tt) return 'Empieza a registrar gastos para ver análisis en tiempo real 🗺️';
+  const c = getCtr(activeCtr);
+  const t = today();
+  if(c && t>=c.start && t<=c.end){
+    const elapsed = Math.max(1,Math.floor((new Date(t)-new Date(c.start))/86400000)+1);
+    const spent = ctrTotal(c.id);
+    const rate = spent/elapsed;
+    const proj = rate*c.days;
+    const diff = proj-c.budget.total;
+    if(diff>15) return `⚠️ ${c.name}: proyección $${proj.toFixed(0)} vs plan $${c.budget.total}. Reduce $${(diff/Math.max(c.days-elapsed,1)).toFixed(0)}/día.`;
+    if(diff<-15) return `✅ ${c.name}: vas a ahorrar ~$${Math.abs(diff).toFixed(0)}. ¡Buen ritmo!`;
+    return `📍 ${c.name}: en línea con el plan. $${spent.toFixed(0)} de $${c.budget.total} gastados.`;
+  }
+  const pct = (tt/TOTAL_BUDGET*100).toFixed(0);
+  return `Llevas $${tt.toFixed(0)} de $${TOTAL_BUDGET} (${pct}% del presupuesto total).`;
+}
+
+// ─── COUNTRIES ──────────────────────────────────────────
+function renderCtr(){
+  document.getElementById('countries-list').innerHTML = CTRS.map(c=>{
+    const spent = ctrTotal(c.id);
+    const pct = spent/c.budget.total;
+    const diff = c.budget.total-spent;
+    const st = ctrStatus(c.id);
+    const t = today();
+    const daysLeft = st==='active'
+      ? c.days - Math.floor((new Date(t)-new Date(c.start))/86400000)
+      : c.days;
+
+    let badge, bcls;
+    if(st==='pending')       {badge='Pendiente';  bcls='b-pending';}
+    else if(st==='active')   {badge='En curso';   bcls='b-active';}
+    else if(!spent)          {badge='Sin datos';  bcls='b-done';}
+    else if(pct>1)           {badge=`+$${(spent-c.budget.total).toFixed(0)}`; bcls='b-over';}
+    else if(st==='done'&&diff>10){badge=`Ahorré $${diff.toFixed(0)}`; bcls='b-saved';}
+    else                     {badge='Terminado';  bcls='b-done';}
+
+    const catRows = ['alojamiento','comida','actividades','transporte'].map(cat=>{
+      const cs = catCtrTotal(c.id, cat);
+      const cb = c.budget[cat]||0;
+      const cp = cb>0 ? Math.min(cs/cb,1) : 0;
+      const ci = CATS.find(x=>x.id===cat)?.icon||'';
+      return `<div class="cat-bar-row">
+        <div class="cat-bar-lbl">${ci} ${cat.slice(0,1).toUpperCase()+cat.slice(1,5)}.</div>
+        <div class="cat-bar-bg"><div class="cat-bar-fill" style="width:${cp*100}%;background:${pctColor(cp)}"></div></div>
+        <div class="cat-bar-val" style="color:${pctColor(cp)}">$${cs.toFixed(0)}</div>
+      </div>`;
+    }).join('');
+
+    return `<div class="cc">
+      <div class="cc-hdr">
+        <div class="cc-name-row">
+          <span class="cc-flag">${c.flag}</span>
+          <div>
+            <div class="cc-name">${c.name}</div>
+            <div class="cc-dates">${fmtDate(c.start)} – ${fmtDate(c.end)} · ${daysLeft}d</div>
+          </div>
+        </div>
+        <span class="badge ${bcls}">${badge}</span>
+      </div>
+      <div class="cc-amounts">
+        <span class="cc-spent" style="color:${pctColor(pct)}">$${spent.toFixed(0)}</span>
+        <span class="cc-budget">/ $${c.budget.total}</span>
+        <span class="cc-diff" style="color:${diff>=0?'var(--green)':'var(--red)'}">
+          ${diff>=0?'▼':'▲'}$${Math.abs(diff).toFixed(0)}
+        </span>
+      </div>
+      <div class="pbar"><div class="pfill" style="width:${Math.min(pct,1)*100}%;background:${pctColor(pct)}"></div></div>
+      ${spent>0?`<div class="cat-bars">${catRows}</div>`:''}
+    </div>`;
+  }).join('');
+}
+
+// ─── INSIGHTS ───────────────────────────────────────────
+function renderIns(){
+  const el = document.getElementById('insights-list');
+  const ins = buildInsights();
+  if(!ins.length){
+    el.innerHTML = `<div class="empty"><div class="ei">📊</div><p>Agrega gastos para ver<br>proyecciones y análisis.</p></div>`;
+    return;
+  }
+  el.innerHTML = ins.map(i=>`
+    <div class="ins-card ins-${i.type}">
+      <div class="ins-hdr"><span class="ins-icon">${i.icon}</span><span class="ins-title">${i.title}</span></div>
+      <div class="ins-body">${i.body}</div>
+    </div>`).join('');
+}
+
+function buildInsights(){
+  const ins = [];
+  const tt = tripTotal();
+  if(!tt) return ins;
+
+  const t = today();
+  const tripStart = CTRS[0].start;
+  const tripEnd = CTRS[CTRS.length-1].end;
+  const elapsed = Math.max(1,Math.ceil((new Date(t)-new Date(tripStart))/86400000));
+  const totalDays = Math.ceil((new Date(tripEnd)-new Date(tripStart))/86400000);
+  const remaining = Math.max(0,totalDays-elapsed);
+  const avgDay = tt/elapsed;
+  const proj = tt+avgDay*remaining;
+  const projDiff = proj-TOTAL_BUDGET;
+
+  ins.push({type:'projection',icon:'🔮',
+    title:'Proyección total del viaje',
+    body:`Promedio: <b>$${avgDay.toFixed(0)}/día</b>. Proyección final: <b>$${proj.toFixed(0)}</b> de $${TOTAL_BUDGET}. ` +
+      (Math.abs(projDiff)<50 ? '✅ En línea con el plan.' :
+       projDiff>0 ? `⚠️ Exceso estimado <b>$${projDiff.toFixed(0)}</b>. Reduce $${(projDiff/Math.max(remaining,1)).toFixed(0)}/día.` :
+       `💚 Ahorro estimado <b>$${Math.abs(projDiff).toFixed(0)}</b>. ¡Vas excelente!`)
+  });
+
+  for(const c of CTRS){
+    const spent = ctrTotal(c.id);
+    if(!spent) continue;
+    const st = ctrStatus(c.id);
+
+    if(st==='active'){
+      const de = Math.max(1,Math.floor((new Date(t)-new Date(c.start))/86400000)+1);
+      const rate = spent/de;
+      const drem = c.days-de;
+      const pj = spent+rate*drem;
+      const df = pj-c.budget.total;
+      if(df>20) ins.push({type:'risk',icon:'⚠️',
+        title:`${c.flag} ${c.name}: riesgo de exceder`,
+        body:`Proyección: $${pj.toFixed(0)} vs plan $${c.budget.total}. Máx $${((c.budget.total-spent)/Math.max(drem,1)).toFixed(0)}/día los próximos ${drem} días.`});
+      else if(df<-20) ins.push({type:'save',icon:'✅',
+        title:`${c.flag} ${c.name}: por debajo del plan`,
+        body:`Proyección: $${pj.toFixed(0)} vs plan $${c.budget.total}. Ahorro ~$${Math.abs(df).toFixed(0)}. Puedes gastar $${(Math.abs(df)/Math.max(drem,1)).toFixed(0)} extra/día.`});
+    } else if(st==='done'){
+      const df = c.budget.total-spent;
+      if(Math.abs(df)>10) ins.push({type:df>0?'save':'risk',icon:df>0?'💚':'🔴',
+        title:`${c.flag} ${c.name}: resultado`,
+        body:df>0
+          ?`Ahorraste $${df.toFixed(0)} → gastaste $${spent.toFixed(0)} de $${c.budget.total}.`
+          :`Excediste $${Math.abs(df).toFixed(0)} → gastaste $${spent.toFixed(0)} vs plan $${c.budget.total}.`});
+    }
+
+    for(const cat of ['alojamiento','comida','actividades','transporte']){
+      const cs = catCtrTotal(c.id,cat);
+      const cb = c.budget[cat]||0;
+      if(cb>0 && cs>cb*1.3 && cs>8){
+        const ci = CATS.find(x=>x.id===cat)?.icon||'💸';
+        ins.push({type:'risk',icon:ci,
+          title:`${cat.charAt(0).toUpperCase()+cat.slice(1)} en ${c.name}: +${Math.round((cs/cb-1)*100)}%`,
+          body:`Gastaste $${cs.toFixed(0)} vs plan $${cb}. Exceso de $${(cs-cb).toFixed(0)} que salió de otro rubro.`});
+      }
+    }
+  }
+
+  // Comida tip
+  const foodDays = [...new Set(exps.filter(e=>e.category==='comida').map(e=>e.date))].length;
+  if(foodDays>=3){
+    const foodAvg = exps.filter(e=>e.category==='comida').reduce((s,e)=>s+e.usd,0)/foodDays;
+    if(foodAvg>14) ins.push({type:'tip',icon:'💡',
+      title:'Tip: comida por encima del plan',
+      body:`Promedio actual: $${foodAvg.toFixed(0)}/día. En mercados locales puedes llegar a $10/día → ahorro de $${((foodAvg-10)*remaining).toFixed(0)} en los días restantes.`});
+  }
+
+  return ins;
+}
+
+// ─── ADD EXPENSE ────────────────────────────────────────
+function selCategory(id){
+  selCat = id;
+  document.querySelectorAll('.cat-btn').forEach(b=>b.classList.remove('sel'));
+  event.currentTarget.classList.add('sel');
+}
+
+function toggleCur(){
+  const c = getCtr(activeCtr);
+  if(!c||c.cur==='USD') return;
+  useLocal = !useLocal;
+  updateCurBadge();
+  updateConv();
+}
+
+function updateCurBadge(){
+  const c = getCtr(activeCtr);
+  const btn = document.getElementById('cur-badge');
+  btn.textContent = useLocal&&c ? c.cur : 'USD';
+  btn.style.color = useLocal ? 'var(--yellow)' : 'var(--primary)';
+}
+
+function updateConv(){
+  const val = parseFloat(document.getElementById('amount-input').value)||0;
+  const c = getCtr(activeCtr);
+  const el = document.getElementById('usd-conv');
+  if(!c||c.cur==='USD'||!val){ el.textContent=''; return; }
+  if(useLocal) el.textContent = `= $${(val/c.rate).toFixed(2)} USD`;
+  else el.textContent = `= ${c.cur} ${(val*c.rate).toFixed(0)}`;
+}
+
+function saveExpense(){
+  const raw = parseFloat(document.getElementById('amount-input').value);
+  if(!raw||raw<=0){ showToast('Ingresa un monto válido','err'); return; }
+  const cid = document.getElementById('csel').value;
+  const c = getCtr(cid);
+  const usd = useLocal&&c&&c.cur!=='USD' ? raw/c.rate : raw;
+  exps.push({
+    id: Date.now(),
+    usd: Math.round(usd*100)/100,
+    amount: raw,
+    currency: useLocal&&c ? c.cur : 'USD',
+    category: selCat,
+    country: cid,
+    date: document.getElementById('date-inp').value||today(),
+    note: document.getElementById('note-inp').value.trim(),
+  });
+  saveData();
+  document.getElementById('amount-input').value='';
+  document.getElementById('note-inp').value='';
+  document.getElementById('usd-conv').textContent='';
+  showToast(`✅ $${usd.toFixed(2)} guardado`);
+  goTab('dashboard');
+}
+
+function delExp(i){
+  exps.splice(i,1);
+  saveData();
+  renderDash(); renderCtr(); renderIns();
+  showToast('Gasto eliminado');
+}
+
+// ─── NAVIGATION ─────────────────────────────────────────
+function goTab(tab){
+  document.querySelectorAll('.view').forEach(v=>v.classList.remove('active'));
+  document.getElementById(`view-${tab}`).classList.add('active');
+  document.querySelectorAll('.nav-btn[data-tab]').forEach(b=>b.classList.remove('active'));
+  document.querySelector(`.nav-btn[data-tab="${tab}"]`)?.classList.add('active');
+  if(tab==='dashboard') renderDash();
+  if(tab==='countries') renderCtr();
+  if(tab==='insights')  renderIns();
+  if(tab==='add') setTimeout(()=>document.getElementById('amount-input').focus(),80);
+}
+
+// ─── SETTINGS ───────────────────────────────────────────
+function openSheet(){ document.getElementById('settings-overlay').style.display='flex'; }
+function closeSheet(){ document.getElementById('settings-overlay').style.display='none'; }
+
+function exportCSV(){
+  const h = ['Fecha','País','Categoría','USD','Moneda','Monto original','Nota'];
+  const rows = exps.map(e=>[e.date, getCtr(e.country)?.name||e.country, e.category, e.usd, e.currency, e.amount, e.note||'']);
+  const csv = [h,...rows].map(r=>r.map(v=>`"${v}"`).join(',')).join('\n');
+  const a = Object.assign(document.createElement('a'),{href:'data:text/csv;charset=utf-8,﻿'+encodeURIComponent(csv),download:'gastos-centroamerica-2026.csv'});
+  a.click();
+  closeSheet();
+  showToast('CSV exportado');
+}
+
+function confirmReset(){
+  closeSheet();
+  if(confirm('¿Borrar todos los gastos? Esta acción no se puede deshacer.')){
+    exps=[];
+    saveData();
+    renderDash(); renderCtr(); renderIns();
+    showToast('Datos borrados');
+  }
+}
+
+// ─── TOAST ──────────────────────────────────────────────
+function showToast(msg, type){
+  const el = document.getElementById('toast');
+  el.textContent=msg;
+  el.style.background = type==='err' ? 'var(--red)' : 'var(--green)';
+  el.classList.add('show');
+  setTimeout(()=>el.classList.remove('show'),2200);
+}
+
+init();
+</script>
+</body>
+</html>
