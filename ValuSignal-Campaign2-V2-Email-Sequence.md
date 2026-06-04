@@ -1,6 +1,7 @@
 # ValuSignal 2026 — Campaign 2 V2 Email Sequence
 **Built with /cold-email-builder · Campaign 1 baseline: 2.4% reply rate**
-**Campaign 2 V1 baseline: 0.9% reply rate · V2 fix: event-first, tutorial as preview**
+**Campaign 2 V1 baseline: 0.9% reply rate · V2 update: tutorial-first, reply-only CTAs, no links**
+**Polished: /email-sequence-polisher v1.0 · Humanized: /email-humanizer v1.0 · 2026-06-04**
 
 ---
 
@@ -11,14 +12,15 @@
 | **Campaign** | ValuSignal 2026 — Campaign 2 V2 |
 | **Audience** | Residential appraisers — not using AI in workflow, not ready for UAD 3.6, dependent on single-channel AMC income |
 | **Core offer** | ValuSignal 2026, Sept 18–19, virtual, $197 through June 15 → $297 after |
-| **Micro-ask asset** | 10-minute AI website tutorial (valusignal.com/website-lesson) — positioned as a preview of the AI track |
+| **Micro-ask asset** | 10-minute AI website tutorial (valusignal.com/website-lesson) — tutorial-first hook; event is the next step |
 | **Urgency** | UAD 3.6 go-live November 2 / Enrollment closes June 15 |
 | **Sender** | Hansel Dobbs, MNAA, CDEI — Founder, ValuSignal — Allen, TX |
 | **Platform** | Instantly.ai |
+| **Link rule** | No links in any email — all CTAs are reply-based asks |
 | **Spam check** | Required via mailmeteor.com/spam-checker before loading |
 
 ### Primary Speakers to Highlight
-- **Roy Meyer** — Certified appraiser, 15 years residential valuation, creator of OpenClaw. Running 3-hour live workshop Sept 18. valusignal.com/openclaw
+- **Roy Meyer** — Certified appraiser, 15 years residential valuation, pioneer in applying OpenClaw to residential appraisal work. Delivering 3-hour live workshop Sept 18 at valusignal.com/openclaw.
 - **Tony Pistilli** — President of Valuations, Restb.ai. Covers computer vision in valuation, Day 2.
 - **Justin Gohn** — MAI, SRA, CRE. 2025 President, Philadelphia Metropolitan Chapter, Appraisal Institute. Currently on Appraisal Institute National Board of Directors. Session: "Beyond Chatbots: Agentic AI for Appraisers," Day 2.
 
@@ -26,21 +28,21 @@
 
 ## COLD SEQUENCE
 
-### EMAIL 1 — VARIANT A (AI track, practical workflow)
-**Subject:** AI for appraisers, {{FirstName}}
+### EMAIL 1
+**Subject:** AI tips for appraisers, {{FirstName}}
 **Timing:** Day 0 | New email
 
 ---
 
-{{first_name}},
+Hi {{First Name}},
 
-ValuSignal 2026 is a September event where appraisers share practical AI applications built for the valuation workflow — intake, QC, narratives, and operations.
+ValuSignal is hosting a September event for appraisers, where experts will discuss practical ways to use AI across different parts of the appraisal business.
 
-Roy Meyer (creator of OpenClaw, 15 years in residential valuation) is running a three-hour live workshop on September 18. Justin Gohn (MAI, SRA — Appraisal Institute National Board) presents on moving appraisers from chatbot tools into agentic AI workflows built for real assignments.
+One of the topics will focus on reducing expenses with AI. For example, we've created a tutorial specifically for appraisers showing how to build or improve your own website using AI, without paying extra for basic website setup or updates.
 
-As a preview of that content, I have a 10-minute video on one of the most practical AI applications appraisers are using right now.
+Want me to share the website tutorial with you?
 
-Want me to send it?
+If this sounds useful, you're welcome to join the event and learn more AI tips appraisers can use to save time, reduce expenses, and grow their business.
 
 Hansel Dobbs, MNAA, CDEI
 Founder, ValuSignal
@@ -48,65 +50,19 @@ Allen, TX
 
 ---
 
-### EMAIL 1 — VARIANT B (UAD 3.6 urgency — proven hook)
-**Subject:** UAD 3.6, {{FirstName}}
-**Timing:** Day 0 | New email
-
----
-
-{{first_name}},
-
-UAD 3.6 goes live November 2. Most appraisers I talk to are waiting to see how it plays out, which usually means scrambling when it does.
-
-ValuSignal 2026 is September 18–19 — built to run before that deadline, with a full UAD 3.6 readiness track and a dedicated AI workshop from Roy Meyer, creator of OpenClaw, covering the tools active appraisers are already using in production.
-
-As a starting point, I have a 10-minute video on one of the most straightforward AI applications appraisers are using right now.
-
-Want me to send it?
-
-Hansel Dobbs, MNAA, CDEI
-Founder, ValuSignal
-Allen, TX
-
----
-
-### EMAIL 1 — VARIANT C (Non-CE contrast angle)
-**Subject:** quick question, {{FirstName}}
-**Timing:** Day 0 | New email
-
----
-
-{{first_name}},
-
-Most appraisal education is built around CE hours. ValuSignal 2026 is not.
-
-Being non-CE by design means Roy Meyer (creator of OpenClaw) and Tony Pistilli (President of Valuations, Restb.ai) can go into AI implementation at the level actually useful to working appraisers — without the restrictions a standard format puts on those conversations.
-
-The event is September 18–19. I have a 10-minute video as a preview of the kind of practical AI content the track covers.
-
-Want me to send it?
-
-Hansel Dobbs, MNAA, CDEI
-Founder, ValuSignal
-Allen, TX
-
----
-
-### FU1 — DEADLINE
+### FU1 — FOLLOW UP
 **Subject:** LEAVE BLANK — threads in Instantly.ai
 **Timing:** Day 3 | Reply in thread
 
 ---
 
-{{first_name}},
+Hi {{first_name}},
 
-Just following up on my last note.
+Just checking if my last note came through.
 
-Early enrollment closes June 15. After that, registration moves to the standard tier.
+The website tutorial is yours whenever you want it, just reply and I'll send it over.
 
-The AI track includes Roy Meyer's three-hour hands-on OpenClaw workshop, Tony Pistilli on computer vision in valuation, and sessions on Claude Code, workflow automation, and where AI belongs — and does not belong — in appraisal work.
-
-If you missed my first note, I can still send the 10-minute video.
+Early enrollment for the September event closes June 15 if you decide to join.
 
 Hansel Dobbs
 Founder, ValuSignal
@@ -119,13 +75,13 @@ Founder, ValuSignal
 
 ---
 
-{{first_name}},
+Hi {{first_name}},
 
 One thing I left out of my first note.
 
-When you register for ValuSignal, the AI website tutorial is delivered immediately with your ticket — before September starts. It is the same hands-on approach Roy Meyer brings to the OpenClaw workshop, applied to a tool you can use the same week you register.
+If you register for ValuSignal before June 15, the website tutorial is included with your ticket and delivered right away, no need to wait until September to use it.
 
-The 10-minute preview video gives you a sense of the content style. Still happy to send it before June 15.
+Want me to send the tutorial now so you can see the content first?
 
 Hansel Dobbs
 Founder, ValuSignal
@@ -138,15 +94,15 @@ Founder, ValuSignal
 
 ---
 
-{{first_name}},
+Hi {{first_name}},
 
-A few more details since I have not heard back.
+A bit more on the September event in case it's useful.
 
-Roy Meyer — certified appraiser, 15 years in residential valuation, creator of OpenClaw — is running a three-hour live workshop on September 18 at valusignal.com/openclaw.
+Roy Meyer, certified appraiser with 15 years in residential valuation and one of the field's leading practitioners using OpenClaw in real appraisal work, is running a three-hour hands-on workshop on September 18 at valusignal.com/openclaw. Justin Gohn (MAI, SRA, Appraisal Institute National Board) covers how to go from basic AI chatbots into tools that handle multi-step research and analysis on their own, while keeping the appraiser in control.
 
-Justin Gohn (MAI, SRA — currently on the Appraisal Institute's National Board of Directors) is presenting "Beyond Chatbots: Agentic AI for Appraisers" on Day 2, covering how appraisers are moving from chatbot tools into agentic AI workflows for research, analysis, and decision support.
+Every session is available to watch anytime for three months after September 18–19.
 
-Every session is on-demand for three months after September 18–19. I can still send the 10-minute preview.
+Want me to send the tutorial?
 
 Hansel Dobbs
 Founder, ValuSignal
@@ -159,15 +115,15 @@ Founder, ValuSignal
 
 ---
 
-{{first_name}},
+Hi {{first_name}},
 
-Something worth knowing about where the profession is heading.
+Something worth knowing before November.
 
-UAD 3.6 goes live November 2. The appraisers I see positioned well are already running AI across their intake, QC, and narrative workflow — not planning to figure it out after the deadline lands.
+UAD 3.6, the new reporting requirements going live November 2, is something most appraisers are waiting on rather than preparing for. The appraisers I see handling it well are already using AI across their intake, QC, and narratives.
 
-ValuSignal 2026 is September 18–19, built specifically to run before that go-live. The AI track covers what is working in production, not theory.
+ValuSignal 2026 is September 18–19, built specifically to run before that deadline.
 
-Worth reviewing before June 15.
+Want me to send the tutorial?
 
 Hansel Dobbs
 Founder, ValuSignal
@@ -180,17 +136,13 @@ Founder, ValuSignal
 
 ---
 
-{{first_name}},
+Hi {{first_name}},
 
 Last note from me on this.
 
-Early enrollment closes June 15. After that, registration for ValuSignal 2026 on September 18–19 moves to the standard tier.
+Early enrollment closes June 15. After that, the price goes up.
 
-If you have been on the fence, this is the last window.
-
-valusignal.com/register
-
-I can also still send the 10-minute video if that helps before you decide.
+If you'd like the tutorial before you decide, just reply and I'll send it over.
 
 Hansel Dobbs
 Founder, ValuSignal
@@ -199,7 +151,7 @@ Founder, ValuSignal
 
 ## WARM SEQUENCE
 *Triggered after tutorial link (valusignal.com/website-lesson) is sent to a prospect who replied.*
-*All emails: blank subject, reply in same thread. Registration link appropriate — these are warm leads.*
+*All emails: blank subject, reply in same thread. No links — registration handled via reply.*
 
 ### WFU1 — CONFIRM RECEIPT / OPEN DOOR
 **Subject:** LEAVE BLANK
@@ -207,14 +159,11 @@ Founder, ValuSignal
 
 ---
 
-{{first_name}},
+Hi {{first_name}},
 
-Wanted to make sure the video came through.
+Did the tutorial come through okay?
 
-If you have questions about the AI track or a specific session, reply and I can point you in the right direction.
-
-Registration is open now when you are ready:
-valusignal.com/register
+If you have questions about the AI track or anything else in the event, just reply and I can help point you in the right direction.
 
 Hansel Dobbs
 Founder, ValuSignal
@@ -227,14 +176,13 @@ Founder, ValuSignal
 
 ---
 
-{{first_name}},
+Hi {{first_name}},
 
-The video you received is the same hands-on approach the full AI track brings to appraisal workflows at ValuSignal — Roy Meyer's OpenClaw workshop, Tony Pistilli on computer vision, Claude Code sessions, and workflow automation across intake, QC, and narratives.
+The tutorial you received uses the same hands-on approach as the full AI track at ValuSignal: Roy Meyer's OpenClaw workshop, Tony Pistilli on using AI to analyze property images, Claude Code sessions (for building your own appraisal tools and dashboards), and workflow automation.
 
-The video is the preview. The event is that content across two full days, on-demand for three months after September 18–19.
+The tutorial is the preview. The event is that content across two full days, with recordings available for three months after September 18–19.
 
-Early enrollment closes June 15.
-valusignal.com/register
+Early enrollment closes June 15. If you're ready to join, just reply and I'll get you the details.
 
 Hansel Dobbs
 Founder, ValuSignal
@@ -247,14 +195,13 @@ Founder, ValuSignal
 
 ---
 
-{{first_name}},
+Hi {{first_name}},
 
 One session worth flagging.
 
-The UAD 3.6 track covers what November 2 implementation looks like in practice — structured narratives, concession adjustments, QC and review, and what lenders and AMCs will expect on the first submissions under the new framework.
+The UAD 3.6 track covers what November 2 looks like in practice, including structured narratives, concession adjustments, QC and review, and what lenders and AMCs will expect on the first submissions under the new format.
 
-November 2 is the deadline. September 18–19 is the preparation.
-valusignal.com/register
+November 2 is the deadline. September 18–19 is the preparation. If you're ready to join, just reply and I'll get you the details.
 
 Hansel Dobbs
 Founder, ValuSignal
@@ -267,16 +214,15 @@ Founder, ValuSignal
 
 ---
 
-{{first_name}},
+Hi {{first_name}},
 
 Two sessions worth flagging in the AI track.
 
-Roy Meyer (creator of OpenClaw, certified appraiser — 15 years in residential valuation) runs the three-hour hands-on workshop on September 18.
+Roy Meyer, certified appraiser with 15 years in residential valuation and one of the field's leading practitioners using OpenClaw in real appraisal work, runs the three-hour hands-on workshop on September 18.
 
-Justin Gohn (MAI, SRA — Appraisal Institute National Board) covers "Beyond Chatbots" on Day 2: moving from simple AI prompting into agentic workflows that handle research, analysis, and execution while keeping the appraiser in control.
+Justin Gohn (MAI, SRA, Appraisal Institute National Board) covers "Beyond Chatbots" on Day 2, moving from basic chatbot prompting into AI that handles multi-step research and analysis on its own, while keeping the appraiser in control.
 
-Both included with registration:
-valusignal.com/register
+Both included with registration. If you're ready to join, just reply and I'll get you the details.
 
 Hansel Dobbs
 Founder, ValuSignal
@@ -289,14 +235,11 @@ Founder, ValuSignal
 
 ---
 
-{{first_name}},
+Hi {{first_name}},
 
-One thing that sets ValuSignal apart.
+Roy Meyer has been using OpenClaw in his own residential practice and is one of the field's leading voices on applying it to real appraisal work. Tony Pistilli is President of Valuations at Restb.ai. These sessions are from appraisers and analysts still actively working, not consultants who stepped away from the field.
 
-Tony Pistilli (President of Valuations, Restb.ai) covers computer vision in appraisal — practical applications, not theory. Roy Meyer built and actively uses OpenClaw in his own residential practice. These are sessions from people still in production, not consultants who stepped away from the field.
-
-50+ speakers. Up to 100 hours of content, on-demand for three months after September 18–19.
-valusignal.com/register
+September 18–19, with recordings available for three months after the event. If you're ready to join, just reply and I'll get you the details.
 
 Hansel Dobbs
 Founder, ValuSignal
@@ -309,14 +252,13 @@ Founder, ValuSignal
 
 ---
 
-{{first_name}},
+Hi {{first_name}},
 
 Last note from me on this.
 
-You expressed interest earlier — I did not want to close this out without giving you one final chance at the current tier. Early enrollment closes June 15.
+Early enrollment closes June 15. That's the last window at this price.
 
-ValuSignal 2026 is September 18–19. All sessions on-demand for three months after the event.
-valusignal.com/register
+ValuSignal 2026 is September 18–19. If you're ready to join, just reply and I'll get you set up.
 
 Hansel Dobbs
 Founder, ValuSignal
@@ -329,14 +271,13 @@ Founder, ValuSignal
 
 ---
 
-{{first_name}},
+Hi {{first_name}},
 
 Closing the loop on this.
 
-If the timing did not work out or you have questions before deciding, feel free to reply. No pressure either way.
+If the timing didn't work out or you have questions before deciding, just reply.
 
-If you are ready:
-valusignal.com/register
+If you're ready to join, reply and I'll get you the details.
 
 Hansel Dobbs
 Founder, ValuSignal
@@ -349,13 +290,11 @@ Founder, ValuSignal
 
 ---
 
-{{first_name}},
+Hi {{first_name}},
 
 One last check-in.
 
-September 18–19 is coming up. If ValuSignal is still on your radar, this is the window. Questions before you decide, just reply.
-
-valusignal.com/register
+September 18–19 is coming up. If ValuSignal is still on your radar, this is the window. Reply and I'll get you set up.
 
 Hansel Dobbs
 Founder, ValuSignal
@@ -366,24 +305,22 @@ Founder, ValuSignal
 
 | Email | Status |
 |---|---|
-| Email 1A | CLEAN |
-| Email 1B | CLEAN |
-| Email 1C | CLEAN |
-| FU1 | CLEAN |
-| FU2 | CLEAN |
-| FU3 | CLEAN |
-| FU4 | CLEAN |
-| FU5 | CLEAN |
-| WFU1 | CLEAN |
-| WFU2 | CLEAN |
-| WFU3A | CLEAN |
-| WFU3B | CLEAN |
-| WFU3C | CLEAN |
-| WFU4A | CLEAN |
-| WFU4B | CLEAN |
-| WFU4C | CLEAN |
+| Email 1 | RE-CHECK REQUIRED |
+| FU1 | RE-CHECK REQUIRED |
+| FU2 | RE-CHECK REQUIRED |
+| FU3 | RE-CHECK REQUIRED |
+| FU4 | RE-CHECK REQUIRED |
+| FU5 | RE-CHECK REQUIRED |
+| WFU1 | RE-CHECK REQUIRED |
+| WFU2 | RE-CHECK REQUIRED |
+| WFU3A | RE-CHECK REQUIRED |
+| WFU3B | RE-CHECK REQUIRED |
+| WFU3C | RE-CHECK REQUIRED |
+| WFU4A | RE-CHECK REQUIRED |
+| WFU4B | RE-CHECK REQUIRED |
+| WFU4C | RE-CHECK REQUIRED |
 
-**16 emails clean · 0 flagged**
+**14 emails · all require spam check — copy revised, all links removed**
 
 > ⚠ REQUIRED: Run full sequence through mailmeteor.com/spam-checker before loading into Instantly.ai.
 
@@ -391,21 +328,21 @@ Founder, ValuSignal
 
 ## DEPLOYMENT CHECKLIST
 
-- [ ] Spam check passed via mailmeteor.com/spam-checker
-- [ ] Video landing page updated to 10 minutes (developer — confirm live)
-- [ ] Second workshop URL confirmed with developer (vibe-code page returned 404)
-- [ ] valusignal.com/openclaw confirmed live ✓
-- [ ] Justin Gohn credential confirmed ✓ (MAI, SRA — AI Institute National Board)
-- [ ] Cold FU1–FU4 subjects left BLANK in Instantly.ai
-- [ ] No links in cold FU1–FU4 body copy
-- [ ] FU5 and all warm sequence URLs verified correct
-- [ ] Signature format: Hansel Dobbs, MNAA, CDEI / Founder, ValuSignal / Allen, TX
+- [ ] Spam check passed via mailmeteor.com/spam-checker (required — full revision)
+- [ ] Video landing page confirmed live at valusignal.com/website-lesson (sent manually on reply — not in email body)
+- [ ] valusignal.com/register confirmed live (sent manually on reply — not in email body)
+- [ ] Justin Gohn credential confirmed ✓ (MAI, SRA — Appraisal Institute National Board)
+- [ ] ⚠ Email 1 uses {{First Name}} — verify token format in Instantly.ai (may need {{first_name}})
+- [ ] Cold FU1–FU5 subjects left BLANK in Instantly.ai
+- [ ] Zero links in all email bodies confirmed
+- [ ] All CTAs are reply-based — no click-through required
+- [ ] Signature: full sig (Hansel Dobbs, MNAA, CDEI / Founder / Allen, TX) on Email 1 + FU3; short sig on all others
 - [ ] Unsubscribe: reply "remove" — no link in body
-- [ ] {{first_name}} token format confirmed in Instantly.ai
 - [ ] Cold sequence timing: E1 → +3d FU1 → +4d FU2 → +4d FU3 → +4d FU4 → +3d FU5
 - [ ] Warm sequence timing: Asset sent → +1d WFU1 → +3d WFU2 → +4d WFU3 → +4d WFU4
-- [ ] 3 Email 1 variants loaded / 1 variant per cold FU confirmed
+- [ ] 1 Email 1 loaded / 1 variant per cold FU confirmed
 - [ ] 3 WFU3 variants + 3 WFU4 variants loaded for warm sequence
+- [ ] Reply workflow confirmed: team ready to send tutorial link + registration link manually on reply
 
 ---
 
@@ -413,12 +350,12 @@ Founder, ValuSignal
 
 ```
 COLD SEQUENCE (sent to full prospect list)
-Email 1 (3 variants: A / B / C) — Day 0
-  └─ FU1 Deadline ————————————————— Day 3
-  └─ FU2 Instant bonus ————————————— Day 7
-  └─ FU3 Social proof (Roy + Justin) — Day 11
-  └─ FU4 Pain / UAD 3.6 ——————————— Day 15
-  └─ FU5 Final close + link ————————— Day 18
+Email 1 (tutorial-first hook) ——————————————— Day 0
+  └─ FU1 Follow up / re-offer tutorial ———————— Day 3
+  └─ FU2 Instant bonus (register = tutorial now) — Day 7
+  └─ FU3 Social proof (Roy + Justin) —————————— Day 11
+  └─ FU4 Pain / UAD 3.6 deadline ——————————————— Day 15
+  └─ FU5 Final close / last tutorial offer ————— Day 18
 
 WARM SEQUENCE (triggered on tutorial link sent)
   WFU1 Confirm receipt ————————————— Day 1
@@ -431,9 +368,13 @@ WARM SEQUENCE (triggered on tutorial link sent)
     A: Last window
     B: Soft close
     C: Direct minimal
+
+All conversions handled via reply — tutorial and registration links
+sent manually by team after prospect responds.
 ```
 
 ---
 
 *Built: 2026-06-04 | Skill: /cold-email-builder v1.0 | Baseline: Campaign 1 (2.4% reply rate)*
-*V2 fix applied: event-first positioning. Website tutorial repositioned as instant bonus on registration, not the lead hook.*
+*V2 update: tutorial-first hook, reply-only CTAs, zero links in email bodies.*
+*Polished: /email-sequence-polisher v1.0 · Humanized: /email-humanizer v1.0*
