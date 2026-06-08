@@ -1,0 +1,454 @@
+<!-- ─────────────────────────────────────────────────────
+     ValuSignal 2026 — apprAIz / valurAIz Demo Card (Webflow Embed)
+     Paste this entire block into a Webflow "Embed" element.
+     No external dependencies. Fully self-contained.
+     STATUS: Placeholder — fill in all [TODO] fields before deploying.
+───────────────────────────────────────────────────────── -->
+
+<style>
+  .vs-az {
+    --vs-bg:      #080e18;
+    --vs-card:    #0d1a28;
+    --vs-teal:    #00d4b0;
+    --vs-white:   #ffffff;
+    --vs-gray:    #7a8799;
+    --vs-muted:   #b0bbc8;
+    --vs-border:  rgba(0,212,176,.14);
+    --vs-badge-bg: rgba(0,212,176,.08);
+    font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif;
+    background: var(--vs-bg);
+    color: var(--vs-white);
+    padding: 48px 32px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+  .vs-az *, .vs-az *::before, .vs-az *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .vs-az .az-card {
+    max-width: 900px;
+    margin: 0 auto;
+    background: var(--vs-card);
+    border: 1px solid var(--vs-border);
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .vs-az .az-header {
+    background: linear-gradient(135deg, #0a1e32 0%, #0d2540 100%);
+    border-bottom: 1px solid var(--vs-border);
+    padding: 36px 44px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 32px;
+    flex-wrap: wrap;
+  }
+  .vs-az .az-header-left { flex: 1; min-width: 260px; }
+  .vs-az .az-founding-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--vs-teal);
+    background: var(--vs-badge-bg);
+    border: 1px solid rgba(0,212,176,.25);
+    border-radius: 20px;
+    padding: 5px 13px;
+    margin-bottom: 14px;
+  }
+  .vs-az .az-founding-badge::before { content: '✦'; font-size: 9px; }
+  .vs-az .az-title {
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: -.02em;
+    color: var(--vs-white);
+    margin-bottom: 6px;
+  }
+  .vs-az .az-title span { color: var(--vs-teal); }
+  .vs-az .az-track-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+  }
+  .vs-az .az-tag {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--vs-gray);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  .vs-az .az-tag-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--vs-teal);
+    flex-shrink: 0;
+  }
+
+  .vs-az .az-speaker-box {
+    background: rgba(0,0,0,.25);
+    border: 1px solid var(--vs-border);
+    border-radius: 14px;
+    padding: 20px 24px;
+    min-width: 240px;
+    flex-shrink: 0;
+  }
+  .vs-az .az-speaker-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--vs-gray);
+    margin-bottom: 10px;
+  }
+  .vs-az .az-speaker-name {
+    font-size: 16px;
+    font-weight: 800;
+    color: var(--vs-white);
+    margin-bottom: 2px;
+  }
+  .vs-az .az-speaker-role {
+    font-size: 12px;
+    color: var(--vs-teal);
+    font-weight: 600;
+    margin-bottom: 10px;
+    line-height: 1.4;
+  }
+  .vs-az .az-speaker-bio {
+    font-size: 12px;
+    color: var(--vs-muted);
+    line-height: 1.6;
+  }
+
+  .vs-az .az-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+  }
+  .vs-az .az-col { padding: 36px 44px; }
+  .vs-az .az-col:first-child { border-right: 1px solid var(--vs-border); }
+
+  .vs-az .az-section-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+    color: var(--vs-teal);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .vs-az .az-section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--vs-border);
+  }
+
+  .vs-az .az-features {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-bottom: 32px;
+  }
+  .vs-az .az-feature { display: flex; gap: 14px; align-items: flex-start; }
+  .vs-az .az-feature-icon {
+    width: 32px; height: 32px;
+    border-radius: 8px;
+    background: rgba(0,212,176,.1);
+    border: 1px solid rgba(0,212,176,.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+  .vs-az .az-feature-name {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--vs-white);
+    margin-bottom: 3px;
+  }
+  .vs-az .az-feature-desc {
+    font-size: 12.5px;
+    color: var(--vs-muted);
+    line-height: 1.55;
+  }
+
+  .vs-az .az-bullets {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    margin-bottom: 28px;
+  }
+  .vs-az .az-bullets li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 13px;
+    color: var(--vs-muted);
+    line-height: 1.5;
+  }
+  .vs-az .az-arrow {
+    color: var(--vs-teal);
+    font-size: 13px;
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-top: 1px;
+  }
+
+  .vs-az .az-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin-bottom: 28px;
+  }
+  .vs-az .az-pill {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: .06em;
+    color: #7ef0de;
+    background: rgba(0,212,176,.1);
+    border: 1px solid rgba(0,212,176,.25);
+    border-radius: 100px;
+    padding: 5px 12px;
+  }
+
+  .vs-az .az-metrics {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    border-top: 1px solid var(--vs-border);
+  }
+  .vs-az .az-metric {
+    padding: 24px 20px;
+    text-align: center;
+    border-right: 1px solid var(--vs-border);
+  }
+  .vs-az .az-metric:last-child { border-right: none; }
+  .vs-az .az-metric-num {
+    font-size: 26px;
+    font-weight: 900;
+    color: var(--vs-teal);
+    line-height: 1;
+    margin-bottom: 4px;
+    letter-spacing: -.02em;
+  }
+  .vs-az .az-metric-label {
+    font-size: 11px;
+    color: var(--vs-gray);
+    font-weight: 500;
+    line-height: 1.3;
+  }
+
+  .vs-az .az-footer {
+    border-top: 1px solid var(--vs-border);
+    padding: 28px 44px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    background: rgba(0,0,0,.15);
+  }
+  .vs-az .az-takeaway { flex: 1; min-width: 260px; }
+  .vs-az .az-takeaway-label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--vs-teal);
+    margin-bottom: 6px;
+  }
+  .vs-az .az-takeaway-text {
+    font-size: 13px;
+    color: var(--vs-muted);
+    line-height: 1.6;
+    font-style: italic;
+  }
+  .vs-az .az-cta-group {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+  }
+  .vs-az .az-link {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--vs-teal);
+    text-decoration: none;
+    letter-spacing: .04em;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    transition: opacity .2s;
+  }
+  .vs-az .az-link:hover { opacity: .75; }
+  .vs-az .az-cta {
+    display: inline-block;
+    background: var(--vs-teal);
+    color: #080e18;
+    font-size: 12px;
+    font-weight: 900;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    padding: 13px 22px;
+    border-radius: 9px;
+    text-decoration: none;
+    transition: background .2s;
+    white-space: nowrap;
+  }
+  .vs-az .az-cta:hover { background: #00b89a; }
+
+  @media (max-width: 720px) {
+    .vs-az { padding: 32px 16px; }
+    .vs-az .az-header { padding: 28px 24px; flex-direction: column; }
+    .vs-az .az-speaker-box { min-width: unset; width: 100%; }
+    .vs-az .az-body { grid-template-columns: 1fr; }
+    .vs-az .az-col:first-child { border-right: none; border-bottom: 1px solid var(--vs-border); }
+    .vs-az .az-col { padding: 28px 24px; }
+    .vs-az .az-metrics { grid-template-columns: repeat(2, 1fr); }
+    .vs-az .az-metric:nth-child(2) { border-right: none; }
+    .vs-az .az-metric:nth-child(3) { border-top: 1px solid var(--vs-border); }
+    .vs-az .az-metric:nth-child(4) { border-top: 1px solid var(--vs-border); border-right: none; }
+    .vs-az .az-footer { padding: 24px; flex-direction: column; align-items: flex-start; }
+    .vs-az .az-title { font-size: 20px; }
+  }
+</style>
+
+<div class="vs-az">
+  <div class="az-card">
+
+    <!-- HEADER -->
+    <div class="az-header">
+      <div class="az-header-left">
+        <div class="az-founding-badge">Tech Demo</div>
+        <h2 class="az-title"><span>valurAIz</span> by apprAIz:<br/>[TODO: tagline headline]</h2>
+        <div class="az-track-row">
+          <span class="az-tag"><span class="az-tag-dot"></span>Track: Tech Demos</span>
+          <span class="az-tag"><span class="az-tag-dot"></span>Session Type: Demo</span>
+          <span class="az-tag"><span class="az-tag-dot"></span>[TODO: session length]</span>
+        </div>
+      </div>
+
+      <div class="az-speaker-box">
+        <div class="az-speaker-label">Speaker</div>
+        <div class="az-speaker-name">[TODO: Speaker Name]</div>
+        <div class="az-speaker-role">[TODO: Title, apprAIz]</div>
+        <div class="az-speaker-bio">[TODO: 2–3 sentence speaker bio]</div>
+      </div>
+    </div>
+
+    <!-- BODY -->
+    <div class="az-body">
+
+      <!-- LEFT: What the Platform Does -->
+      <div class="az-col">
+        <div class="az-section-label">What the Platform Does</div>
+        <div class="az-features">
+          <div class="az-feature">
+            <div class="az-feature-icon">🤖</div>
+            <div class="az-feature-text">
+              <div class="az-feature-name">[TODO: Feature 1 Name]</div>
+              <div class="az-feature-desc">[TODO: Feature 1 description — one or two sentences.]</div>
+            </div>
+          </div>
+          <div class="az-feature">
+            <div class="az-feature-icon">⚡</div>
+            <div class="az-feature-text">
+              <div class="az-feature-name">[TODO: Feature 2 Name]</div>
+              <div class="az-feature-desc">[TODO: Feature 2 description.]</div>
+            </div>
+          </div>
+          <div class="az-feature">
+            <div class="az-feature-icon">📊</div>
+            <div class="az-feature-text">
+              <div class="az-feature-name">[TODO: Feature 3 Name]</div>
+              <div class="az-feature-desc">[TODO: Feature 3 description.]</div>
+            </div>
+          </div>
+          <div class="az-feature">
+            <div class="az-feature-icon">🔗</div>
+            <div class="az-feature-text">
+              <div class="az-feature-name">[TODO: Feature 4 Name]</div>
+              <div class="az-feature-desc">[TODO: Feature 4 description.]</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RIGHT: What's Being Demonstrated + Who It's For -->
+      <div class="az-col">
+        <div class="az-section-label">What's Being Demonstrated</div>
+        <ul class="az-bullets">
+          <li><span class="az-arrow">→</span>[TODO: Demo point 1]</li>
+          <li><span class="az-arrow">→</span>[TODO: Demo point 2]</li>
+          <li><span class="az-arrow">→</span>[TODO: Demo point 3]</li>
+          <li><span class="az-arrow">→</span>[TODO: Demo point 4]</li>
+          <li><span class="az-arrow">→</span>[TODO: Demo point 5]</li>
+        </ul>
+
+        <div class="az-section-label">Who This Is For</div>
+        <div class="az-pills">
+          <span class="az-pill">[TODO: Audience 1]</span>
+          <span class="az-pill">[TODO: Audience 2]</span>
+          <span class="az-pill">[TODO: Audience 3]</span>
+          <span class="az-pill">[TODO: Audience 4]</span>
+        </div>
+        <p style="font-size:12px;color:#7a8799;line-height:1.5;">
+          <strong style="color:#b0bbc8;">Audience:</strong> Real Estate Appraisers
+        </p>
+      </div>
+
+    </div>
+
+    <!-- METRICS ROW -->
+    <div class="az-metrics">
+      <div class="az-metric">
+        <div class="az-metric-num">[TODO]</div>
+        <div class="az-metric-label">[TODO: metric label]</div>
+      </div>
+      <div class="az-metric">
+        <div class="az-metric-num">[TODO]</div>
+        <div class="az-metric-label">[TODO: metric label]</div>
+      </div>
+      <div class="az-metric">
+        <div class="az-metric-num">[TODO]</div>
+        <div class="az-metric-label">[TODO: metric label]</div>
+      </div>
+      <div class="az-metric">
+        <div class="az-metric-num">[TODO]</div>
+        <div class="az-metric-label">[TODO: metric label]</div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="az-footer">
+      <div class="az-takeaway">
+        <div class="az-takeaway-label">Core Takeaway</div>
+        <p class="az-takeaway-text">[TODO: One sentence — what attendees walk away understanding about valurAIz.]</p>
+      </div>
+      <div class="az-cta-group">
+        <a href="https://appraiz.biz" target="_blank" rel="noopener" class="az-link">appraiz.biz →</a>
+        <a href="https://www.valusignal.com/register" target="_blank" rel="noopener" class="az-cta">Register to Attend →</a>
+      </div>
+    </div>
+
+  </div>
+</div>
