@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Workshops Thumb V1 — Question Hook</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 800px; height: 418px; overflow: hidden; background: #223042; }
+    .card {
+      width: 800px; height: 418px;
+      background: #223042;
+      display: flex; flex-direction: column;
+      justify-content: center;
+      padding: 48px 64px;
+      position: relative; overflow: hidden;
+      font-family: 'Inter', sans-serif;
+    }
+    .net {
+      position: absolute; right: 0; top: 0;
+      width: 466px; height: 418px;
+      opacity: 0.07; pointer-events: none;
+    }
+    .overline {
+      font-size: 10px; font-weight: 700;
+      letter-spacing: 0.18em; color: #00BFA5;
+      text-transform: uppercase; margin-bottom: 16px;
+    }
+    .question {
+      font-size: 46px; font-weight: 900;
+      line-height: 1.05; color: #FFFFFF;
+      letter-spacing: -0.03em; margin-bottom: 8px;
+      max-width: 560px;
+    }
+    .question em { color: #00BFA5; font-style: normal; }
+    .sub {
+      font-size: 13px; font-weight: 500;
+      color: rgba(255,255,255,0.45);
+      margin-bottom: 32px; letter-spacing: 0.01em;
+      max-width: 480px; line-height: 1.5;
+    }
+    .cta {
+      display: inline-block;
+      background: #00BFA5; color: #151E29;
+      font-size: 13px; font-weight: 700;
+      padding: 12px 26px; border-radius: 6px;
+      letter-spacing: 0.01em; width: fit-content;
+    }
+    .logo {
+      position: absolute; bottom: 32px; right: 48px;
+      text-align: right;
+    }
+    .logo-name {
+      font-size: 14px; font-weight: 900;
+      color: #fff; letter-spacing: -0.02em;
+    }
+    .logo-detail {
+      font-size: 10px; font-weight: 500;
+      color: #00BFA5; margin-top: 3px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <svg class="net" viewBox="0 0 466 418" fill="none">
+      <line x1="466" y1="0" x2="133" y2="418" stroke="#00BFA5" stroke-width="1.5"/>
+      <line x1="360" y1="0" x2="27" y2="418" stroke="#00BFA5" stroke-width="1.5"/>
+      <line x1="253" y1="0" x2="0" y2="320" stroke="#00BFA5" stroke-width="1.5"/>
+      <circle cx="360" cy="104" r="4" fill="#00BFA5"/>
+      <circle cx="253" cy="209" r="4" fill="#00BFA5"/>
+      <circle cx="187" cy="313" r="3" fill="#00BFA5"/>
+    </svg>
+    <div class="overline">ValuSignal 2026 &nbsp;·&nbsp; AI for Appraisers</div>
+    <div class="question">Are you ready to be an <em>AI-ready appraiser?</em></div>
+    <div class="sub">10 hours of hands-on AI workshops — sessions, tools & live training — included with every registration.</div>
+    <div class="cta">Explore the AI Track →</div>
+    <div class="logo">
+      <div class="logo-name">ValuSignal 2026</div>
+      <div class="logo-detail">valusignal.com/claude</div>
+    </div>
+  </div>
+</body>
+</html>

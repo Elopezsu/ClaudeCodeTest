@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Workshops Thumb V2 — Teal Statement</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 800px; height: 418px; overflow: hidden; background: #00BFA5; }
+    .card {
+      width: 800px; height: 418px;
+      background: #00BFA5;
+      display: flex; flex-direction: column;
+      justify-content: center;
+      padding: 48px 64px;
+      position: relative; overflow: hidden;
+      font-family: 'Inter', sans-serif;
+    }
+    .net {
+      position: absolute; right: 0; top: 0;
+      width: 400px; height: 418px;
+      opacity: 0.1; pointer-events: none;
+    }
+    .overline {
+      font-size: 10px; font-weight: 700;
+      letter-spacing: 0.18em; color: #151E29;
+      text-transform: uppercase; margin-bottom: 16px; opacity: 0.6;
+    }
+    .headline {
+      font-size: 46px; font-weight: 900;
+      line-height: 1.05; color: #151E29;
+      letter-spacing: -0.03em; margin-bottom: 8px;
+      max-width: 580px;
+    }
+    .sub {
+      font-size: 13px; font-weight: 500;
+      color: #151E29; opacity: 0.55;
+      margin-bottom: 28px; letter-spacing: 0.01em;
+      max-width: 460px; line-height: 1.5;
+    }
+    .workshops {
+      display: flex; gap: 12px; margin-bottom: 28px;
+    }
+    .workshop-pill {
+      background: rgba(21,30,41,0.12);
+      border-radius: 20px;
+      padding: 6px 14px;
+      font-size: 11px; font-weight: 700;
+      color: #151E29; letter-spacing: 0.01em;
+    }
+    .workshop-pill span {
+      background: #223042; color: #00BFA5;
+      border-radius: 10px; padding: 1px 6px;
+      font-size: 9px; font-weight: 700;
+      margin-right: 5px; letter-spacing: 0.04em;
+    }
+    .cta {
+      display: inline-block;
+      background: #223042; color: #fff;
+      font-size: 13px; font-weight: 700;
+      padding: 12px 26px; border-radius: 6px;
+      letter-spacing: 0.01em; width: fit-content;
+    }
+    .logo {
+      position: absolute; bottom: 32px; right: 48px;
+      text-align: right;
+    }
+    .logo-name {
+      font-size: 14px; font-weight: 900;
+      color: #151E29; letter-spacing: -0.02em;
+    }
+    .logo-detail {
+      font-size: 10px; font-weight: 600;
+      color: #151E29; opacity: 0.45; margin-top: 3px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <svg class="net" viewBox="0 0 400 418" fill="none">
+      <line x1="400" y1="0" x2="100" y2="418" stroke="#151E29" stroke-width="1.5"/>
+      <line x1="280" y1="0" x2="0" y2="360" stroke="#151E29" stroke-width="1.5"/>
+      <circle cx="280" cy="104" r="4" fill="#151E29"/>
+      <circle cx="210" cy="209" r="4" fill="#151E29"/>
+      <circle cx="160" cy="314" r="3" fill="#151E29"/>
+    </svg>
+    <div class="overline">ValuSignal 2026 &nbsp;·&nbsp; Sept 18–19 &nbsp;·&nbsp; Virtual</div>
+    <div class="headline">The AI-Ready Appraiser Track is here.</div>
+    <div class="sub">Sessions, workshops, and tools to help you work smarter — all in one place.</div>
+    <div class="workshops">
+      <div class="workshop-pill"><span>3 HRS</span>OpenClaw: AI for Appraisers</div>
+      <div class="workshop-pill"><span>7 HRS</span>Build Your First App with AI</div>
+    </div>
+    <div class="cta">See What's Inside →</div>
+    <div class="logo">
+      <div class="logo-name">ValuSignal 2026</div>
+      <div class="logo-detail">valusignal.com/claude</div>
+    </div>
+  </div>
+</body>
+</html>
