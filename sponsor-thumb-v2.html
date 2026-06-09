@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sponsor Thumbnail V2 — Teal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 1200px; height: 627px; overflow: hidden; background: #00BFA5; }
+    .card {
+      width: 1200px; height: 627px;
+      background: #00BFA5;
+      display: flex; flex-direction: column;
+      justify-content: center;
+      padding: 72px 96px;
+      position: relative; overflow: hidden;
+      font-family: 'Inter', sans-serif;
+    }
+    .net {
+      position: absolute; right: 0; top: 0;
+      width: 600px; height: 627px;
+      opacity: 0.1; pointer-events: none;
+    }
+    .overline {
+      font-size: 13px; font-weight: 700;
+      letter-spacing: 0.18em; color: #151E29;
+      text-transform: uppercase; margin-bottom: 24px;
+      opacity: 0.65;
+    }
+    .question {
+      font-size: 64px; font-weight: 900;
+      line-height: 1.08; color: #151E29;
+      letter-spacing: -0.03em; margin-bottom: 10px;
+      max-width: 800px;
+    }
+    .sub {
+      font-size: 18px; font-weight: 500;
+      color: #151E29; opacity: 0.6;
+      margin-bottom: 48px; letter-spacing: 0.01em;
+    }
+    .cta {
+      display: inline-block;
+      background: #223042; color: #fff;
+      font-size: 16px; font-weight: 700;
+      padding: 16px 36px; border-radius: 6px;
+      letter-spacing: 0.01em; width: fit-content;
+    }
+    .logo {
+      position: absolute; bottom: 48px; right: 72px;
+      text-align: right;
+    }
+    .logo-name {
+      font-size: 18px; font-weight: 900;
+      color: #151E29; letter-spacing: -0.02em;
+    }
+    .logo-detail {
+      font-size: 12px; font-weight: 600;
+      color: #151E29; opacity: 0.55; margin-top: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <svg class="net" viewBox="0 0 600 627" fill="none">
+      <line x1="600" y1="0" x2="150" y2="627" stroke="#151E29" stroke-width="1.5"/>
+      <line x1="420" y1="0" x2="0" y2="540" stroke="#151E29" stroke-width="1.5"/>
+      <circle cx="420" cy="157" r="5" fill="#151E29"/>
+      <circle cx="300" cy="313" r="5" fill="#151E29"/>
+      <circle cx="220" cy="470" r="3.5" fill="#151E29"/>
+    </svg>
+    <div class="overline">ValuSignal 2026 · Sept 18–19 · Virtual</div>
+    <div class="question">Want to reach 500+ appraisers in one room?</div>
+    <div class="sub">Core $1K · Featured $2.5K · Title $10K · Founding slots available</div>
+    <div class="cta">See Sponsor Packages →</div>
+    <div class="logo">
+      <div class="logo-name">ValuSignal 2026</div>
+      <div class="logo-detail">valusignal.com/sponsor</div>
+    </div>
+  </div>
+</body>
+</html>

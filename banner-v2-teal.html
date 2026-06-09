@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ValuSignal Banner — V2 Signal Teal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 1584px; height: 396px; overflow: hidden; background: #00BFA5; }
+    .banner {
+      width: 1584px; height: 396px;
+      background-color: #00BFA5;
+      display: flex; align-items: center;
+      position: relative; overflow: hidden;
+      font-family: 'Inter', sans-serif;
+    }
+    .net {
+      position: absolute; right: 0; top: 0;
+      width: 600px; height: 396px;
+      opacity: 0.12; pointer-events: none;
+    }
+    .content {
+      position: relative; z-index: 2;
+      padding: 44px 64px;
+      flex: 1;
+    }
+    .overline {
+      font-size: 11px; font-weight: 700;
+      letter-spacing: 0.18em; color: #151E29;
+      text-transform: uppercase; margin-bottom: 14px;
+      opacity: 0.7;
+    }
+    .headline {
+      font-size: 40px; font-weight: 900;
+      line-height: 1.1; color: #151E29;
+      letter-spacing: -0.03em; margin-bottom: 6px;
+    }
+    .headline-light {
+      font-size: 40px; font-weight: 700;
+      line-height: 1.1; color: #223042;
+      letter-spacing: -0.03em; margin-bottom: 22px;
+      opacity: 0.75;
+    }
+    .credibility {
+      font-size: 13px; font-weight: 600;
+      color: #151E29; letter-spacing: 0.01em;
+      opacity: 0.7;
+    }
+    .right {
+      position: relative; z-index: 2;
+      width: 360px; flex-shrink: 0;
+      height: 396px;
+      display: flex; flex-direction: column;
+      align-items: flex-end; justify-content: space-between;
+      padding: 44px 56px;
+    }
+    .logo-lockup { text-align: right; }
+    .logo-name {
+      font-size: 20px; font-weight: 900;
+      color: #151E29; letter-spacing: -0.02em;
+    }
+    .logo-date {
+      font-size: 13px; font-weight: 600;
+      color: #151E29; margin-top: 4px;
+      opacity: 0.65; letter-spacing: 0.02em;
+    }
+    .logo-url {
+      font-size: 12px; font-weight: 500;
+      color: #151E29; margin-top: 3px;
+      opacity: 0.5;
+    }
+    .cta {
+      background: #223042; color: #FFFFFF;
+      font-size: 14px; font-weight: 700;
+      padding: 13px 24px; border-radius: 6px;
+      letter-spacing: 0.01em; white-space: nowrap;
+    }
+    .cta-sub {
+      font-size: 11px; font-weight: 500;
+      color: #151E29; text-align: right;
+      margin-top: 8px; opacity: 0.5;
+    }
+  </style>
+</head>
+<body>
+  <div class="banner">
+    <svg class="net" viewBox="0 0 600 396" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <line x1="600" y1="0" x2="200" y2="396" stroke="#151E29" stroke-width="1.5"/>
+      <line x1="480" y1="0" x2="80" y2="396" stroke="#151E29" stroke-width="1.5"/>
+      <line x1="360" y1="0" x2="0" y2="300" stroke="#151E29" stroke-width="1.5"/>
+      <circle cx="480" cy="99" r="4" fill="#151E29"/>
+      <circle cx="360" cy="198" r="4" fill="#151E29"/>
+      <circle cx="300" cy="297" r="2.5" fill="#151E29"/>
+    </svg>
+    <div class="content">
+      <div class="overline">First of its kind &nbsp;·&nbsp; U.S. Valuation Profession</div>
+      <div class="headline">Leading the first national virtual conference</div>
+      <div class="headline-light">for the U.S. valuation profession.</div>
+      <div class="credibility">80+ Speakers &nbsp;·&nbsp; Fannie Mae &nbsp;·&nbsp; The Appraisal Foundation &nbsp;·&nbsp; All 50 States</div>
+    </div>
+    <div class="right">
+      <div class="logo-lockup">
+        <div class="logo-name">ValuSignal 2026</div>
+        <div class="logo-date">Sept 18–19 &nbsp;·&nbsp; Virtual</div>
+        <div class="logo-url">valusignal.com/sponsor</div>
+      </div>
+      <div>
+        <div class="cta">Claim Your Sponsor Spot →</div>
+        <div class="cta-sub">Core · Featured · Title available</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ValuSignal Banner — V3 Split</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 1584px; height: 396px; overflow: hidden; background: #151E29; }
+    .banner {
+      width: 1584px; height: 396px;
+      display: flex;
+      position: relative; overflow: hidden;
+      font-family: 'Inter', sans-serif;
+    }
+    /* LEFT PANEL — dark navy content */
+    .left {
+      background: #223042;
+      width: 980px; flex-shrink: 0;
+      display: flex; align-items: center;
+      padding: 44px 72px;
+      position: relative;
+      clip-path: polygon(0 0, 100% 0, 94% 100%, 0 100%);
+    }
+    .left-inner { position: relative; z-index: 2; }
+    .net-left {
+      position: absolute; right: 0; top: 0;
+      width: 400px; height: 396px;
+      opacity: 0.07; pointer-events: none;
+    }
+    .overline {
+      font-size: 11px; font-weight: 700;
+      letter-spacing: 0.18em; color: #00BFA5;
+      text-transform: uppercase; margin-bottom: 14px;
+    }
+    .headline {
+      font-size: 38px; font-weight: 900;
+      line-height: 1.1; color: #FFFFFF;
+      letter-spacing: -0.025em; margin-bottom: 4px;
+    }
+    .headline-teal {
+      font-size: 38px; font-weight: 900;
+      line-height: 1.1; color: #00BFA5;
+      letter-spacing: -0.025em; margin-bottom: 20px;
+    }
+    .rule {
+      width: 40px; height: 3px;
+      background: #00BFA5; margin-bottom: 14px; border-radius: 2px;
+    }
+    .credibility {
+      font-size: 13px; font-weight: 500;
+      color: rgba(255,255,255,0.55); letter-spacing: 0.01em;
+    }
+    .credibility strong { color: rgba(0,191,165,0.9); font-weight: 600; }
+
+    /* RIGHT PANEL — teal */
+    .right {
+      background: #00BFA5;
+      flex: 1;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      padding: 40px 52px;
+      position: relative; z-index: 1;
+      margin-left: -60px;
+    }
+    .logo-name {
+      font-size: 22px; font-weight: 900;
+      color: #151E29; letter-spacing: -0.02em;
+      text-align: center; margin-bottom: 4px;
+    }
+    .logo-date {
+      font-size: 13px; font-weight: 600;
+      color: #151E29; opacity: 0.65;
+      text-align: center; margin-bottom: 6px;
+    }
+    .logo-url {
+      font-size: 11px; font-weight: 500;
+      color: #151E29; opacity: 0.5;
+      text-align: center; margin-bottom: 32px;
+    }
+    .cta {
+      background: #223042; color: #FFFFFF;
+      font-size: 14px; font-weight: 700;
+      padding: 14px 26px; border-radius: 6px;
+      letter-spacing: 0.01em; white-space: nowrap;
+      text-align: center; width: 100%;
+    }
+    .cta-sub {
+      font-size: 11px; font-weight: 500;
+      color: #151E29; opacity: 0.5;
+      text-align: center; margin-top: 10px;
+    }
+    .divider-h {
+      width: 32px; height: 2px;
+      background: #151E29; opacity: 0.3;
+      margin: 16px auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="banner">
+
+    <!-- LEFT: Dark content panel -->
+    <div class="left">
+      <svg class="net-left" viewBox="0 0 400 396" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <line x1="400" y1="0" x2="100" y2="396" stroke="#00BFA5" stroke-width="1.5"/>
+        <line x1="280" y1="0" x2="0" y2="330" stroke="#00BFA5" stroke-width="1.5"/>
+        <circle cx="280" cy="99" r="3.5" fill="#00BFA5"/>
+        <circle cx="200" cy="198" r="3.5" fill="#00BFA5"/>
+      </svg>
+      <div class="left-inner">
+        <div class="overline">First of its kind &nbsp;·&nbsp; U.S. Valuation Profession</div>
+        <div class="headline">Leading the first national virtual conference</div>
+        <div class="headline-teal">for the U.S. valuation profession.</div>
+        <div class="rule"></div>
+        <div class="credibility">
+          <strong>80+ Speakers</strong> &nbsp;·&nbsp; Fannie Mae &nbsp;·&nbsp; The Appraisal Foundation &nbsp;·&nbsp; All 50 States
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT: Teal CTA panel -->
+    <div class="right">
+      <div class="logo-name">ValuSignal 2026</div>
+      <div class="logo-date">Sept 18–19 &nbsp;·&nbsp; Virtual</div>
+      <div class="logo-url">valusignal.com/sponsor</div>
+      <div class="cta">Claim Your Sponsor Spot →</div>
+      <div class="divider-h"></div>
+      <div class="cta-sub">Core · Featured · Title available</div>
+    </div>
+
+  </div>
+</body>
+</html>
