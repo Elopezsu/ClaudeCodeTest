@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resilience Score V3 — Split Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 800px; height: 418px; overflow: hidden; background: #151E29; }
+    .banner {
+      width: 800px; height: 418px;
+      display: flex;
+      position: relative; overflow: hidden;
+      font-family: 'Inter', sans-serif;
+    }
+
+    /* LEFT — dark navy */
+    .left {
+      background: #223042;
+      width: 490px; flex-shrink: 0;
+      display: flex; align-items: center;
+      padding: 40px 52px;
+      position: relative;
+      clip-path: polygon(0 0, 100% 0, 91% 100%, 0 100%);
+    }
+    .left-inner { position: relative; z-index: 2; width: 100%; }
+    .net-left {
+      position: absolute; right: 0; top: 0;
+      width: 260px; height: 418px;
+      opacity: 0.06; pointer-events: none;
+    }
+    .overline {
+      font-size: 10px; font-weight: 700;
+      letter-spacing: 0.18em; color: #00BFA5;
+      text-transform: uppercase; margin-bottom: 12px;
+    }
+    .headline {
+      font-size: 30px; font-weight: 900;
+      line-height: 1.1; color: #FFFFFF;
+      letter-spacing: -0.03em; margin-bottom: 6px;
+    }
+    .headline em { color: #00BFA5; font-style: normal; }
+    .sub {
+      font-size: 11px; font-weight: 500;
+      color: rgba(255,255,255,0.4);
+      margin-bottom: 20px; line-height: 1.5;
+      max-width: 330px;
+    }
+
+    /* Category bars */
+    .categories { display: flex; flex-direction: column; gap: 8px; max-width: 340px; }
+    .cat-row { display: flex; align-items: center; gap: 10px; }
+    .cat-label {
+      font-size: 9px; font-weight: 600;
+      color: rgba(255,255,255,0.45);
+      text-transform: uppercase; letter-spacing: 0.06em;
+      width: 108px; flex-shrink: 0;
+    }
+    .bar-track {
+      flex: 1; height: 6px;
+      background: rgba(255,255,255,0.07);
+      border-radius: 3px; overflow: hidden;
+    }
+    .bar-fill {
+      height: 100%; border-radius: 3px;
+      background: linear-gradient(90deg, #00BFA5, rgba(0,191,165,0.45));
+    }
+    .bar-val {
+      font-size: 9px; font-weight: 700;
+      color: rgba(0,191,165,0.7);
+      width: 22px; text-align: right; flex-shrink: 0;
+    }
+
+    /* RIGHT — teal score panel */
+    .right {
+      background: #00BFA5;
+      flex: 1;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      padding: 28px 24px;
+      position: relative; z-index: 1;
+      margin-left: -38px;
+    }
+    .score-label {
+      font-size: 9px; font-weight: 700;
+      letter-spacing: 0.14em; color: #151E29;
+      text-transform: uppercase; opacity: 0.45;
+      text-align: center; margin-bottom: 8px;
+    }
+    .score-ring {
+      width: 100px; height: 100px;
+      border-radius: 50%;
+      background: rgba(21,30,41,0.12);
+      border: 3px solid rgba(21,30,41,0.15);
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      margin-bottom: 12px;
+    }
+    .score-num {
+      font-size: 38px; font-weight: 900;
+      color: #151E29; letter-spacing: -0.04em;
+      line-height: 1;
+    }
+    .score-denom {
+      font-size: 10px; font-weight: 600;
+      color: #151E29; opacity: 0.4;
+    }
+    .what-you-get {
+      width: 100%; margin-bottom: 14px;
+    }
+    .get-item {
+      display: flex; align-items: center; gap: 7px;
+      padding: 5px 0;
+      border-bottom: 1px solid rgba(21,30,41,0.1);
+    }
+    .get-item:last-child { border-bottom: none; }
+    .check {
+      width: 14px; height: 14px; border-radius: 50%;
+      background: rgba(21,30,41,0.15);
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+    }
+    .check svg { width: 8px; height: 8px; }
+    .get-text {
+      font-size: 10px; font-weight: 600;
+      color: #151E29; opacity: 0.65;
+    }
+    .cta {
+      background: #223042; color: #FFFFFF;
+      font-size: 12px; font-weight: 700;
+      padding: 10px 18px; border-radius: 5px;
+      text-align: center; width: 100%;
+      margin-bottom: 6px;
+    }
+    .url {
+      font-size: 8px; font-weight: 500;
+      color: #151E29; opacity: 0.3;
+      text-align: center; word-break: break-all;
+    }
+  </style>
+</head>
+<body>
+  <div class="banner">
+
+    <!-- LEFT -->
+    <div class="left">
+      <svg class="net-left" viewBox="0 0 260 418" fill="none">
+        <line x1="260" y1="0" x2="60" y2="418" stroke="#00BFA5" stroke-width="1.5"/>
+        <line x1="178" y1="0" x2="0" y2="340" stroke="#00BFA5" stroke-width="1.5"/>
+        <circle cx="178" cy="104" r="3.5" fill="#00BFA5"/>
+        <circle cx="130" cy="209" r="3.5" fill="#00BFA5"/>
+      </svg>
+      <div class="left-inner">
+        <div class="overline">Free &nbsp;·&nbsp; 5 Categories &nbsp;·&nbsp; Instant Score</div>
+        <div class="headline">How <em>resilient</em> is your<br>valuation business?</div>
+        <div class="sub">Rate yourself honestly. See exactly where you stand.</div>
+        <div class="categories">
+          <div class="cat-row">
+            <div class="cat-label">Revenue Mix</div>
+            <div class="bar-track"><div class="bar-fill" style="width:82%"></div></div>
+            <div class="bar-val">82</div>
+          </div>
+          <div class="cat-row">
+            <div class="cat-label">Client Diversity</div>
+            <div class="bar-track"><div class="bar-fill" style="width:64%"></div></div>
+            <div class="bar-val">64</div>
+          </div>
+          <div class="cat-row">
+            <div class="cat-label">Tech Adoption</div>
+            <div class="bar-track"><div class="bar-fill" style="width:45%"></div></div>
+            <div class="bar-val">45</div>
+          </div>
+          <div class="cat-row">
+            <div class="cat-label">Team Capacity</div>
+            <div class="bar-track"><div class="bar-fill" style="width:70%"></div></div>
+            <div class="bar-val">70</div>
+          </div>
+          <div class="cat-row">
+            <div class="cat-label">Market Position</div>
+            <div class="bar-track"><div class="bar-fill" style="width:55%"></div></div>
+            <div class="bar-val">55</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="right">
+      <div class="score-label">Composite Score</div>
+      <div class="score-ring">
+        <div class="score-num">?</div>
+        <div class="score-denom">/ 100</div>
+      </div>
+      <div class="what-you-get">
+        <div class="get-item">
+          <div class="check">
+            <svg viewBox="0 0 8 8" fill="none"><polyline points="1,4 3,6 7,2" stroke="#151E29" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="get-text">Composite Health Score</div>
+        </div>
+        <div class="get-item">
+          <div class="check">
+            <svg viewBox="0 0 8 8" fill="none"><polyline points="1,4 3,6 7,2" stroke="#151E29" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="get-text">Printable dashboard</div>
+        </div>
+        <div class="get-item">
+          <div class="check">
+            <svg viewBox="0 0 8 8" fill="none"><polyline points="1,4 3,6 7,2" stroke="#151E29" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <div class="get-text">Free — takes 5 minutes</div>
+        </div>
+      </div>
+      <div class="cta">Rate Your Firm →</div>
+      <div class="url">appraisal-resilience-score.lovable.app</div>
+    </div>
+
+  </div>
+</body>
+</html>

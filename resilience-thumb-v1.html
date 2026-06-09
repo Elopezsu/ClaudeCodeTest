@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resilience Score V1 — Dark Question</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 800px; height: 418px; overflow: hidden; background: #223042; }
+    .card {
+      width: 800px; height: 418px;
+      background: #223042;
+      display: flex; flex-direction: column;
+      justify-content: center;
+      padding: 48px 64px;
+      position: relative; overflow: hidden;
+      font-family: 'Inter', sans-serif;
+    }
+    .net {
+      position: absolute; right: 0; top: 0;
+      width: 466px; height: 418px;
+      opacity: 0.07; pointer-events: none;
+    }
+
+    /* Score ring — floating right */
+    .score-ring {
+      position: absolute;
+      right: 72px; top: 50%;
+      transform: translateY(-50%);
+      width: 148px; height: 148px;
+      border-radius: 50%;
+      border: 3px solid rgba(0,191,165,0.25);
+      background: rgba(0,191,165,0.06);
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+    }
+    .score-ring::before {
+      content: '';
+      position: absolute; inset: -10px;
+      border-radius: 50%;
+      border: 1px solid rgba(0,191,165,0.1);
+    }
+    .ring-num {
+      font-size: 52px; font-weight: 900;
+      color: #00BFA5; letter-spacing: -0.05em;
+      line-height: 1;
+    }
+    .ring-denom {
+      font-size: 11px; font-weight: 600;
+      color: rgba(0,191,165,0.5);
+      letter-spacing: 0.04em;
+    }
+    .ring-label {
+      font-size: 8px; font-weight: 700;
+      color: rgba(255,255,255,0.3);
+      text-transform: uppercase; letter-spacing: 0.1em;
+      margin-top: 4px;
+    }
+
+    .overline {
+      font-size: 10px; font-weight: 700;
+      letter-spacing: 0.18em; color: #00BFA5;
+      text-transform: uppercase; margin-bottom: 16px;
+    }
+    .question {
+      font-size: 46px; font-weight: 900;
+      line-height: 1.05; color: #FFFFFF;
+      letter-spacing: -0.03em; margin-bottom: 12px;
+      max-width: 480px;
+    }
+    .question em { color: #00BFA5; font-style: normal; }
+    .rule {
+      width: 32px; height: 3px;
+      background: #00BFA5; border-radius: 2px;
+      margin-bottom: 14px;
+    }
+    .sub {
+      font-size: 13px; font-weight: 500;
+      color: rgba(255,255,255,0.42);
+      margin-bottom: 30px; line-height: 1.55;
+      max-width: 420px;
+    }
+    .cta {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: #00BFA5; color: #151E29;
+      font-size: 13px; font-weight: 700;
+      padding: 12px 26px; border-radius: 6px;
+      letter-spacing: 0.01em; width: fit-content;
+    }
+    .logo {
+      position: absolute; bottom: 30px; left: 64px;
+    }
+    .logo-name {
+      font-size: 11px; font-weight: 700;
+      color: rgba(255,255,255,0.25); letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <svg class="net" viewBox="0 0 466 418" fill="none">
+      <line x1="466" y1="0" x2="133" y2="418" stroke="#00BFA5" stroke-width="1.5"/>
+      <line x1="360" y1="0" x2="27" y2="418" stroke="#00BFA5" stroke-width="1.5"/>
+      <line x1="253" y1="0" x2="0" y2="320" stroke="#00BFA5" stroke-width="1.5"/>
+      <circle cx="360" cy="104" r="4" fill="#00BFA5"/>
+      <circle cx="253" cy="209" r="4" fill="#00BFA5"/>
+      <circle cx="187" cy="313" r="3" fill="#00BFA5"/>
+    </svg>
+
+    <div class="score-ring">
+      <div class="ring-num">?</div>
+      <div class="ring-denom">/ 100</div>
+      <div class="ring-label">Your Score</div>
+    </div>
+
+    <div class="overline">Free Assessment &nbsp;·&nbsp; 5 Minutes</div>
+    <div class="question">How <em>resilient</em> is your valuation business?</div>
+    <div class="rule"></div>
+    <div class="sub">Rate your firm across 5 categories. Get a composite Health Score and a printable dashboard to share with your team.</div>
+    <div class="cta">Rate Your Firm →</div>
+    <div class="logo">
+      <div class="logo-name">appraisal-resilience-score.lovable.app</div>
+    </div>
+  </div>
+</body>
+</html>
