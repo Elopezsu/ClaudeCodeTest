@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sponsor Thumbnail V3 — Split</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 800px; height: 418px; overflow: hidden; background: #151E29; }
+    .banner {
+      width: 800px; height: 418px;
+      display: flex;
+      position: relative; overflow: hidden;
+      font-family: 'Inter', sans-serif;
+    }
+
+    /* LEFT PANEL — dark navy */
+    .left {
+      background: #223042;
+      width: 510px; flex-shrink: 0;
+      display: flex; align-items: center;
+      padding: 48px 54px;
+      position: relative;
+      clip-path: polygon(0 0, 100% 0, 92% 100%, 0 100%);
+    }
+    .left-inner { position: relative; z-index: 2; }
+    .net-left {
+      position: absolute; right: 0; top: 0;
+      width: 253px; height: 418px;
+      opacity: 0.07; pointer-events: none;
+    }
+    .overline {
+      font-size: 10px; font-weight: 700;
+      letter-spacing: 0.18em; color: #00BFA5;
+      text-transform: uppercase; margin-bottom: 14px;
+    }
+    .headline {
+      font-size: 34px; font-weight: 900;
+      line-height: 1.08; color: #FFFFFF;
+      letter-spacing: -0.03em; margin-bottom: 4px;
+      max-width: 380px;
+    }
+    .headline em {
+      color: #00BFA5; font-style: normal;
+    }
+    .rule {
+      width: 32px; height: 3px;
+      background: #00BFA5; margin: 14px 0 12px; border-radius: 2px;
+    }
+    .credibility {
+      font-size: 11px; font-weight: 500;
+      color: rgba(255,255,255,0.5); letter-spacing: 0.01em;
+      line-height: 1.6;
+    }
+    .credibility strong { color: rgba(0,191,165,0.9); font-weight: 600; }
+
+    /* RIGHT PANEL — teal */
+    .right {
+      background: #00BFA5;
+      flex: 1;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      padding: 32px 30px;
+      position: relative; z-index: 1;
+      margin-left: -40px;
+    }
+    .logo-name {
+      font-size: 16px; font-weight: 900;
+      color: #151E29; letter-spacing: -0.02em;
+      text-align: center; margin-bottom: 3px;
+    }
+    .logo-date {
+      font-size: 10px; font-weight: 600;
+      color: #151E29; opacity: 0.6;
+      text-align: center; margin-bottom: 4px;
+    }
+    .logo-url {
+      font-size: 9px; font-weight: 500;
+      color: #151E29; opacity: 0.45;
+      text-align: center; margin-bottom: 20px;
+    }
+    .cta {
+      background: #223042; color: #FFFFFF;
+      font-size: 12px; font-weight: 700;
+      padding: 10px 18px; border-radius: 5px;
+      letter-spacing: 0.01em; white-space: nowrap;
+      text-align: center; width: 100%;
+    }
+    .divider-h {
+      width: 24px; height: 2px;
+      background: #151E29; opacity: 0.25;
+      margin: 10px auto;
+    }
+    .cta-sub {
+      font-size: 9px; font-weight: 500;
+      color: #151E29; opacity: 0.45;
+      text-align: center;
+    }
+    .tiers {
+      display: flex; flex-direction: column;
+      gap: 6px; width: 100%; margin-top: 14px;
+    }
+    .tier {
+      background: rgba(21,30,41,0.12);
+      border-radius: 4px;
+      padding: 6px 10px;
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .tier-name {
+      font-size: 9px; font-weight: 700;
+      color: #151E29; letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+    .tier-price {
+      font-size: 10px; font-weight: 800;
+      color: #151E29;
+    }
+    .tier-slots {
+      font-size: 9px; font-weight: 500;
+      color: #151E29; opacity: 0.5;
+    }
+  </style>
+</head>
+<body>
+  <div class="banner">
+
+    <!-- LEFT: Dark content panel -->
+    <div class="left">
+      <svg class="net-left" viewBox="0 0 253 418" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <line x1="380" y1="0" x2="80" y2="627" stroke="#00BFA5" stroke-width="1.5"/>
+        <line x1="260" y1="0" x2="0" y2="500" stroke="#00BFA5" stroke-width="1.5"/>
+        <circle cx="260" cy="156" r="4" fill="#00BFA5"/>
+        <circle cx="190" cy="313" r="4" fill="#00BFA5"/>
+        <circle cx="130" cy="470" r="3" fill="#00BFA5"/>
+      </svg>
+      <div class="left-inner">
+        <div class="overline">ValuSignal 2026 &nbsp;·&nbsp; Sept 18–19 &nbsp;·&nbsp; Virtual</div>
+        <div class="headline">Be a <em>founding sponsor</em> of the first national conference for appraisers.</div>
+        <div class="rule"></div>
+        <div class="credibility">
+          <strong>80+ Speakers</strong> &nbsp;·&nbsp; Fannie Mae &nbsp;·&nbsp; The Appraisal Foundation<br>
+          Appraisers on Purpose &nbsp;·&nbsp; All 50 States
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT: Teal CTA panel -->
+    <div class="right">
+      <div class="logo-name">ValuSignal 2026</div>
+      <div class="logo-date">Sept 18–19 &nbsp;·&nbsp; Virtual</div>
+      <div class="logo-url">valusignal.com/sponsor</div>
+      <div class="cta">Claim Your Sponsor Spot →</div>
+      <div class="divider-h"></div>
+      <div class="tiers">
+        <div class="tier">
+          <span class="tier-name">Core</span>
+          <span class="tier-price">$1,000</span>
+          <span class="tier-slots">20 slots</span>
+        </div>
+        <div class="tier">
+          <span class="tier-name">Featured</span>
+          <span class="tier-price">$2,500</span>
+          <span class="tier-slots">10 slots</span>
+        </div>
+        <div class="tier">
+          <span class="tier-name">Title</span>
+          <span class="tier-price">$10,000</span>
+          <span class="tier-slots">1 slot</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
