@@ -13,7 +13,7 @@
 
 {{first_name}},
 
-ValuSignal 2026 is the first national virtual conference built just for U.S. appraisers — September 18–19, 300–600 practitioners and firm owners from all 50 states, no other industries in the room.
+ValuSignal 2026 is an inaugural national virtual conference built just for U.S. appraisers — September 18–19, 300–600 practitioners and firm owners from all 50 states, no other industries in the room.
 
 We have three sponsor options — from getting your logo in front of every attendee to running a live booth, taking a speaking slot, and having your name on the event.
 
@@ -37,7 +37,7 @@ Reply "remove" and I'll update my list.
 
 {{first_name}},
 
-There's no national virtual conference built exclusively for U.S. appraisers — ValuSignal 2026 is the first, September 18–19.
+ValuSignal 2026 is an inaugural national virtual conference built exclusively for U.S. appraisers — September 18–19.
 
 Sponsors in Year 1 are permanently the founding sponsors of this category — that position doesn't exist next year.
 
