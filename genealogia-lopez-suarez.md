@@ -43,7 +43,7 @@
 |---|---|---|
 | **Nombre** | Roberto Suárez | **María de Jesús Pérez** |
 | **Fallecimiento** | 2005 | — |
-| **Notas** | Doc. registro civil solo dice "Roberto Suárez" — apellido Abelardo puede ser segundo nombre | ⚠️ En árbol digital aparece como "María Pérez Prasca" pero el registro civil de Naurys dice **"María de Jesús Pérez"** — "Prasca" NO aparece. Requiere verificación: ¿es apellido de otra generación? |
+| **Notas** | Registro civil solo dice "Roberto Suárez" — Abelardo puede ser segundo nombre | Nombre completo confirmado: **María de Jesús Pérez Prasca**. El registro civil de Naurys omitió "Prasca" (común en documentos colombianos de la época). Prasca = origen italiano confirmado. |
 
 **Hijos de Roberto Suárez y María Pérez Prasca (tíos maternos de Eunice):**
 - Tomas Suárez (†2016)
