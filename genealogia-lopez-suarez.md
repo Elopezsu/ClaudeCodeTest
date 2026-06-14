@@ -32,10 +32,15 @@
 | | Abuelo paterno | Abuela paterna |
 |---|---|---|
 | **Nombre** | Julio López Hernández | Celsa María Zabaleta Guerra |
-| **Fallecimiento** | — | 2020 |
-| **Notas** | Padre SOLO de Julio Alberto — cada hermano/a tiene padre diferente | Tuvo hijos con múltiples hombres — Emperatriz, Álvaro, Luis y otros tienen padres distintos entre sí y distintos a Julio López Hernández |
+| **Alias** | "El Tigre de la Selva" / "El León de la Selva" | — |
+| **Fallecimiento** | ~1961 (asesinado, ~35-40 años) | 2020 |
+| **Notas** | Integrante de grupo armado en el monte (bandolero). Quiso dejar las armas al tener familia. Traicionado por sus propios compañeros — entregado a banda rival que lo mató. Su hermano (desconocido) vengó su muerte matando a los 3 traidores. | Tuvo hijos con múltiples hombres — Emperatriz, Álvaro, Luis y otros tienen padres distintos entre sí y distintos a Julio López Hernández |
 
 > ⚠️ **DATO CLAVE (14-jun-2026):** Los tíos paternos de Eunice (Emperatriz, Álvaro, Luis, y otros) son **medios hermanos** de su papá — la abuela Celsa tuvo hijos con distintos hombres. Julio López Hernández es el padre SOLO de Julio Alberto. Cada tío pertenece a un sistema paterno diferente.
+
+> 🔴 **HALLAZGO HISTÓRICO (14-jun-2026 — Audios de Israel):** El abuelo paterno **Julio López Hernández** era un hombre de armas conocido como **"El Tigre de la Selva"** o **"El León de la Selva"**. Enfrentaba a corregimientos enteros con machetes. Quiso retirarse al tener hijos (Julio Alberto tenía ~7 años, ~1961). Sus propios compañeros lo **traicionaron** entregándolo a una banda rival porque "se estaba haciendo fuerte". La banda rival lo asesinó. El **hermano del abuelo** (nombre desconocido) vengó la muerte cazando y matando a los 3 traidores; el hermano también murió después. Tío Leonidas llevó a Julio Alberto y a sus hermanos (Tío Omar, Luis) al monte desde pequeños. Julio Alberto nunca conoció a la familia paterna de su padre.
+>
+> **Fuente:** Audios WhatsApp de Israel López Suárez, 14-jun-2026.
 
 ### Lado Materno (Suárez Pérez)
 
@@ -110,10 +115,21 @@
 
 - [x] Partida de bautismo — Julio Alberto López Zabaleta (Arquidiócesis Barranquilla, 23-jul-2008) — `05 - Certidão de nascimento pai.pdf`
 
+## PERSONAS NUEVAS IDENTIFICADAS (14-jun-2026)
+
+| Nombre | Relación | Estado | Notas |
+|---|---|---|---|
+| Tío Omar | Hermano o medio hermano del padre | Desconocido | Criado junto al padre en el monte por Tío Leonidas |
+| Hermano de Julio López Hernández | Tío-abuelo del padre | Muerto | Vengó al abuelo matando a 3 traidores, luego murió |
+| Tío Leonidas | Posible tío del padre | Desconocido | Llevó al padre y hermanos al monte desde pequeños |
+
 ## PENDIENTES DE INVESTIGAR
 
+- [ ] Nombre del hermano de Julio López Hernández (el que vengó la muerte)
+- [ ] Nombre completo de Tío Omar (apellido)
+- [ ] Lugar exacto donde vivía Julio López Hernández en el monte — "Sin Mira"? ¿corregimiento?
+- [ ] Registro civil de Julio López Hernández (abuelo paterno) — probablemente Antioquia/Bajo Cauca
 - [ ] Registro civil de Humberto López y Lucila Hernández en Santa Rosa de Osos, Antioquia
-- [ ] Registro civil de Julio López Hernández (abuelo paterno) — probablemente Antioquia
 - [ ] Fecha y lugar exacto de nacimiento de Celsa María Zabaleta Guerra
 - [ ] Confirmar si Rumualdo Guerra Salgado (†1991) es familiar directo de Romualda Guerra
 - [ ] Origen de Máximo Zabaleta y Romualda Guerra

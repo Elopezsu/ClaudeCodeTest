@@ -1,0 +1,269 @@
+{
+  "meta": {
+    "root": "G0_eunice",
+    "last_updated": "2026-06-14",
+    "metric": "ancestros confirmados con fuente / total gaps"
+  },
+  "people": {
+    "G0_eunice": {
+      "name": "Eunice Estela López Suárez",
+      "birth_year": 1990,
+      "birth_place": "Colombia",
+      "parents": {
+        "father_id": "G1_julio",
+        "mother_id": "G1_naurys"
+      },
+      "sources": [
+        "conocido"
+      ],
+      "searched": true
+    },
+    "G1_julio": {
+      "name": "Julio Alberto López Zabaleta",
+      "birth_year": 1954,
+      "birth_place": "Margento, Caucasia, Antioquia",
+      "birth_year_min": 1954,
+      "birth_year_max": 1954,
+      "relationship": "Padre de Eunice",
+      "parents": {
+        "father_id": "G2_julio_lh",
+        "mother_id": "G2_celsa"
+      },
+      "sources": [
+        "Partida bautismo Arquidiócesis Barranquilla, Libro 0013, Folio 0225, N°0450"
+      ],
+      "searched": true
+    },
+    "G1_naurys": {
+      "name": "Naurys Estela Suárez Pérez",
+      "birth_year": 1962,
+      "birth_place": "Cascajal, Magangué, Bolívar",
+      "birth_year_min": 1962,
+      "birth_year_max": 1962,
+      "relationship": "Madre de Eunice",
+      "parents": {
+        "father_id": "G2_roberto",
+        "mother_id": "G2_maria_jp"
+      },
+      "sources": [
+        "Registro civil Inspección Cascajal, nov 1979, Folio 173, Libro 1"
+      ],
+      "searched": true
+    },
+    "G2_julio_lh": {
+      "name": "Julio López Hernández",
+      "birth_year_min": 1920,
+      "birth_year_max": 1940,
+      "birth_place": "Santa Rosa de Osos, Antioquia",
+      "relationship": "Abuelo paterno de Eunice",
+      "context": "Hombre de armas (bandolero) en el monte. Quiso retirarse al tener familia. Sus propios compañeros lo traicionaron entregándolo a banda rival. Su hermano (desconocido) vengó la muerte. Tío Leonidas crió a Julio Alberto.",
+      "parents": {
+        "father_id": "G3_humberto",
+        "mother_id": "G3_lucila"
+      },
+      "sources": [
+        "Partida bautismo Julio Alberto López Zabaleta",
+        "Audios WhatsApp Israel López Suárez 14-jun-2026"
+      ],
+      "searched": true,
+      "alias": "El Tigre de la Selva / El León de la Selva",
+      "death_year": 1961,
+      "death_cause": "Asesinado — traicionado por compañeros de banda armada, entregado a banda rival"
+    },
+    "G2_celsa": {
+      "name": "Celsa María Zabaleta Guerra",
+      "birth_year_min": 1920,
+      "birth_year_max": 1940,
+      "birth_place": "Costa Caribe colombiana (posible Cesar o Bolívar)",
+      "death_year": 2020,
+      "relationship": "Abuela paterna de Eunice",
+      "context": "Tuvo hijos con múltiples hombres. Antes de morir contó que 'los tíos del abuelo' fueron traicionados y tres decapitados — encaja con Los Pájaros, Bajo Cauca, 1948-58. Apellido Zabaleta más fuerte en Cesar.",
+      "parents": {
+        "father_id": "G3_maximo",
+        "mother_id": "G3_romualda"
+      },
+      "sources": [
+        "Relato oral Israel López"
+      ],
+      "searched": true
+    },
+    "G2_roberto": {
+      "name": "Roberto Abelardo Suárez",
+      "birth_year_min": 1925,
+      "birth_year_max": 1945,
+      "birth_place": "Cascajal, Magangué, Bolívar",
+      "death_year": 2005,
+      "relationship": "Abuelo materno de Eunice",
+      "parents": {
+        "father_id": "G3_gerardo",
+        "mother_id": "G3_benigna"
+      },
+      "sources": [
+        "Registro civil Naurys Suárez Pérez"
+      ],
+      "searched": true
+    },
+    "G2_maria_jp": {
+      "name": "María de Jesús Pérez Prasca",
+      "birth_year_min": 1925,
+      "birth_year_max": 1945,
+      "birth_place": "Magangué, Bolívar",
+      "relationship": "Abuela materna de Eunice",
+      "context": "Apellido Prasca confirmado aunque no aparece en registro civil de 1962. Prasca es apellido italiano (Piamonte/Lombardía), antepasado llegó por Barranquilla s.XIX.",
+      "parents": {
+        "father_id": "G3_andres",
+        "mother_id": "G3_sofia"
+      },
+      "sources": [
+        "Confirmado relato oral"
+      ],
+      "searched": true
+    },
+    "G3_humberto": {
+      "name": "Humberto López",
+      "birth_year_min": 1880,
+      "birth_year_max": 1915,
+      "birth_place": "Santa Rosa de Osos, Antioquia",
+      "relationship": "Bisabuelo paterno (padre de Julio López Hernández)",
+      "context": "Familia de Santa Rosa de Osos. Casado con Lucila Hernández. FamilySearch tiene registros de SRO desde 1718.",
+      "parents": null,
+      "sources": [
+        "Relato oral"
+      ],
+      "searched": true,
+      "search_priority": 3,
+      "search_notes": "Los resultados de Geni y WikiTree devolvieron únicamente código HTML/JavaScript de las páginas de búsqueda, sin ningún perfil genealógico relevante para Humberto López de Santa Rosa de Osos. No hubo coincidencias útiles. Pasos recomendados: (1) Buscar directamente en FamilySearch la colección 'Colombia, Antioquia, registros parroquiales, 1689-1950' filtrando por apellido López en Santa Rosa de Osos entre 1880 y 1920; (2) Revisar la colección 'Colombia, Antioquia, Santa Rosa de Osos, registros de"
+    },
+    "G3_lucila": {
+      "name": "Lucila Hernández",
+      "birth_year_min": 1885,
+      "birth_year_max": 1918,
+      "birth_place": "Santa Rosa de Osos, Antioquia",
+      "relationship": "Bisabuela paterna (madre de Julio López Hernández)",
+      "context": "Casada con Humberto López en Santa Rosa de Osos.",
+      "parents": null,
+      "sources": [
+        "Relato oral"
+      ],
+      "searched": true,
+      "search_priority": 3,
+      "search_notes": "Todos los scrapers fallaron por timeout o cierre del navegador; no se obtuvo ningún resultado utilizable de Geni, WikiTree, FindAGrave, MyHeritage ni DuckDuckGo. Para retomar la búsqueda de Lucila Hernández (bisabuela paterna, ~1885–1918, Santa Rosa de Osos, Antioquia) se recomiendan los siguientes pasos concretos: (1) Buscar directamente en FamilySearch la colección 'Colombia, Antioquia, registros parroquiales, 1614–1964' filtrando por parroquia Santa Rosa de Osos, apellido Hernández, rango 188"
+    },
+    "G3_maximo": {
+      "name": "Máximo Zabaleta",
+      "birth_year_min": 1880,
+      "birth_year_max": 1915,
+      "birth_place": "Costa Caribe colombiana (posible Cesar o Bolívar)",
+      "relationship": "Bisabuelo paterno (padre de Celsa María Zabaleta Guerra)",
+      "context": "Apellido Zabaleta más fuerte en Cesar. Casado con Romualda Guerra. Familia vinculada al Bajo Cauca antioqueño. Posiblemente víctima o desplazado de La Violencia 1948-58.",
+      "parents": null,
+      "sources": [
+        "Relato oral"
+      ],
+      "searched": true,
+      "search_priority": 3,
+      "search_notes": "Ninguna de las fuentes consultadas retornó resultados utilizables: Geni devolvió HTML de carga sin perfiles relevantes, WikiTree y FindAGrave fallaron por timeout, MyHeritage falló por timeout, y DuckDuckGo bloqueó la búsqueda con captcha. No se encontró información documental sobre Máximo Zabaleta en esta ronda. Recomendaciones concretas para continuar: (1) Buscar directamente en FamilySearch la colección 'Colombia, Bolívar, registros parroquiales, 1614-1964' filtrando apellido Zabaleta en muni"
+    },
+    "G3_romualda": {
+      "name": "Romualda Guerra",
+      "birth_year_min": 1885,
+      "birth_year_max": 1920,
+      "birth_place": "Costa Caribe colombiana",
+      "relationship": "Bisabuela paterna (madre de Celsa María Zabaleta Guerra)",
+      "context": "Soraida Galvis tiene memoria DIRECTA de Romualda Guerra — fuente oral clave aún no entrevistada.",
+      "parents": null,
+      "sources": [
+        "Relato oral"
+      ],
+      "searched": true,
+      "search_priority": 2,
+      "search_notes": "Los resultados entregados de Geni corresponden únicamente al código de inicialización JavaScript de la plataforma (loading screen), sin ningún perfil genealógico cargado. WikiTree devolvió solo la interfaz de búsqueda vacía, sin perfiles que coincidan con 'Romualda Guerra'. No se encontró ningún dato útil en estas dos fuentes para esta búsqueda. Pasos recomendados: (1) Realizar búsqueda directa en FamilySearch colecciones 'Colombia, Bolívar, registros parroquiales' y 'Colombia, Antioquia, regist"
+    },
+    "G3_gerardo": {
+      "name": "Gerardo Abelardo Suárez",
+      "birth_year_min": 1885,
+      "birth_year_max": 1920,
+      "birth_place": "Bolívar, Colombia",
+      "relationship": "Bisabuelo materno (padre de Roberto Abelardo Suárez)",
+      "context": "Casado con María Benigna Prasca.",
+      "parents": null,
+      "sources": [
+        "Relato oral"
+      ],
+      "searched": false,
+      "search_priority": 2
+    },
+    "G3_benigna": {
+      "name": "María Benigna Prasca",
+      "birth_year_min": 1885,
+      "birth_year_max": 1920,
+      "birth_place": "Bolívar, Colombia (probable Magangué o Barranquilla)",
+      "relationship": "Bisabuela materna (madre de Roberto Abelardo Suárez)",
+      "context": "Apellido Prasca italiano. Casada con Gerardo Abelardo Suárez.",
+      "parents": null,
+      "sources": [
+        "Relato oral"
+      ],
+      "searched": false,
+      "search_priority": 2
+    },
+    "G3_andres": {
+      "name": "Andrés Pérez",
+      "birth_year_min": 1880,
+      "birth_year_max": 1915,
+      "birth_place": "Colombia (posible Bolívar o Atlántico)",
+      "death_year": null,
+      "relationship": "Bisabuelo materno (padre de María de Jesús Pérez Prasca)",
+      "context": "Fallecido. Casado con Sofía Prasca.",
+      "parents": null,
+      "sources": [
+        "Relato oral"
+      ],
+      "searched": false,
+      "search_priority": 2
+    },
+    "G3_sofia": {
+      "name": "Sofía Prasca",
+      "birth_year_min": 1885,
+      "birth_year_max": 1920,
+      "birth_place": "Colombia (posible Barranquilla o Atlántico)",
+      "death_year": 1967,
+      "relationship": "Bisabuela materna (madre de María de Jesús Pérez Prasca)",
+      "context": "Apellido Prasca italiano, Piamonte/Lombardía. Antepasado europeo llegó por Barranquilla siglo XIX. Murió en 1967.",
+      "parents": null,
+      "sources": [
+        "Relato oral"
+      ],
+      "searched": true,
+      "search_priority": 3,
+      "search_notes": "Todas las fuentes consultadas (Geni, WikiTree, FindAGrave, MyHeritage, DuckDuckGo x2, búsqueda especial Prasca) retornaron errores técnicos (timeouts o ERR_ABORTED), por lo que no hay ningún resultado analizable en esta ronda. Pistas concretas para continuar: (1) Buscar 'Prasca' en FamilySearch colección 'Colombia, Atlántico, registros parroquiales' y en 'Colombia, Bolívar, registros civiles 1847-1938'. (2) Consultar el Archivo Histórico del Atlántico (Barranquilla) — fondo notarial y registro c"
+    },
+    "G2_hermano_julio": {
+      "name": "Hermano de Julio López Hernández",
+      "birth_year_min": 1910,
+      "birth_year_max": 1935,
+      "birth_place": "Antioquia (posible)",
+      "relationship": "Hermano del abuelo paterno — vengó la muerte de Julio López Hernández",
+      "context": "Mató a los 3 traidores que entregaron a Julio López Hernández. También murió después.",
+      "parents": null,
+      "sources": [
+        "Audios WhatsApp Israel López Suárez 14-jun-2026"
+      ],
+      "searched": false,
+      "search_priority": 1
+    },
+    "G1_omar": {
+      "name": "Omar López (apellido a confirmar)",
+      "birth_year_min": 1950,
+      "birth_year_max": 1970,
+      "birth_place": "Colombia",
+      "relationship": "Hermano o medio hermano del padre de Eunice, criado en el monte por Tío Leonidas",
+      "parents": null,
+      "sources": [
+        "Audios WhatsApp Israel López Suárez 14-jun-2026"
+      ],
+      "searched": true,
+      "search_priority": 0
+    }
+  }
+}

@@ -31,59 +31,55 @@
 
 > *"Papá, Eunice y yo queremos conocer más de dónde venimos. Vamos a grabar esto para no perderlo. Cuéntanos lo que recuerdes, aunque sea poco."*
 
-### Sus padres
-1. ¿Cómo se llamaban exactamente tus papás?
-2. ¿Cuándo y dónde nació tu papá Julio López Hernández?
-3. ¿Cuándo y dónde nació tu mamá Celsa?
-4. ¿Cómo se conocieron?
-5. ¿Cómo era tu papá físicamente y en carácter?
-6. ¿Cómo era tu mamá?
-7. ¿A qué se dedicaban?
-8. ¿A qué edad murieron y de qué?
-9. ¿Tenías relación cercana con ellos o había distancia?
+> ⚠️ **Nota:** El papá nunca conoció a su padre Julio López Hernández ni a la familia paterna de él. Las preguntas son sobre lo que ESCUCHÓ, su infancia real, y la familia de su mamá Celsa que sí conoció.
+
+### Tu papá — lo que te contaron
+> *"Sabemos que no conociste a tu papá. Pero seguramente escuchaste algo de él."*
+
+1. ¿Cómo se llamaba tu papá exactamente? ¿Le decían algún apodo — el tigre, el león, algo así?
+2. ¿Qué te contaron de cómo murió? ¿Quién te lo explicó?
+3. ¿Sabes cuántos años tenías cuando él murió?
+4. ¿Te contaron que tenía hermanos? ¿Recuerdas el nombre de alguno?
+5. ¿Alguien te habló de que un hermano de tu papá hizo algo después de su muerte?
+6. ¿Sabes de dónde era tu papá — algún pueblo o región?
+7. ¿Tu mamá Celsa te habló de él? ¿Qué decía?
+
+### Tío Leonidas y el monte
+> *"Queremos entender cómo fue tu infancia."*
+
+8. ¿Quién era el tío Leonidas — familiar de tu papá, de tu mamá, o de otra persona?
+9. ¿Cuál era el apellido de Leonidas?
+10. ¿Él te llevó al monte cuando eras niño? ¿A qué lugar exactamente?
+11. ¿Conoces o recuerdas un lugar llamado "Sin Mira" o algo parecido?
+12. ¿Con quiénes más viviste en el monte — hermanos, primos, otros?
+13. ¿Cuánto tiempo viviste así?
+14. ¿Cómo llegaste a Margento y luego a Barranquilla?
+
+### Tío Omar
+15. ¿Quién es Omar — tu hermano, medio hermano, primo?
+16. ¿Cuál es el apellido de Omar?
+17. ¿Sabes dónde está Omar hoy?
+
+### Tu mamá Celsa y sus padres
+> *"Pasemos a lo de tu mamá."*
+
+18. ¿Cómo era tu mamá Celsa de carácter?
+19. ¿Conociste a los papás de tu mamá — los abuelos Máximo Zabaleta y Romualda Guerra?
+20. ¿Cómo eran? ¿De dónde eran?
+21. ¿Tu mamá tenía hermanos? ¿Recuerdas alguno?
+22. ¿Tu mamá habló alguna vez de violencia o de tener que huir de algún lugar?
 
 ### Tus hermanos
-10. ¿Cuántos hermanos tienes? ¿Nombre completo y orden de cada uno?
-11. ¿Sabes que tus hermanos tienen padres diferentes al tuyo — ¿qué sabes de los padres de cada uno?
-12. ¿Algún hermano murió joven o hubo bebés que no sobrevivieron?
-13. ¿Hubo algún hermano del que no se hablara?
+23. ¿Cuántos hermanos tienes? ¿Nombre completo y orden de cada uno?
+24. ¿Sabes quiénes eran los padres de cada hermano?
+25. ¿Algún hermano murió joven o desapareció?
+26. ¿Hay algún hermano del que no se hablaba?
 
-### Los bisabuelos paternos — Humberto López y Lucila Hernández
-14. ¿Conociste a los papás de tu papá?
-15. ¿Recuerdas sus nombres completos?
-16. ¿De dónde eran? ¿Alguien mencionaba Santa Rosa de Osos?
-17. ¿Cómo eran físicamente? ¿Algún recuerdo aunque sea borroso?
-18. ¿Cuándo y cómo murieron?
-19. ¿Por qué se fue la familia de Antioquia? ¿Hubo algo que los obligó?
-20. ¿Tu abuelo Humberto tenía hermanos? ¿Sabes algo de ellos?
-
-### Los bisabuelos maternos — Máximo Zabaleta y Romualda Guerra
-21. ¿Conociste a los papás de tu mamá Celsa?
-22. ¿Cómo eran? ¿De dónde eran?
-23. ¿Tenían tierras o algún oficio?
-24. ¿Había hermanos de tu mamá Celsa con quien hubiera conflicto?
-
-### La migración
-25. ¿Por qué naciste en Margento — qué sabes de ese lugar?
-26. ¿Cuándo y por qué llegaron a Barranquilla?
-27. ¿Qué dejaron atrás? ¿Tierras, familia, casa?
-28. ¿La familia era liberal o conservadora?
-29. ¿Alguien habló de que salieron de Antioquia por violencia o por miedo?
-30. ¿Escuchaste hablar de los "pájaros" o de grupos que hacían daño en la región?
-
-### Memoria del clan
-31. ¿Hay alguna historia familiar que te impactó de niño?
-32. ¿Hay alguien de quien nunca se hablaba?
-33. ¿Hubo muertes trágicas, jóvenes o violentas en la familia?
-34. ¿Hubo algún familiar que estuvo preso o desapareció?
-35. ¿Quién era el tío Leonidas y cómo se relacionaba con la familia?
-36. ¿De dónde viene tu nombre Julio?
-37. ¿Qué enfermedades eran comunes en tu familia?
-
-### Documentos y contactos
-38. ¿Hay algún familiar mayor aún vivo que sepa más?
-39. ¿Guardas fotos, cartas o documentos de tus papás o abuelos?
-40. ¿Hay alguien en Margento o Santa Rosa de Osos con quien aún tengamos familia?
+### El nombre y los documentos
+27. ¿Por qué naciste en Margento — qué sabes de ese lugar?
+28. ¿Por qué te pusieron Julio — te nombraron por tu papá?
+29. ¿Guardas alguna foto, carta o documento de tu mamá o de tu pasado?
+30. ¿Hay algún familiar mayor vivo — de tu mamá Celsa — que sepa más de la historia?
 
 ---
 
