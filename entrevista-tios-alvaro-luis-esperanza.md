@@ -2,6 +2,12 @@
 **Contexto:** Hermanos del papá Julio Alberto López Zabaleta (hijos de Julio López Hernández + Celsa Zabaleta Guerra). Esperanza es prima hermana.
 **Dato clave de Israel:** La abuela Celsa contó antes de morir que los tíos del abuelo fueron traicionados y tres de ellos asesinados (decapitados). Esto orienta preguntas clave sobre la violencia y la migración.
 
+**CONTEXTO INVESTIGADO (actualización 14-jun-2026):**
+- Margento = corregimiento de **Caucasia, Bajo Cauca antioqueño**. El Bajo Cauca era territorio **liberal** en La Violencia — blanco de los "Pájaros" (sicarios conservadores) que practicaban decapitaciones. El relato de Celsa es históricamente exacto para ese contexto.
+- Los bisabuelos Humberto López + Lucila Hernández son buscables en FamilySearch Santa Rosa de Osos (registros desde 1718).
+- El apellido **Zabaleta** tiene mayor distribución histórica en el **Cesar** (Costa Caribe) — posible que Celsa fuera de la costa y llegara a Caucasia.
+- **Tío Leonidas** — mencionado por Israel y por Eunice en sus notas bio. Puede ser Leonidas López (hermano del abuelo Julio) u otro familiar. Apellido desconocido aún.
+
 ---
 
 ## ENTREVISTA — TÍO ÁLVARO

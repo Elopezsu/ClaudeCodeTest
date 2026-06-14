@@ -2,6 +2,13 @@
 **Para el entrevistador (Israel):**
 Graba el audio con el teléfono sobre la mesa. No hay respuestas incorrectas — lo que no recuerden también es válido. Si se ponen emotivos, pausa y acompaña. No interrumpas memorias largas aunque parezcan fuera de tema — ahí suele estar lo más importante. Haz cada entrevista por separado: primero papá, luego mamá.
 
+**CONTEXTO INVESTIGADO (actualización 14-jun-2026):**
+- Margento NO es municipio — es un **corregimiento de Caucasia**, Bajo Cauca antioqueño. Tiene su propia parroquia: Nuestra Señora de las Mercedes de Margento.
+- Los registros parroquiales de Santa Rosa de Osos en FamilySearch van desde **1718 hasta 1999** — los bisabuelos Humberto y Lucila son buscables ahí.
+- El apellido **Prasca es de origen italiano** (norte de Italia, Piamonte/Lombardía). Hay un antepasado inmigrante europeo en la línea materna.
+- La historia de los tres hombres decapitados encaja perfectamente con los **"Pájaros"** — sicarios conservadores que operaron en el Bajo Cauca antioqueño durante La Violencia (1948–1958). Eso significa que la familia López probablemente era **liberal**.
+- El apellido **Zabaleta** tiene su mayor concentración histórica en el **Cesar** (Costa Caribe), no en Antioquia. La abuela Celsa pudo ser originaria de la costa, no de Antioquia.
+
 ---
 
 ## PARTE 1 — ENTREVISTA A PAPÁ
@@ -63,11 +70,14 @@ Graba el audio con el teléfono sobre la mesa. No hay respuestas incorrectas —
 
 ### BLOQUE E — La migración: de Antioquia a Barranquilla
 
-31. ¿Por qué naciste en Margento, Antioquia? ¿Vivía allá toda la familia?
+31. ¿Por qué naciste en Margento — sabes en qué parte exacta de Antioquia queda? (Investigamos que es un corregimiento de Caucasia, en el Bajo Cauca)
 32. ¿Cuándo llegaron a Barranquilla? ¿Quién tomó esa decisión?
 33. ¿Qué dejaron atrás? ¿Tierras, casa, familia?
 34. ¿Llegaron solos o llegaron con otros familiares?
 35. ¿Había alguien ya en Barranquilla que los recibió?
+36. ¿La familia era liberal o conservadora? ¿Eso generó algún problema o peligro?
+37. ¿Alguien habló alguna vez de que la salida de Antioquia fue por violencia o por miedo a algo?
+38. ¿Escuchaste hablar de los "pájaros" o de grupos que hacían daño en la región donde vivían?
 
 ---
 
@@ -143,8 +153,9 @@ Graba el audio con el teléfono sobre la mesa. No hay respuestas incorrectas —
 20. ¿Conociste a los papás de tu mamá María?
 21. ¿Qué sabes de Sofía Prasca? Murió en 1967 — ¿qué te contaron de ella?
 22. ¿Cómo era Andrés Pérez?
-23. ¿De dónde era la familia Prasca? Es un apellido poco común.
-24. ¿Hubo algo difícil o trágico en esa generación?
+23. ¿De dónde era la familia Prasca? Investigamos que Prasca es un apellido de **origen italiano** — ¿hay historia de un antepasado extranjero en la familia?
+24. ¿Alguien habló alguna vez de un abuelo o bisabuelo que vino de fuera de Colombia — europeo, italiano, español?
+25. ¿Hubo algo difícil o trágico en esa generación?
 
 ---
 
