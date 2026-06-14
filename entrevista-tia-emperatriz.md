@@ -1,6 +1,7 @@
 # Entrevista — Tía Emperatriz Lemus
-**Relación:** Hermana de Julio Alberto López Zabaleta (papá de Eunice)
-**Hija de:** Julio López Hernández + Celsa María Zabaleta Guerra
+**Relación:** Media hermana de Julio Alberto López Zabaleta (papá de Eunice)
+**Hija de:** Celsa María Zabaleta Guerra + **padre diferente a Julio López Hernández**
+⚠️ Confirmar quién es su padre biológico antes de preguntar por el linaje paterno
 **Objetivo:** Llenar los vacíos de la línea López que papá no alcanzó a ver por edad o distancia
 
 > *Apertura sugerida:* "Tía, estamos haciendo un árbol familiar y queremos conocer más de dónde venimos. ¿Nos cuentas lo que recuerdes?"

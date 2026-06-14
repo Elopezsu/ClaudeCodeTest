@@ -14,10 +14,11 @@
 
 | | Padre | Madre |
 |---|---|---|
-| **Nombre** | Julio Alberto López Zabaleta | Naura Estela Suárez Pérez |
-| **Nacimiento** | 20 nov 1954 | 1962 |
-| **Lugar nac.** | Margento, Antioquia, Colombia | — |
+| **Nombre** | Julio Alberto López Zabaleta | **Naurys** Estela Suárez Pérez |
+| **Nacimiento** | 20 nov 1954 | **29 ago 1962** |
+| **Lugar nac.** | Margento (Caucasia), Antioquia | **Cascajal, Magangué, Bolívar** |
 | **Bautismo** | 23 may 1976 — Parroquia Santa Marta, Barranquilla | — |
+| **Fuente doc.** | Partida bautismo Arquidiócesis Barranquilla 2008 | **Registro civil Inspección Cascajal, nov 1979. Folio 173, Libro 1, año 1960** |
 
 **Hermanos de Eunice:**
 - Israel Alberto López Suárez (n. 1989)
@@ -32,14 +33,17 @@
 |---|---|---|
 | **Nombre** | Julio López Hernández | Celsa María Zabaleta Guerra |
 | **Fallecimiento** | — | 2020 |
-| **Notas** | — | — |
+| **Notas** | Padre SOLO de Julio Alberto — cada hermano/a tiene padre diferente | Tuvo hijos con múltiples hombres — Emperatriz, Álvaro, Luis y otros tienen padres distintos entre sí y distintos a Julio López Hernández |
+
+> ⚠️ **DATO CLAVE (14-jun-2026):** Los tíos paternos de Eunice (Emperatriz, Álvaro, Luis, y otros) son **medios hermanos** de su papá — la abuela Celsa tuvo hijos con distintos hombres. Julio López Hernández es el padre SOLO de Julio Alberto. Cada tío pertenece a un sistema paterno diferente.
 
 ### Lado Materno (Suárez Pérez)
 
 | | Abuelo materno | Abuela materna |
 |---|---|---|
-| **Nombre** | Roberto Abelardo Suárez | María Pérez Prasca |
+| **Nombre** | Roberto Suárez | **María de Jesús Pérez** |
 | **Fallecimiento** | 2005 | — |
+| **Notas** | Doc. registro civil solo dice "Roberto Suárez" — apellido Abelardo puede ser segundo nombre | ⚠️ En árbol digital aparece como "María Pérez Prasca" pero el registro civil de Naurys dice **"María de Jesús Pérez"** — "Prasca" NO aparece. Requiere verificación: ¿es apellido de otra generación? |
 
 **Hijos de Roberto Suárez y María Pérez Prasca (tíos maternos de Eunice):**
 - Tomas Suárez (†2016)

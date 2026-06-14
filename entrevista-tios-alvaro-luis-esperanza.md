@@ -12,45 +12,49 @@
 
 ## ENTREVISTA — TÍO ÁLVARO
 
-> *Apertura:* "Tío, estamos armando el árbol familiar y queremos conocer la historia de dónde venimos. ¿Nos ayudas con lo que recuerdas?"
+> ⚠️ **Nota para entrevistador:** Álvaro tiene padre DIFERENTE al papá de Eunice. Primero identificar quién es su padre antes de preguntar por el linaje paterno.
+
+> *Apertura:* "Tío, estamos armando el árbol familiar y queremos conocer la historia de cada uno. Cuéntanos de dónde vienes tú."
 
 1. ¿Cuándo y dónde naciste?
-2. ¿Cuántos hermanos son en total — puedes decirme el nombre de cada uno y en qué orden nacieron?
-3. ¿Cómo era tu papá Julio López Hernández — su carácter, su manera de ser?
-4. ¿A qué se dedicaba tu papá? ¿Tenía tierras, animales, oficio?
-5. ¿Cómo era la relación entre tu papá y tu mamá Celsa?
-6. ¿Tu papá hablaba de su familia — de sus propios papás o sus hermanos?
-7. ¿Sabes de dónde era tu papá exactamente? ¿Alguien mencionaba Santa Rosa de Osos?
-8. ¿Conociste a tus abuelos — los papás de tu papá? ¿Recuerdas sus nombres?
-9. ¿Sabes por qué la familia salió de Antioquia? ¿Alguien contó qué pasó allá?
-10. Tu mamá Celsa, antes de morir, ¿te contó alguna historia sobre lo que pasó con la familia del abuelo? ¿Algo sobre una violencia o una traición?
-11. ¿Escuchaste alguna vez hablar de una muerte violenta o una pérdida trágica en la familia paterna?
-12. ¿Quién era el tío Leonidas — cómo se relacionaba con la familia?
-13. ¿Hay alguien en la familia de quien nunca se hablaba?
-14. ¿Guardas fotos o documentos de tus papás o abuelos?
-15. ¿Hay algún familiar mayor aún vivo que sepa más de la historia?
+2. ¿Quién fue tu papá — cómo se llamaba completo?
+3. ¿Lo conociste? ¿Tuviste relación con él?
+4. ¿De dónde era tu papá y su familia?
+5. ¿Tu papá tenía hermanos o familia que conozcas?
+6. ¿Tienes hermanos por el lado de tu papá que no seamos nosotros?
+7. ¿Cómo era la relación entre tu mamá Celsa y tu papá?
+8. ¿Tu mamá Celsa te habló de Julio López Hernández — el papá de nuestro papá Julio Alberto?
+9. ¿Qué sabes de Julio López Hernández, de dónde era, cómo era?
+10. ¿Tu mamá Celsa te contó algo sobre lo que pasó en Antioquia — una violencia, una traición, una historia difícil?
+11. ¿Quién era el tío Leonidas para la familia?
+12. ¿Hay alguien de quien nunca se hablaba en la familia de tu mamá?
+13. ¿Tienes fotos o documentos de tu mamá o de tu papá?
+14. ¿Hay alguien mayor aún vivo que sepa más de la historia de Celsa?
+15. ¿Sabes cuántos hijos tuvo tu mamá en total y con cuántos hombres diferentes?
 
 ---
 
 ## ENTREVISTA — TÍO LUIS
 
-> *Apertura:* "Tío Luis, estamos haciendo un árbol familiar. ¿Nos cuentas lo que recuerdes de la historia de la familia?"
+> ⚠️ **Nota para entrevistador:** Luis tiene padre DIFERENTE al papá de Eunice. Primero identificar quién es su padre.
+
+> *Apertura:* "Tío Luis, queremos conocer tu historia y la de tu familia. ¿Nos cuentas?"
 
 1. ¿Cuándo y dónde naciste?
-2. ¿Cómo era tu papá Julio López Hernández — qué recuerdas de él?
-3. ¿Qué hacía tu papá para vivir?
-4. ¿Tu papá te habló alguna vez de sus propios papás — los abuelos Humberto y Lucila?
-5. ¿Sabes algo de Santa Rosa de Osos — alguien hablaba de ese lugar?
-6. ¿Sabes por qué la familia dejó Antioquia y vino a la costa?
-7. ¿Tu mamá Celsa te contó algo sobre lo que pasó en Antioquia antes de que se vinieran?
-8. ¿Escuchaste alguna historia sobre una violencia, una traición o una muerte en la familia del abuelo?
-9. ¿Sabes quiénes eran los tíos o hermanos del abuelo Julio — los hermanos de tu papá?
-10. ¿Quién era el tío Leonidas y cómo se relacionaba con la familia?
-11. ¿Hubo en la familia alguna muerte joven o de alguien que nunca se hablara después?
-12. ¿Hay algún secreto familiar que hayas descubierto de adulto?
-13. ¿Tienes fotos, cartas o documentos de tus papás o abuelos?
-14. ¿Hay alguien de la generación anterior aún vivo — un tío o primo de tu papá?
-15. ¿Qué es lo que más recuerdas de tu mamá Celsa?
+2. ¿Quién fue tu papá — cómo se llamaba?
+3. ¿Lo conociste o tuviste relación con él?
+4. ¿De dónde era tu papá y su familia?
+5. ¿Tienes hermanos por el lado de tu papá fuera de los que compartimos con la abuela Celsa?
+6. ¿Qué sabes de Julio López Hernández — el papá de nuestro papá Julio Alberto?
+7. ¿Tu mamá Celsa te habló de lo que pasó en Antioquia antes de llegar a Barranquilla?
+8. ¿Escuchaste hablar de una traición o muertes violentas en la familia de Celsa o de Julio?
+9. ¿Quién era el tío Leonidas y cómo se conectaba con la familia?
+10. ¿Tu mamá Celsa te contó algo sobre Santa Rosa de Osos o Margento?
+11. ¿Hay alguien en la familia de quien nunca se hablaba — alguien borrado?
+12. ¿Sabes cuántos hijos tuvo tu mamá y quiénes son todos?
+13. ¿Tienes fotos o documentos de tu mamá Celsa o de tu papá?
+14. ¿Hay alguien mayor vivo que sepa más de la historia de Celsa?
+15. ¿Qué es lo que más recuerdas de tu mamá?
 
 ---
 
