@@ -228,3 +228,28 @@ Decisión pendiente hasta después de la cita con el endocrinólogo. Antes de in
 
 ### Labs pendientes próximo mes
 Anti-TPO | Estradiol + Progesterona día 21 | Zinc | Folato | Homocisteína | HbA1c
+
+---
+
+## EVALUACIÓN DE ACTIVIDAD FÍSICA — 15 de junio de 2026
+
+Análisis de viabilidad de distintas actividades con base en historial de rodillas (lateralización bilateral de rótulas, espinas tibiales agudizadas, antecedente bursitis patelar izquierda) y columna (escoliosis postural leve, lumbago).
+
+| Actividad | Rodillas | Columna | Veredicto |
+|---|---|---|---|
+| Salto de cuerda | 🔴 Alto riesgo | 🟡 Moderado | No recomendado |
+| Capoeira | 🔴 Alto riesgo (ginga constante en rodilla semiflexionada) | 🟡 Moderado | No recomendado |
+| Hapkido | 🟡 Moderado (patadas, caídas, locks) | 🟡 Moderado | No recomendado |
+| Vóley de playa | 🟡 Moderado (arena amortigua, saltos intermitentes) | 🟢 Bajo | Viable con precaución |
+| **Baile afro** | 🟢 Bajo (pie plano, movimiento fluido) | 🟢 Bajo | **Recomendado** |
+
+### Decisión: Baile afro en Danse Academy, Medellín
+
+**Por qué es la mejor opción para este historial:**
+- Movimiento en pies planos o talón-planta — sin impacto explosivo sobre la rótula
+- Movilidad activa de pelvis y columna lumbar/dorsal — beneficia la escoliosis postural
+- Regulación del sistema nervioso vía ritmo y cuerpo — alineado con indicación de fisiatra y terapeuta
+- Componente social y cultural
+
+**Indicación antes de empezar:**
+Avisar al instructor que hay lateralización bilateral de rótulas — solicitar modificación de zapateados fuertes o movimientos de impacto.
