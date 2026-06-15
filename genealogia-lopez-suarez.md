@@ -34,17 +34,30 @@
 | **Nombre** | Julio López Hernández | Celsa María Zabaleta Guerra |
 | **Alias** | "El Tigre de la Selva" / "El León de la Selva" | — |
 | **Fallecimiento** | ~1961 (asesinado, ~35-40 años) | 2020 |
-| **Notas** | Integrante de grupo armado en el monte (bandolero). Quiso dejar las armas al tener familia. Traicionado por sus propios compañeros — entregado a banda rival que lo mató. Su hermano (desconocido) vengó su muerte matando a los 3 traidores. | Tuvo hijos con múltiples hombres — Emperatriz, Álvaro, Luis y otros tienen padres distintos entre sí y distintos a Julio López Hernández |
+| **Partido político** | Liberal | — |
+| **Notas** | Bandolero liberal. Quiso dejar las armas al tener familia. Traicionado por sus propios compañeros — entregado a banda rival que lo mató. Su hermano Eduardo López Hernández vengó su muerte decapitando a los 3 traidores. Dejó instrucción a Tío Leonidas sobre la familia antes de morir. No tuvo infancia — trabajó desde pequeño. Sin fotos conocidas. Israel heredó sus rasgos (la abuela Celsa lo decía). | Tuvo hijos con múltiples hombres — Emperatriz, Álvaro, Luis y otros tienen padres distintos entre sí y distintos a Julio López Hernández |
 
 > ⚠️ **DATO CLAVE (14-jun-2026):** Los tíos paternos de Eunice (Emperatriz, Álvaro, Luis, y otros) son **medios hermanos** de su papá — la abuela Celsa tuvo hijos con distintos hombres. Julio López Hernández es el padre SOLO de Julio Alberto. Cada tío pertenece a un sistema paterno diferente.
 
-> 🔴 **HALLAZGO HISTÓRICO (14-jun-2026 — Audios de Israel):** El abuelo paterno **Julio López Hernández** era un hombre de armas conocido como **"El Tigre de la Selva"** o **"El León de la Selva"**. Enfrentaba a corregimientos enteros con machetes. Quiso retirarse al tener hijos (Julio Alberto tenía ~7 años, ~1961). Sus propios compañeros lo **traicionaron** entregándolo a una banda rival porque "se estaba haciendo fuerte". La banda rival lo asesinó. Su hermano **Eduardo López Hernández** vengó la muerte cazando y matando a los 3 traidores; Eduardo también murió después. Tío Leonidas llevó a Julio Alberto y a sus hermanos (Tío Omar, Luis) al monte desde pequeños. Julio Alberto nunca conoció a la familia paterna de su padre.
+> 🔴 **HALLAZGO HISTÓRICO — Audios 1–7, Israel López, 14-jun-2026:**
 >
-> ⚠️ **Pregunta abierta:** ¿Eduardo López Hernández y Tío Leonidas son la misma persona? Eduardo murió (~1961-65). Leonidas también crió a los niños. Pueden ser personas distintas — confirmar con papá o Israel.
+> **El abuelo:** Julio López Hernández, alias "El Tigre de la Selva" / "El León de la Selva". Bandolero **liberal**. Se enfrentaba a corregimientos enteros con machete. Quiso dejar las armas al tener hijos. Sus propios compañeros lo traicionaron entregándolo a una banda rival porque "se estaba haciendo fuerte". Lo asesinaron.
 >
-> 🆕 **AUDIO 1 — Israel, 14-jun-2026:** El papá confirmó espontáneamente (en conversación informal, no entrevista formal) que la familia extendida **sigue estando en Margento/Santa Rosa de Osos**. Cree que sus parientes están por allí.
+> **La venganza:** Su hermano **Eduardo López Hernández** cazó y **decapitó** a los 3 traidores. Eduardo también murió después.
 >
-> **Fuente:** Audios WhatsApp de Israel López Suárez, 14-jun-2026.
+> **Tío Leonidas:** El abuelo le dejó instrucciones antes de morir — que si la abuela Celsa buscaba nuevo marido, no fuera alguien del partido contrario (conservador). Tío Leonidas luego crió al papá, Tío Omar y Luis en el monte.
+>
+> **La familia López en Santa Rosa de Osos:** Tenían **finca** en la zona de Margento/Santa Rosa de Osos. Eran **clase media pudiente** — no humildes. Había tías **monjas** y un tío **médico**. Familia con acceso a educación.
+>
+> **Partida de nacimiento original del papá:** Debe estar en **Margento, Antioquia**. El acta de Barranquilla (1976) fue una presentación tardía. El documento original es el de Margento.
+>
+> **El papá no tuvo infancia:** Trabajó desde pequeño. No tiene fotos del abuelo Julio.
+>
+> **Israel = cara del abuelo:** La abuela Celsa le decía a Israel "tú eres la cara del abuelo, los mismos rasgos exactos."
+>
+> ⚠️ **Pregunta abierta:** ¿Eduardo López Hernández y Tío Leonidas son la misma persona o dos personas distintas? Confirmar con papá.
+>
+> **Fuente:** 7 audios WhatsApp de Israel López Suárez, 14-jun-2026 (11:46 AM, 11:47 AM, 6:52 PM, 6:54 PM, 7:12 PM, 7:14 PM, 7:16 PM).
 
 ### Lado Materno (Suárez Pérez)
 
@@ -124,13 +137,20 @@
 | Nombre | Relación | Estado | Notas |
 |---|---|---|---|
 | Tío Omar | Hermano o medio hermano del padre | Desconocido | Criado junto al padre en el monte por Tío Leonidas |
-| **Eduardo López Hernández** | Hermano del abuelo (tío-abuelo del padre) | Muerto | Vengó al abuelo matando a 3 traidores, luego murió. ¿=Tío Leonidas? Confirmar. |
+| **Eduardo López Hernández** | Hermano del abuelo (tío-abuelo del padre) | Muerto | Vengó al abuelo **decapitando** a los 3 traidores, luego murió. ¿=Tío Leonidas? Confirmar. |
+| Tías monjas (2+) | Tías-abuelas paternas (lado López) | Desconocido | Mencionadas por el papá — había varias que eran monjas |
+| Tío médico | Tío-abuelo paterno (lado López) | Desconocido | Había un tío que era médico — familia con educación |
 | Tío Leonidas | Posible tío del padre | Desconocido | Llevó al padre y hermanos al monte desde pequeños |
 
 ## PENDIENTES DE INVESTIGAR
 
 - [x] Nombre del hermano de Julio López Hernández — **Eduardo López Hernández** (audio Israel, 14-jun-2026)
-- [ ] ¿Eduardo López Hernández = Tío Leonidas? Confirmar con papá o Israel
+- [x] Partido político del abuelo — **Liberal** (corregido por Israel en audio 7:16 PM)
+- [x] Clase social de la familia López — **clase media pudiente**, tenían finca en Margento/SRO
+- [x] Partida de nacimiento original del papá — **en Margento, Antioquia** (la de Barranquilla es presentación tardía)
+- [ ] ¿Eduardo López Hernández = Tío Leonidas? Confirmar con papá
+- [ ] Nombres de las tías monjas y el tío médico de la familia López
+- [ ] Registro civil / partida de nacimiento del papá en Margento (Parroquia Nuestra Señora de las Mercedes)
 - [ ] Nombre completo de Tío Omar (apellido)
 - [ ] Lugar exacto donde vivía Julio López Hernández en el monte — "Sin Mira"? ¿corregimiento?
 - [ ] Registro civil de Julio López Hernández (abuelo paterno) — probablemente Antioquia/Bajo Cauca
