@@ -1,29 +1,52 @@
 # ValuSignal 2026 — 2-Week Sponsor Close Sprint
-**June 16–30, 2026 | Goal: 25+ confirmed sponsors (80% of capacity)**
+**June 16–30, 2026 | Goal: 25+ confirmed sponsors (80% of capacity)**  
+*Updated June 16 — reflects current outreach state*
 
 ---
 
-## THE MATH
+## CURRENT STATE
 
-| | # | Target |
-|---|---|---|
-| Slots available | 31 (20 Core + 10 Featured + 1 Title) | — |
-| Confirmed partners | 4 (Appraisers on Purpose, TX Residential, AVS, Walitt) | — |
-| **Paying sponsors needed** | **25** | **80% filled** |
-| Already emailed (warm) | 19 | ~6 closes at 30% |
-| Never contacted (cold) | 22 | ~5 closes at 20% |
-| LinkedIn referrals + new | TBD | ~2–3 closes |
+| | # |
+|---|---|
+| Already contacted (email) | 29 |
+| Pending first contact | 12 |
+| Already a confirmed sponsor (skip) | Walitt Solutions |
+| LinkedIn sent | Matt Knight ✓ · Suha Beidas Zehl ✓ |
+| Confirmed partners (pre-existing) | Appraisers on Purpose, TX Residential Valuation Society, AVS, Walitt Solutions |
 
-To hit 25: every warm lead needs a second touch this week. Every cold company needs a first email by Friday.
+**Paying sponsors needed to hit 80%:** ~25
 
 ---
 
-## WEEK 1 — June 16–20: Activate Everything
+## THE 12 COMPANIES STILL PENDING FIRST EMAIL
 
-### PRIORITY 1 — Follow-Up All 19 Emailed (send by June 17)
+Send by **June 18** — use Standard Variant A or B (Mailmeteor check before deploying).
 
-These received Variant A or B cold email. Next touch = bump below.
-For Solidifi, Class Valuation, ServiceLink, ICE, Clear Capital: **add a LinkedIn DM the same day** — don't rely on email alone for Tier A.
+| # | Company | Tier | Variant | Notes |
+|---|---|---|---|---|
+| 1 | Banks Technologies | Platinum | **B** — founding urgency | High-value, use scarcity angle |
+| 2 | Rocket Mortgage | Gold | **B** — founding urgency | Find decision-maker on LI first; don't cold email a generic inbox |
+| 3 | Jaro | Gold | **A** — audience fit | Appraisal workflow — direct audience overlap |
+| 4 | EagleView | Gold | **A** — audience fit | Aerial imagery / proptech buyer |
+| 5 | Accurate Group | Silver | **A** — audience fit | National AMC, VP Marketing target |
+| 6 | Velox Valuations | Silver | **A** — audience fit | Boutique AMC — accessible decision-maker |
+| 7 | Cotality | Silver | **A** — audience fit | Data/analytics — adjacent ecosystem |
+| 8 | a la mode | Silver | **A** — audience fit | Appraisal software — their buyers are in the room |
+| 9 | Appraiser eLearning | Host Sponsor | **A** — audience fit | Education company — Core or association partner |
+| 10 | Intercorp | Bronze | **A** — audience fit | Valuation services |
+| 11 | LIA Administrators & Insurance | Bronze | **A** — audience fit | E&O insurance for appraisers — captive audience angle |
+| 12 | NAA | Bronze | **A** — audience fit | Association — consider partnership framing, not just sponsor |
+
+> **Rocket note:** Before emailing, search Sales Navigator for VP Marketing / Director of Partnerships at Rocket Mortgage specifically — don't cold email a generic address for a $10K+ target.
+
+---
+
+## FOLLOW-UP CADENCE FOR THE 29 ALREADY CONTACTED
+
+Two groups based on when they were contacted:
+
+### Group A — Original 19 (emailed first, likely 1–3+ weeks ago)
+These are overdue for a second touch. Send **by June 17.**
 
 **Subject:** Re: ValuSignal 2026 — quick follow-up
 
@@ -35,9 +58,36 @@ For Solidifi, Class Valuation, ServiceLink, ICE, Clear Capital: **add a LinkedIn
 >
 > Eunice
 
-**If they reply asking for the deck:**
-> **Subject:** ValuSignal one-pager — as promised
+**Tier A contacts within this group (personal DM in addition to email — same day):**
+- Solidifi
+- Class Valuation
+- ServiceLink
+- ICE Mortgage Technology
+- Clear Capital
+
+DM script: *"{{Name}} — following up on the email I sent about ValuSignal 2026. We're 3 months out and the list is filling — happy to jump on a 15-min call if you want to see if it's a fit."*
+
+---
+
+### Group B — 10 Personalized Sends (Aivre, ACI, apprAIz, DataMaster, Freedom Appraise, SFREP, True Footage, restb.ai/Tony, Bradford/NightHawk, Stewart)
+These were sent more recently. First follow-up: **June 22–23** (5–7 days after send).
+
+**Subject:** Re: [previous subject] — quick follow-up
+
+> {{FirstName}},
 >
+> Just circling back — wanted to make sure this landed. Would it be useful if I sent the one-pager?
+>
+> Eunice
+
+> **restb.ai / Tony exception:** Since he's a confirmed speaker, don't follow up like a cold prospect. One soft touch: *"Tony — just wanted to make sure the sponsor note didn't get buried alongside everything else. Happy to connect when you have a minute."*
+
+---
+
+## IF THEY REPLY ASKING FOR THE DECK — SEND SAME DAY
+
+**Subject:** ValuSignal one-pager — as promised
+
 > {{FirstName}},
 >
 > Here it is — attached. ValuSignal 2026 is September 18–19, 300–600 appraisers, fully virtual.
@@ -45,112 +95,45 @@ For Solidifi, Class Valuation, ServiceLink, ICE, Clear Capital: **add a LinkedIn
 > If anything jumps out, I'm happy to hop on a quick call this week.
 >
 > Eunice
->
-> *(Attach: valusignal-onepager (1).pdf)*
+
+*(Attach: valusignal-onepager (1).pdf)*
 
 ---
 
-### PRIORITY 2 — Cold Email Top 10 of the 22 Never Contacted (send by June 18)
-
-Personalized copy already written for all 10. Send through Instantly.ai after Mailmeteor check.
-
-| # | Company | Tier | Copy | Notes |
-|---|---|---|---|---|
-| 1 | **Aivre** | Core $1K | ✓ Ready | AI appraisal startup — founder-led, fast yes |
-| 2 | **True Footage** | Core $1K | ✓ Ready | Founder active on LI — lead with copy |
-| 3 | **Freedom Appraise** | Core $1K | ✓ Ready | Strong UAD 3.6 angle |
-| 4 | **SFREP** | Core $1K | ✓ Ready | Appraise-It Pro — niche audience fit |
-| 5 | **ACI** | Core $1K | ✓ Ready | Sky Workbench — UAD 3.6 direct angle |
-| 6 | **apprAIz (valurAIz)** | Core $1K | ✓ Ready | AI valuation — strong fit |
-| 7 | **Bradford Technologies (NightHawk)** | Core $1K | ✓ Ready | Demo attendee angle |
-| 8 | **restb.ai → Tony Pistilli** | Core $1K | ✓ Ready | Warm — use speaker/beyond-session version |
-| 9 | **EagleView** | Featured $2.5K | Standard Variant A | Subject: `300 appraisers, {{FirstName}}` |
-| 10 | **Stewart Valuation Intelligence** | Title/Featured | Standard Variant B | Subject: `founding sponsor, {{FirstName}}` |
-
----
-
-### PRIORITY 3 — LinkedIn Warm Connections (send by June 17)
-
-**→ Matt Knight (PropTech Angel Group):**
-> Hi Matt — I run ValuSignal 2026, the first national virtual conference for U.S. appraisers. September 18–19, virtual — UAD 3.6 is the backdrop. Given how plugged in you are to PropTech startups, is there anyone in your orbit building specifically for the appraisal space that I should be talking to? Happy to swap notes.
-
-**→ Suha Beidas Zehl (Z Technology Solutions / Prudent AI):**
-> Hi Suha — I run ValuSignal 2026, the first national virtual conference for U.S. appraisers. September 18–19, virtual — AI adoption is a core thread and UAD 3.6 is the backdrop. Two quick thoughts: would love to explore if you'd be a fit as a speaker; and does Prudent AI ever sponsor events in the appraisal/valuation space? Happy to send a brief either way.
-
----
-
-## WEEK 2 — June 23–27: Close Pipeline + Deploy Remaining 12
-
-### PRIORITY 4 — Cold Email Remaining 12 (send June 23–24)
-
-Personalized copy ready for DataMaster. All others use Standard Variant A or B.
-
-| # | Company | Tier | Copy |
-|---|---|---|---|
-| 11 | **DataMaster** | Bronze/Core | ✓ Ready — data burden angle (not UAD 3.6 platform) |
-| 12 | Jaro | Core $1K | Standard Variant A |
-| 13 | Accurate Group | Featured $2.5K | Standard Variant A |
-| 14 | Velox Valuations | Core $1K | Standard Variant A |
-| 15 | Cotality | Featured $2.5K | Standard Variant A |
-| 16 | a la mode | Featured $2.5K | Standard Variant A |
-| 17 | **Rocket Mortgage** | Title $10K | Standard Variant B — find decision-maker on LI first |
-| 18 | **Banks Technologies** | Platinum | Standard Variant B |
-| 19 | Appraiser eLearning | Core $1K | Standard Variant A |
-| 20 | Intercorp | Core $1K | Standard Variant A |
-| 21 | LIA Administrators & Insurance | Core $1K | Standard Variant A |
-| 22 | NAA | Core $1K | Standard Variant A |
-
----
-
-### PRIORITY 5 — Follow-Up Round 2 on Week 1 Sends (June 24–25)
-
-Any company from Priority 2 that hasn't replied after 6–7 days:
+## FINAL BUMP — For Anyone Who Still Hasn't Replied by June 26
 
 **Subject:** Re: ValuSignal 2026 — last note
 
 > {{FirstName}},
 >
-> Last one from me on this — just wanted to make sure it didn't get buried. If there's any interest in the one-pager or a quick conversation, I'm here.
+> Last one from me on this — just wanted to make sure it didn't get buried. If there's ever interest in the one-pager or a quick conversation, I'm here.
 >
 > Eunice
 
 ---
 
-### PRIORITY 6 — Tier A Personal Push (June 23–25)
+## LINKEDIN — AWAITING REPLIES
 
-These five need a human touch — LinkedIn DM or quick call, not just email:
-
-1. **Solidifi** — largest AMC play, Title/Featured candidate
-2. **Class Valuation** — same profile, warm on LI
-3. **ServiceLink** — title slot angle
-4. **ICE Mortgage Technology** — enterprise decision-maker likely needs deck + call
-5. **Clear Capital** — modernization-forward, Featured or Title
-
-Script for DM: *"{{Name}} — following up on the email I sent about ValuSignal 2026. Wanted to make sure it landed. We're 3 months out and the sponsor list is filling — happy to jump on a 15-min call this week if you want to see if it's a fit."*
+| Contact | Message sent | Next action |
+|---|---|---|
+| Matt Knight (PropTech Angel Group) | ✓ Sent | If he replies with a referral name — send that person Variant A immediately |
+| Suha Beidas Zehl (Z Technology Solutions) | ✓ Sent | If she confirms Prudent AI interest — send warm sponsor brief; if speaker interest — send speaker intake |
 
 ---
 
-## DAILY NON-NEGOTIABLES
+## WEEK-BY-WEEK EXECUTION
 
-**June 16 (today):**
-- [ ] Draft follow-up bump for all 19 emailed → Mailmeteor check → load in Instantly.ai
-- [ ] Send LinkedIn DMs to Matt Knight + Suha Beidas Zehl
+### Week 1 (June 16–20)
+- [ ] Follow-up Group A (original 19) — send by June 17
+- [ ] Personal LinkedIn DM to Solidifi, Class Valuation, ServiceLink, ICE, Clear Capital — by June 18
+- [ ] Send first email to all 12 pending companies — by June 18
+- [ ] Respond same-day to any replies with one-pager
 
-**June 17:**
-- [ ] Launch follow-up sequence on 19 emailed
-- [ ] LinkedIn DM to Solidifi + Class Valuation contacts
-
-**June 18:**
-- [ ] Deploy personalized cold email to top 10 new companies (Mailmeteor first)
-- [ ] LinkedIn DM to ServiceLink + ICE + Clear Capital contacts
-
-**June 23:**
-- [ ] Send remaining 12 cold emails
-- [ ] Follow-up Round 2 on any non-replies from Week 1 sends
-
-**June 24–27:**
-- [ ] Tier A personal push — DMs or calls to Solidifi, Class Valuation, ServiceLink, ICE, Clear Capital
-- [ ] One-pager response same-day to every reply that comes in
+### Week 2 (June 23–27)
+- [ ] Follow-up Group B (10 personalized sends) — June 22–23
+- [ ] Final bump to all non-replies from Week 1 — June 26
+- [ ] Push Tier A personally (call or DM) — Solidifi, Class Valuation, ServiceLink, ICE, Clear Capital
+- [ ] Act on any Matt Knight or Suha referral leads immediately
 
 ---
 
@@ -158,7 +141,8 @@ Script for DM: *"{{Name}} — following up on the email I sent about ValuSignal 
 
 | Stage | Jun 16 | Jun 20 | Jun 27 | Target |
 |---|---|---|---|---|
-| Total emails sent | 19 | 41 | 41 | 41 |
+| Total companies in pipeline | 41 | — | — | 41 |
+| Follow-up sent | — | 29+ | 41 | 41 |
 | Replied / engaged | — | — | — | 15+ |
 | One-pager sent | — | — | — | 10+ |
 | Call booked | — | — | — | 6+ |
@@ -166,6 +150,5 @@ Script for DM: *"{{Name}} — following up on the email I sent about ValuSignal 
 
 ---
 
-*Eunice Lopez — eunice@valusignal.com — +1 469 501 1207*
-*Sponsor decks: Core / Featured / Title — all in repo*
-*One-pager: valusignal-onepager (1).pdf*
+*Eunice Lopez — eunice@valusignal.com — +1 469 501 1207*  
+*One-pager: valusignal-onepager (1).pdf | Sponsor decks: Core / Featured / Title — all in repo*
