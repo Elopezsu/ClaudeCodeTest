@@ -152,3 +152,65 @@ These were sent more recently. First follow-up: **June 22–23** (5–7 days aft
 
 *Eunice Lopez — eunice@valusignal.com — +1 469 501 1207*  
 *One-pager: valusignal-onepager (1).pdf | Sponsor decks: Core / Featured / Title — all in repo*
+
+---
+
+## PHASE 2 — EXPANDED PIPELINE (210 New Companies)
+*For after the 2-week sprint — or to pull from immediately if current pipeline closes fast*  
+*Full list: `ValuSignal2026-Sponsor-ProspectList-200.md`*
+
+### 13 Categories of New Prospects
+
+| Category | # Companies | Best Tier | Top Picks to Start |
+|---|---|---|---|
+| AMCs | 25 | Core → Featured | Dart Appraisal, Appraisal Nation, NAN, LRES, ProTeck Services |
+| Appraisal Software & Platforms | 15 | Core → Featured | Narrative1, Anow, Mercury Network, Veros, Appraisal Scope |
+| AI & PropTech for Valuation | 20 | Core → Featured | HouseCanary, Hover, CubiCasa, Quantarium, Nearmap |
+| Real Estate Data & Analytics | 15 | Featured → Title | ATTOM, CoStar, Moody's CRE, DataTree, LightBox |
+| Lenders & Banks | 25 | Featured → Title | UWM, loanDepot, Guild Mortgage, Fairway, Mr. Cooper |
+| Title Insurance & Settlement | 15 | Core → Featured | First American, FNF, Qualia, Amrock, WFG |
+| E&O & Professional Liability | 15 | Core | Markel, CNA Pro, Hiscox, Utica National, Philadelphia Insurance |
+| Education & Training | 15 | Core | Colibri, Kaplan, OnCourse Learning, CompuCram |
+| Associations & Nonprofits | 15 | Core → Partnership | Appraisal Institute, ASA, IAAO, REVAA, CRN |
+| Inspection & Field Services | 10 | Core | SafeGuard Properties, Hover, HouseMaster, Porch Group |
+| Mortgage Technology | 20 | Core → Featured | Blend Labs, nCino, Candor Technology, Stavvy, DocMagic |
+| Commercial Appraisal | 12 | Featured → Title | CBRE Valuation, JLL Valuation, Cushman & Wakefield, Altus Group |
+| Media & Publishing | 8 | Core → Partnership | Appraisal Buzz, HousingWire, Working RE, Valuation Review |
+
+---
+
+### Fastest Closes in Phase 2 (founder-led, direct audience fit, Core $1K)
+
+1. **Narrative1** — AI narrative writing for appraisers — hot product, small team, fast yes
+2. **Hover** — 3D property scans from photos — appraisers use this in the field
+3. **CubiCasa** — automated floor plans — strong appraiser use case, UAD 3.6 angle
+4. **Appraisal Buzz** — #1 appraisal media outlet — either sponsor or co-marketing partner
+5. **Dart Appraisal** — mid-size AMC, accessible decision-maker
+6. **Appraisal Nation** — high appraiser network density
+7. **Anow Software** — Canadian appraisal software expanding in US
+8. **ProTeck Services** — data-driven AMC, early analytics adopter
+9. **CompuCram** — exam prep for appraiser licensing — their students are future attendees
+10. **Colibri Real Estate** — has appraisal CE courses, national reach
+
+---
+
+### Highest Revenue Potential in Phase 2 (Featured → Title)
+
+1. **CBRE Valuation Advisory** — largest CRE firm in the world, large marketing budget
+2. **First American Title Insurance** — top 4 title insurer, direct appraisal ops
+3. **Fidelity National Title (FNF)** — largest title insurer in the US
+4. **United Wholesale Mortgage (UWM)** — largest wholesale lender, massive appraiser interaction
+5. **Blend Labs** — public company, digital mortgage platform, VP Marketing accessible on LI
+6. **CoStar Group** — dominant CRE data, large marketing budget
+7. **CoreLogic Valuation Services** — owns Mercury Network + appraisal data
+8. **Altus Group** — CRE software + valuation, public company
+
+---
+
+### Highest Leverage (Associations — one deal = access to their full membership)
+
+1. **Appraisal Institute (AI)** — largest appraisal association in the world
+2. **American Society of Appraisers (ASA)** — multi-discipline
+3. **IAAO** — assessors + appraisers
+4. **Collateral Risk Network (CRN)** — lender + appraisal risk community
+5. **Real Estate Valuation Advocacy Association (REVAA)** — AMC + appraiser advocacy
