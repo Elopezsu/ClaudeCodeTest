@@ -13,7 +13,7 @@
 
 ### Email 1 — Day 0
 
-**Subject:** `From Hansel's team, {{first_name}}`
+**Subject:** `On behalf of Hansel Dobbs and ValuSignal 2026`
 
 {{first_name}},
 
