@@ -33,7 +33,7 @@ Sent from **Deanne / Eunice personal inboxes** (NOT Instantly). Instantly runs a
 
 I'm Deanne — part of Hansel Dobbs's team at ValuSignal. He flagged your name as someone who'd been in touch and wanted to make sure you got a personal note before September.
 
-Early bird pricing closed at $197, but Hansel wanted you to have this: use code **EARLYBIRD** at checkout and it drops to $187 — valusignal.com/register.
+Early bird closed June 15, but Hansel wanted you to have code **EARLYBIRD** at checkout — it brings the ticket to $187. That code is only valid through June 20.
 
 September 18–19. Fully virtual. 70+ sessions including UAD 3.6 readiness, AI workshops, and speakers like Kelly Davids (President, The Appraisal Foundation) and Tony Pistilli (Restb.ai). No flights, no hotels.
 
@@ -50,9 +50,9 @@ On behalf of Hansel Dobbs, MNAA, CDEI | ValuSignal 2026
 
 {{first_name}},
 
-Just making sure the promo code came through — **EARLYBIRD** at valusignal.com/register, bringing the ticket to $187.
+Early bird closed June 15 — **EARLYBIRD** at valusignal.com/register is the three-day extension Hansel held for people who'd been in the conversation. It expires June 20 and brings the ticket to $187.
 
-Early bird closed at $197, so this is an extra $10 off that Hansel is holding for people who'd already been in the conversation. The code won't stay active much longer.
+Reply here if anything comes up.
 
 Reply here if you have any questions.
 
