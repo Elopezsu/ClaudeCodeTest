@@ -1,62 +1,44 @@
 # ValuSignal 2026 — Promo Email Sequences (June 2026)
 
 **Created:** 2026-06-17  
-**Context:** Two sequences built from the June 16 team meeting with Hansel.  
-Sent from **Deanne / Eunice personal inboxes** (NOT Instantly). Instantly runs as Hansel — these run as his team.
-
----
-
-## Placeholders to fill before sending
-
-| Placeholder | What to add |
-|---|---|
-| `EARLYBIRD` | Promo code — confirmed |
-| Pricing story | Standard $297 → early bird was $197 → code gives extra $10 off = **$187 final** |
-| `[DEANNE LAST NAME]` | Deanne's full last name for signature |
-| Sender name / reply-to | Set up Deanne + Eunice inboxes in your sending tool |
+**Sent from:** Deanne / Eunice personal inboxes (NOT Instantly)  
+**Promo code:** EARLYBIRD — expires June 20, 2026  
+**Pricing:** Standard $297 → early bird was $197 → EARLYBIRD brings it to $187
 
 ---
 
 ## SEQUENCE 1 — Warm Leads (~200 from Campaigns 1 & 2)
 
-**Who they are:** Replied to or engaged with Hansel's Instantly cold emails. They know ValuSignal exists. They just haven't registered.  
-**Goal:** Close with a personal promo code as a VIP gesture from Hansel's team.  
-**Thread behavior:** Email 2 sends blank subject — lands in same thread as Email 1.
-
 ---
 
 ### Email 1 — Day 0
 
-**Subject:** `Hansel asked us to reach out, {{first_name}}`
+**Subject:** `From Hansel's team, {{first_name}}`
 
 {{first_name}},
 
-I'm Deanne — part of Hansel Dobbs's team at ValuSignal. He flagged your name as someone who'd been in touch and wanted to make sure you got a personal note before September.
+You'd looked at ValuSignal 2026 earlier this year — Hansel flagged your name and asked us to reach out before September.
 
-Early bird closed June 15, but Hansel wanted you to have code **EARLYBIRD** at checkout — it brings the ticket to $187. That code is only valid through June 20.
+Early bird closed June 15, but he wanted you to have code EARLYBIRD at checkout — it brings the ticket to $187. That code is only valid through June 20.
 
-September 18–19. Fully virtual. 70+ sessions including UAD 3.6 readiness, AI workshops, and speakers like Kelly Davids (President, The Appraisal Foundation) and Tony Pistilli (Restb.ai). No flights, no hotels.
+September 18–19. Fully virtual. 70+ sessions including UAD 3.6 readiness, AI workshops, and speakers like Kelly Davids (President, The Appraisal Foundation) and Tony Pistilli (Restb.ai, 30+ years in real estate valuation). No flights, no hotels.
 
 If anything comes up before you register, reply here and I'll make sure Hansel sees it.
 
-Deanne [DEANNE LAST NAME]  
+Deanne [Last Name]  
 On behalf of Hansel Dobbs, MNAA, CDEI | ValuSignal 2026
 
 ---
 
-### Email 2 — Day 5 (blank subject — threads under Email 1)
-
-*[Leave subject line blank in your sending tool so it threads as a reply]*
+### Email 2 — Day 2 ⚠ (blank subject — threads under Email 1)
 
 {{first_name}},
 
-Early bird closed June 15 — **EARLYBIRD** at valusignal.com/register is the three-day extension Hansel held for people who'd been in the conversation. It expires June 20 and brings the ticket to $187.
+Early bird closed June 15 — EARLYBIRD at valusignal.com/register is the three-day extension Hansel held for people who'd been in the conversation. It expires June 20 and brings the ticket to $187.
 
 Reply here if anything comes up.
 
-Reply here if you have any questions.
-
-Deanne [DEANNE LAST NAME]  
+Deanne [Last Name]  
 On behalf of Hansel Dobbs, MNAA, CDEI | ValuSignal 2026
 
 ---
@@ -65,64 +47,95 @@ On behalf of Hansel Dobbs, MNAA, CDEI | ValuSignal 2026
 
 ## SEQUENCE 2 — Cold Pipedrive Leads (~870 contacts)
 
-**Who they are:** In Pipedrive but have had zero contact with ValuSignal yet. Warm-up sequence — no hard sell.  
-**Goal:** Introduce ValuSignal as a concept, establish the virtual-only value prop, earn enough trust that Email 2 lands with credibility. Registration CTA comes in Email 2, softly.  
-**Thread behavior:** Email 2 sends blank subject — lands in same thread as Email 1.  
-**No promo code in this sequence** — these contacts need introduction first.
-
 ---
 
-### Email 1 — Day 0
+### Email 1 — Day 0 — VARIANT A (Travel Cost Hook)
 
-**Subject:** `{{first_name}}, not sure if you've heard of this`
+**Subject:** `No travel required, {{first_name}}`
 
 {{first_name}},
 
-There's a conference built specifically for residential appraisers this September — ValuSignal 2026, September 18–19.
+The average appraiser spends more on flights and hotels to attend a national conference than the ticket itself costs.
 
-What makes it different: it's 100% virtual. No flights, no hotels, no days lost away from your desk. The cost to attend is less than a single hotel night at a typical appraisal conference — and you keep the content for three months on-demand after the event.
+ValuSignal 2026 eliminates that entirely — September 18–19, fully virtual, seventy-plus sessions on UAD 3.6 readiness, AI workflows, and revenue diversification. Malinda Griffin, President of the National Association of Appraisers, is one of the speakers.
 
-70+ sessions covering UAD 3.6 readiness, AI workflows, revenue diversification, and where the profession is headed.
+Want me to send a one-page overview?
 
-Worth knowing about?
-
-Deanne [DEANNE LAST NAME]  
+Deanne [Last Name]  
 On behalf of Hansel Dobbs, MNAA, CDEI | ValuSignal 2026
 
+reply "remove" and I'll update my list
+
 ---
 
-### Email 2 — Day 5 (blank subject — threads under Email 1)
+### Email 1 — Day 0 — VARIANT B (UAD 3.6 Deadline Hook)
 
-*[Leave subject line blank in your sending tool so it threads as a reply]*
+**Subject:** `UAD 3.6, {{first_name}}`
 
 {{first_name}},
 
-Wanted to add one thing to my last note.
+UAD 3.6 goes live November 2. Most appraisers I talk to are waiting to see how it plays out — which usually means scrambling when it does.
 
-The speaker lineup includes Kelly Davids (President, The Appraisal Foundation), Lisa Desmarais (VP of Appraisal Issues, 30+ years), Malinda Griffin (President, National Association of Appraisers), and Tony Pistilli (Restb.ai, 30+ years in real estate valuation).
+ValuSignal 2026 is September 18–19, timed specifically so you walk in prepared, not reactive. It's 100% virtual — no travel costs, no time away from your desk. Jake Lew, whose firm was the first GSE-verified UAD 3.6 vendor, is one of the speakers.
 
-This is the kind of conversation that happens at the national level — UAD 3.6, AI in practice, collateral modernization, where the GSEs are heading — but delivered virtually so you don't have to book a flight to be in the room.
+Want me to send a one-page overview?
+
+Deanne [Last Name]  
+On behalf of Hansel Dobbs, MNAA, CDEI | ValuSignal 2026
+
+reply "remove" and I'll update my list
+
+---
+
+### Email 1 — Day 0 — VARIANT C (Contrast Hook)
+
+**Subject:** `{{first_name}}, quick question`
+
+{{first_name}},
+
+Most appraisal conferences are built around travel. ValuSignal 2026 is not.
+
+September 18–19 — fully virtual, no flights, no hotels, sessions on-demand for three months after the event. Seventy-plus sessions on UAD 3.6 readiness, AI in practice, and where the profession is headed. Kelly Davids, President of The Appraisal Foundation, is on the lineup.
+
+Can I send you a one-page overview?
+
+Deanne [Last Name]  
+On behalf of Hansel Dobbs, MNAA, CDEI | ValuSignal 2026
+
+reply "remove" and I'll update my list
+
+---
+
+### Email 2 — Day 5 (blank subject — threads under Email 1, all variants)
+
+{{first_name}},
+
+Wanted to add one thing before I close the loop.
+
+The speaker lineup includes Kelly Davids (President, The Appraisal Foundation), Lisa Desmarais (VP of Appraisal Issues, 30+ years), Malinda Griffin (President, National Association of Appraisers), and Tony Pistilli (President of Valuations at Restb.ai, 30+ years in real estate valuation).
+
+This is the kind of conversation that happens at the national level — UAD 3.6, AI in practice, collateral modernization, where the GSEs are heading — delivered virtually so you don't need a plane ticket to be in the room.
 
 If it sounds relevant, the full lineup and registration are at valusignal.com/register.
 
-Deanne [DEANNE LAST NAME]  
+Deanne [Last Name]  
 On behalf of Hansel Dobbs, MNAA, CDEI | ValuSignal 2026
 
 ---
 
 ---
 
-## Notes for deployment
+## Deployment notes
 
-**Sequence 1 (warm leads)**
-- Pull the ~200 list from Instantly — filter for anyone who replied to Campaign 1 or 2 and has not yet registered
-- Create the promo code in your registration/Stripe setup before sending
-- Set "reply-to" to Hansel's email so any replies route back to him
-- Send from Deanne + Eunice inboxes (personal Gmail / Outlook — not Instantly, not a mass-send tool)
-- Email 2 goes out only if no reply to Email 1 within 5 days
+**Sequence 1**
+- S1 Email 2 sends Day 2 (not Day 5) — code expires June 20
+- Pull ~200 from Instantly — anyone who replied or engaged but hasn't registered
+- Set reply-to to Hansel's email
+- Email 2 only if no reply to Email 1
 
-**Sequence 2 (cold Pipedrive)**
-- Pull the ~870 from Pipedrive — exclude anyone already in the Instantly warm list
-- Can run from Deanne/Eunice inboxes or a low-volume tool (avoid Instantly for these since Instantly already runs as Hansel — two senders from the same brand helps avoid domain fatigue)
-- Email 2 goes out only if no reply to Email 1 within 5 days
-- If anyone replies to either email, move them manually to the warm sequence with a personal response before sending the promo code
+**Sequence 2**
+- Pull ~870 from Pipedrive — exclude anyone already in the S1 list
+- 3 variants on Email 1, one Email 2 for all variants
+- Email 2 only if no reply to Email 1
+- If anyone replies to Email 1 requesting the PDF — send it manually, then follow up toward valusignal.com/register
+- Spam check both sequences at mailmeteor.com/spam-checker before sending
