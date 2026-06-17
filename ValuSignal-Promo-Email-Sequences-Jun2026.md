@@ -11,7 +11,7 @@ Sent from **Deanne / Eunice personal inboxes** (NOT Instantly). Instantly runs a
 | Placeholder | What to add |
 |---|---|
 | `EARLYBIRD` | Promo code — confirmed |
-| `$100 off` | Brings standard $297 → $197 early bird rate |
+| Pricing story | Standard $297 → early bird was $197 → code gives extra $10 off = **$187 final** |
 | `[DEANNE LAST NAME]` | Deanne's full last name for signature |
 | Sender name / reply-to | Set up Deanne + Eunice inboxes in your sending tool |
 
@@ -33,7 +33,7 @@ Sent from **Deanne / Eunice personal inboxes** (NOT Instantly). Instantly runs a
 
 I'm Deanne — part of Hansel Dobbs's team at ValuSignal. He flagged your name as someone who'd been in touch and wanted to make sure you got a personal note before September.
 
-He put together a promo code for you: **EARLYBIRD** — it takes $100 off off your ticket at valusignal.com/register.
+Early bird pricing closed at $197, but Hansel wanted you to have this: use code **EARLYBIRD** at checkout and it drops to $187 — valusignal.com/register.
 
 September 18–19. Fully virtual. 70+ sessions including UAD 3.6 readiness, AI workshops, and speakers like Kelly Davids (President, The Appraisal Foundation) and Tony Pistilli (Restb.ai). No flights, no hotels.
 
@@ -50,9 +50,9 @@ On behalf of Hansel Dobbs, MNAA, CDEI | ValuSignal 2026
 
 {{first_name}},
 
-Just making sure the promo code came through — **EARLYBIRD** at valusignal.com/register.
+Just making sure the promo code came through — **EARLYBIRD** at valusignal.com/register, bringing the ticket to $187.
 
-Hansel had us reach out personally to the people who'd already been in the conversation. The code won't stay active much longer.
+Early bird closed at $197, so this is an extra $10 off that Hansel is holding for people who'd already been in the conversation. The code won't stay active much longer.
 
 Reply here if you have any questions.
 
