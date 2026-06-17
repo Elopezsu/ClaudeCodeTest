@@ -30,11 +30,13 @@ On behalf of Hansel Dobbs, MNAA, CDEI | ValuSignal 2026
 
 ---
 
-### Email 2 — Day 2 ⚠ (blank subject — threads under Email 1)
+### Email 2 — Day 3 (blank subject — threads under Email 1)
 
 {{first_name}},
 
-Early bird closed June 15 — EARLYBIRD at valusignal.com/register is the three-day extension Hansel held for people who'd been in the conversation. It expires June 20 and brings the ticket to $187.
+Today is the last day to use code EARLYBIRD — it expires tonight and brings the ticket to $187 at valusignal.com/register.
+
+Early bird closed June 15. This was the three-day extension Hansel held for people who'd been in the conversation.
 
 Reply here if anything comes up.
 
