@@ -10,8 +10,8 @@ Sent from **Deanne / Eunice personal inboxes** (NOT Instantly). Instantly runs a
 
 | Placeholder | What to add |
 |---|---|
-| `[PROMO CODE]` | Create in your registration system (Stripe / registration platform) |
-| `[DISCOUNT]` | Dollar or % amount the promo code applies |
+| `EARLYBIRD` | Promo code — confirmed |
+| `$100 off` | Brings standard $297 → $197 early bird rate |
 | `[DEANNE LAST NAME]` | Deanne's full last name for signature |
 | Sender name / reply-to | Set up Deanne + Eunice inboxes in your sending tool |
 
@@ -33,7 +33,7 @@ Sent from **Deanne / Eunice personal inboxes** (NOT Instantly). Instantly runs a
 
 I'm Deanne — part of Hansel Dobbs's team at ValuSignal. He flagged your name as someone who'd been in touch and wanted to make sure you got a personal note before September.
 
-He put together a promo code for you: **[PROMO CODE]** — it takes [DISCOUNT] off your ticket at valusignal.com/register.
+He put together a promo code for you: **EARLYBIRD** — it takes $100 off off your ticket at valusignal.com/register.
 
 September 18–19. Fully virtual. 70+ sessions including UAD 3.6 readiness, AI workshops, and speakers like Kelly Davids (President, The Appraisal Foundation) and Tony Pistilli (Restb.ai). No flights, no hotels.
 
@@ -50,7 +50,7 @@ On behalf of Hansel Dobbs, MNAA, CDEI | ValuSignal 2026
 
 {{first_name}},
 
-Just making sure the promo code came through — **[PROMO CODE]** at valusignal.com/register.
+Just making sure the promo code came through — **EARLYBIRD** at valusignal.com/register.
 
 Hansel had us reach out personally to the people who'd already been in the conversation. The code won't stay active much longer.
 
