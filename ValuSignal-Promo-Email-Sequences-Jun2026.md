@@ -19,7 +19,7 @@
 
 You'd looked at ValuSignal 2026 earlier this year — Hansel flagged your name and asked us to reach out before September.
 
-Early bird closed June 15, but he wanted you to have code EARLYBIRD at checkout — it brings the ticket to $187. That code is only valid through June 20.
+Early bird closed June 15, but he wanted you to have code EARLYBIRD at checkout — it brings the ticket to $187. It's valid for the next three days.
 
 September 18–19. Fully virtual. 70+ sessions including UAD 3.6 readiness, AI workshops, and speakers like Kelly Davids (President, The Appraisal Foundation) and Tony Pistilli (Restb.ai, 30+ years in real estate valuation). No flights, no hotels.
 
