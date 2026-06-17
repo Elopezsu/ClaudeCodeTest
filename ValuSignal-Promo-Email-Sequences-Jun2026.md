@@ -21,9 +21,9 @@ You'd looked at ValuSignal 2026 earlier this year — Hansel flagged your name a
 
 Early bird closed June 15, but he wanted you to have code EARLYBIRD at checkout — it brings the ticket to $187. It's valid for the next three days.
 
-September 18–19. Fully virtual. 70+ sessions including UAD 3.6 readiness, AI workshops, and speakers like Kelly Davids (President, The Appraisal Foundation) and Tony Pistilli (Restb.ai, 30+ years in real estate valuation). No flights, no hotels.
+September 18–19. Fully virtual — no flights, no hotels. Speakers include Kelly Davids (President, The Appraisal Foundation) and Tony Pistilli (Restb.ai, 30+ years in real estate valuation).
 
-If anything comes up before you register, reply here and I'll make sure Hansel sees it.
+Register at valusignal.com/register with code EARLYBIRD. Reply here with any questions and I'll make sure Hansel sees it.
 
 Deanne [Last Name]  
 On behalf of Hansel Dobbs, MNAA, CDEI | ValuSignal 2026
@@ -118,13 +118,14 @@ reply "remove" and I'll update my list
 
 {{first_name}},
 
-Wanted to add one thing before I close the loop.
+One thing I left out of my last note.
 
-The speaker lineup includes Kelly Davids (President, The Appraisal Foundation), Lisa Desmarais (VP of Appraisal Issues, 30+ years), Malinda Griffin (President, National Association of Appraisers), and Tony Pistilli (President of Valuations at Restb.ai, 30+ years in real estate valuation).
+The speaker lineup includes Kelly Davids (President, The Appraisal Foundation), Lisa Desmarais (VP of Appraisal Issues, 30+ years), Malinda Griffin (President, National Association of Appraisers), and Tony Pistilli (Restb.ai, 30+ years).
 
 This is the kind of conversation that happens at the national level — UAD 3.6, AI in practice, collateral modernization, where the GSEs are heading — delivered virtually so you don't need a plane ticket to be in the room.
 
-Hansel set aside code EARLYBIRD for the next three days — early bird closed June 15, but this brings the ticket to $187. Use it at valusignal.com/register.
+Hansel set aside code EARLYBIRD for the next three days — early bird closed June 15, but it brings the ticket to $187.
+valusignal.com/register
 
 Deanne [Last Name]  
 On behalf of Hansel Dobbs, MNAA, CDEI | ValuSignal 2026
