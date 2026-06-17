@@ -17,11 +17,11 @@
 
 {{first_name}},
 
-You'd looked at ValuSignal 2026 earlier this year — Hansel flagged your name and asked us to reach out before September.
+You'd looked at ValuSignal 2026 earlier this year. Hansel flagged your name and asked us to reach out before September.
 
-Early bird closed June 15, but he wanted you to have code EARLYBIRD at checkout — it brings the ticket to $187. It's valid for the next three days.
+Early bird closed June 15, but he wanted you to have code EARLYBIRD at checkout. It brings the ticket to $187 and it's valid for the next three days.
 
-September 18–19. Fully virtual — no flights, no hotels. Speakers include Kelly Davids (President, The Appraisal Foundation) and Tony Pistilli (Restb.ai, 30+ years in real estate valuation).
+September 18–19. Fully virtual, no flights, no hotels. Speakers include Kelly Davids (President, The Appraisal Foundation) and Tony Pistilli (Restb.ai, 30+ years in real estate valuation).
 
 Register at valusignal.com/register with code EARLYBIRD. Reply here with any questions and I'll make sure Hansel sees it.
 
@@ -59,9 +59,9 @@ On behalf of Hansel Dobbs, MNAA, CDEI | ValuSignal 2026
 
 The average appraiser spends more on flights and hotels to attend a national conference than the ticket itself costs.
 
-ValuSignal 2026 takes care of that — September 18–19, fully virtual, seventy-plus sessions on UAD 3.6 readiness, AI workflows, and adding work outside of AMC volume. Malinda Griffin, President of the National Association of Appraisers, is one of the speakers.
+ValuSignal 2026 takes care of that. September 18–19, fully virtual, seventy-plus sessions on UAD 3.6 readiness, AI workflows, and adding work outside of AMC volume. Malinda Griffin, President of the National Association of Appraisers, is one of the speakers.
 
-Our founder, Hansel Dobbs, approved a promo code for a small group this week — early bird closed June 15, but this brings the ticket to $187 for the next three days.
+Our founder, Hansel Dobbs, approved a promo code for a small group this week. Early bird closed June 15, but this brings the ticket to $187 for the next three days.
 
 Interested in the code?
 
@@ -78,11 +78,11 @@ reply "remove" and I'll update my list
 
 {{first_name}},
 
-UAD 3.6 goes live November 2. Most appraisers I talk to are waiting to see how it plays out — which usually means scrambling when it does.
+UAD 3.6 goes live November 2. Most appraisers I talk to are waiting to see how it plays out, which usually means scrambling when it does.
 
-ValuSignal 2026 is September 18–19, timed specifically so you're ready before it hits. It's 100% virtual — no travel costs, no time away from your desk. Jake Lew, whose firm was the first GSE-verified UAD 3.6 vendor, is one of the speakers.
+ValuSignal 2026 is September 18–19, timed specifically so you're ready before it hits. It's 100% virtual, no travel costs, no time away from your desk. Jake Lew, whose firm was the first GSE-verified UAD 3.6 vendor, is one of the speakers.
 
-Our founder, Hansel Dobbs, approved a promo code for a small group this week — early bird closed June 15, but this brings the ticket to $187 for the next three days.
+Our founder, Hansel Dobbs, approved a promo code for a small group this week. Early bird closed June 15, but this brings the ticket to $187 for the next three days.
 
 Interested in the code?
 
@@ -101,9 +101,9 @@ reply "remove" and I'll update my list
 
 Most appraisal conferences are built around travel. ValuSignal 2026 is not.
 
-September 18–19 — fully virtual, no flights, no hotels, sessions on-demand for three months after the event. Seventy-plus sessions on UAD 3.6 readiness, AI in practice, and where the profession is headed. Kelly Davids, President of The Appraisal Foundation, is on the lineup.
+September 18–19, fully virtual, no flights, no hotels, sessions on-demand for three months after the event. Seventy-plus sessions on UAD 3.6 readiness, AI in practice, and where the profession is headed. Kelly Davids, President of The Appraisal Foundation, is on the lineup.
 
-Our founder, Hansel Dobbs, approved a promo code for a small group this week — early bird closed June 15, but this brings the ticket to $187 for the next three days.
+Our founder, Hansel Dobbs, approved a promo code for a small group this week. Early bird closed June 15, but this brings the ticket to $187 for the next three days.
 
 Interested in the code?
 
@@ -122,9 +122,9 @@ One thing I left out of my last note.
 
 The speaker lineup includes Kelly Davids (President, The Appraisal Foundation), Lisa Desmarais (VP of Appraisal Issues, 30+ years), Malinda Griffin (President, National Association of Appraisers), and Tony Pistilli (Restb.ai, 30+ years).
 
-This is the conversation happening at the top of the profession — UAD 3.6, AI in practice, how Fannie and Freddie are rethinking the appraisal process — and you don't need a plane ticket to be in the room.
+This is the conversation happening at the top of the profession. UAD 3.6, AI in practice, how Fannie and Freddie are rethinking the appraisal process, and you don't need a plane ticket to be in the room.
 
-Hansel set aside code EARLYBIRD for the next three days — early bird closed June 15, but it brings the ticket to $187.
+Hansel set aside code EARLYBIRD for the next three days. Early bird closed June 15, but it brings the ticket to $187.
 valusignal.com/register
 
 Deanne [Last Name]  
