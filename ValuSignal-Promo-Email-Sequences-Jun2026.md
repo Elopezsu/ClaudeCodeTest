@@ -61,7 +61,7 @@ The average appraiser spends more on flights and hotels to attend a national con
 
 ValuSignal 2026 eliminates that entirely — September 18–19, fully virtual, seventy-plus sessions on UAD 3.6 readiness, AI workflows, and revenue diversification. Malinda Griffin, President of the National Association of Appraisers, is one of the speakers.
 
-Hansel personally approved a promo code for a small group this week — early bird closed June 15, but this brings the ticket to $187 for the next three days.
+Our founder, Hansel Dobbs, approved a promo code for a small group this week — early bird closed June 15, but this brings the ticket to $187 for the next three days.
 
 Interested in the code?
 
@@ -82,7 +82,7 @@ UAD 3.6 goes live November 2. Most appraisers I talk to are waiting to see how i
 
 ValuSignal 2026 is September 18–19, timed specifically so you walk in prepared, not reactive. It's 100% virtual — no travel costs, no time away from your desk. Jake Lew, whose firm was the first GSE-verified UAD 3.6 vendor, is one of the speakers.
 
-Hansel personally approved a promo code for a small group this week — early bird closed June 15, but this brings the ticket to $187 for the next three days.
+Our founder, Hansel Dobbs, approved a promo code for a small group this week — early bird closed June 15, but this brings the ticket to $187 for the next three days.
 
 Interested in the code?
 
@@ -103,7 +103,7 @@ Most appraisal conferences are built around travel. ValuSignal 2026 is not.
 
 September 18–19 — fully virtual, no flights, no hotels, sessions on-demand for three months after the event. Seventy-plus sessions on UAD 3.6 readiness, AI in practice, and where the profession is headed. Kelly Davids, President of The Appraisal Foundation, is on the lineup.
 
-Hansel personally approved a promo code for a small group this week — early bird closed June 15, but this brings the ticket to $187 for the next three days.
+Our founder, Hansel Dobbs, approved a promo code for a small group this week — early bird closed June 15, but this brings the ticket to $187 for the next three days.
 
 Interested in the code?
 
