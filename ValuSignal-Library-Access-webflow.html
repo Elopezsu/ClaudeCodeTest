@@ -7,6 +7,45 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap">
 <style>
+  :root {
+    --bg: #0a0e13;
+    --bg-soft: #0d1219;
+    --card: #11161e;
+    --card-hover: #141b25;
+    --border: rgba(255, 255, 255, 0.08);
+    --border-strong: rgba(255, 255, 255, 0.15);
+    --fg: #f3f6f8;
+    --muted: #9aa6b0;
+    --muted-dim: #677380;
+    --teal: #2dd4a8;
+    --teal-bright: #46e7bd;
+    --teal-dim: rgba(45, 212, 168, 0.12);
+    --coral: #f0664f;
+    --violet: #9a8cf0;
+    --font: "Hanken Grotesk", system-ui, sans-serif;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--font);
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+    overflow-x: hidden;
+  }
+
+  a { color: inherit; text-decoration: none; }
+
+  .wrap {
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 32px;
+  }
+
   /* ---------- Top bar ---------- */
   .topbar {
     position: relative;
