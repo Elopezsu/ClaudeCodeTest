@@ -1,6 +1,6 @@
 # Historial de Salud 2026 — Eunice Estela López Suárez
 **CC 1140836476 | 35 años | Medellín, Colombia**
-*Documento actualizado: 11 de junio de 2026*
+*Documento actualizado: 21 de junio de 2026*
 
 ---
 
@@ -253,3 +253,96 @@ Análisis de viabilidad de distintas actividades con base en historial de rodill
 
 **Indicación antes de empezar:**
 Avisar al instructor que hay lateralización bilateral de rótulas — solicitar modificación de zapateados fuertes o movimientos de impacto.
+
+---
+
+### 12 de junio — Endocrinología Dra. Claudia Yesenia Monsalve Arango (Clínica Las Américas Auna)
+**Primera consulta con endocrinología — motivo: manejo del peso.** Historia clínica firmada y entregada el 20 de junio.
+
+Eunice consultó por el aumento de peso (de 75 kg habitual a 82 kg en el último año, sin cambios atribuibles en la dieta). La endocrinóloga **validó el veganismo** (mejoría en energía e inflamación) y **no pidió cambiar la dieta**, sino ajustar la suplencia porque "los suplementos no son suficientes". Consideró la Vitamina D 27.7 y la ferritina como "normales" (criterio convencional, no funcional).
+
+**Diagnósticos confirmados (CIE-10):**
+1. **R635 Aumento anormal de peso** (principal)
+2. R53X Malestar y fatiga
+3. **L659 Pérdida no cicatricial del pelo**
+4. **E539 Deficiencia de vitamina B (B12)**
+5. **E559 Deficiencia de vitamina D**
+6. **D259 Leiomioma del útero** (miomas)
+7. M545 Lumbago
+
+**Signos vitales:** PA 110/70 · Pulso 54/min · Peso 83.5 kg · Talla 172 cm · IMC 28.2
+
+**Fórmula médica (20/06/2026):**
+
+| # | Medicamento | Dosis | Vía | Frecuencia | Duración |
+|---|-------------|-------|-----|------------|----------|
+| 1 | **Bedoyecta** (hidroxicobalamina/B1/B6 10000mcg) | 1 ampolla | IM | **cada semana** | 3 semanas |
+| 2 | **Metilcobalamina sublingual 5000mcg** | 1 tableta | Oral | cada día | 180 días (transición: 2 tabs de 2500mcg hasta acabar tarro) |
+| 3 | **Vitamina D/K 2000 UI** | **2 cápsulas (=4000 UI, subió de 1 a 2)** | Oral | cada día | 180 días |
+| 4 | **Proteína vegana** | 1 scoop | Oral | cada día | 180 días |
+
+**Referencias entregadas:**
+- Nutricionista vegana especializada: **Katherine Giraldo / Salva Comunidad** (ED Forum cons. 314, 315-7921584)
+- Ginecólogo: **Dr. Julián Paniagua** (Clínica Eva / Colpodiagnóstico, Torre Médica Oviedo cons. 673, 311-4460554) — para considerar **embolización** del mioma
+- **Osteodensitometría + composición corporal (DEXA)**
+
+**12 laboratorios ordenados para control del 10 de julio:**
+Hemograma · TSH ultrasensible · Creatinina · TGO/TGP (hígado) · Colesterol total · HDL · Triglicéridos · **Curva de glucosa (pre y post carga)** · **HbA1c** · **IGF-1 (Somatomedina C)** · **Cortisol libre en orina 24h** · DEXA.
+
+> **Nota clínica:** el cortisol en orina 24h apunta directamente a la hipótesis raíz (estrés crónico/autonómico → cortisol → grasa visceral). La endocrinóloga **NO ordenó estradiol+progesterona día 21 ni Anti-TPO** — derivó el tema del mioma a ginecología en vez de investigar la dominancia estrogénica. Esa pregunta queda abierta.
+
+---
+
+### 20–21 de junio — Decisiones de Eunice sobre el plan
+
+- ❌ **No irá a ginecología (Dr. Paniagua) ni a embolización** → manejará el mioma con **Reiki**.
+- ❌ **No irá a la nutrióloga** → considera que se alimenta bien.
+- ✅ **Sí se hará los 12 exámenes** ordenados (información neutra, válida para cualquier especialista).
+- 🔄 **Buscará otro endocrinólogo** — no le gustó el servicio de la Clínica Las Américas Auna ni de la Dra. Monsalve.
+- La **eco de control del mioma** (sin imagen desde el TAC de feb/2026, 87mm) queda nombrada y a su decisión — es un dato de tamaño que acompaña el trabajo energético, no lo contradice.
+
+---
+
+### Estado de acciones — semana del 15 al 21 de junio
+
+- **Rompió el ayuno intermitente** desde el lunes 15-jun con **smoothie + proteína Pura Prote** (limpia).
+- Tomando **doble dosis** de B12 y Vitamina D+K restantes (alineado con la transición de la fórmula); pidió tarro nuevo de B12.
+- 💉 **Bedoyecta (B12 IM) — dosis 1 de 3 puesta el 21-jun.** Dosis 2 ~28-jun, dosis 3 ~5-jul. *(La Vitamina D es solo oral; no hay D inyectada — sin riesgo de sobredosis.)*
+- **Ozono IV (autohemoterapia): sesión 1 de 5, semanales.** Termina la semana del 13-jul. Avisar de mioma activo a quien aplica.
+- **Sesiones de queloides en pecho: cada 15 días** (muy dolorosas). 2ª sesión el **1 de julio**.
+- **Tratamiento para el cabello — Dr. Miguel Cano** (@drmiguelcano): inicia el **miércoles 24 de junio**.
+
+---
+
+### Calendario de tratamientos (desde 21 de junio de 2026)
+
+| Fecha | Tratamiento |
+|-------|-------------|
+| Mié 24-jun | Inicio tratamiento cabello — Dr. Miguel Cano |
+| Sáb 28-jun | Bedoyecta (B12 IM) — dosis 2 de 3 |
+| Mar 1-jul | Queloides pecho — sesión 2 (cada 15 días) |
+| ~5-jul | Bedoyecta — dosis 3 de 3 |
+| 10-jul | Control endocrino + 12 labs + DEXA |
+| Semana del 13-jul | Fin del ozono IV (sesión 5 de 5) |
+| Post 10-jul | Decidir suero metabólico según resultados |
+
+---
+
+### Evaluando — Suero metabólico (sueroterapia biorreguladora)
+
+Producto IV homeopático/biorregulación para "sobrepeso, obesidad, dislipidemia, adiposis". Componentes: Fusobes + oligoelementos. Marcas: **LHA** (Colombia, $190.000 c/u con 30% OFF) y **HEEL** (Alemania, $400.000 c/u). Esquema para enfermedad de base: **mínimo 6 sueros, 1 cada 15 días** (~$1.14M a $2.4M COP total).
+
+**Eunice quiere hacerlo después de terminar el ozono.**
+
+> **Recomendación:** la secuencia post-ozono es correcta (no stackear protocolos IV). Pero conviene **esperar los labs del 10-jul** (cortisol 24h, curva de glucosa, HbA1c, IGF-1) antes de decidir. El HOMA-IR 0.91 ya descarta resistencia insulínica y la tiroides es normal → el driver del peso parece **autonómico/cortisol, no metabólico clásico**. Un suero diseñado para "disfunción metabólica" le hablaría al órgano equivocado. Los claims de marketing ("20x más potente", "10kg en 2 meses") atribuyen al suero resultados que vienen de la dieta+ejercicio. Que los labs decidan.
+
+---
+
+## PRÓXIMOS PASOS (actualizado 21 de junio de 2026)
+
+1. **Agendar los 12 labs + DEXA** con tiempo — la curva de glucosa y el cortisol en orina 24h requieren preparación específica.
+2. **Continuar Bedoyecta** (dosis 2 ~28-jun, dosis 3 ~5-jul) + suplencia oral según fórmula.
+3. **Terminar ozono** (faltan 4) y **exosomas** (faltan 3) — avisar del mioma activo en cada aplicación.
+4. **Buscar nuevo endocrinólogo** y llevar este historial + resultados del 10-jul.
+5. **Decidir suero metabólico** solo después de ver los labs del 10-jul.
+6. Mioma: manejo con **Reiki**; eco de control disponible si en algún momento quiere el dato de tamaño.
