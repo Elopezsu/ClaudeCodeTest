@@ -16,13 +16,11 @@
 
 {{first_name}},
 
-Most appraiser conferences charge extra for workshops. ValuSignal 2026 includes ten hours of hands-on AI training with every registration — no extra charge.
+At ValuSignal 2026 you can watch demos of almost every tool we use as appraisers — all in one place. They're recorded for three months, so you can rewatch and get your questions answered.
 
-Two workshops are included: Roy Meyer runs a 3-hour session on OpenClaw, an open-source AI tool built for appraisers that handles repetitive workflow tasks. I teach a 7-hour workshop on using AI to build your own tools — no coding experience needed, every step explained.
+That's on top of ten hours of hands-on AI workshops and honest talk about where AI is taking our work — all included.
 
-Both are available starting September 18th. Registration this week is one ninety-seven — two ninety-seven after July 4th.
-
-Want me to send you the link?
+This week one ninety-seven, two ninety-seven after July 4th. Want me to send you the link?
 
 Hansel Dobbs
 Licensed Appraiser – Texas
@@ -37,11 +35,9 @@ reply "remove" and I'll update my list
 
 {{first_name}},
 
-Sale ends tomorrow — and the ten hours of AI workshops (OpenClaw + Claude Code) go with it.
+Sale ends tomorrow — three months of tech demos you can rewatch anytime, plus ten hours of AI workshops, all in.
 
-One ninety-seven through July 3rd, two ninety-seven after.
-
-Reply and I'll send you the link.
+One ninety-seven through July 3rd, two ninety-seven after. Reply and I'll send you the link.
 
 Hansel Dobbs
 Licensed Appraiser – Texas
@@ -59,13 +55,11 @@ reply "remove" and I'll update my list
 
 {{first_name}},
 
-Michael Acquaro-Mignogna, President of the Appraisal Institute, is on the program — alongside Kelly Davids, President of The Appraisal Foundation, and seventy-plus other practitioners, technologists, and industry leaders.
+Michael Acquaro-Mignogna, President of the Appraisal Institute, is on the program. So is Kelly Davids, President of The Appraisal Foundation — plus seventy-plus other appraisers and tech folks.
 
-Two days, September 18–19, virtual. Ten hours of AI workshops included at no extra cost.
+Two days, September 18–19, all virtual. Ten hours of AI workshops included, no extra charge.
 
-This week: one ninety-seven. Goes back to two ninety-seven on July 4th.
-
-Want me to send you the full speaker list?
+This week one ninety-seven. Back to two ninety-seven on July 4th. Want me to send you the full speaker list?
 
 Hansel Dobbs
 Licensed Appraiser – Texas
@@ -80,11 +74,9 @@ reply "remove" and I'll update my list
 
 {{first_name}},
 
-Sale ends tomorrow — and the ten hours of AI workshops (OpenClaw + Claude Code) go with it.
+Sale ends tomorrow — and the ten hours of hands-on AI workshops, built for appraisers, go with it.
 
-One ninety-seven through July 3rd, two ninety-seven after.
-
-Reply and I'll send you the link.
+One ninety-seven through July 3rd, two ninety-seven after. Reply and I'll send you the link.
 
 Hansel Dobbs
 Licensed Appraiser – Texas
