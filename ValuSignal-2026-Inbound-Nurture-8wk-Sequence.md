@@ -47,7 +47,7 @@ Hit reply anytime; we read every one.
 
 Most people don't realize this: you don't have to wait until September to get value from ValuSignal 2026.
 
-The moment you register, you get the ValuSignal Library, full of recorded sessions, lessons, and tools you can start using right away: valusignal.com/valusignal-library-access
+The moment you register, you get the ValuSignal Library, full of recorded sessions, lessons, and tools you can start using right away.
 
 Then Sept 18–19 you get the live event, and everything stays on-demand for three months after. Register once, value starts today: valusignal.com/register
 
