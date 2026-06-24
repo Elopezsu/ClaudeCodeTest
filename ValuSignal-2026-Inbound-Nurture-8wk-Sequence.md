@@ -1,20 +1,21 @@
-# ValuSignal 2026 — Inbound Value & Conversion Nurture (9 weeks)
+# ValuSignal 2026 — Inbound Value & Conversion Nurture
 
-**Audience:** Warm inbound appraiser leads entering Pipedrive (lead magnets, website forms, the website lesson, LinkedIn).
-**Out of scope:** Career Launchpad / students (owned by the team's student lead) and sponsors (own 7-step Sponsor Inquiry sequence). Appraiser ticket-buyer nurture only.
+**Audience:** Warm inbound appraiser leads entering Pipedrive (lead magnets, website forms, website lesson, LinkedIn).
+**Out of scope:** Career Launchpad / students (owned by the team's student lead) and sponsors (own Sponsor Inquiry sequence).
 **Platform:** Pipedrive automated campaign (one universal sequence).
-**Cadence:** 9 emails, weekly (Day 0, 7, 14, 21, 28, 35, 42, 49, 56). Consider front-loading the first three (Day 0 / 4 / 9).
+**Cadence:** every 5 days (push pace). 10 emails currently; extend toward the event as needed.
 **Sender:** The ValuSignal Team (Hansel credited once in E1).
-**Threading:** E2 to E9 send as replies in the same thread.
-**Merge fields:** `{{first_name}}`.
+**Threading:** E2 onward send as replies in the same thread.
+**Merge fields:** `{{first_name}}`, `{{unsubscribe}}`.
 **Goal:** Value first, drive registration. Registering unlocks the **library immediately**. Live sessions, workshops, and tech demos happen **at the event (Sept 18–19)** with on-demand replays for **three months after**, not on registration day.
+**HTML:** branded Template-B files `nurture-E1` … `nurture-E10` (teal header band + CTA, Arial). Hand to Deanne for Pipedrive.
 
-> **Promos:** flash sales run as a separate broadcast over the top of this nurture, never baked into a sequence slot. E1 carries a conditional P.S. that only renders when a sale is live.
-> ⚠️ Run all 9 through the Mailmeteor spam checker before deploying.
+> ⚠️ **E2 (flash sale) is TIME-BOXED — ends July 4.** Keep it active in the sequence only through July 4, then pause/remove it (sequence reverts to 9 evergreen emails). A lead who joins after July 4 must not receive a "sale ends July 4" email. Drop the real promo code/price into E2 before sending.
+> ⚠️ Run every email through the Mailmeteor spam checker before deploying.
 
 ---
 
-## E1 · Week 1 — Welcome + what to expect + toolkit
+## E1 · Welcome + what to expect + toolkit
 **Subject:** welcome in, {{first_name}}
 
 {{first_name}},
@@ -33,14 +34,28 @@ Want the quick story on why we built this? Hansel Dobbs (Chief Appraiser and fou
 
 Hit reply anytime; we read every one.
 
-— The ValuSignal Team
-
-> **[CONDITIONAL P.S. — render ONLY while a promo is live; auto-hide otherwise]**
-> P.S. registration is discounted through [end date], and your library access opens the moment you join: valusignal.com/register
+The ValuSignal Team
 
 ---
 
-## E2 · Week 2 — The library = instant reward for registering 🎯
+## E2 · Flash sale (TIME-BOXED — ends July 4)
+**Subject:** flash sale ends July 4, {{first_name}}
+
+{{first_name}},
+
+A quick, time-sensitive one: our flash sale ends July 4.
+
+Through July 4 you can lock in ValuSignal 2026 at the lowest price we'll offer, with the full event, AI workshops, live tech demos, and three months of on-demand replays included. Use code EARLYBIRD at checkout.
+
+Register before July 4: valusignal.com/register
+
+After that it's back to full price. If you've been on the fence, this is your window.
+
+The ValuSignal Team
+
+---
+
+## E3 · The library = instant reward for registering 🎯
 **Subject:** what you unlock the day you register
 
 {{first_name}},
@@ -51,11 +66,11 @@ The moment you register, you get the ValuSignal Library, full of recorded sessio
 
 Then Sept 18–19 you get the live event, and everything stays on-demand for three months after. Register once, value starts today: valusignal.com/register
 
-— The ValuSignal Team
+The ValuSignal Team
 
 ---
 
-## E3 · Week 3 — Instant value (website lesson)
+## E4 · Instant value (website lesson)
 **Subject:** rebuild your site in 15 minutes (free)
 
 {{first_name}},
@@ -66,11 +81,11 @@ Most appraisers pay hundreds a year for a site they could own outright. Watch it
 
 It's a taste of the practical, do-it-today content ValuSignal is built around.
 
-— The ValuSignal Team
+The ValuSignal Team
 
 ---
 
-## E4 · Week 4 — Speakers + agenda
+## E5 · Speakers + agenda
 **Subject:** the Appraisal Foundation's president is speaking
 
 {{first_name}},
@@ -91,11 +106,11 @@ This is the conversation at the top of the profession, no plane ticket required.
 
 Register and your library opens immediately: valusignal.com/register
 
-— The ValuSignal Team
+The ValuSignal Team
 
 ---
 
-## E5 · Week 5 — Tech demos
+## E6 · Tech demos
 **Subject:** see every tool you use, demoed live
 
 {{first_name}},
@@ -106,11 +121,11 @@ See the full demo lineup: valusignal.com/tech-demos
 
 Demos run live on Sept 18–19, with replays in your on-demand access for three months after. Your library access starts the moment you register: valusignal.com/register
 
-— The ValuSignal Team
+The ValuSignal Team
 
 ---
 
-## E6 · Week 6 — UAD 3.6 readiness (timely)
+## E7 · UAD 3.6 readiness (timely)
 **Subject:** ready for November 2, {{first_name}}?
 
 {{first_name}},
@@ -123,11 +138,11 @@ Register now and start prepping in the library today, then go deep live on Sept 
 
 Where are you on 3.6, ahead of it or still waiting? Reply and let us know.
 
-— The ValuSignal Team
+The ValuSignal Team
 
 ---
 
-## E7 · Week 7 — AI workflows (practical)
+## E8 · AI workflows (practical)
 **Subject:** the AI tools appraisers are actually using
 
 {{first_name}},
@@ -140,11 +155,11 @@ You'll join these live on Sept 18–19, with on-demand replays for three months 
 
 P.S. already using AI in your workflow, or still on the fence? Reply and tell us where you're at.
 
-— The ValuSignal Team
+The ValuSignal Team
 
 ---
 
-## E8 · Week 8 — Revenue diversification + networking
+## E9 · Revenue diversification + networking
 **Subject:** more than one source of work
 
 {{first_name}},
@@ -155,11 +170,11 @@ You'll also be in the room with appraisers and vendors working through the same 
 
 If you've been meaning to register, this is the week to do it. Library access starts the moment you do: valusignal.com/register
 
-— The ValuSignal Team
+The ValuSignal Team
 
 ---
 
-## E9 · Week 9 — Final close (recap the value)
+## E10 · Final close (recap the value)
 **Subject:** here's everything registering gets you, {{first_name}}
 
 {{first_name}},
@@ -173,25 +188,12 @@ Value starts now: valusignal.com/register
 
 Not ready yet? Follow us on LinkedIn (linkedin.com/company/valusignal) and stay in the loop.
 
-— The ValuSignal Team
+The ValuSignal Team
 
 ---
 
-## Deployment notes
-- **Conversion mechanic:** registering unlocks the library immediately. Event content (sessions, the AI Board of Advisors workshop, tech demos) is live Sept 18–19 plus 3-month replays, not immediate.
-- **Coverage:** all 4 lead magnets, website lesson, the Library, speakers/agenda, tech demos, UAD 3.6, AI track, revenue/networking, LinkedIn.
-- **Flash sales:** parallel broadcast to the whole list when live; toggle the E1 conditional P.S. on/off with the sale.
-- **Conversation prompts:** E1, E6, E7 invite replies.
-
-### Open confirms before deploy
+## Open confirms before deploy
+- E2 flash sale: real promo **code + price**, and confirm the **July 4** end date.
 - Website lesson length: 15 or 10 minutes?
 - Spelling: Cindi Harris / Josh Wallitt / Wallitt Solutions.
 - Titles: Michelle Bradley and John Dingeman (verify against valusignal.com/speakers).
-
-### Spam self-audit (run Mailmeteor before deploy)
-- "free" appears in E1 (tools) and E3 (lesson). If Mailmeteor flags the E3 subject "(free)", drop it to "rebuild your site in 15 minutes".
-- No `$` amounts, no ALL-CAPS, no "click here / act now / limited time", lowercase conversational subjects.
-
-### A/B tests worth running
-- E2 subject: "what you unlock the day you register" vs "you don't have to wait until September"
-- E6 subject: "ready for November 2, {{first_name}}?" vs "the UAD 3.6 session worth flagging"
