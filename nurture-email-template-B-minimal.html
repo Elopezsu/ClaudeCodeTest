@@ -2,7 +2,7 @@
 ValuSignal 2026 — Inbound Nurture · TEMPLATE B (Minimal / Personal)
 Demonstrated with Email 1 (Welcome). Lighter, less "designed" — reads like a
 personal note, which often lifts reply + click rate on nurture sends.
-Merge fields: {{first_name}}, {{unsubscribe}} — map to Pipedrive tokens.
+Merge fields: *|FIRST_NAME|*, {{unsubscribe}} — map to Pipedrive tokens.
 Email-client safe: table layout, inline styles, bulletproof button.
 ============================================================ -->
 <!DOCTYPE html>
@@ -28,7 +28,7 @@ Email-client safe: table layout, inline styles, bulletproof button.
       <!-- ===== BODY (swap this block per email) ===== -->
       <tr>
         <td style="padding:30px 8px 0;">
-          <p style="color:#222222;font-size:16px;line-height:1.6;margin:0 0 16px;">{{first_name}},</p>
+          <p style="color:#222222;font-size:16px;line-height:1.6;margin:0 0 16px;">*|FIRST_NAME|*,</p>
           <p style="color:#222222;font-size:16px;line-height:1.6;margin:0 0 16px;">Thanks for connecting with ValuSignal through our available channels &mdash; glad you're here.</p>
           <p style="color:#222222;font-size:16px;line-height:1.6;margin:0 0 16px;">Over the next few weeks we'll send the resources appraisers actually use: UAD 3.6 prep, AI workflows, speaker previews, and more. Start with the free tools below:</p>
 
