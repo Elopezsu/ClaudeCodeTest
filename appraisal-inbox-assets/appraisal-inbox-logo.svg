@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="120" viewBox="0 0 800 120">
+  <g id="appraisal-inbox-logo">
+    <!-- Icon: Inbox with checkmark -->
+    <g transform="translate(5, -10) scale(5)">
+      <!-- Inbox based on Lucide inbox icon -->
+      <path d="M4 15v4a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-4" fill="none" stroke="#2A3341" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+      
+      <!-- Exact Lucide check, positioned in inbox -->
+      <path d="M23 7 12 18l-5-5" fill="none" stroke="#2EB67D" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+    
+    <!-- Logo text -->
+    <g transform="translate(160, 84)">
+      <!-- Using system fonts since specific font rendering in SVG would require embedded fonts -->
+      <!-- "Appraisal" in light weight -->
+      <text font-family="'Coolvetica', sans-serif" font-weight="400" font-size="84" fill="#2A3341">
+        <tspan>Appraisal</tspan>
+      </text>
+      
+      <!-- "Inbox" in bold weight -->
+      <text font-family="'Coolvetica', sans-serif" font-weight="700" font-size="84" fill="#2A3341" x="370">
+        <tspan>Inbox</tspan>
+      </text>
+    </g>
+  </g>
+</svg> 
